@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from Library.DataStructure.AccumulateSum.AccumulateSum import AccumulateSum
+from DataStructure.AccumulateSum.AccumulateSum import AccumulateSum
 
 
 def main():

@@ -1,4 +1,4 @@
-# verification-helper: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0098
+# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0098
 import sys
 input = sys.stdin.buffer.readline
 

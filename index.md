@@ -25,6 +25,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
       title: DataStructure/UnionFind/UnionFind.py
+    - icon: ':x:'
+      path: DataStructure/UnionFind/UnionFindWithPotential.py
+      title: DataStructure/UnionFind/UnionFindWithPotential.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -37,6 +40,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/DSL_1_B.test.py
+      title: TestCase/AOJ/DSL_1_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_E.test.py
       title: TestCase/AOJ/DSL_2_E.test.py

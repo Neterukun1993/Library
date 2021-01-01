@@ -10,7 +10,7 @@ def main():
     a = [list(map(int, input().split())) for i in range(n)]
 
     acc = AccumulateSum2D(a)
-    ans = 0
+    ans = -10 ** 9
     for hl in range(n):
         for hr in range(hl + 1, n + 1):
             for wl in range(n):

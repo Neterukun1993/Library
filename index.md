@@ -9,6 +9,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
       title: DataStructure/AccumulateSum/AccumulateSum2D.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/AccumulateSum/Imos2D.py
+      title: DataStructure/AccumulateSum/Imos2D.py
   - name: DataStructure/BinaryIndexedTree
     pages:
     - icon: ':heavy_check_mark:'
@@ -57,6 +60,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_G.test.py
       title: TestCase/AOJ/DSL_2_G.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_5_B.test.py
+      title: TestCase/AOJ/DSL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

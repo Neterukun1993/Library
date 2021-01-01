@@ -10,6 +10,9 @@ data:
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
       title: DataStructure/AccumulateSum/AccumulateSum2D.py
     - icon: ':heavy_check_mark:'
+      path: DataStructure/AccumulateSum/Imos.py
+      title: DataStructure/AccumulateSum/Imos.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos2D.py
       title: DataStructure/AccumulateSum/Imos2D.py
   - name: DataStructure/BinaryIndexedTree
@@ -60,6 +63,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_G.test.py
       title: TestCase/AOJ/DSL_2_G.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_5_A.test.py
+      title: TestCase/AOJ/DSL_5_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py

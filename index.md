@@ -17,6 +17,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
       title: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
+      title: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -29,6 +32,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_E.test.py
       title: TestCase/AOJ/DSL_2_E.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_G.test.py
+      title: TestCase/AOJ/DSL_2_G.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

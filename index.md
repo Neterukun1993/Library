@@ -15,6 +15,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0098.test.py
       title: TestCase/AOJ/0098.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/0560.test.py
+      title: TestCase/AOJ/0560.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

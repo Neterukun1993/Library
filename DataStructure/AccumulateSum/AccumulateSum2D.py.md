@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/0098.test.py
     title: TestCase/AOJ/0098.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/0560.test.py
+    title: TestCase/AOJ/0560.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -30,6 +33,7 @@ data:
   timestamp: '2021-01-02 00:00:29+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/0560.test.py
   - TestCase/AOJ/0098.test.py
 documentation_of: DataStructure/AccumulateSum/AccumulateSum2D.py
 layout: document

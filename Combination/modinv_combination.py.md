@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Combination/twelvefold_way.py
+    title: Combination/twelvefold_way.py
   _extendedVerifiedWith: []
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
@@ -27,7 +30,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Combination/modinv_combination.py
-  requiredBy: []
+  requiredBy:
+  - Combination/twelvefold_way.py
   timestamp: '2021-01-02 19:40:35+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

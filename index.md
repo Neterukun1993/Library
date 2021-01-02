@@ -6,6 +6,9 @@ data:
     - icon: ':warning:'
       path: Combination/modinv_combination.py
       title: Combination/modinv_combination.py
+    - icon: ':heavy_check_mark:'
+      path: Combination/twelvefold_way.py
+      title: Combination/twelvefold_way.py
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -83,6 +86,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_A.test.py
+      title: TestCase/AOJ/DPL_5_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_B.test.py
+      title: TestCase/AOJ/DPL_5_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py

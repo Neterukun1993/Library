@@ -1,6 +1,11 @@
 ---
 data:
   libraryCategories:
+  - name: Combination
+    pages:
+    - icon: ':warning:'
+      path: Combination/modinv_combination.py
+      title: Combination/modinv_combination.py
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -128,5 +133,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.test.py
       title: TestCase/LibraryChecker/static_range_sum.test.py
+  - name: TestCase/yukicoder
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0117.test.py
+      title: TestCase/yukicoder/yuki0117.test.py
 layout: toppage
 ---

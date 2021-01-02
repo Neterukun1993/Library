@@ -40,6 +40,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: DataStructure/SegmentTree/DualSegmentTree.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/SegmentTree.py
+      title: DataStructure/SegmentTree/SegmentTree.py
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
@@ -69,6 +72,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_B.test.py
       title: TestCase/AOJ/DSL_1_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_A.test.py
+      title: TestCase/AOJ/DSL_2_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.test.py
       title: TestCase/AOJ/DSL_2_D.test.py

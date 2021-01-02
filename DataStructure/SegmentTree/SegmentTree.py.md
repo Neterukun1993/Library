@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_A.test.py
     title: TestCase/AOJ/DSL_2_A.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DSL_2_B.SegTree.test.py
+    title: TestCase/AOJ/DSL_2_B.SegTree.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -46,6 +49,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_A.test.py
+  - TestCase/AOJ/DSL_2_B.SegTree.test.py
 documentation_of: DataStructure/SegmentTree/SegmentTree.py
 layout: document
 redirect_from:

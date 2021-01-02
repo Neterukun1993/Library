@@ -7,6 +7,9 @@ data:
     title: DataStructure/BinaryIndexedTree/inversion_number.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DSL_2_B.BIT.test.py
+    title: TestCase/AOJ/DSL_2_B.BIT.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/point_add_range_sum.test.py
     title: TestCase/LibraryChecker/point_add_range_sum.test.py
   _pathExtension: py
@@ -40,6 +43,7 @@ data:
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/DSL_2_B.BIT.test.py
   - TestCase/LibraryChecker/point_add_range_sum.test.py
 documentation_of: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
 layout: document

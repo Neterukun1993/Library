@@ -76,6 +76,12 @@ data:
       path: TestCase/AOJ/DSL_2_A.test.py
       title: TestCase/AOJ/DSL_2_A.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_B.BIT.test.py
+      title: TestCase/AOJ/DSL_2_B.BIT.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_B.SegTree.test.py
+      title: TestCase/AOJ/DSL_2_B.SegTree.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.test.py
       title: TestCase/AOJ/DSL_2_D.test.py
     - icon: ':heavy_check_mark:'

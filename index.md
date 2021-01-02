@@ -66,6 +66,9 @@ data:
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
+      path: DataStructure/UnionFind/PersistentUnionFind.py
+      title: DataStructure/UnionFind/PersistentUnionFind.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
       title: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
     - icon: ':heavy_check_mark:'
@@ -74,6 +77,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
       title: DataStructure/UnionFind/UnionFindWithPotential.py
+  - name: DataStructure/misc
+    pages:
+    - icon: ':warning:'
+      path: DataStructure/misc/PersistentArray.py
+      title: DataStructure/misc/PersistentArray.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -169,6 +177,9 @@ data:
       title: TestCase/AOJ/DSL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/persistent_unionfind.test.py
+      title: TestCase/LibraryChecker/persistent_unionfind.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_range_sum.test.py
       title: TestCase/LibraryChecker/point_add_range_sum.test.py

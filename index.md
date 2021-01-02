@@ -27,6 +27,9 @@ data:
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
       title: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
     - icon: ':heavy_check_mark:'
+      path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
+      title: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
       title: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   - name: DataStructure/SegmentTree
@@ -72,6 +75,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_A.test.py
       title: TestCase/AOJ/DSL_5_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_5_B.BIT.test.py
+      title: TestCase/AOJ/DSL_5_B.BIT.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py

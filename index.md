@@ -21,6 +21,9 @@ data:
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     - icon: ':heavy_check_mark:'
+      path: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
+      title: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
       title: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
     - icon: ':heavy_check_mark:'
@@ -45,6 +48,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0098.test.py
       title: TestCase/AOJ/0098.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/0560.BIT.test.py
+      title: TestCase/AOJ/0560.BIT.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0560.test.py
       title: TestCase/AOJ/0560.test.py

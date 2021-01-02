@@ -32,6 +32,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
       title: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/BinaryIndexedTree/inversion_number.py
+      title: DataStructure/BinaryIndexedTree/inversion_number.py
   - name: DataStructure/SegmentTree
     pages:
     - icon: ':heavy_check_mark:'
@@ -57,6 +60,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0560.test.py
       title: TestCase/AOJ/0560.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_5_D.test.py
+      title: TestCase/AOJ/ALDS1_5_D.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py

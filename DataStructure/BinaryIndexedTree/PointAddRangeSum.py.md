@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/inversion_number.py
+    title: DataStructure/BinaryIndexedTree/inversion_number.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/point_add_range_sum.test.py
@@ -32,7 +35,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-  requiredBy: []
+  requiredBy:
+  - DataStructure/BinaryIndexedTree/inversion_number.py
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

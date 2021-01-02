@@ -52,6 +52,9 @@ data:
       path: DataStructure/SegmentTree/LazySegmentTree.py
       title: DataStructure/SegmentTree/LazySegmentTree.py
     - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/LiChaoTree.py
+      title: DataStructure/SegmentTree/LiChaoTree.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RUQ.py
       title: DataStructure/SegmentTree/RSQ_RUQ.py
     - icon: ':heavy_check_mark:'
@@ -177,6 +180,9 @@ data:
       title: TestCase/AOJ/DSL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/line_add_get_min.test.py
+      title: TestCase/LibraryChecker/line_add_get_min.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.test.py

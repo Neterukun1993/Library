@@ -190,6 +190,9 @@ data:
       path: TestCase/LibraryChecker/point_add_range_sum.test.py
       title: TestCase/LibraryChecker/point_add_range_sum.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/segment_add_get_min.test.py
+      title: TestCase/LibraryChecker/segment_add_get_min.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.test.py
       title: TestCase/LibraryChecker/static_range_sum.test.py
   - name: TestCase/yukicoder

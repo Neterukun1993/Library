@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/line_add_get_min.test.py
     title: TestCase/LibraryChecker/line_add_get_min.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/segment_add_get_min.test.py
+    title: TestCase/LibraryChecker/segment_add_get_min.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -49,6 +52,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/line_add_get_min.test.py
+  - TestCase/LibraryChecker/segment_add_get_min.test.py
 documentation_of: DataStructure/SegmentTree/LiChaoTree.py
 layout: document
 redirect_from:

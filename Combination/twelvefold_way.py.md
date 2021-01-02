@@ -12,6 +12,36 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_B.test.py
     title: TestCase/AOJ/DPL_5_B.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_C.test.py
+    title: TestCase/AOJ/DPL_5_C.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_D.test.py
+    title: TestCase/AOJ/DPL_5_D.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_E.test.py
+    title: TestCase/AOJ/DPL_5_E.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_F.test.py
+    title: TestCase/AOJ/DPL_5_F.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_G.test.py
+    title: TestCase/AOJ/DPL_5_G.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_H.test.py
+    title: TestCase/AOJ/DPL_5_H.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_I.test.py
+    title: TestCase/AOJ/DPL_5_I.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_J.test.py
+    title: TestCase/AOJ/DPL_5_J.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_K.test.py
+    title: TestCase/AOJ/DPL_5_K.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_L.test.py
+    title: TestCase/AOJ/DPL_5_L.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -106,7 +136,17 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_5_B.test.py
+  - TestCase/AOJ/DPL_5_E.test.py
+  - TestCase/AOJ/DPL_5_J.test.py
   - TestCase/AOJ/DPL_5_A.test.py
+  - TestCase/AOJ/DPL_5_C.test.py
+  - TestCase/AOJ/DPL_5_H.test.py
+  - TestCase/AOJ/DPL_5_L.test.py
+  - TestCase/AOJ/DPL_5_I.test.py
+  - TestCase/AOJ/DPL_5_D.test.py
+  - TestCase/AOJ/DPL_5_K.test.py
+  - TestCase/AOJ/DPL_5_F.test.py
+  - TestCase/AOJ/DPL_5_G.test.py
 documentation_of: Combination/twelvefold_way.py
 layout: document
 redirect_from:

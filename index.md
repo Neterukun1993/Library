@@ -93,6 +93,36 @@ data:
       path: TestCase/AOJ/DPL_5_B.test.py
       title: TestCase/AOJ/DPL_5_B.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_C.test.py
+      title: TestCase/AOJ/DPL_5_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_D.test.py
+      title: TestCase/AOJ/DPL_5_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_E.test.py
+      title: TestCase/AOJ/DPL_5_E.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_F.test.py
+      title: TestCase/AOJ/DPL_5_F.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_G.test.py
+      title: TestCase/AOJ/DPL_5_G.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_H.test.py
+      title: TestCase/AOJ/DPL_5_H.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_I.test.py
+      title: TestCase/AOJ/DPL_5_I.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_J.test.py
+      title: TestCase/AOJ/DPL_5_J.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_K.test.py
+      title: TestCase/AOJ/DPL_5_K.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_L.test.py
+      title: TestCase/AOJ/DPL_5_L.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py
     - icon: ':heavy_check_mark:'

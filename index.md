@@ -40,6 +40,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: DataStructure/SegmentTree/DualSegmentTree.py
+    - icon: ':warning:'
+      path: DataStructure/SegmentTree/LazySegmentTree.py
+      title: DataStructure/SegmentTree/LazySegmentTree.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/RmQ_RUQ.py
+      title: DataStructure/SegmentTree/RmQ_RUQ.py
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.py
       title: DataStructure/SegmentTree/SegmentTree.py
@@ -87,6 +93,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_E.test.py
       title: TestCase/AOJ/DSL_2_E.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_F.test.py
+      title: TestCase/AOJ/DSL_2_F.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_G.test.py
       title: TestCase/AOJ/DSL_2_G.test.py

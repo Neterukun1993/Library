@@ -30,7 +30,7 @@ data:
     \            swag.append((a << 32) + b)\n        elif query[0] == 1:\n       \
     \     swag.popleft()\n        else:\n            _, x = query\n            if\
     \ len(swag) == 0:\n                ans.append(x)\n            else:\n        \
-    \        a = swag.fold_all()\n                res = XA_map((x << 32) + 1, a)\n\
+    \        a = swag.all_fold()\n                res = XA_map((x << 32) + 1, a)\n\
     \                ans.append(res >> 32)\n\n    print('\\n'.join(map(str, ans)))\n\
     \n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
@@ -38,7 +38,7 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
   requiredBy: []
-  timestamp: '2021-01-03 19:11:47+09:00'
+  timestamp: '2021-01-03 19:45:45+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/queue_operate_all_composite.test.py

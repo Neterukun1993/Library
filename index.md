@@ -179,6 +179,12 @@ data:
       path: TestCase/AOJ/DSL_2_I.test.py
       title: TestCase/AOJ/DSL_2_I.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_3_A.test.py
+      title: TestCase/AOJ/DSL_3_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_3_D.test.py
+      title: TestCase/AOJ/DSL_3_D.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_A.test.py
       title: TestCase/AOJ/DSL_5_A.test.py
     - icon: ':heavy_check_mark:'

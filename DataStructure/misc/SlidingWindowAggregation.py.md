@@ -4,6 +4,12 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DSL_3_A.test.py
+    title: TestCase/AOJ/DSL_3_A.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DSL_3_D.test.py
+    title: TestCase/AOJ/DSL_3_D.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
     title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
   _pathExtension: py
@@ -20,7 +26,7 @@ data:
     \        val, _ = self.inque.pop()\n        self.outque.append((val, val))\n \
     \       acc = val\n        while self.inque:\n            val, _ = self.inque.pop()\n\
     \            acc = self.op(val, acc)\n            self.outque.append((val, acc))\n\
-    \n    def fold_all(self):\n        if not self.inque:\n            return self.outque[-1][1]\n\
+    \n    def all_fold(self):\n        if not self.inque:\n            return self.outque[-1][1]\n\
     \        if not self.outque:\n            return self.inque[-1][1]\n        return\
     \ self.op(self.outque[-1][1], self.inque[-1][1])\n\n    def append(self, val):\n\
     \        if self.inque:\n            self.inque.append((val, self.op(self.inque[-1][1],\
@@ -31,9 +37,11 @@ data:
   isVerificationFile: false
   path: DataStructure/misc/SlidingWindowAggregation.py
   requiredBy: []
-  timestamp: '2021-01-03 19:11:47+09:00'
+  timestamp: '2021-01-03 19:45:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/DSL_3_D.test.py
+  - TestCase/AOJ/DSL_3_A.test.py
   - TestCase/LibraryChecker/queue_operate_all_composite.test.py
 documentation_of: DataStructure/misc/SlidingWindowAggregation.py
 layout: document

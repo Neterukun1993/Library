@@ -48,6 +48,10 @@ data:
       title: DataStructure/BinaryIndexedTree/inversion_number.py
   - name: DataStructure/SegmentTree
     pages:
+    - icon: ':warning:'
+      path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
+      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(\u53EF\u63DB\u6027\u3092\
+        \u4EEE\u5B9A)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Dual Segment Tree)"
@@ -61,6 +65,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RUQ.py
       title: DataStructure/SegmentTree/RSQ_RUQ.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/RUQ.py
+      title: DataStructure/SegmentTree/RUQ.py
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RmQ_RAQ.py
       title: DataStructure/SegmentTree/RmQ_RAQ.py
@@ -173,6 +180,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_B.SegTree.test.py
       title: TestCase/AOJ/DSL_2_B.SegTree.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py
+      title: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.test.py
       title: TestCase/AOJ/DSL_2_D.test.py

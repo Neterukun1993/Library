@@ -69,8 +69,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/SegmentTree/LazySegmentTree.py
 layout: document
-redirect_from:
-- /library/DataStructure/SegmentTree/LazySegmentTree.py
-- /library/DataStructure/SegmentTree/LazySegmentTree.py.html
-title: DataStructure/SegmentTree/LazySegmentTree.py
+title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
 ---

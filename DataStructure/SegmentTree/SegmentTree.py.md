@@ -52,8 +52,5 @@ data:
   - TestCase/AOJ/DSL_2_B.SegTree.test.py
 documentation_of: DataStructure/SegmentTree/SegmentTree.py
 layout: document
-redirect_from:
-- /library/DataStructure/SegmentTree/SegmentTree.py
-- /library/DataStructure/SegmentTree/SegmentTree.py.html
-title: DataStructure/SegmentTree/SegmentTree.py
+title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
 ---

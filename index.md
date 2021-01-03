@@ -89,6 +89,9 @@ data:
       path: DataStructure/misc/PersistentArray.py
       title: DataStructure/misc/PersistentArray.py
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/SlidingWindowAggregation.py
+      title: DataStructure/misc/SlidingWindowAggregation.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: DataStructure/misc/SparseTable.py
   verificationCategories:
@@ -195,6 +198,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_range_sum.test.py
       title: TestCase/LibraryChecker/point_add_range_sum.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
+      title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/segment_add_get_min.test.py
       title: TestCase/LibraryChecker/segment_add_get_min.test.py

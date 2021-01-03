@@ -206,9 +206,6 @@ data:
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'
-      path: TestCase/yukicoder/yuki0117.test.py
-      title: TestCase/yukicoder/yuki0117.test.py
-    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
 layout: toppage

@@ -19,9 +19,9 @@ class DisjointSparseTable:
                 self.sp_tbl[row][t - 1] = array[t - 1]
                 for k in reversed(range(l, t - 1)):
                     self.sp_tbl[row][k] = self.op(array[k], self.sp_tbl[row][k + 1])
-                if len(array) <= t:
+                if self.n <= t:
                     break
-                r = min(mid, self.n)
+                r = min(mid + shift, self.n)
                 self.sp_tbl[row][t] = array[t]
                 for k in range(t + 1, r):
                     self.sp_tbl[row][k] = self.op(self.sp_tbl[row][k - 1], array[k])

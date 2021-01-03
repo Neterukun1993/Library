@@ -37,8 +37,5 @@ data:
   - TestCase/AOJ/0098.test.py
 documentation_of: DataStructure/AccumulateSum/AccumulateSum2D.py
 layout: document
-redirect_from:
-- /library/DataStructure/AccumulateSum/AccumulateSum2D.py
-- /library/DataStructure/AccumulateSum/AccumulateSum2D.py.html
-title: DataStructure/AccumulateSum/AccumulateSum2D.py
+title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C(Accumulate Sum 2D)"
 ---

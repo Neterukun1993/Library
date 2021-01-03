@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/AccumulateSum/Imos.py
-    title: DataStructure/AccumulateSum/Imos.py
+    title: "\u3044\u3082\u3059\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

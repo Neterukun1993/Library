@@ -42,5 +42,5 @@ data:
   - TestCase/AOJ/DSL_2_D.test.py
 documentation_of: DataStructure/SegmentTree/DualSegmentTree.py
 layout: document
-title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Dual Segment Tree)"
 ---

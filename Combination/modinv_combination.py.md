@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
-    title: Combination/twelvefold_way.py
+    title: "\u5199\u50CF12\u76F8(twelvefold way)"
   _extendedVerifiedWith: []
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
@@ -37,8 +37,5 @@ data:
   verifiedWith: []
 documentation_of: Combination/modinv_combination.py
 layout: document
-redirect_from:
-- /library/Combination/modinv_combination.py
-- /library/Combination/modinv_combination.py.html
-title: Combination/modinv_combination.py
+title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
 ---

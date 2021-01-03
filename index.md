@@ -5,24 +5,24 @@ data:
     pages:
     - icon: ':warning:'
       path: Combination/modinv_combination.py
-      title: Combination/modinv_combination.py
+      title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
     - icon: ':heavy_check_mark:'
       path: Combination/twelvefold_way.py
-      title: Combination/twelvefold_way.py
+      title: "\u5199\u50CF12\u76F8(twelvefold way)"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum.py
-      title: DataStructure/AccumulateSum/AccumulateSum.py
+      title: "\u7D2F\u7A4D\u548C(Accumulate Sum)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
-      title: DataStructure/AccumulateSum/AccumulateSum2D.py
+      title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C(Accumulate Sum 2D)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos.py
-      title: DataStructure/AccumulateSum/Imos.py
+      title: "\u3044\u3082\u3059\u6CD5"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos2D.py
-      title: DataStructure/AccumulateSum/Imos2D.py
+      title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
     - icon: ':heavy_check_mark:'
@@ -47,10 +47,11 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
-      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Dual Segment Tree)"
     - icon: ':warning:'
       path: DataStructure/SegmentTree/LazySegmentTree.py
-      title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+      title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment\
+        \ Tree with Lazy Propagation)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/LiChaoTree.py
       title: DataStructure/SegmentTree/LiChaoTree.py
@@ -65,7 +66,7 @@ data:
       title: DataStructure/SegmentTree/RmQ_RUQ.py
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.py
-      title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+      title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment Tree)"
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'

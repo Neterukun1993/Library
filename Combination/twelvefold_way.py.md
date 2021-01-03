@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':warning:'
     path: Combination/modinv_combination.py
-    title: Combination/modinv_combination.py
+    title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -149,8 +149,5 @@ data:
   - TestCase/AOJ/DPL_5_G.test.py
 documentation_of: Combination/twelvefold_way.py
 layout: document
-redirect_from:
-- /library/Combination/twelvefold_way.py
-- /library/Combination/twelvefold_way.py.html
-title: Combination/twelvefold_way.py
+title: "\u5199\u50CF12\u76F8(twelvefold way)"
 ---

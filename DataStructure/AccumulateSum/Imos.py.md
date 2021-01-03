@@ -29,8 +29,5 @@ data:
   - TestCase/AOJ/DSL_5_A.test.py
 documentation_of: DataStructure/AccumulateSum/Imos.py
 layout: document
-redirect_from:
-- /library/DataStructure/AccumulateSum/Imos.py
-- /library/DataStructure/AccumulateSum/Imos.py.html
-title: DataStructure/AccumulateSum/Imos.py
+title: "\u3044\u3082\u3059\u6CD5"
 ---

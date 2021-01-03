@@ -82,6 +82,9 @@ data:
       title: DataStructure/UnionFind/UnionFindWithPotential.py
   - name: DataStructure/misc
     pages:
+    - icon: ':x:'
+      path: DataStructure/misc/DisjointSparseTable.py
+      title: DataStructure/misc/DisjointSparseTable.py
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: DataStructure/misc/PersistentArray.py
@@ -203,6 +206,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.test.py
       title: TestCase/LibraryChecker/static_range_sum.test.py
+    - icon: ':x:'
+      path: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
+      title: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

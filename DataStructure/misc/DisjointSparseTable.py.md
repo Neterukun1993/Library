@@ -3,11 +3,14 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
+    title: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
     title: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -25,9 +28,9 @@ data:
     \                t = min(mid, self.n)\n                self.sp_tbl[row][t - 1]\
     \ = array[t - 1]\n                for k in reversed(range(l, t - 1)):\n      \
     \              self.sp_tbl[row][k] = self.op(array[k], self.sp_tbl[row][k + 1])\n\
-    \                if len(array) <= t:\n                    break\n            \
-    \    r = min(mid, self.n)\n                self.sp_tbl[row][t] = array[t]\n  \
-    \              for k in range(t + 1, r):\n                    self.sp_tbl[row][k]\
+    \                if self.n <= t:\n                    break\n                r\
+    \ = min(mid + shift, self.n)\n                self.sp_tbl[row][t] = array[t]\n\
+    \                for k in range(t + 1, r):\n                    self.sp_tbl[row][k]\
     \ = self.op(self.sp_tbl[row][k - 1], array[k])\n                l = mid + shift\n\
     \n    def fold(self, l, r):\n        r -= 1\n        if l == r:\n            return\
     \ self.sp_tbl[0][l]\n        p = self.log_tbl[l ^ r]\n        return self.op(self.sp_tbl[p][l],\
@@ -36,10 +39,11 @@ data:
   isVerificationFile: false
   path: DataStructure/misc/DisjointSparseTable.py
   requiredBy: []
-  timestamp: '2021-01-03 10:49:35+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2021-01-03 11:00:07+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
+  - TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
 documentation_of: DataStructure/misc/DisjointSparseTable.py
 layout: document
 redirect_from:

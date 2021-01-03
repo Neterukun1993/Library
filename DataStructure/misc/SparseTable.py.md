@@ -1,13 +1,13 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: TestCase/LibraryChecker/staticrmq.py
-    title: TestCase/LibraryChecker/staticrmq.py
-  _extendedVerifiedWith: []
+  _extendedRequiredBy: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/staticrmq.test.py
+    title: TestCase/LibraryChecker/staticrmq.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -29,11 +29,11 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/misc/SparseTable.py
-  requiredBy:
-  - TestCase/LibraryChecker/staticrmq.py
+  requiredBy: []
   timestamp: '2021-01-03 09:10:09+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/LibraryChecker/staticrmq.test.py
 documentation_of: DataStructure/misc/SparseTable.py
 layout: document
 redirect_from:

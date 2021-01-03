@@ -1,13 +1,13 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/misc/SparseTable.py
     title: DataStructure/misc/SparseTable.py
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/staticrmq
     links:
@@ -25,16 +25,16 @@ data:
     \ ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - DataStructure/misc/SparseTable.py
-  isVerificationFile: false
-  path: TestCase/LibraryChecker/staticrmq.py
+  isVerificationFile: true
+  path: TestCase/LibraryChecker/staticrmq.test.py
   requiredBy: []
-  timestamp: '2021-01-03 09:10:09+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
+  timestamp: '2021-01-03 11:00:07+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: TestCase/LibraryChecker/staticrmq.py
+documentation_of: TestCase/LibraryChecker/staticrmq.test.py
 layout: document
 redirect_from:
-- /library/TestCase/LibraryChecker/staticrmq.py
-- /library/TestCase/LibraryChecker/staticrmq.py.html
-title: TestCase/LibraryChecker/staticrmq.py
+- /verify/TestCase/LibraryChecker/staticrmq.test.py
+- /verify/TestCase/LibraryChecker/staticrmq.test.py.html
+title: TestCase/LibraryChecker/staticrmq.test.py
 ---

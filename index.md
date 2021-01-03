@@ -82,20 +82,15 @@ data:
       title: DataStructure/UnionFind/UnionFindWithPotential.py
   - name: DataStructure/misc
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: DataStructure/misc/DisjointSparseTable.py
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: DataStructure/misc/PersistentArray.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: DataStructure/misc/SparseTable.py
-  - name: TestCase/LibraryChecker
-    pages:
-    - icon: ':warning:'
-      path: TestCase/LibraryChecker/staticrmq.py
-      title: TestCase/LibraryChecker/staticrmq.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -204,11 +199,17 @@ data:
       path: TestCase/LibraryChecker/segment_add_get_min.test.py
       title: TestCase/LibraryChecker/segment_add_get_min.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
+      title: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.test.py
       title: TestCase/LibraryChecker/static_range_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
       title: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/staticrmq.test.py
+      title: TestCase/LibraryChecker/staticrmq.test.py
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

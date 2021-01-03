@@ -1,12 +1,11 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/persistent_unionfind
 import sys
-from collections import defaultdict
 input = sys.stdin.buffer.readline
 
 from DataStructure.UnionFind.UnionFindUndo import UnionFindUndo
 
 
-def main():
+def main():    
     """クエリ先読みによって、merge時に参照/生成されるグラフ間に辺を貼り、
     木を構築する。その後オフラインダイコネと同様の要領でシミュレートする。
     """
@@ -14,7 +13,7 @@ def main():
     queries = [list(map(int, input().split())) for i in range(q)]
 
     tree = [[] for i in range(q)]
-    judges = defaultdict(list)
+    judges = {}
     merges = {}
     for i, (flag, k, u, v) in enumerate(queries):
         if k == -1:
@@ -26,6 +25,8 @@ def main():
             tree[k].append(i)
             merges[i] = (u, v)
         else:
+            if k not in judges:
+                judges[k] = []
             judges[k].append((i, u, v))
 
     root = q - 1
@@ -65,8 +66,9 @@ def main():
             else:
                 visited[i] = True
                 uf.merge(*merges[i])
-        for j, u, v in judges[i]:
-            ans[j] = int(uf.same(u, v))
+        if i in judges:
+            for j, u, v in judges[i]:
+                ans[j] = int(uf.same(u, v))
 
     print('\n'.join(map(str, [res for res in ans if res != -1])))
 

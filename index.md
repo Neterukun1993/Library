@@ -77,7 +77,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
       title: DataStructure/UnionFind/UnionFind.py
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindUndo.py
       title: DataStructure/UnionFind/UnionFindUndo.py
     - icon: ':heavy_check_mark:'

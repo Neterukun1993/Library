@@ -2,9 +2,12 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
+    title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -28,8 +31,9 @@ data:
   path: DataStructure/UnionFind/UnionFindUndo.py
   requiredBy: []
   timestamp: '2021-01-03 22:00:08+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
 documentation_of: DataStructure/UnionFind/UnionFindUndo.py
 layout: document
 redirect_from:

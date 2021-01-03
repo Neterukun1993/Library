@@ -43,7 +43,7 @@ def main():
             if len(swag) == 0:
                 ans.append(x)
             else:
-                a = swag.fold_all()
+                a = swag.all_fold()
                 res = XA_map((x << 32) + 1, a)
                 ans.append(res >> 32)
 

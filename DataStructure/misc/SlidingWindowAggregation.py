@@ -16,7 +16,7 @@ class SlidingWindowAggregation:
             acc = self.op(val, acc)
             self.outque.append((val, acc))
 
-    def fold_all(self):
+    def all_fold(self):
         if not self.inque:
             return self.outque[-1][1]
         if not self.outque:

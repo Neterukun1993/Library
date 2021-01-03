@@ -77,6 +77,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
       title: DataStructure/UnionFind/UnionFind.py
+    - icon: ':warning:'
+      path: DataStructure/UnionFind/UnionFindUndo.py
+      title: DataStructure/UnionFind/UnionFindUndo.py
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
       title: DataStructure/UnionFind/UnionFindWithPotential.py
@@ -198,6 +201,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
+      title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.test.py

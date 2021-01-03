@@ -32,6 +32,7 @@
 "TestCase/LibraryChecker/line_add_get_min.test.py": "2021-01-03 06:18:12 +0900",
 "TestCase/LibraryChecker/persistent_unionfind.test.py": "2021-01-03 06:00:12 +0900",
 "TestCase/LibraryChecker/point_add_range_sum.test.py": "2021-01-02 01:05:58 +0900",
+"TestCase/LibraryChecker/queue_operate_all_composite.test.py": "2021-01-03 19:11:47 +0900",
 "TestCase/LibraryChecker/segment_add_get_min.test.py": "2021-01-03 06:25:50 +0900",
 "TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
 "TestCase/LibraryChecker/static_range_sum.test.py": "2021-01-01 21:11:21 +0900",

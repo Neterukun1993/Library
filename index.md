@@ -85,6 +85,14 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: DataStructure/misc/PersistentArray.py
+    - icon: ':warning:'
+      path: DataStructure/misc/SparseTable.py
+      title: DataStructure/misc/SparseTable.py
+  - name: TestCase/LibraryChecker
+    pages:
+    - icon: ':warning:'
+      path: TestCase/LibraryChecker/staticrmq.py
+      title: TestCase/LibraryChecker/staticrmq.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:

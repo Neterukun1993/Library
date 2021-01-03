@@ -17,6 +17,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
       title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C(Accumulate Sum 2D)"
+    - icon: ':warning:'
+      path: DataStructure/AccumulateSum/AccumulateSumLR.py
+      title: "\u5DE6\u53F3\u304B\u3089\u306E\u7D2F\u7A4D\u548C"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos.py
       title: "\u3044\u3082\u3059\u6CD5"
@@ -70,6 +73,9 @@ data:
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
+      path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+      title: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
       title: DataStructure/UnionFind/PersistentUnionFind.py
     - icon: ':heavy_check_mark:'
@@ -110,6 +116,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0560.test.py
       title: TestCase/AOJ/0560.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/2235.test.py
+      title: TestCase/AOJ/2235.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py

@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+    title: DataStructure/UnionFind/OfflineDynamicConnectivity.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
@@ -29,7 +32,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/UnionFind/UnionFindUndo.py
-  requiredBy: []
+  requiredBy:
+  - DataStructure/UnionFind/OfflineDynamicConnectivity.py
   timestamp: '2021-01-03 22:00:08+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

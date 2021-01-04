@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/SpanningTree/boruvka.py
+    title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_1_A.test.py
@@ -30,7 +33,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/UnionFind/UnionFind.py
-  requiredBy: []
+  requiredBy:
+  - Graph/SpanningTree/boruvka.py
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

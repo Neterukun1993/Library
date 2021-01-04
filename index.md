@@ -113,12 +113,15 @@ data:
       title: DataStructure/misc/SparseTable.py
   - name: Graph/SpanningTree
     pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/SpanningTree/boruvka.py
+      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
     - icon: ':warning:'
       path: Graph/SpanningTree/kruskal.py
-      title: Graph/SpanningTree/kruskal.py
+      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
     - icon: ':warning:'
       path: Graph/SpanningTree/prim.py
-      title: Graph/SpanningTree/prim.py
+      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D7\u30EA\u30E0\u6CD5)"
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -224,6 +227,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_2_A.boruvka.test.py
+      title: TestCase/AOJ/GRL_2_A.boruvka.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.kruskal.test.py
       title: TestCase/AOJ/GRL_2_A.kruskal.test.py

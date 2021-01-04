@@ -124,6 +124,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/bellman_ford.py
       title: Graph/ShortestPath/bellman_ford.py
+    - icon: ':warning:'
+      path: Graph/ShortestPath/dijkstra.py
+      title: Graph/ShortestPath/dijkstra.py
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: Graph/ShortestPath/dijkstra_v2.py
@@ -255,6 +258,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_1_A.test.py
+      title: TestCase/AOJ/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_B.test.py
       title: TestCase/AOJ/GRL_1_B.test.py

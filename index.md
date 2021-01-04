@@ -111,6 +111,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: DataStructure/misc/SparseTable.py
+  - name: Graph/SpanningTree
+    pages:
+    - icon: ':warning:'
+      path: Graph/SpanningTree/prim.py
+      title: Graph/SpanningTree/prim.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -216,6 +221,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_2_A.prim.test.py
+      title: TestCase/AOJ/GRL_2_A.prim.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

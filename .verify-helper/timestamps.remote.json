@@ -33,6 +33,7 @@
 "TestCase/AOJ/DSL_5_A.test.py": "2021-01-02 06:20:11 +0900",
 "TestCase/AOJ/DSL_5_B.BIT.test.py": "2021-01-02 15:42:36 +0900",
 "TestCase/AOJ/DSL_5_B.test.py": "2021-01-02 06:13:08 +0900",
+"TestCase/AOJ/GRL_2_A.kruskal.test.py": "1970-01-01 00:00:00 +0000",
 "TestCase/AOJ/GRL_2_A.prim.test.py": "1970-01-01 00:00:00 +0000",
 "TestCase/LibraryChecker/line_add_get_min.test.py": "2021-01-03 06:18:12 +0900",
 "TestCase/LibraryChecker/persistent_unionfind.Undo.test.py": "2021-01-03 22:35:43 +0900",

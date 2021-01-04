@@ -11,12 +11,12 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "import heapq\n\n\ndef prim(graph):\n    res = 0\n    used = [False] * len(graph)\n\
-    \    hq = [(0, 0)]  # hq = [(\u8FBA\u306E\u30B3\u30B9\u30C8, \u73FE\u5728\u5730\
-    )]\n    while hq:\n        cost, v = heapq.heappop(hq)\n        if used[v]:\n\
-    \            continue\n        used[v] = True\n        res += cost\n        for\
-    \ nxt_v, cost in graph[v]:\n            heapq.heappush(hq, (cost, nxt_v))\n  \
-    \  return res\n"
+  code: "from heapq import heappop, heappush\n\n\ndef prim(graph):\n    res = 0\n\
+    \    used = [False] * len(graph)\n    hq = [(0, 0)]  # hq = [(\u8FBA\u306E\u30B3\
+    \u30B9\u30C8, \u73FE\u5728\u5730)]\n    while hq:\n        cost, v = heappop(hq)\n\
+    \        if used[v]:\n            continue\n        used[v] = True\n        res\
+    \ += cost\n        for nxt_v, cost in graph[v]:\n            heappush(hq, (cost,\
+    \ nxt_v))\n    return res\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/SpanningTree/prim.py

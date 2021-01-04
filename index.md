@@ -114,6 +114,9 @@ data:
   - name: Graph/SpanningTree
     pages:
     - icon: ':warning:'
+      path: Graph/SpanningTree/kruskal.py
+      title: Graph/SpanningTree/kruskal.py
+    - icon: ':warning:'
       path: Graph/SpanningTree/prim.py
       title: Graph/SpanningTree/prim.py
   verificationCategories:
@@ -221,6 +224,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_2_A.kruskal.test.py
+      title: TestCase/AOJ/GRL_2_A.kruskal.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py

@@ -46,6 +46,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/inversion_number.py
       title: DataStructure/BinaryIndexedTree/inversion_number.py
+  - name: DataStructure/Heap
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/ParingHeap.py
+      title: DataStructure/Heap/ParingHeap.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/SkewHeap.py
+      title: DataStructure/Heap/SkewHeap.py
   - name: DataStructure/SegmentTree
     pages:
     - icon: ':warning:'
@@ -140,6 +148,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_A.test.py
       title: TestCase/AOJ/DPL_5_A.test.py

@@ -119,6 +119,17 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: DataStructure/misc/SparseTable.py
+  - name: Graph/ShortestPath
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/ShortestPath/bellman_ford.py
+      title: Graph/ShortestPath/bellman_ford.py
+    - icon: ':heavy_check_mark:'
+      path: Graph/ShortestPath/dijkstra_v2.py
+      title: Graph/ShortestPath/dijkstra_v2.py
+    - icon: ':warning:'
+      path: Graph/ShortestPath/warshall_floyd.py
+      title: Graph/ShortestPath/warshall_floyd.py
   - name: Graph/SpanningTree
     pages:
     - icon: ':heavy_check_mark:'
@@ -145,6 +156,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2235.test.py
       title: TestCase/AOJ/2235.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_12_B.test.py
+      title: TestCase/AOJ/ALDS1_12_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
@@ -241,6 +255,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_1_B.test.py
+      title: TestCase/AOJ/GRL_1_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_1_C.test.py
+      title: TestCase/AOJ/GRL_1_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.boruvka.test.py
       title: TestCase/AOJ/GRL_2_A.boruvka.test.py

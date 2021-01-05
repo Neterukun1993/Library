@@ -32,3 +32,17 @@ class Combination:
         if k < r:
             return 0
         return (self.f[k] * self.inv_f[k - r] * self.inv_f[r]) % self.MOD
+
+
+def combination(k, r, MOD):
+    """kCr O(r)"""
+    if k < r:
+        return 0
+    r = min(r, k - r)
+    numer, denom = 1, 1
+    for l in range(r):
+        numer *= (k - l)
+        numer %= MOD
+        denom *= l + 1
+        denom %= MOD
+    return numer * pow(denom, MOD - 2, MOD) % MOD

@@ -52,5 +52,6 @@
 "TestCase/LibraryChecker/static_range_sum.test.py": "2021-01-01 21:11:21 +0900",
 "TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
 "TestCase/LibraryChecker/staticrmq.test.py": "2021-01-03 11:00:07 +0900",
+"TestCase/LibraryChecker/zalgorithm.test.py": "2021-01-05 22:30:17 +0900",
 "TestCase/yukicoder/yuki0416.test.py": "2021-01-03 01:00:38 +0900"
 }

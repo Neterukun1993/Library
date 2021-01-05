@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: Combination/modinv_combination.py
     title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
   _extendedRequiredBy: []
@@ -132,7 +132,7 @@ data:
   isVerificationFile: false
   path: Combination/twelvefold_way.py
   requiredBy: []
-  timestamp: '2021-01-02 20:30:23+09:00'
+  timestamp: '2021-01-06 00:51:01+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_5_B.test.py

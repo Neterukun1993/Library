@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: Combination
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Combination/modinv_combination.py
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
     - icon: ':heavy_check_mark:'
@@ -195,6 +195,9 @@ data:
       path: TestCase/AOJ/DPL_5_D.test.py
       title: TestCase/AOJ/DPL_5_D.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_5_E.naive.test.py
+      title: TestCase/AOJ/DPL_5_E.naive.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_E.test.py
       title: TestCase/AOJ/DPL_5_E.test.py
     - icon: ':heavy_check_mark:'
@@ -330,6 +333,9 @@ data:
       title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/yukicoder
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0117.test.py
+      title: TestCase/yukicoder/yuki0117.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py

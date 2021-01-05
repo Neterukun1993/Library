@@ -5,9 +5,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
     title: "\u5199\u50CF12\u76F8(twelvefold way)"
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/DPL_5_E.naive.test.py
+    title: TestCase/AOJ/DPL_5_E.naive.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -26,15 +29,20 @@ data:
     get kPr\"\"\"\n        if k < r:\n            return 0\n        return (self.f[k]\
     \ * self.inv_f[k - r]) % self.MOD\n\n    def comb(self, k, r):\n        \"\"\"\
     get kCr\"\"\"\n        if k < r:\n            return 0\n        return (self.f[k]\
-    \ * self.inv_f[k - r] * self.inv_f[r]) % self.MOD\n"
+    \ * self.inv_f[k - r] * self.inv_f[r]) % self.MOD\n\n\ndef combination(k, r, MOD):\n\
+    \    \"\"\"kCr O(r)\"\"\"\n    if k < r:\n        return 0\n    r = min(r, k -\
+    \ r)\n    numer, denom = 1, 1\n    for l in range(r):\n        numer *= (k - l)\n\
+    \        numer %= MOD\n        denom *= l + 1\n        denom %= MOD\n    return\
+    \ numer * pow(denom, MOD - 2, MOD) % MOD\n"
   dependsOn: []
   isVerificationFile: false
   path: Combination/modinv_combination.py
   requiredBy:
   - Combination/twelvefold_way.py
-  timestamp: '2021-01-02 19:40:35+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  timestamp: '2021-01-06 00:51:01+09:00'
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/DPL_5_E.naive.test.py
 documentation_of: Combination/modinv_combination.py
 layout: document
 title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"

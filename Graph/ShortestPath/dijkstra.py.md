@@ -27,8 +27,5 @@ data:
   verifiedWith: []
 documentation_of: Graph/ShortestPath/dijkstra.py
 layout: document
-redirect_from:
-- /library/Graph/ShortestPath/dijkstra.py
-- /library/Graph/ShortestPath/dijkstra.py.html
-title: Graph/ShortestPath/dijkstra.py
+title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
 ---

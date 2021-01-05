@@ -123,16 +123,16 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/bellman_ford.py
-      title: Graph/ShortestPath/bellman_ford.py
+      title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
     - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra.py
-      title: Graph/ShortestPath/dijkstra.py
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
-      title: Graph/ShortestPath/dijkstra_v2.py
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5($\\mathrm{O}(V^2)$)"
     - icon: ':warning:'
       path: Graph/ShortestPath/warshall_floyd.py
-      title: Graph/ShortestPath/warshall_floyd.py
+      title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
   - name: Graph/SpanningTree
     pages:
     - icon: ':heavy_check_mark:'
@@ -144,6 +144,11 @@ data:
     - icon: ':warning:'
       path: Graph/SpanningTree/prim.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D7\u30EA\u30E0\u6CD5)"
+  - name: String
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: String/z_algorithm.py
+      title: Z algorithm
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -308,6 +313,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.test.py
       title: TestCase/LibraryChecker/staticrmq.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/zalgorithm.test.py
+      title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

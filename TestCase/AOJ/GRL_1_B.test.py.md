@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/ShortestPath/bellman_ford.py
-    title: Graph/ShortestPath/bellman_ford.py
+    title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

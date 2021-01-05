@@ -33,8 +33,5 @@ data:
   - TestCase/AOJ/GRL_1_B.test.py
 documentation_of: Graph/ShortestPath/bellman_ford.py
 layout: document
-redirect_from:
-- /library/Graph/ShortestPath/bellman_ford.py
-- /library/Graph/ShortestPath/bellman_ford.py.html
-title: Graph/ShortestPath/bellman_ford.py
+title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
 ---

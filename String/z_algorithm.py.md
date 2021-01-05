@@ -4,8 +4,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: TestCase/AOJ/ALDS1_12_B.test.py
-    title: TestCase/AOJ/ALDS1_12_B.test.py
+    path: TestCase/LibraryChecker/zalgorithm.test.py
+    title: TestCase/LibraryChecker/zalgorithm.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -14,22 +14,21 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def dijkstra_v2(start, matrix):\n    INF = 10 ** 18\n    n = len(matrix)\n\
-    \    used = [False] * n\n    dist = [INF] * n\n    dist[start] = 0\n    while\
-    \ True:\n        v = -1\n        for u in range(n):\n            if not used[u]\
-    \ and (v == -1 or dist[u] < dist[v]):\n                v = u\n        if v ==\
-    \ -1:\n            break\n        used[v] = True\n        for nxt_v in range(n):\n\
-    \            dist[nxt_v] = min(dist[nxt_v], dist[v] + matrix[v][nxt_v])\n    return\
-    \ dist\n"
+  code: "def z_algorithm(s):\n    res = [0] * len(s)\n    res[0] = len(s)\n    i,\
+    \ j = 1, 0\n    while i < len(s):\n        while i + j < len(s) and s[j] == s[i\
+    \ + j]:\n            j += 1\n        res[i] = j\n        if j == 0:\n        \
+    \    i += 1\n            continue\n        k = 1\n        while i + k < len(s)\
+    \ and k + res[k] < j:\n            res[i + k] = res[k]\n            k += 1\n \
+    \       i, j = i + k, j - k\n    return res\n"
   dependsOn: []
   isVerificationFile: false
-  path: Graph/ShortestPath/dijkstra_v2.py
+  path: String/z_algorithm.py
   requiredBy: []
-  timestamp: '2021-01-05 04:12:38+09:00'
+  timestamp: '2021-01-05 22:30:17+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/ALDS1_12_B.test.py
-documentation_of: Graph/ShortestPath/dijkstra_v2.py
+  - TestCase/LibraryChecker/zalgorithm.test.py
+documentation_of: String/z_algorithm.py
 layout: document
-title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5($\\mathrm{O}(V^2)$)"
+title: Z algorithm
 ---

@@ -147,6 +147,12 @@ data:
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
+      path: String/Manacher.py
+      title: String/Manacher.py
+    - icon: ':heavy_check_mark:'
+      path: String/SA_nlogn.py
+      title: String/SA_nlogn.py
+    - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
   verificationCategories:
@@ -284,6 +290,9 @@ data:
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/enumerate_palindromes.test.py
+      title: TestCase/LibraryChecker/enumerate_palindromes.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py
     - icon: ':heavy_check_mark:'
@@ -313,6 +322,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.test.py
       title: TestCase/LibraryChecker/staticrmq.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
+      title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/zalgorithm.test.py
       title: TestCase/LibraryChecker/zalgorithm.test.py

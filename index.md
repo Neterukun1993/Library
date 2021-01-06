@@ -144,6 +144,11 @@ data:
     - icon: ':warning:'
       path: Graph/SpanningTree/prim.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D7\u30EA\u30E0\u6CD5)"
+  - name: Graph/Tree
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/Tree/EulerTour.py
+      title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -295,6 +300,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/lca.EulerTour.test.py
+      title: TestCase/LibraryChecker/lca.EulerTour.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py

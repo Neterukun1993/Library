@@ -121,7 +121,7 @@ data:
       title: DataStructure/misc/SparseTable.py
   - name: Graph/Decomposition
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
@@ -166,11 +166,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
-  - name: TestCase/LibraryChecker
-    pages:
-    - icon: ':warning:'
-      path: TestCase/LibraryChecker/scc.Tarjan.py
-      title: TestCase/LibraryChecker/scc.Tarjan.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -329,6 +324,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/scc.Tarjan.test.py
+      title: TestCase/LibraryChecker/scc.Tarjan.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/segment_add_get_min.test.py
       title: TestCase/LibraryChecker/segment_add_get_min.test.py

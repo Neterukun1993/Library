@@ -2,9 +2,15 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+    title: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/scc.Kosaraju.test.py
+    title: TestCase/LibraryChecker/scc.Kosaraju.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -42,8 +48,10 @@ data:
   path: Graph/Decomposition/SCC_Kosaraju.py
   requiredBy: []
   timestamp: '2021-01-09 01:09:35+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+  - TestCase/LibraryChecker/scc.Kosaraju.test.py
 documentation_of: Graph/Decomposition/SCC_Kosaraju.py
 layout: document
 title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Kosaraju\u306E\u30A2\u30EB\u30B4\

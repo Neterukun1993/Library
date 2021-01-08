@@ -4,6 +4,15 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+    title: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
+    title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/scc.Kosaraju.test.py
+    title: TestCase/LibraryChecker/scc.Kosaraju.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/scc.Tarjan.test.py
     title: TestCase/LibraryChecker/scc.Tarjan.test.py
   _pathExtension: py
@@ -50,6 +59,9 @@ data:
   timestamp: '2021-01-08 06:36:19+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/GRL_3_C.Tarjan.test.py
+  - TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+  - TestCase/LibraryChecker/scc.Kosaraju.test.py
   - TestCase/LibraryChecker/scc.Tarjan.test.py
 documentation_of: Graph/Decomposition/SCC_Tarjan.py
 layout: document

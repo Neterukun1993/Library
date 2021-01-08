@@ -121,6 +121,10 @@ data:
       title: DataStructure/misc/SparseTable.py
   - name: Graph/Decomposition
     pages:
+    - icon: ':warning:'
+      path: Graph/Decomposition/SCC_Kosaraju.py
+      title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Kosaraju\u306E\u30A2\u30EB\
+        \u30B4\u30EA\u30BA\u30E0)"
     - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
@@ -301,6 +305,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+      title: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
+      title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'
@@ -324,6 +334,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/scc.Kosaraju.test.py
+      title: TestCase/LibraryChecker/scc.Kosaraju.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/scc.Tarjan.test.py
       title: TestCase/LibraryChecker/scc.Tarjan.test.py

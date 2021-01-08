@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from Graph.Decomposition.SCC_Tarjan import StronglyConnectedComponents
+from Graph.Decomposition.SCC_Kosaraju import StronglyConnectedComponents
 
 
 def main():

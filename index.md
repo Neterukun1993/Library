@@ -159,6 +159,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
+  - name: Graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/TwoSAT.py
+      title: 2-SAT
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -358,6 +363,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/two_sat.test.py
+      title: TestCase/LibraryChecker/two_sat.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/zalgorithm.test.py
       title: TestCase/LibraryChecker/zalgorithm.test.py

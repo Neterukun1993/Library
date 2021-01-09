@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DataStructure.UnionFind.PertiallyPersistentUnionFind import PertiallyPersistentUnionFind
+from DataStructure.UnionFind.PartiallyPersistentUnionFind import PartiallyPersistentUnionFind
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
     for e in queries:
         remain.remove(e)
 
-    uf = PertiallyPersistentUnionFind(n)
+    uf = PartiallyPersistentUnionFind(n)
     for a, b in remain:
         a -= 1
         b -= 1

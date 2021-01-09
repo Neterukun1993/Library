@@ -1,7 +1,7 @@
 from bisect import bisect_left
 
 
-class PertiallyPersistentUnionFind:
+class PartiallyPersistentUnionFind:
     def __init__(self, n):
         self.INF = 10 ** 9
         self.parent = [-1] * n

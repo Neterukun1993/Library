@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/Decomposition/TwoEdgeConnectedComponents.py
-    title: Graph/Decomposition/TwoEdgeConnectedComponents.py
+    title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

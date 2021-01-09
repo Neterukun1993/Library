@@ -42,8 +42,5 @@ data:
   - TestCase/LibraryChecker/two_edge_connected_components.test.py
 documentation_of: Graph/Decomposition/TwoEdgeConnectedComponents.py
 layout: document
-redirect_from:
-- /library/Graph/Decomposition/TwoEdgeConnectedComponents.py
-- /library/Graph/Decomposition/TwoEdgeConnectedComponents.py.html
-title: Graph/Decomposition/TwoEdgeConnectedComponents.py
+title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
 ---

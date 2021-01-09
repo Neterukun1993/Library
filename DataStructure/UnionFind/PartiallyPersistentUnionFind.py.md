@@ -14,7 +14,7 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from bisect import bisect_left\n\n\nclass PertiallyPersistentUnionFind:\n\
+  code: "from bisect import bisect_left\n\n\nclass PartiallyPersistentUnionFind:\n\
     \    def __init__(self, n):\n        self.INF = 10 ** 9\n        self.parent =\
     \ [-1] * n\n        self.time = [self.INF] * n\n        self.size = [[(-1, -1)]\
     \ for i in range(n)]\n\n    def root(self, t, x):\n        while self.time[x]\
@@ -29,16 +29,13 @@ data:
     \ -self.size[x][idx][1]\n"
   dependsOn: []
   isVerificationFile: false
-  path: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
+  path: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
   requiredBy: []
-  timestamp: '2021-01-03 01:00:38+09:00'
+  timestamp: '2021-01-10 07:28:54+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0416.test.py
-documentation_of: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
+documentation_of: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/PertiallyPersistentUnionFind.py
-- /library/DataStructure/UnionFind/PertiallyPersistentUnionFind.py.html
-title: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
+title: "\u90E8\u5206\u6C38\u7D9AUnion Find"
 ---

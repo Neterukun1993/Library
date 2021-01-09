@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/UnionFindUndo.py
-    title: DataStructure/UnionFind/UnionFindUndo.py
+    title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -56,8 +56,5 @@ data:
   - TestCase/AOJ/2235.test.py
 documentation_of: DataStructure/UnionFind/OfflineDynamicConnectivity.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/OfflineDynamicConnectivity.py
-- /library/DataStructure/UnionFind/OfflineDynamicConnectivity.py.html
-title: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+title: Offline Dynamic Connectivity
 ---

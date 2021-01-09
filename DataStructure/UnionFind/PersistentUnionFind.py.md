@@ -39,8 +39,5 @@ data:
   - TestCase/LibraryChecker/persistent_unionfind.test.py
 documentation_of: DataStructure/UnionFind/PersistentUnionFind.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/PersistentUnionFind.py
-- /library/DataStructure/UnionFind/PersistentUnionFind.py.html
-title: DataStructure/UnionFind/PersistentUnionFind.py
+title: "\u6C38\u7D9AUnion Find"
 ---

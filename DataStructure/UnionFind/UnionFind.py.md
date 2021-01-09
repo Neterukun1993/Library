@@ -41,8 +41,5 @@ data:
   - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/UnionFind.py
-- /library/DataStructure/UnionFind/UnionFind.py.html
-title: DataStructure/UnionFind/UnionFind.py
+title: Union Find
 ---

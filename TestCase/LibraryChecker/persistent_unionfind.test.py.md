@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/PersistentUnionFind.py
-    title: DataStructure/UnionFind/PersistentUnionFind.py
+    title: "\u6C38\u7D9AUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

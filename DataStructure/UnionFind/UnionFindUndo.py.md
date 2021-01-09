@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
-    title: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+    title: Offline Dynamic Connectivity
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
@@ -40,8 +40,5 @@ data:
   - TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
 documentation_of: DataStructure/UnionFind/UnionFindUndo.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/UnionFindUndo.py
-- /library/DataStructure/UnionFind/UnionFindUndo.py.html
-title: DataStructure/UnionFind/UnionFindUndo.py
+title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
 ---

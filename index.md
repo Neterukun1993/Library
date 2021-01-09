@@ -89,22 +89,22 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
-      title: DataStructure/UnionFind/OfflineDynamicConnectivity.py
+      title: Offline Dynamic Connectivity
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
+      title: "\u90E8\u5206\u6C38\u7D9AUnion Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
-      title: DataStructure/UnionFind/PersistentUnionFind.py
-    - icon: ':heavy_check_mark:'
-      path: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
-      title: DataStructure/UnionFind/PertiallyPersistentUnionFind.py
+      title: "\u6C38\u7D9AUnion Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
-      title: DataStructure/UnionFind/UnionFind.py
+      title: Union Find
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindUndo.py
-      title: DataStructure/UnionFind/UnionFindUndo.py
+      title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
-      title: DataStructure/UnionFind/UnionFindWithPotential.py
+      title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304DUnion Find"
   - name: DataStructure/misc
     pages:
     - icon: ':heavy_check_mark:'
@@ -131,7 +131,7 @@ data:
         \u30B4\u30EA\u30BA\u30E0)"
     - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/TwoEdgeConnectedComponents.py
-      title: Graph/Decomposition/TwoEdgeConnectedComponents.py
+      title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   - name: Graph
     pages:
     - icon: ':heavy_check_mark:'

@@ -44,8 +44,5 @@ data:
   - TestCase/AOJ/DSL_1_B.test.py
 documentation_of: DataStructure/UnionFind/UnionFindWithPotential.py
 layout: document
-redirect_from:
-- /library/DataStructure/UnionFind/UnionFindWithPotential.py
-- /library/DataStructure/UnionFind/UnionFindWithPotential.py.html
-title: DataStructure/UnionFind/UnionFindWithPotential.py
+title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304DUnion Find"
 ---

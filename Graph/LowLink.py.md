@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Decomposition/TwoEdgeConnectedComponents.py
+    title: Graph/Decomposition/TwoEdgeConnectedComponents.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_3_A.test.py
@@ -52,7 +55,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/LowLink.py
-  requiredBy: []
+  requiredBy:
+  - Graph/Decomposition/TwoEdgeConnectedComponents.py
   timestamp: '2021-01-10 06:06:37+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

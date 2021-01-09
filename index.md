@@ -129,6 +129,9 @@ data:
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
+    - icon: ':heavy_check_mark:'
+      path: Graph/Decomposition/TwoEdgeConnectedComponents.py
+      title: Graph/Decomposition/TwoEdgeConnectedComponents.py
   - name: Graph
     pages:
     - icon: ':heavy_check_mark:'
@@ -373,6 +376,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/two_edge_connected_components.test.py
+      title: TestCase/LibraryChecker/two_edge_connected_components.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_sat.test.py
       title: TestCase/LibraryChecker/two_sat.test.py

@@ -62,6 +62,7 @@
 "TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
 "TestCase/LibraryChecker/staticrmq.test.py": "2021-01-03 11:00:07 +0900",
 "TestCase/LibraryChecker/suffixarray.nlogn.test.py": "2021-01-06 00:03:29 +0900",
+"TestCase/LibraryChecker/two_edge_connected_components.test.py": "2021-01-10 06:54:35 +0900",
 "TestCase/LibraryChecker/two_sat.test.py": "2021-01-10 04:02:27 +0900",
 "TestCase/LibraryChecker/zalgorithm.test.py": "2021-01-05 22:30:17 +0900",
 "TestCase/yukicoder/yuki0117.test.py": "1970-01-01 00:00:00 +0000",

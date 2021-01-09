@@ -129,6 +129,14 @@ data:
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
+  - name: Graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/LowLink.py
+      title: Graph/LowLink.py
+    - icon: ':heavy_check_mark:'
+      path: Graph/TwoSAT.py
+      title: 2-SAT
   - name: Graph/ShortestPath
     pages:
     - icon: ':heavy_check_mark:'
@@ -159,11 +167,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
-  - name: Graph
-    pages:
-    - icon: ':heavy_check_mark:'
-      path: Graph/TwoSAT.py
-      title: 2-SAT
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -310,6 +313,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_3_A.test.py
+      title: TestCase/AOJ/GRL_3_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_3_B.test.py
+      title: TestCase/AOJ/GRL_3_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
       title: TestCase/AOJ/GRL_3_C.Kosaraju.test.py

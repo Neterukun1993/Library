@@ -133,7 +133,8 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: Graph/LowLink.py
-      title: Graph/LowLink.py
+      title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
+        \u69CB\u7BC9 (LowLink)"
     - icon: ':heavy_check_mark:'
       path: Graph/TwoSAT.py
       title: 2-SAT

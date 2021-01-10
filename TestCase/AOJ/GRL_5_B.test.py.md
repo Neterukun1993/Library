@@ -1,10 +1,10 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/rerooting.py
     title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/edge_to_vertex.py
     title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
   _extendedRequiredBy: []

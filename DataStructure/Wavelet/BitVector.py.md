@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/WaveletMatrix.py
-    title: DataStructure/Wavelet/WaveletMatrix.py
+    title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   _extendedVerifiedWith: []
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
@@ -36,8 +36,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/Wavelet/BitVector.py
 layout: document
-redirect_from:
-- /library/DataStructure/Wavelet/BitVector.py
-- /library/DataStructure/Wavelet/BitVector.py.html
-title: DataStructure/Wavelet/BitVector.py
+title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
 ---

@@ -48,6 +48,7 @@
 "TestCase/AOJ/GRL_3_B.test.py": "2021-01-10 06:06:37 +0900",
 "TestCase/AOJ/GRL_3_C.Kosaraju.test.py": "2021-01-09 01:19:33 +0900",
 "TestCase/AOJ/GRL_3_C.Tarjan.test.py": "2021-01-09 01:09:35 +0900",
+"TestCase/AOJ/GRL_5_B.test.py": "2021-01-11 06:00:13 +0900",
 "TestCase/LibraryChecker/enumerate_palindromes.test.py": "2021-01-06 00:03:29 +0900",
 "TestCase/LibraryChecker/lca.EulerTour.test.py": "2021-01-07 06:39:32 +0900",
 "TestCase/LibraryChecker/line_add_get_min.test.py": "2021-01-03 06:18:12 +0900",

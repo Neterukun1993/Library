@@ -152,6 +152,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/TwoSAT.py
       title: 2-SAT
+    - icon: ':question:'
+      path: Graph/edge_to_vertex.py
+      title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
   - name: Graph/ShortestPath
     pages:
     - icon: ':heavy_check_mark:'
@@ -185,6 +188,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
+    - icon: ':question:'
+      path: Graph/Tree/rerooting.py
+      title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -346,6 +352,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
       title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/GRL_5_A.test.py
+      title: TestCase/AOJ/GRL_5_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_5_B.test.py
+      title: TestCase/AOJ/GRL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

@@ -3,6 +3,9 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
+    path: DataStructure/Wavelet/RectangleSum.py
+    title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+  - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/WaveletMatrix.py
     title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   _extendedVerifiedWith: []
@@ -31,6 +34,7 @@ data:
   path: DataStructure/Wavelet/BitVector.py
   requiredBy:
   - DataStructure/Wavelet/WaveletMatrix.py
+  - DataStructure/Wavelet/RectangleSum.py
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

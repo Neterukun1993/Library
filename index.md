@@ -111,6 +111,9 @@ data:
       path: DataStructure/Wavelet/BitVector.py
       title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Wavelet/RectangleSum.py
+      title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/WaveletMatrix.py
       title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   - name: DataStructure/misc
@@ -310,22 +313,22 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.test.py
       title: TestCase/AOJ/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_B.test.py
       title: TestCase/AOJ/GRL_1_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_C.test.py
       title: TestCase/AOJ/GRL_1_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.boruvka.test.py
       title: TestCase/AOJ/GRL_2_A.boruvka.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.kruskal.test.py
       title: TestCase/AOJ/GRL_2_A.kruskal.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
     - icon: ':heavy_check_mark:'
@@ -370,6 +373,9 @@ data:
       path: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
+      title: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/scc.Kosaraju.test.py
       title: TestCase/LibraryChecker/scc.Kosaraju.test.py
     - icon: ':heavy_check_mark:'
@@ -404,7 +410,7 @@ data:
       title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0117.test.py
       title: TestCase/yukicoder/yuki0117.test.py
     - icon: ':heavy_check_mark:'

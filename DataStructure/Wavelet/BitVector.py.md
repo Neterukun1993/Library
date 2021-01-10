@@ -1,0 +1,43 @@
+---
+data:
+  _extendedDependsOn: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/Wavelet/WaveletMatrix.py
+    title: DataStructure/Wavelet/WaveletMatrix.py
+  _extendedVerifiedWith: []
+  _pathExtension: py
+  _verificationStatusIcon: ':warning:'
+  attributes:
+    links: []
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
+  code: "class BitVector:\n    def __init__(self, size):\n        # self.BLOCK_WIDTH\
+    \ = 32\n        self.BLOCK_NUM = (size + 31) >> 5\n        self.bit = [0] * self.BLOCK_NUM\n\
+    \        self.count = [0] * self.BLOCK_NUM\n\n    def set(self, i):\n        self.bit[i\
+    \ >> 5] |= 1 << (i & 31)\n\n    def build(self):\n        for i in range(self.BLOCK_NUM\
+    \ - 1):\n            self.count[i + 1] = self.count[i] + self.popcount(self.bit[i])\n\
+    \n    def popcount(self, x):\n        x = x - ((x >> 1) & 0x55555555)\n      \
+    \  x = (x & 0x33333333) + ((x >> 2) & 0x33333333)\n        x = (x + (x >> 4))\
+    \ & 0x0F0F0F0F\n        x = x + (x >> 8)\n        x = x + (x >> 16)\n        return\
+    \ x & 0x0000007F\n\n    def access(self, i):\n        return (self.bit[i >> 5]\
+    \ >> (i & 31)) & 1\n\n    def rank(self, r, f):\n        res = self.count[r >>\
+    \ 5] + self.popcount(self.bit[r >> 5] & ((1 << (r & 31)) - 1))\n        return\
+    \ res if f else r - res\n"
+  dependsOn: []
+  isVerificationFile: false
+  path: DataStructure/Wavelet/BitVector.py
+  requiredBy:
+  - DataStructure/Wavelet/WaveletMatrix.py
+  timestamp: '2021-01-10 20:36:04+09:00'
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
+documentation_of: DataStructure/Wavelet/BitVector.py
+layout: document
+redirect_from:
+- /library/DataStructure/Wavelet/BitVector.py
+- /library/DataStructure/Wavelet/BitVector.py.html
+title: DataStructure/Wavelet/BitVector.py
+---

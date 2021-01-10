@@ -105,6 +105,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
       title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304DUnion Find"
+  - name: DataStructure/Wavelet
+    pages:
+    - icon: ':warning:'
+      path: DataStructure/Wavelet/BitVector.py
+      title: DataStructure/Wavelet/BitVector.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/Wavelet/WaveletMatrix.py
+      title: DataStructure/Wavelet/WaveletMatrix.py
   - name: DataStructure/misc
     pages:
     - icon: ':heavy_check_mark:'
@@ -352,6 +360,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
+      title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
+      title: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/scc.Kosaraju.test.py
       title: TestCase/LibraryChecker/scc.Kosaraju.test.py

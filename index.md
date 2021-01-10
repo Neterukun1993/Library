@@ -182,6 +182,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
+    - icon: ':heavy_check_mark:'
+      path: Graph/Tree/diameter.py
+      title: "\u6728\u306E\u76F4\u5F84"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -399,6 +402,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/tree_diameter.test.py
+      title: TestCase/LibraryChecker/tree_diameter.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_edge_connected_components.test.py
       title: TestCase/LibraryChecker/two_edge_connected_components.test.py

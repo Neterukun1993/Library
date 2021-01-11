@@ -4,10 +4,10 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/PointAddRectangleSum.py
-    title: "\u4E00\u70B9\u52A0\u7B97\u77ED\u5F62\u548C\u53D6\u5F97"
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/RectangleSum.py
-    title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+    title: "\u77E9\u5F62\u548C\u53D6\u5F97"
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/WaveletMatrix.py
     title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"

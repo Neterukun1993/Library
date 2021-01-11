@@ -55,5 +55,5 @@ data:
   - TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
 documentation_of: DataStructure/Wavelet/RectangleSum.py
 layout: document
-title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+title: "\u77E9\u5F62\u548C\u53D6\u5F97"
 ---

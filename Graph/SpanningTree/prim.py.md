@@ -26,5 +26,5 @@ data:
   verifiedWith: []
 documentation_of: Graph/SpanningTree/prim.py
 layout: document
-title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D7\u30EA\u30E0\u6CD5)"
+title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
 ---

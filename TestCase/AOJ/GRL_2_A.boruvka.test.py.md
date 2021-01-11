@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/SpanningTree/boruvka.py
-    title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
+    title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

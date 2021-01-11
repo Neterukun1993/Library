@@ -112,10 +112,10 @@ data:
       title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/PointAddRectangleSum.py
-      title: "\u4E00\u70B9\u52A0\u7B97\u77ED\u5F62\u548C\u53D6\u5F97"
+      title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/RectangleSum.py
-      title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+      title: "\u77E9\u5F62\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/WaveletMatrix.py
       title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
@@ -168,7 +168,7 @@ data:
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
-      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5($\\mathrm{O}(V^2)$)"
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
     - icon: ':warning:'
       path: Graph/ShortestPath/warshall_floyd.py
       title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
@@ -176,13 +176,15 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/boruvka.py
-      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
+      title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5\
+        )"
     - icon: ':warning:'
       path: Graph/SpanningTree/kruskal.py
-      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
+      title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5\
+        )"
     - icon: ':warning:'
       path: Graph/SpanningTree/prim.py
-      title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30D7\u30EA\u30E0\u6CD5)"
+      title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
     pages:
     - icon: ':heavy_check_mark:'

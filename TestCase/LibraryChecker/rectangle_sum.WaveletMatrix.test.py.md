@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/RectangleSum.py
-    title: "\u77ED\u5F62\u548C\u53D6\u5F97"
+    title: "\u77E9\u5F62\u548C\u53D6\u5F97"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

@@ -25,5 +25,5 @@ data:
   verifiedWith: []
 documentation_of: Graph/SpanningTree/kruskal.py
 layout: document
-title: "\u6700\u5C0F\u5168\u57DF\u6728(\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
+title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
 ---

@@ -56,6 +56,7 @@
 "TestCase/LibraryChecker/persistent_unionfind.Undo.test.py": "2021-01-03 22:35:43 +0900",
 "TestCase/LibraryChecker/persistent_unionfind.test.py": "2021-01-03 06:00:12 +0900",
 "TestCase/LibraryChecker/point_add_range_sum.test.py": "2021-01-02 01:05:58 +0900",
+"TestCase/LibraryChecker/point_add_rectangle_sum.test.py": "2021-01-12 04:24:03 +0900",
 "TestCase/LibraryChecker/queue_operate_all_composite.test.py": "2021-01-03 19:45:45 +0900",
 "TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py": "2021-01-10 20:36:04 +0900",
 "TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py": "2021-01-10 20:36:04 +0900",

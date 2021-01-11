@@ -1,4 +1,4 @@
 ---
-title: 短形和取得
+title: 矩形和取得
 documentation_of: //DataStructure/Wavelet/RectangleSum.py
 ---

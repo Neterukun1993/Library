@@ -111,6 +111,9 @@ data:
       path: DataStructure/Wavelet/BitVector.py
       title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Wavelet/PointAddRectangleSum.py
+      title: "\u4E00\u70B9\u52A0\u7B97\u77ED\u5F62\u548C\u53D6\u5F97"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/RectangleSum.py
       title: "\u77ED\u5F62\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
@@ -378,6 +381,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_range_sum.test.py
       title: TestCase/LibraryChecker/point_add_range_sum.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
+      title: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py

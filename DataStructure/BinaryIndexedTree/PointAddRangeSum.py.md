@@ -5,6 +5,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
     title: DataStructure/BinaryIndexedTree/inversion_number.py
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/Wavelet/PointAddRectangleSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u77ED\u5F62\u548C\u53D6\u5F97"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
@@ -40,6 +43,7 @@ data:
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   requiredBy:
   - DataStructure/BinaryIndexedTree/inversion_number.py
+  - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

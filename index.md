@@ -49,6 +49,9 @@ data:
   - name: DataStructure/Heap
     pages:
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/DAryHeap.py
+      title: D-Ary Heap
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
@@ -244,6 +247,18 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
+      title: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
+      title: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
+      title: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
+      title: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py

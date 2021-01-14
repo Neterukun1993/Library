@@ -2,12 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':x:'
-    path: TestCase/AOJ/GRL_4_B.test.py
-    title: TestCase/AOJ/GRL_4_B.test.py
+  _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.7/x64/lib/python3.8/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -26,9 +23,8 @@ data:
   path: Graph/misc/topological_sorted.py
   requiredBy: []
   timestamp: '2021-01-15 02:43:02+09:00'
-  verificationStatus: LIBRARY_ALL_WA
-  verifiedWith:
-  - TestCase/AOJ/GRL_4_B.test.py
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
 documentation_of: Graph/misc/topological_sorted.py
 layout: document
 title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"

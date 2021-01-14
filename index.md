@@ -190,6 +190,9 @@ data:
   - name: Graph/Tree
     pages:
     - icon: ':heavy_check_mark:'
+      path: Graph/Tree/DoublingLCA.py
+      title: Graph/Tree/DoublingLCA.py
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
     - icon: ':heavy_check_mark:'
@@ -376,6 +379,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/lca.Doubling.test.py
+      title: TestCase/LibraryChecker/lca.Doubling.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.EulerTour.test.py
       title: TestCase/LibraryChecker/lca.EulerTour.test.py

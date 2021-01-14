@@ -206,6 +206,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/cycle_detection.py
       title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
+    - icon: ':x:'
+      path: Graph/misc/topological_sorted.py
+      title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -373,6 +376,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_4_A.test.py
       title: TestCase/AOJ/GRL_4_A.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/GRL_4_B.test.py
+      title: TestCase/AOJ/GRL_4_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_A.test.py
       title: TestCase/AOJ/GRL_5_A.test.py

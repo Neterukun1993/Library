@@ -178,6 +178,9 @@ data:
       path: Graph/SpanningTree/boruvka.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5\
         )"
+    - icon: ':heavy_check_mark:'
+      path: Graph/SpanningTree/directed_mst.py
+      title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
     - icon: ':warning:'
       path: Graph/SpanningTree/kruskal.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5\
@@ -346,6 +349,9 @@ data:
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_2_B.test.py
+      title: TestCase/AOJ/GRL_2_B.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_A.test.py
       title: TestCase/AOJ/GRL_3_A.test.py
     - icon: ':heavy_check_mark:'
@@ -365,6 +371,9 @@ data:
       title: TestCase/AOJ/GRL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/directedmst.test.py
+      title: TestCase/LibraryChecker/directedmst.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py

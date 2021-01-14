@@ -42,8 +42,8 @@ data:
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   requiredBy:
-  - DataStructure/BinaryIndexedTree/inversion_number.py
   - DataStructure/Wavelet/PointAddRectangleSum.py
+  - DataStructure/BinaryIndexedTree/inversion_number.py
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

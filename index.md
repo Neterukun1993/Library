@@ -201,6 +201,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/rerooting.py
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
+  - name: Graph/misc
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/misc/cycle_detection.py
+      title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -366,6 +371,9 @@ data:
       path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
       title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_4_A.test.py
+      title: TestCase/AOJ/GRL_4_A.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_A.test.py
       title: TestCase/AOJ/GRL_5_A.test.py
     - icon: ':heavy_check_mark:'
@@ -373,6 +381,9 @@ data:
       title: TestCase/AOJ/GRL_5_B.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/cycle_detection.test.py
+      title: TestCase/LibraryChecker/cycle_detection.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/directedmst.test.py
       title: TestCase/LibraryChecker/directedmst.test.py

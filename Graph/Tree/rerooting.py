@@ -1,5 +1,4 @@
 def rerooting(n, edges, unit, merge, addnode):
-    root = 0
     tree = [[] for i in range(n)]
     idxs = [[] for i in range(n)]
     for u, v in edges:
@@ -13,15 +12,18 @@ def rerooting(n, edges, unit, merge, addnode):
     # topological sort
     tp_order = []
     par = [-1] * n
-    stack = [root]
-    while stack:
-        v = stack.pop()
-        tp_order.append(v)
-        for nxt_v in tree[v]:
-            if nxt_v == par[v]:
-                continue
-            par[nxt_v] = v
-            stack.append(nxt_v)
+    for root in range(n):
+        if par[root] != -1:
+            continue
+        stack = [root]
+        while stack:
+            v = stack.pop()
+            tp_order.append(v)
+            for nxt_v in tree[v]:
+                if nxt_v == par[v]:
+                    continue
+                par[nxt_v] = v
+                stack.append(nxt_v)
 
     # tree DP
     for v in reversed(tp_order[1:]):
@@ -32,7 +34,8 @@ def rerooting(n, edges, unit, merge, addnode):
                 par_idx = idx
                 continue
             res = merge(res, sub[v][idx])
-        sub[par[v]][idxs[v][par_idx]] = addnode(res, v)
+        if par_idx != -1:
+            sub[par[v]][idxs[v][par_idx]] = addnode(res, v)
 
     # rerooting DP
     for v in tp_order:

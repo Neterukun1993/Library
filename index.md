@@ -135,6 +135,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: DataStructure/misc/SparseTable.py
+    - icon: ':x:'
+      path: DataStructure/misc/SparseTable2D.py
+      title: DataStructure/misc/SparseTable2D.py
   - name: Graph/Decomposition
     pages:
     - icon: ':heavy_check_mark:'
@@ -235,6 +238,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0560.test.py
       title: TestCase/AOJ/0560.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/1068.test.py
+      title: TestCase/AOJ/1068.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/1549.test.py
       title: TestCase/AOJ/1549.test.py

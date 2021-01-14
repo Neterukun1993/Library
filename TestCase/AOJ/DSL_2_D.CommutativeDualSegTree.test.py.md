@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RUQ.py
-    title: DataStructure/SegmentTree/RUQ.py
+    title: RUQ
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

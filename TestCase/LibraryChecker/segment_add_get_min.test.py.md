@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/LiChaoTree.py
-    title: DataStructure/SegmentTree/LiChaoTree.py
+    title: Li-Chao Tree
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

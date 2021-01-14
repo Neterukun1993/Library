@@ -50,41 +50,40 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
-      title: DataStructure/Heap/ParingHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/SkewHeap.py
-      title: DataStructure/Heap/SkewHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
   - name: DataStructure/SegmentTree
     pages:
     - icon: ':warning:'
       path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
-      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(\u53EF\u63DB\u6027\u3092\
-        \u4EEE\u5B9A)"
+      title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
-      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Dual Segment Tree)"
+      title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Dual Segment Tree)"
     - icon: ':warning:'
       path: DataStructure/SegmentTree/LazySegmentTree.py
-      title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment\
+      title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
         \ Tree with Lazy Propagation)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/LiChaoTree.py
-      title: DataStructure/SegmentTree/LiChaoTree.py
+      title: Li-Chao Tree
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RUQ.py
-      title: DataStructure/SegmentTree/RSQ_RUQ.py
+      title: RSQ_RUQ
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RUQ.py
-      title: DataStructure/SegmentTree/RUQ.py
+      title: RUQ
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RmQ_RAQ.py
-      title: DataStructure/SegmentTree/RmQ_RAQ.py
+      title: RmQ_RAQ
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RmQ_RUQ.py
-      title: DataStructure/SegmentTree/RmQ_RUQ.py
+      title: RmQ_RUQ
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.py
-      title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment Tree)"
+      title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree)"
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'

@@ -55,8 +55,5 @@ data:
   - TestCase/LibraryChecker/segment_add_get_min.test.py
 documentation_of: DataStructure/SegmentTree/LiChaoTree.py
 layout: document
-redirect_from:
-- /library/DataStructure/SegmentTree/LiChaoTree.py
-- /library/DataStructure/SegmentTree/LiChaoTree.py.html
-title: DataStructure/SegmentTree/LiChaoTree.py
+title: Li-Chao Tree
 ---

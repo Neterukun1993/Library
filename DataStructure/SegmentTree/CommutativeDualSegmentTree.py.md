@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RUQ.py
-    title: DataStructure/SegmentTree/RUQ.py
+    title: RUQ
   _extendedVerifiedWith: []
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
@@ -36,6 +36,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
 layout: document
-title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(\u53EF\u63DB\u6027\u3092\u4EEE\
-  \u5B9A)"
+title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
 ---

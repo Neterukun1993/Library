@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RAQ.py
-    title: DataStructure/SegmentTree/RmQ_RAQ.py
+    title: RmQ_RAQ
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

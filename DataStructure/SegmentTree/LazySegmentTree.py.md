@@ -4,13 +4,13 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RSQ_RUQ.py
-    title: DataStructure/SegmentTree/RSQ_RUQ.py
+    title: RSQ_RUQ
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RAQ.py
-    title: DataStructure/SegmentTree/RmQ_RAQ.py
+    title: RmQ_RAQ
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RUQ.py
-    title: DataStructure/SegmentTree/RmQ_RUQ.py
+    title: RmQ_RUQ
   _extendedVerifiedWith: []
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
@@ -69,6 +69,6 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/SegmentTree/LazySegmentTree.py
 layout: document
-title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment Tree\
+title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree\
   \ with Lazy Propagation)"
 ---

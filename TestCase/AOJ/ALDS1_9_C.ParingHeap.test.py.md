@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Heap/ParingHeap.py
-    title: DataStructure/Heap/ParingHeap.py
+    title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

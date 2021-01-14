@@ -3,8 +3,8 @@ data:
   _extendedDependsOn:
   - icon: ':warning:'
     path: DataStructure/SegmentTree/LazySegmentTree.py
-    title: "\u9045\u5EF6\u4F1D\u642C\u30BB\u30B0\u30E1\u30F3\u30C8\u6728(Segment Tree\
-      \ with Lazy Propagation)"
+    title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
+      \ Tree with Lazy Propagation)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -39,8 +39,5 @@ data:
   - TestCase/AOJ/DSL_2_I.test.py
 documentation_of: DataStructure/SegmentTree/RSQ_RUQ.py
 layout: document
-redirect_from:
-- /library/DataStructure/SegmentTree/RSQ_RUQ.py
-- /library/DataStructure/SegmentTree/RSQ_RUQ.py.html
-title: DataStructure/SegmentTree/RSQ_RUQ.py
+title: RSQ_RUQ
 ---

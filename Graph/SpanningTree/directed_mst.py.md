@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Heap/SkewHeap.py
-    title: DataStructure/Heap/SkewHeap.py
+    title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
   - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/UnionFind.py
     title: Union Find
@@ -53,8 +53,8 @@ data:
     \ x != idx:\n            used_e[x] = True\n            x = par_e[x]\n    return\
     \ res, par\n"
   dependsOn:
-  - DataStructure/UnionFind/UnionFind.py
   - DataStructure/Heap/SkewHeap.py
+  - DataStructure/UnionFind/UnionFind.py
   isVerificationFile: false
   path: Graph/SpanningTree/directed_mst.py
   requiredBy: []

@@ -12,6 +12,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_1_A.test.py
     title: TestCase/AOJ/DSL_1_A.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/yukicoder/yuki0922.test.py
+    title: TestCase/yukicoder/yuki0922.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -43,6 +46,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_1_A.test.py
+  - TestCase/yukicoder/yuki0922.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document
 title: Union Find

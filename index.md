@@ -456,5 +456,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0922.test.py
+      title: TestCase/yukicoder/yuki0922.test.py
 layout: toppage
 ---

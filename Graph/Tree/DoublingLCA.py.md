@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.Doubling.test.py
     title: TestCase/LibraryChecker/lca.Doubling.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/yukicoder/yuki0922.test.py
+    title: TestCase/yukicoder/yuki0922.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -43,6 +46,7 @@ data:
   timestamp: '2021-01-14 15:15:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/yukicoder/yuki0922.test.py
   - TestCase/LibraryChecker/lca.Doubling.test.py
 documentation_of: Graph/Tree/DoublingLCA.py
 layout: document

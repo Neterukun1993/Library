@@ -1,7 +1,6 @@
 # verification-helper: PROBLEM https://yukicoder.me/problems/no/117
 import sys
 input = sys.stdin.readline
-import re
 
 from Combination.modinv_combination import Combination
 

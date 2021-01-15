@@ -2,12 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':x:'
-    path: TestCase/AOJ/1068.test.py
-    title: TestCase/AOJ/1068.test.py
+  _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -50,9 +47,8 @@ data:
   path: DataStructure/misc/SparseTable2D.py
   requiredBy: []
   timestamp: '2021-01-15 08:16:58+09:00'
-  verificationStatus: LIBRARY_ALL_WA
-  verifiedWith:
-  - TestCase/AOJ/1068.test.py
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
 documentation_of: DataStructure/misc/SparseTable2D.py
 layout: document
 redirect_from:

@@ -45,8 +45,5 @@ data:
   - TestCase/LibraryChecker/queue_operate_all_composite.test.py
 documentation_of: DataStructure/misc/SlidingWindowAggregation.py
 layout: document
-redirect_from:
-- /library/DataStructure/misc/SlidingWindowAggregation.py
-- /library/DataStructure/misc/SlidingWindowAggregation.py.html
-title: DataStructure/misc/SlidingWindowAggregation.py
+title: Sliding Window Aggregation
 ---

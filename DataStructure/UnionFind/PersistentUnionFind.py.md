@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':warning:'
     path: DataStructure/misc/PersistentArray.py
-    title: DataStructure/misc/PersistentArray.py
+    title: "\u6C38\u7D9A\u914D\u5217"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'

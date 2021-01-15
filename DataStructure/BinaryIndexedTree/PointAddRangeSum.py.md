@@ -63,8 +63,5 @@ data:
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
 documentation_of: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
 layout: document
-redirect_from:
-- /library/DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-- /library/DataStructure/BinaryIndexedTree/PointAddRangeSum.py.html
-title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
 ---

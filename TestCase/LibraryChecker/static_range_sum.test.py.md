@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/AccumulateSum/AccumulateSum.py
-    title: "\u7D2F\u7A4D\u548C(Accumulate Sum)"
+    title: "\u7D2F\u7A4D\u548C"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

@@ -28,5 +28,5 @@ data:
   - TestCase/LibraryChecker/static_range_sum.test.py
 documentation_of: DataStructure/AccumulateSum/AccumulateSum.py
 layout: document
-title: "\u7D2F\u7A4D\u548C(Accumulate Sum)"
+title: "\u7D2F\u7A4D\u548C"
 ---

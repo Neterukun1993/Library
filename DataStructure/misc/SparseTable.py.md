@@ -36,8 +36,5 @@ data:
   - TestCase/LibraryChecker/staticrmq.test.py
 documentation_of: DataStructure/misc/SparseTable.py
 layout: document
-redirect_from:
-- /library/DataStructure/misc/SparseTable.py
-- /library/DataStructure/misc/SparseTable.py.html
-title: DataStructure/misc/SparseTable.py
+title: Sparse Table
 ---

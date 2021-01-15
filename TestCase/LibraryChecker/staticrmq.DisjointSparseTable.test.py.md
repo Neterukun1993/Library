@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/misc/DisjointSparseTable.py
-    title: DataStructure/misc/DisjointSparseTable.py
+    title: Disjoint Sparse Table
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

@@ -36,8 +36,5 @@ data:
   - TestCase/AOJ/0560.BIT.test.py
 documentation_of: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
 layout: document
-redirect_from:
-- /library/DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
-- /library/DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py.html
-title: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
+title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
 ---

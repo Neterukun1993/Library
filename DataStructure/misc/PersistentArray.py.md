@@ -39,8 +39,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/misc/PersistentArray.py
 layout: document
-redirect_from:
-- /library/DataStructure/misc/PersistentArray.py
-- /library/DataStructure/misc/PersistentArray.py.html
-title: DataStructure/misc/PersistentArray.py
+title: "\u6C38\u7D9A\u914D\u5217"
 ---

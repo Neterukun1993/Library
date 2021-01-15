@@ -37,5 +37,5 @@ data:
   - TestCase/AOJ/0560.test.py
 documentation_of: DataStructure/AccumulateSum/AccumulateSum2D.py
 layout: document
-title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C(Accumulate Sum 2D)"
+title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C"
 ---

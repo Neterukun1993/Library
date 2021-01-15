@@ -46,8 +46,5 @@ data:
   - TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
 documentation_of: DataStructure/misc/DisjointSparseTable.py
 layout: document
-redirect_from:
-- /library/DataStructure/misc/DisjointSparseTable.py
-- /library/DataStructure/misc/DisjointSparseTable.py.html
-title: DataStructure/misc/DisjointSparseTable.py
+title: Disjoint Sparse Table
 ---

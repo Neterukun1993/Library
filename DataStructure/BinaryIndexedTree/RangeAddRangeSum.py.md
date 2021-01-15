@@ -40,8 +40,5 @@ data:
   - TestCase/AOJ/GRL_5_E.test.py
 documentation_of: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
 layout: document
-redirect_from:
-- /library/DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
-- /library/DataStructure/BinaryIndexedTree/RangeAddRangeSum.py.html
-title: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
+title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
 ---

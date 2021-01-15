@@ -51,8 +51,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/misc/SparseTable2D.py
 layout: document
-redirect_from:
-- /library/DataStructure/misc/SparseTable2D.py
-- /library/DataStructure/misc/SparseTable2D.py.html
-title: DataStructure/misc/SparseTable2D.py
+title: "\u4E8C\u6B21\u5143Sparse Table"
 ---

@@ -13,10 +13,10 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum.py
-      title: "\u7D2F\u7A4D\u548C(Accumulate Sum)"
+      title: "\u7D2F\u7A4D\u548C"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
-      title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C(Accumulate Sum 2D)"
+      title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C"
     - icon: ':warning:'
       path: DataStructure/AccumulateSum/AccumulateSumLR.py
       title: "\u5DE6\u53F3\u304B\u3089\u306E\u7D2F\u7A4D\u548C"
@@ -30,19 +30,19 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-      title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+      title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
-      title: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
+      title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
-      title: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
+      title: "\u533A\u9593\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
-      title: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
+      title: "\u77E9\u5F62\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
-      title: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
+      title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/inversion_number.py
       title: DataStructure/BinaryIndexedTree/inversion_number.py
@@ -128,19 +128,19 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
-      title: DataStructure/misc/DisjointSparseTable.py
+      title: Disjoint Sparse Table
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
-      title: DataStructure/misc/PersistentArray.py
+      title: "\u6C38\u7D9A\u914D\u5217"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SlidingWindowAggregation.py
-      title: DataStructure/misc/SlidingWindowAggregation.py
+      title: Sliding Window Aggregation
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
-      title: DataStructure/misc/SparseTable.py
+      title: Sparse Table
     - icon: ':warning:'
       path: DataStructure/misc/SparseTable2D.py
-      title: DataStructure/misc/SparseTable2D.py
+      title: "\u4E8C\u6B21\u5143Sparse Table"
   - name: Graph/Decomposition
     pages:
     - icon: ':heavy_check_mark:'

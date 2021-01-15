@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/misc/SparseTable.py
-    title: DataStructure/misc/SparseTable.py
+    title: Sparse Table
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

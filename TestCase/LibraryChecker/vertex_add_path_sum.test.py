@@ -32,7 +32,7 @@ def main():
             res = 0
             for l, r in hld.range_vertex_path(u, v):
                 res += bit.sum(l, r)
-        ans.append(res)
+            ans.append(res)
 
     print("\n".join(map(str, ans)))
 

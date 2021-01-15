@@ -28,7 +28,7 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     - icon: ':heavy_check_mark:'
@@ -204,7 +204,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':heavy_check_mark:'
@@ -483,7 +483,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_sat.test.py
       title: TestCase/LibraryChecker/two_sat.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
     - icon: ':heavy_check_mark:'

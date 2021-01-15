@@ -1,10 +1,10 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/HLDecomposition.py
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []

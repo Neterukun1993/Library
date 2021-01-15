@@ -3,7 +3,7 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - icon: ':heavy_check_mark:'
@@ -13,7 +13,7 @@ data:
     path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -69,7 +69,7 @@ data:
   path: Graph/Tree/HLDecomposition.py
   requiredBy: []
   timestamp: '2021-01-16 03:42:28+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/LibraryChecker/vertex_add_path_sum.test.py

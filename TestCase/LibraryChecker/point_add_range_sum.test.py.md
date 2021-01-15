@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   _extendedRequiredBy: []

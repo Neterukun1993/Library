@@ -1,16 +1,16 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/HLDecomposition.py
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/vertex_add_path_sum
     links:
@@ -31,16 +31,16 @@ data:
     \ flag, u, v in queries:\n        if flag == 0:\n            val = v\n       \
     \     bit.add(hld[u], val)\n        else:\n            res = 0\n            for\
     \ l, r in hld.range_vertex_path(u, v):\n                res += bit.sum(l, r)\n\
-    \        ans.append(res)\n\n    print(\"\\n\".join(map(str, ans)))\n\n\nif __name__\
-    \ == '__main__':\n    main()\n"
+    \            ans.append(res)\n\n    print(\"\\n\".join(map(str, ans)))\n\n\nif\
+    \ __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/Tree/HLDecomposition.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/HLDecomposition.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
   requiredBy: []
-  timestamp: '2021-01-16 03:42:28+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-01-16 03:54:02+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/vertex_add_path_sum.test.py
 layout: document

@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   - icon: ':warning:'
@@ -55,8 +55,8 @@ data:
     \            raise KeyError(f'point(x={x}, y={y}) must be pre-given as an argument')\n\
     \        idx = self.idxs[x, y]\n        self.mat.point_add(idx, val)\n"
   dependsOn:
-  - DataStructure/Wavelet/BitVector.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - DataStructure/Wavelet/BitVector.py
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []

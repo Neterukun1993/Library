@@ -81,6 +81,7 @@
 "TestCase/LibraryChecker/tree_diameter.test.py": "2021-01-11 01:21:49 +0900",
 "TestCase/LibraryChecker/two_edge_connected_components.test.py": "2021-01-10 06:54:35 +0900",
 "TestCase/LibraryChecker/two_sat.test.py": "2021-01-10 04:02:27 +0900",
+"TestCase/LibraryChecker/vertex_add_path_sum.test.py": "2021-01-16 03:54:02 +0900",
 "TestCase/LibraryChecker/vertex_add_subtree_sum.test.py": "2021-01-16 03:42:28 +0900",
 "TestCase/LibraryChecker/zalgorithm.test.py": "2021-01-05 22:30:17 +0900",
 "TestCase/yukicoder/yuki0117.test.py": "2021-01-15 11:26:51 +0900",

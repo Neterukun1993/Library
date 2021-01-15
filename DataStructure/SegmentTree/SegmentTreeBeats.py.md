@@ -2,12 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':x:'
-    path: TestCase/LibraryChecker/range_chmin_chmax_add_range_sum.test.py
-    title: TestCase/LibraryChecker/range_chmin_chmax_add_range_sum.test.py
+  _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -99,9 +96,8 @@ data:
   path: DataStructure/SegmentTree/SegmentTreeBeats.py
   requiredBy: []
   timestamp: '2021-01-15 08:52:59+09:00'
-  verificationStatus: LIBRARY_ALL_WA
-  verifiedWith:
-  - TestCase/LibraryChecker/range_chmin_chmax_add_range_sum.test.py
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
 documentation_of: DataStructure/SegmentTree/SegmentTreeBeats.py
 layout: document
 title: Segment Tree Beats

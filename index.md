@@ -87,7 +87,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.py
       title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree)"
-    - icon: ':x:'
+    - icon: ':warning:'
       path: DataStructure/SegmentTree/SegmentTreeBeats.py
       title: Segment Tree Beats
   - name: DataStructure/UnionFind
@@ -177,7 +177,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/warshall_floyd.py
       title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
   - name: Graph/SpanningTree
@@ -438,9 +438,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
-    - icon: ':x:'
-      path: TestCase/LibraryChecker/range_chmin_chmax_add_range_sum.test.py
-      title: TestCase/LibraryChecker/range_chmin_chmax_add_range_sum.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
@@ -488,7 +485,7 @@ data:
       title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0117.test.py
       title: TestCase/yukicoder/yuki0117.test.py
     - icon: ':heavy_check_mark:'

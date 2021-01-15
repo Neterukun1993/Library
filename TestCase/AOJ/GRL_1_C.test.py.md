@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph/ShortestPath/warshall_floyd.py
+    title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py
@@ -24,11 +27,12 @@ data:
     \    if negative:\n        print(\"NEGATIVE CYCLE\")\n    else:\n        for res\
     \ in dist:\n            print(*[num if num < 10 ** 15 else \"INF\" for num in\
     \ res])\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/ShortestPath/warshall_floyd.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_1_C.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-15 11:26:51+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_1_C.test.py

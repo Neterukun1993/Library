@@ -28,7 +28,7 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':question:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     - icon: ':heavy_check_mark:'
@@ -204,6 +204,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
+    - icon: ':question:'
+      path: Graph/Tree/HLDecomposition.py
+      title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
@@ -480,6 +483,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_sat.test.py
       title: TestCase/LibraryChecker/two_sat.test.py
+    - icon: ':x:'
+      path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
+      title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+      title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/zalgorithm.test.py
       title: TestCase/LibraryChecker/zalgorithm.test.py
@@ -491,6 +500,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+      title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.test.py
       title: TestCase/yukicoder/yuki0922.test.py

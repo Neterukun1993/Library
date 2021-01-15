@@ -13,6 +13,9 @@ data:
     path: TestCase/AOJ/DSL_1_A.test.py
     title: TestCase/AOJ/DSL_1_A.test.py
   - icon: ':heavy_check_mark:'
+    path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+    title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0922.test.py
     title: TestCase/yukicoder/yuki0922.test.py
   _pathExtension: py
@@ -45,6 +48,7 @@ data:
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py
   - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py

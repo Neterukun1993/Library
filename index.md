@@ -406,6 +406,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_B.test.py
       title: TestCase/AOJ/GRL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_5_D.test.py
+      title: TestCase/AOJ/GRL_5_D.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_5_E.test.py
+      title: TestCase/AOJ/GRL_5_E.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'
@@ -423,6 +429,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.EulerTour.test.py
       title: TestCase/LibraryChecker/lca.EulerTour.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/lca.HLDecomposition.test.py
+      title: TestCase/LibraryChecker/lca.HLDecomposition.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py

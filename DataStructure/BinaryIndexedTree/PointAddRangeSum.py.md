@@ -13,6 +13,9 @@ data:
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
     title: TestCase/AOJ/DSL_2_B.BIT.test.py
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_5_D.test.py
+    title: TestCase/AOJ/GRL_5_D.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/point_add_range_sum.test.py
     title: TestCase/LibraryChecker/point_add_range_sum.test.py
   - icon: ':heavy_check_mark:'
@@ -54,6 +57,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_B.BIT.test.py
+  - TestCase/AOJ/GRL_5_D.test.py
   - TestCase/LibraryChecker/point_add_range_sum.test.py
   - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py

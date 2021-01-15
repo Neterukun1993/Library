@@ -4,6 +4,15 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_5_D.test.py
+    title: TestCase/AOJ/GRL_5_D.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_5_E.test.py
+    title: TestCase/AOJ/GRL_5_E.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/lca.HLDecomposition.test.py
+    title: TestCase/LibraryChecker/lca.HLDecomposition.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - icon: ':heavy_check_mark:'
@@ -72,8 +81,11 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - TestCase/AOJ/GRL_5_E.test.py
+  - TestCase/AOJ/GRL_5_D.test.py
   - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+  - TestCase/LibraryChecker/lca.HLDecomposition.test.py
 documentation_of: Graph/Tree/HLDecomposition.py
 layout: document
 title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"

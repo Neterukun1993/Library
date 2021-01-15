@@ -6,6 +6,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_G.test.py
     title: TestCase/AOJ/DSL_2_G.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_5_E.test.py
+    title: TestCase/AOJ/GRL_5_E.test.py
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -34,6 +37,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_G.test.py
+  - TestCase/AOJ/GRL_5_E.test.py
 documentation_of: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
 layout: document
 redirect_from:

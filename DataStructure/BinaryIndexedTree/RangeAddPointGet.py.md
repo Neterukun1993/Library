@@ -37,3 +37,12 @@ documentation_of: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
 layout: document
 title: "\u533A\u9593\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
 ---
+## 使い方
+`BinaryIndexedTree(n: int)`  
+長さ $n$ の Binary Indexed Tree を構築する。初期値はすべて $0$ である。計算量 $\mathrm{O}(n)$
+- `build(array: List[Any]) -> None`  
+Binary Indexed Tree を `array` で初期化する。計算量 $\mathrm{O}(n)$
+- `__getitem__(i: int) -> Any`  
+$i$ 番目の要素を返す。計算量 $\mathrm{O}(\log n)$
+- `add(l: int, r: int, val: Any) -> None`  
+$\lbrack l, r)$ 番目の要素それぞれに `val` を加える。計算量 $\mathrm{O}(\log n)$

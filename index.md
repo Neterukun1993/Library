@@ -8,7 +8,7 @@ data:
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
     - icon: ':heavy_check_mark:'
       path: Combination/twelvefold_way.py
-      title: "\u5199\u50CF12\u76F8(twelvefold way)"
+      title: "\u5199\u50CF12\u76F8"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'

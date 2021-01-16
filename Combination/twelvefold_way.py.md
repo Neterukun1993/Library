@@ -149,5 +149,5 @@ data:
   - TestCase/AOJ/DPL_5_H.test.py
 documentation_of: Combination/twelvefold_way.py
 layout: document
-title: "\u5199\u50CF12\u76F8(twelvefold way)"
+title: "\u5199\u50CF12\u76F8"
 ---

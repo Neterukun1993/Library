@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
-    title: "\u5199\u50CF12\u76F8(twelvefold way)"
+    title: "\u5199\u50CF12\u76F8"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_E.naive.test.py
@@ -65,5 +65,5 @@ ${}_k\mathrm{P}_r$ を返す。計算量 $\mathrm{O}(1)$
 - `comb(k: int, r: int) -> int`  
 ${}_k\mathrm{C}_r$ を返す。計算量 $\mathrm{O}(1)$
 
-`combination(k: int, r: int, MOD: int)`  
+`combination(k: int, r: int, MOD: int) -> int`  
 $\mathrm{MOD}$ 上での ${}_k\mathrm{C}_r$ をナイーブに計算して返す。計算量 $\mathrm{O}(\min(r, k - r))$

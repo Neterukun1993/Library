@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
-    title: "\u5199\u50CF12\u76F8(twelvefold way)"
+    title: "\u5199\u50CF12\u76F8"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: py

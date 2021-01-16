@@ -228,7 +228,10 @@ data:
       title: String/Manacher.py
     - icon: ':heavy_check_mark:'
       path: String/SA_nlogn.py
-      title: String/SA_nlogn.py
+      title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
+    - icon: ':heavy_check_mark:'
+      path: String/SA_nlogn2.py
+      title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log^2 N))$)"
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
@@ -483,6 +486,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
+      title: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py

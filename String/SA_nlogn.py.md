@@ -56,8 +56,5 @@ data:
   - TestCase/LibraryChecker/suffixarray.nlogn.test.py
 documentation_of: String/SA_nlogn.py
 layout: document
-redirect_from:
-- /library/String/SA_nlogn.py
-- /library/String/SA_nlogn.py.html
-title: String/SA_nlogn.py
+title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
 ---

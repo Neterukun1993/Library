@@ -51,6 +51,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/DAryHeap.py
       title: D-Ary Heap
+    - icon: ':warning:'
+      path: DataStructure/Heap/LeftistHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
@@ -65,7 +68,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Dual Segment Tree)"
-    - icon: ':x:'
+    - icon: ':warning:'
       path: DataStructure/SegmentTree/LazySegmentTree.py
       title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
         \ Tree with Lazy Propagation)"
@@ -456,9 +459,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
-    - icon: ':x:'
-      path: TestCase/LibraryChecker/range_affine_range_sum.test.py
-      title: TestCase/LibraryChecker/range_affine_range_sum.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py

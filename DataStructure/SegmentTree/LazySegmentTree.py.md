@@ -11,12 +11,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RUQ.py
     title: RmQ_RUQ
-  _extendedVerifiedWith:
-  - icon: ':x:'
-    path: TestCase/LibraryChecker/range_affine_range_sum.test.py
-    title: TestCase/LibraryChecker/range_affine_range_sum.test.py
+  _extendedVerifiedWith: []
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -68,9 +65,8 @@ data:
   - DataStructure/SegmentTree/RmQ_RAQ.py
   - DataStructure/SegmentTree/RmQ_RUQ.py
   timestamp: '2021-01-02 17:11:03+09:00'
-  verificationStatus: LIBRARY_ALL_WA
-  verifiedWith:
-  - TestCase/LibraryChecker/range_affine_range_sum.test.py
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
 documentation_of: DataStructure/SegmentTree/LazySegmentTree.py
 layout: document
 title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree\

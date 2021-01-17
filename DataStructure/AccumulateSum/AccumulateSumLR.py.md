@@ -41,4 +41,4 @@ $\lbrack 0, upper)$ 番目の要素の累積を返す。計算量 $\mathrm{O}(1)
 - `right_fold(upper: int) -> Any`  
 $\lbrack lower, n)$ 番目の要素の累積を返す。計算量 $\mathrm{O}(1)$
 - `fold(ex_idx: int) -> Any`  
-$ex\_idx$ 番目を除いたすべての要素の累積を返す。計算量 $\mathrm{O}(1)$
+$ex \_ idx$ 番目を除いたすべての要素の累積を返す。計算量 $\mathrm{O}(1)$

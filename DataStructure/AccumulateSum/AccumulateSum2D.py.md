@@ -39,3 +39,8 @@ documentation_of: DataStructure/AccumulateSum/AccumulateSum2D.py
 layout: document
 title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C"
 ---
+## 使い方
+`AccumulateSum2D(matrix: List[List[Any])`  
+`matrix` の二次元累積和を構築する。`matrix` のサイズを $h × w$ としたとき、計算量 $\mathrm{O}(hw)$
+- `sum(hl: int, hr: int, wl: int, wr: int) -> Any`  
+矩形範囲 $\lbrack hl, hr) × \lbrack wl, wr)$ の要素の総和を返す。計算量 $\mathrm{O}(1)$

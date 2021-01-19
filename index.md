@@ -58,6 +58,9 @@ data:
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/RandomizedMeldableHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Randomized Meldable Heap)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/SkewHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
   - name: DataStructure/SegmentTree
@@ -241,6 +244,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
+  - name: misc
+    pages:
+    - icon: ':warning:'
+      path: misc/xorshift.py
+      title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -280,6 +288,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py

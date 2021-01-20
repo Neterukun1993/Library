@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: TestCase/AOJ/2667.py
+    title: TestCase/AOJ/2667.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_D.test.py
@@ -76,7 +79,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/HLDecomposition.py
-  requiredBy: []
+  requiredBy:
+  - TestCase/AOJ/2667.py
   timestamp: '2021-01-16 03:42:28+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

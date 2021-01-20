@@ -244,6 +244,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
+  - name: TestCase/AOJ
+    pages:
+    - icon: ':warning:'
+      path: TestCase/AOJ/2667.py
+      title: TestCase/AOJ/2667.py
   - name: misc
     pages:
     - icon: ':warning:'

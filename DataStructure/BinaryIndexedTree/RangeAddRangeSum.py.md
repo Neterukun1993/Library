@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: TestCase/AOJ/2667.py
+    title: TestCase/AOJ/2667.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_G.test.py
@@ -32,7 +35,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
-  requiredBy: []
+  requiredBy:
+  - TestCase/AOJ/2667.py
   timestamp: '2021-01-02 01:52:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

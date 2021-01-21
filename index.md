@@ -224,6 +224,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/cycle_detection.py
       title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
+    - icon: ':heavy_check_mark:'
+      path: Graph/misc/enumerate_triangles.py
+      title: Graph/misc/enumerate_triangles.py
     - icon: ':warning:'
       path: Graph/misc/topological_sorted.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
@@ -244,11 +247,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
-  - name: TestCase/AOJ
-    pages:
-    - icon: ':warning:'
-      path: TestCase/AOJ/2667.py
-      title: TestCase/AOJ/2667.py
   - name: misc
     pages:
     - icon: ':warning:'
@@ -272,6 +270,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2235.test.py
       title: TestCase/AOJ/2235.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/2667.test.py
+      title: TestCase/AOJ/2667.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py
@@ -448,6 +449,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/enumerate_triangles.test.py
+      title: TestCase/LibraryChecker/enumerate_triangles.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.Doubling.test.py
       title: TestCase/LibraryChecker/lca.Doubling.test.py

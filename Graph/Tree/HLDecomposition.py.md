@@ -1,11 +1,11 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: TestCase/AOJ/2667.py
-    title: TestCase/AOJ/2667.py
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/2667.test.py
+    title: TestCase/AOJ/2667.test.py
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_D.test.py
     title: TestCase/AOJ/GRL_5_D.test.py
@@ -79,17 +79,17 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/HLDecomposition.py
-  requiredBy:
-  - TestCase/AOJ/2667.py
+  requiredBy: []
   timestamp: '2021-01-16 03:42:28+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
-  - TestCase/AOJ/GRL_5_E.test.py
+  - TestCase/AOJ/2667.test.py
   - TestCase/AOJ/GRL_5_D.test.py
-  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
-  - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+  - TestCase/AOJ/GRL_5_E.test.py
+  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/LibraryChecker/lca.HLDecomposition.test.py
+  - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
 documentation_of: Graph/Tree/HLDecomposition.py
 layout: document
 title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"

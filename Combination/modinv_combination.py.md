@@ -45,8 +45,8 @@ data:
   timestamp: '2021-01-06 00:51:01+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/yukicoder/yuki0117.test.py
   - TestCase/AOJ/DPL_5_E.naive.test.py
+  - TestCase/yukicoder/yuki0117.test.py
 documentation_of: Combination/modinv_combination.py
 layout: document
 title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"

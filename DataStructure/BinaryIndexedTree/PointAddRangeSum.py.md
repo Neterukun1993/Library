@@ -51,16 +51,16 @@ data:
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   requiredBy:
-  - DataStructure/Wavelet/PointAddRectangleSum.py
   - DataStructure/BinaryIndexedTree/inversion_number.py
+  - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_B.BIT.test.py
   - TestCase/AOJ/GRL_5_D.test.py
   - TestCase/LibraryChecker/point_add_range_sum.test.py
-  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
 documentation_of: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
 layout: document
 title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"

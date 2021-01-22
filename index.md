@@ -247,6 +247,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/Trie.py
       title: "Trie\u6728"
+    - icon: ':warning:'
+      path: String/runlength_compress.py
+      title: String/runlength_compress.py
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm

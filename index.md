@@ -239,6 +239,9 @@ data:
       path: String/Manacher.py
       title: String/Manacher.py
     - icon: ':heavy_check_mark:'
+      path: String/RollingHash.py
+      title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
+    - icon: ':heavy_check_mark:'
       path: String/SA_nlogn.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
     - icon: ':heavy_check_mark:'
@@ -547,6 +550,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0430.RollingHash.test.py
+      title: TestCase/yukicoder/yuki0430.RollingHash.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.test.py
       title: TestCase/yukicoder/yuki0430.test.py

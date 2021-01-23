@@ -6,6 +6,7 @@ data:
     title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

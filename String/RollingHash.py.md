@@ -4,8 +4,12 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/ALDS1_14_B.test.py
+    title: TestCase/AOJ/ALDS1_14_B.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0430.RollingHash.test.py
     title: TestCase/yukicoder/yuki0430.RollingHash.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -22,10 +26,10 @@ data:
     \ self.BASE)\n                                             + ord(char))\n    \
     \        self.pow[i + 1] = self.calc_mod(self.mul(self.pow[i], self.BASE))\n\n\
     \    def calc_mod(self, x):\n        xu = x >> 61\n        xd = x & self.MASK61\n\
-    \        x = xu + xd\n        if x >= self.MOD:\n            x -= MASK61\n   \
-    \     return x\n\n    def mul(self, a, b):\n        au = a >> 31\n        ad =\
-    \ a & self.MASK31\n        bu = b >> 31\n        bd = b & self.MASK31\n      \
-    \  mid = ad * bu + au * bd\n        midu = mid >> 30\n        midd = mid & self.MASK30\n\
+    \        x = xu + xd\n        if x >= self.MOD:\n            x -= self.MOD\n \
+    \       return x\n\n    def mul(self, a, b):\n        au = a >> 31\n        ad\
+    \ = a & self.MASK31\n        bu = b >> 31\n        bd = b & self.MASK31\n    \
+    \    mid = ad * bu + au * bd\n        midu = mid >> 30\n        midd = mid & self.MASK30\n\
     \        return self.calc_mod(au * bu * 2 + midu + (midd << 31) + ad * bd)\n\n\
     \    def get_hash(self, l, r):\n        res = self.calc_mod(self.hash[r]\n   \
     \                         - self.mul(self.hash[l], self.pow[r - l]))\n       \
@@ -39,9 +43,10 @@ data:
   isVerificationFile: false
   path: String/RollingHash.py
   requiredBy: []
-  timestamp: '2021-01-22 23:53:32+09:00'
+  timestamp: '2021-01-23 23:52:48+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/ALDS1_14_B.test.py
   - TestCase/yukicoder/yuki0430.RollingHash.test.py
 documentation_of: String/RollingHash.py
 layout: document

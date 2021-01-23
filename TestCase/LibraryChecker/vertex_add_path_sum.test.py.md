@@ -9,6 +9,7 @@ data:
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

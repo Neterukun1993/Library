@@ -9,6 +9,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/scc.Kosaraju.test.py
     title: TestCase/LibraryChecker/scc.Kosaraju.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

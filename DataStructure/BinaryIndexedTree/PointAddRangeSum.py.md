@@ -24,6 +24,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

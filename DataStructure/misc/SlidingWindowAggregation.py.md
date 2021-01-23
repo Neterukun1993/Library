@@ -12,6 +12,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
     title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

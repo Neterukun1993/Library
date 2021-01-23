@@ -9,6 +9,7 @@ data:
     title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -30,8 +31,8 @@ data:
     \ addnode)\n    print(max([l1 + l2 for l1, l2 in ans[:n]]))\n\n\nif __name__ ==\
     \ '__main__':\n    main()\n"
   dependsOn:
-  - Graph/edge_to_vertex.py
   - Graph/Tree/rerooting.py
+  - Graph/edge_to_vertex.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_A.test.py
   requiredBy: []

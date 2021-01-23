@@ -6,6 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.EulerTour.test.py
     title: TestCase/LibraryChecker/lca.EulerTour.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

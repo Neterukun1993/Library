@@ -6,6 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/enumerate_palindromes.test.py
     title: TestCase/LibraryChecker/enumerate_palindromes.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

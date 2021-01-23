@@ -9,6 +9,7 @@ data:
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
@@ -33,8 +34,8 @@ data:
     \ r = hld.range_subtree(u)\n            ans.append(bit.sum(l, r))\n\n    print(\"\
     \\n\".join(map(str, ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/Tree/HLDecomposition.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/HLDecomposition.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
   requiredBy: []

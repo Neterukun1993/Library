@@ -6,6 +6,7 @@ data:
     title: "\u77E9\u5F62\u548C\u53D6\u5F97"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

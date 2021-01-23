@@ -6,6 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
     title: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

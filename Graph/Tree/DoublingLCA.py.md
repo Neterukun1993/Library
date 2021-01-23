@@ -9,6 +9,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0922.test.py
     title: TestCase/yukicoder/yuki0922.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

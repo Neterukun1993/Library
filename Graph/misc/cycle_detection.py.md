@@ -9,6 +9,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/cycle_detection.test.py
     title: TestCase/LibraryChecker/cycle_detection.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

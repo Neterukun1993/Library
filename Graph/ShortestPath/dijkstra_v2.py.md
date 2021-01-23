@@ -6,6 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_12_B.test.py
     title: TestCase/AOJ/ALDS1_12_B.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

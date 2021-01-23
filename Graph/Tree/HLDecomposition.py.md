@@ -24,6 +24,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

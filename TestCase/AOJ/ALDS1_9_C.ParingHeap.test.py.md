@@ -6,6 +6,7 @@ data:
     title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

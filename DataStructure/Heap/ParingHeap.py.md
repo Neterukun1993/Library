@@ -6,6 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
     title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

@@ -15,6 +15,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
     title: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

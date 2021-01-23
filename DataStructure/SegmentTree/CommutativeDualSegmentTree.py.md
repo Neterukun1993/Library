@@ -6,6 +6,7 @@ data:
     path: DataStructure/SegmentTree/RUQ.py
     title: RUQ
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
   attributes:

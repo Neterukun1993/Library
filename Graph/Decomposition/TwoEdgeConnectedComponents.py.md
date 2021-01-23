@@ -10,6 +10,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/two_edge_connected_components.test.py
     title: TestCase/LibraryChecker/two_edge_connected_components.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

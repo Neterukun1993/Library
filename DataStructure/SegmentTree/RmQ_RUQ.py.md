@@ -10,6 +10,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_F.test.py
     title: TestCase/AOJ/DSL_2_F.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

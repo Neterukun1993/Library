@@ -7,6 +7,7 @@ data:
       \u30B4\u30EA\u30BA\u30E0)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

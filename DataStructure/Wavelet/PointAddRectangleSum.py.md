@@ -12,6 +12,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
     title: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

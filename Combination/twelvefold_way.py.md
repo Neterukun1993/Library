@@ -42,6 +42,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_L.test.py
     title: TestCase/AOJ/DPL_5_L.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

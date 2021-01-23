@@ -9,6 +9,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
     title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

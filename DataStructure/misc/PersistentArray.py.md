@@ -6,6 +6,7 @@ data:
     path: DataStructure/UnionFind/PersistentUnionFind.py
     title: "\u6C38\u7D9AUnion Find"
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
   attributes:

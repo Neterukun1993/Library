@@ -12,6 +12,7 @@ data:
     path: DataStructure/SegmentTree/RmQ_RUQ.py
     title: RmQ_RUQ
   _extendedVerifiedWith: []
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':warning:'
   attributes:

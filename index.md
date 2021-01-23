@@ -286,6 +286,9 @@ data:
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_14_B.test.py
+      title: TestCase/AOJ/ALDS1_14_B.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
     - icon: ':heavy_check_mark:'

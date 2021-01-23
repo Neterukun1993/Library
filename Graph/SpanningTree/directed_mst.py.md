@@ -15,6 +15,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/directedmst.test.py
     title: TestCase/LibraryChecker/directedmst.test.py
+  _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:

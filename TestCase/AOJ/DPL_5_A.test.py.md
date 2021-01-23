@@ -1,40 +1,38 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: Combination\twelvefold_way.py
+  - icon: ':x:'
+    path: Combination/twelvefold_way.py
     title: "\u5199\u50CF12\u76F8"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_A
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_A
-  bundledCode: "Traceback (most recent call last):\n  File \"c:\\hostedtoolcache\\\
-    windows\\python\\3.9.1\\x64\\lib\\site-packages\\onlinejudge_verify\\documentation\\\
-    build.py\", line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"c:\\\
-    hostedtoolcache\\windows\\python\\3.9.1\\x64\\lib\\site-packages\\onlinejudge_verify\\\
-    languages\\python.py\", line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_A\r\
-    \nimport sys\r\ninput = sys.stdin.readline\r\n\r\nfrom Combination.twelvefold_way\
-    \ import way1\r\n\r\n\r\ndef main():\r\n    n, k = map(int, input().split())\r\
-    \n    print(way1(n, k))\r\n\r\n\r\nif __name__ == '__main__':\r\n    main()\r\n"
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
+  code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_5_A\n\
+    import sys\ninput = sys.stdin.readline\n\nfrom Combination.twelvefold_way import\
+    \ way1\n\n\ndef main():\n    n, k = map(int, input().split())\n    print(way1(n,\
+    \ k))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Combination\twelvefold_way.py
+  - Combination/twelvefold_way.py
   isVerificationFile: true
-  path: TestCase\AOJ\DPL_5_A.test.py
+  path: TestCase/AOJ/DPL_5_A.test.py
   requiredBy: []
   timestamp: '2021-01-02 20:30:23+09:00'
-  verificationStatus: TEST_ACCEPTED
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
-documentation_of: TestCase\AOJ\DPL_5_A.test.py
+documentation_of: TestCase/AOJ/DPL_5_A.test.py
 layout: document
 redirect_from:
-- /verify\TestCase\AOJ\DPL_5_A.test.py
-- /verify\TestCase\AOJ\DPL_5_A.test.py.html
-title: TestCase\AOJ\DPL_5_A.test.py
+- /verify/TestCase/AOJ/DPL_5_A.test.py
+- /verify/TestCase/AOJ/DPL_5_A.test.py.html
+title: TestCase/AOJ/DPL_5_A.test.py
 ---

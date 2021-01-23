@@ -1,10 +1,10 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
     title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
-  - icon: ':x:'
+  - icon: ':question:'
     path: Graph/Tree/HLDecomposition.py
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
@@ -35,8 +35,8 @@ data:
     \    res += bit.sum(l, r)\n            ans.append(res)\n\n    print('\\n'.join(map(str,\
     \ ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/Tree/HLDecomposition.py
   - DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
+  - Graph/Tree/HLDecomposition.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_E.test.py
   requiredBy: []

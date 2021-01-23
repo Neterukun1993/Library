@@ -6,12 +6,12 @@ data:
     title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/2235.test.py
     title: TestCase/AOJ/2235.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -52,7 +52,7 @@ data:
   path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
   requiredBy: []
   timestamp: '2021-01-04 02:54:49+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2235.test.py
 documentation_of: DataStructure/UnionFind/OfflineDynamicConnectivity.py

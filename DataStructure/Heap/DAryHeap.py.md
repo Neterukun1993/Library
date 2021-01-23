@@ -3,21 +3,21 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
     title: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
     title: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
     title: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
     title: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -46,7 +46,7 @@ data:
   path: DataStructure/Heap/DAryHeap.py
   requiredBy: []
   timestamp: '2021-01-15 07:30:33+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
   - TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py

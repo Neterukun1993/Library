@@ -40,21 +40,21 @@ data:
     - icon: ':x:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
       title: "\u77E9\u5F62\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
-    - icon: ':x:'
+    - icon: ':question:'
       path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
       title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/inversion_number.py
       title: DataStructure/BinaryIndexedTree/inversion_number.py
   - name: DataStructure/Heap
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/DAryHeap.py
       title: D-Ary Heap
     - icon: ':warning:'
       path: DataStructure/Heap/LeftistHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':warning:'
@@ -101,7 +101,7 @@ data:
       title: Segment Tree Beats
   - name: DataStructure/UnionFind
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
       title: Offline Dynamic Connectivity
     - icon: ':x:'
@@ -183,7 +183,7 @@ data:
     - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
     - icon: ':x:'
@@ -216,7 +216,7 @@ data:
     - icon: ':x:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
-    - icon: ':x:'
+    - icon: ':question:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':x:'
@@ -241,9 +241,12 @@ data:
     - icon: ':x:'
       path: String/Manacher.py
       title: String/Manacher.py
-    - icon: ':x:'
+    - icon: ':question:'
       path: String/RollingHash.py
       title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
+    - icon: ':warning:'
+      path: String/RollingHash2D.py
+      title: String/RollingHash2D.py
     - icon: ':x:'
       path: String/SA_nlogn.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
@@ -279,34 +282,34 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/1549.test.py
       title: TestCase/AOJ/1549.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2235.test.py
       title: TestCase/AOJ/2235.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2667.test.py
       title: TestCase/AOJ/2667.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_14_B.test.py
       title: TestCase/AOJ/ALDS1_14_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
       title: TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
       title: TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
       title: TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
       title: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
     - icon: ':x:'

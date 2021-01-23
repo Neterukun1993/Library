@@ -3,7 +3,7 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_14_B.test.py
     title: TestCase/AOJ/ALDS1_14_B.test.py
   - icon: ':x:'
@@ -11,7 +11,7 @@ data:
     title: TestCase/yukicoder/yuki0430.RollingHash.test.py
   _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -44,7 +44,7 @@ data:
   path: String/RollingHash.py
   requiredBy: []
   timestamp: '2021-01-23 23:52:48+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/AOJ/ALDS1_14_B.test.py
   - TestCase/yukicoder/yuki0430.RollingHash.test.py

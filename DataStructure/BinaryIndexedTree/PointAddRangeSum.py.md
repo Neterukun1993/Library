@@ -2,7 +2,7 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
     title: DataStructure/BinaryIndexedTree/inversion_number.py
   - icon: ':x:'

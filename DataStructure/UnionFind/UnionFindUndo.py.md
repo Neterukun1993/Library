@@ -2,7 +2,7 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
     title: Offline Dynamic Connectivity
   _extendedVerifiedWith:

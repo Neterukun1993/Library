@@ -19,7 +19,7 @@ class RollingHash:
         xd = x & self.MASK61
         x = xu + xd
         if x >= self.MOD:
-            x -= MASK61
+            x -= self.MOD
         return x
 
     def mul(self, a, b):

@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph\SpanningTree\prim.py
+    title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -10,27 +13,31 @@ data:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
-    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
-    , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A\n\
-    import sys\ninput = sys.stdin.readline\n\nfrom Graph.SpanningTree.prim import\
-    \ prim\n\n\ndef main():\n    n, m = map(int, input().split())\n    edges = [list(map(int,\
-    \ input().split())) for i in range(m)]\n\n    graph = [[] for i in range(n)]\n\
-    \    for u, v, cost in edges:\n        graph[u].append((v, cost))\n        graph[v].append((u,\
-    \ cost))\n\n    print(prim(graph))\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  bundledCode: "Traceback (most recent call last):\n  File \"c:\\hostedtoolcache\\\
+    windows\\python\\3.9.1\\x64\\lib\\site-packages\\onlinejudge_verify\\documentation\\\
+    build.py\", line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"c:\\\
+    hostedtoolcache\\windows\\python\\3.9.1\\x64\\lib\\site-packages\\onlinejudge_verify\\\
+    languages\\python.py\", line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
+  code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A\r\
+    \nimport sys\r\ninput = sys.stdin.readline\r\n\r\nfrom Graph.SpanningTree.prim\
+    \ import prim\r\n\r\n\r\ndef main():\r\n    n, m = map(int, input().split())\r\
+    \n    edges = [list(map(int, input().split())) for i in range(m)]\r\n\r\n    graph\
+    \ = [[] for i in range(n)]\r\n    for u, v, cost in edges:\r\n        graph[u].append((v,\
+    \ cost))\r\n        graph[v].append((u, cost))\r\n\r\n    print(prim(graph))\r\
+    \n\r\n\r\nif __name__ == '__main__':\r\n    main()\r\n"
+  dependsOn:
+  - Graph\SpanningTree\prim.py
   isVerificationFile: true
-  path: TestCase/AOJ/GRL_2_A.prim.test.py
+  path: TestCase\AOJ\GRL_2_A.prim.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-04 21:14:46+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: TestCase/AOJ/GRL_2_A.prim.test.py
+documentation_of: TestCase\AOJ\GRL_2_A.prim.test.py
 layout: document
 redirect_from:
-- /verify/TestCase/AOJ/GRL_2_A.prim.test.py
-- /verify/TestCase/AOJ/GRL_2_A.prim.test.py.html
-title: TestCase/AOJ/GRL_2_A.prim.test.py
+- /verify\TestCase\AOJ\GRL_2_A.prim.test.py
+- /verify\TestCase\AOJ\GRL_2_A.prim.test.py.html
+title: TestCase\AOJ\GRL_2_A.prim.test.py
 ---

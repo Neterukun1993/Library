@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
-    title: DataStructure/BinaryIndexedTree/inversion_number.py
+    title: "\u8EE2\u5012\u6570"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

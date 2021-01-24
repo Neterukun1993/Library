@@ -4,12 +4,12 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
-    title: DataStructure/BinaryIndexedTree/inversion_number.py
+    title: "\u8EE2\u5012\u6570"
   - icon: ':x:'
     path: DataStructure/Wavelet/PointAddRectangleSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
     title: TestCase/AOJ/DSL_2_B.BIT.test.py
   - icon: ':x:'
@@ -26,7 +26,7 @@ data:
     title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
   _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -55,7 +55,7 @@ data:
   - DataStructure/BinaryIndexedTree/inversion_number.py
   - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-02 01:05:58+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/AOJ/DSL_2_B.BIT.test.py
   - TestCase/AOJ/GRL_5_D.test.py

@@ -20,7 +20,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/AccumulateSum/AccumulateSumLR.py
       title: "\u5DE6\u53F3\u304B\u3089\u306E\u7D2F\u7A4D\u548C"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos.py
       title: "\u3044\u3082\u3059\u6CD5"
     - icon: ':x:'
@@ -28,16 +28,16 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
-    - icon: ':x:'
+    - icon: ':question:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum2D.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet.py
       title: "\u533A\u9593\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
       title: "\u77E9\u5F62\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
     - icon: ':question:'
@@ -45,7 +45,7 @@ data:
       title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/inversion_number.py
-      title: DataStructure/BinaryIndexedTree/inversion_number.py
+      title: "\u8EE2\u5012\u6570"
   - name: DataStructure/Heap
     pages:
     - icon: ':heavy_check_mark:'
@@ -59,7 +59,7 @@ data:
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':warning:'
       path: DataStructure/Heap/RadixHeap.py
-      title: DataStructure/Heap/RadixHeap.py
+      title: Radix Heap
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RandomizedMeldableHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Randomized Meldable Heap)"
@@ -71,7 +71,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
       title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Dual Segment Tree)"
     - icon: ':warning:'
@@ -81,19 +81,19 @@ data:
     - icon: ':x:'
       path: DataStructure/SegmentTree/LiChaoTree.py
       title: Li-Chao Tree
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RUQ.py
       title: RSQ_RUQ
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RUQ.py
       title: RUQ
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RmQ_RAQ.py
       title: RmQ_RAQ
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RmQ_RUQ.py
       title: RmQ_RUQ
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/SegmentTree.py
       title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree)"
     - icon: ':warning:'
@@ -141,7 +141,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
-    - icon: ':x:'
+    - icon: ':question:'
       path: DataStructure/misc/SlidingWindowAggregation.py
       title: Sliding Window Aggregation
     - icon: ':x:'
@@ -226,7 +226,7 @@ data:
       title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
     - icon: ':x:'
       path: Graph/misc/enumerate_triangles.py
-      title: Graph/misc/enumerate_triangles.py
+      title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
     - icon: ':warning:'
       path: Graph/misc/topological_sorted.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
@@ -234,13 +234,14 @@ data:
     pages:
     - icon: ':x:'
       path: String/Manacher.py
-      title: String/Manacher.py
+      title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\
+        \u30E0)"
     - icon: ':question:'
       path: String/RollingHash.py
       title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
     - icon: ':warning:'
       path: String/RollingHash2D.py
-      title: String/RollingHash2D.py
+      title: "\u4E8C\u6B21\u5143\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
     - icon: ':x:'
       path: String/SA_nlogn.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
@@ -360,46 +361,46 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_B.test.py
       title: TestCase/AOJ/DSL_1_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_A.test.py
       title: TestCase/AOJ/DSL_2_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_B.BIT.test.py
       title: TestCase/AOJ/DSL_2_B.BIT.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_B.SegTree.test.py
       title: TestCase/AOJ/DSL_2_B.SegTree.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py
       title: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.test.py
       title: TestCase/AOJ/DSL_2_D.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_E.test.py
       title: TestCase/AOJ/DSL_2_E.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_F.test.py
       title: TestCase/AOJ/DSL_2_F.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_G.test.py
       title: TestCase/AOJ/DSL_2_G.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_H.test.py
       title: TestCase/AOJ/DSL_2_H.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_I.test.py
       title: TestCase/AOJ/DSL_2_I.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_3_A.test.py
       title: TestCase/AOJ/DSL_3_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_3_D.test.py
       title: TestCase/AOJ/DSL_3_D.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_A.test.py
       title: TestCase/AOJ/DSL_5_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.BIT.test.py
       title: TestCase/AOJ/DSL_5_B.BIT.test.py
     - icon: ':x:'

@@ -38,8 +38,6 @@ data:
   - TestCase/LibraryChecker/enumerate_palindromes.test.py
 documentation_of: String/Manacher.py
 layout: document
-redirect_from:
-- /library/String/Manacher.py
-- /library/String/Manacher.py.html
-title: String/Manacher.py
+title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0\
+  )"
 ---

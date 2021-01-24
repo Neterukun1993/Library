@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
   _extendedRequiredBy: []
@@ -35,8 +35,5 @@ data:
   - TestCase/AOJ/ALDS1_5_D.test.py
 documentation_of: DataStructure/BinaryIndexedTree/inversion_number.py
 layout: document
-redirect_from:
-- /library/DataStructure/BinaryIndexedTree/inversion_number.py
-- /library/DataStructure/BinaryIndexedTree/inversion_number.py.html
-title: DataStructure/BinaryIndexedTree/inversion_number.py
+title: "\u8EE2\u5012\u6570"
 ---

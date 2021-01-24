@@ -35,8 +35,5 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/Heap/RadixHeap.py
 layout: document
-redirect_from:
-- /library/DataStructure/Heap/RadixHeap.py
-- /library/DataStructure/Heap/RadixHeap.py.html
-title: DataStructure/Heap/RadixHeap.py
+title: Radix Heap
 ---

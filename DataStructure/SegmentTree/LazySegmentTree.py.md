@@ -2,13 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RSQ_RUQ.py
     title: RSQ_RUQ
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RAQ.py
     title: RmQ_RAQ
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RUQ.py
     title: RmQ_RUQ
   _extendedVerifiedWith: []

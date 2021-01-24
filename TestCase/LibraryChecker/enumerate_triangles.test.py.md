@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':x:'
     path: Graph/misc/enumerate_triangles.py
-    title: Graph/misc/enumerate_triangles.py
+    title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: true

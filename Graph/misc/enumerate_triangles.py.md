@@ -38,8 +38,5 @@ data:
   - TestCase/LibraryChecker/enumerate_triangles.test.py
 documentation_of: Graph/misc/enumerate_triangles.py
 layout: document
-redirect_from:
-- /library/Graph/misc/enumerate_triangles.py
-- /library/Graph/misc/enumerate_triangles.py.html
-title: Graph/misc/enumerate_triangles.py
+title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
 ---

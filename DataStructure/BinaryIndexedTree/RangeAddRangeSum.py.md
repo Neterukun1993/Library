@@ -6,7 +6,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/2667.test.py
     title: TestCase/AOJ/2667.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_G.test.py
     title: TestCase/AOJ/DSL_2_G.test.py
   - icon: ':x:'

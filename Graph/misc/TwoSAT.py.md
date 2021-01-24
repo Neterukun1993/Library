@@ -31,13 +31,13 @@ data:
   dependsOn:
   - Graph/Decomposition/SCC_Tarjan.py
   isVerificationFile: false
-  path: Graph/TwoSAT.py
+  path: Graph/misc/TwoSAT.py
   requiredBy: []
-  timestamp: '2021-01-10 04:02:27+09:00'
+  timestamp: '2021-01-24 18:01:48+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - TestCase/LibraryChecker/two_sat.test.py
-documentation_of: Graph/TwoSAT.py
+documentation_of: Graph/misc/TwoSAT.py
 layout: document
 title: 2-SAT
 ---

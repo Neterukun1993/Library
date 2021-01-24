@@ -3,10 +3,10 @@ data:
   libraryCategories:
   - name: Combination
     pages:
-    - icon: ':x:'
+    - icon: ':question:'
       path: Combination/modinv_combination.py
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Combination/twelvefold_way.py
       title: "\u5199\u50CF12\u76F8"
   - name: DataStructure/AccumulateSum
@@ -60,10 +60,10 @@ data:
     - icon: ':warning:'
       path: DataStructure/Heap/RadixHeap.py
       title: DataStructure/Heap/RadixHeap.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RandomizedMeldableHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Randomized Meldable Heap)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/SkewHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
   - name: DataStructure/SegmentTree
@@ -110,13 +110,13 @@ data:
     - icon: ':x:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
       title: "\u6C38\u7D9AUnion Find"
-    - icon: ':x:'
+    - icon: ':question:'
       path: DataStructure/UnionFind/UnionFind.py
       title: Union Find
     - icon: ':x:'
       path: DataStructure/UnionFind/UnionFindUndo.py
       title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
       title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304DUnion Find"
   - name: DataStructure/Wavelet
@@ -163,18 +163,6 @@ data:
     - icon: ':x:'
       path: Graph/Decomposition/TwoEdgeConnectedComponents.py
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
-  - name: Graph
-    pages:
-    - icon: ':x:'
-      path: Graph/LowLink.py
-      title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
-        \u69CB\u7BC9 (LowLink)"
-    - icon: ':x:'
-      path: Graph/TwoSAT.py
-      title: 2-SAT
-    - icon: ':x:'
-      path: Graph/edge_to_vertex.py
-      title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
   - name: Graph/ShortestPath
     pages:
     - icon: ':x:'
@@ -186,7 +174,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/tsp.py
       title: "\u5DE1\u56DE\u30BB\u30FC\u30EB\u30B9\u30DE\u30F3\u554F\u984C"
     - icon: ':x:'
@@ -228,8 +216,14 @@ data:
   - name: Graph/misc
     pages:
     - icon: ':x:'
+      path: Graph/misc/TwoSAT.py
+      title: 2-SAT
+    - icon: ':x:'
       path: Graph/misc/cycle_detection.py
       title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
+    - icon: ':x:'
+      path: Graph/misc/edge_to_vertex.py
+      title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
     - icon: ':x:'
       path: Graph/misc/enumerate_triangles.py
       title: Graph/misc/enumerate_triangles.py
@@ -257,8 +251,8 @@ data:
       path: String/Trie.py
       title: "Trie\u6728"
     - icon: ':warning:'
-      path: String/runlength_compress.py
-      title: String/runlength_compress.py
+      path: String/run_length_encoding.py
+      title: String/run_length_encoding.py
     - icon: ':x:'
       path: String/z_algorithm.py
       title: Z algorithm
@@ -312,58 +306,58 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_2_A.test.py
       title: TestCase/AOJ/DPL_2_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_A.test.py
       title: TestCase/AOJ/DPL_5_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_B.test.py
       title: TestCase/AOJ/DPL_5_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_C.test.py
       title: TestCase/AOJ/DPL_5_C.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_D.test.py
       title: TestCase/AOJ/DPL_5_D.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_E.naive.test.py
       title: TestCase/AOJ/DPL_5_E.naive.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_E.test.py
       title: TestCase/AOJ/DPL_5_E.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_F.test.py
       title: TestCase/AOJ/DPL_5_F.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_G.test.py
       title: TestCase/AOJ/DPL_5_G.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_H.test.py
       title: TestCase/AOJ/DPL_5_H.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_I.test.py
       title: TestCase/AOJ/DPL_5_I.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_J.test.py
       title: TestCase/AOJ/DPL_5_J.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_K.test.py
       title: TestCase/AOJ/DPL_5_K.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_L.test.py
       title: TestCase/AOJ/DPL_5_L.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_B.test.py
       title: TestCase/AOJ/DSL_1_B.test.py
     - icon: ':x:'

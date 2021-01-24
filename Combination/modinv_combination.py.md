@@ -2,11 +2,11 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
     title: "\u5199\u50CF12\u76F8"
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_E.naive.test.py
     title: TestCase/AOJ/DPL_5_E.naive.test.py
   - icon: ':x:'
@@ -14,7 +14,7 @@ data:
     title: TestCase/yukicoder/yuki0117.test.py
   _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -44,7 +44,7 @@ data:
   requiredBy:
   - Combination/twelvefold_way.py
   timestamp: '2021-01-06 00:51:01+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/AOJ/DPL_5_E.naive.test.py
   - TestCase/yukicoder/yuki0117.test.py

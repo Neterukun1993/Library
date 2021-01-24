@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: DataStructure/UnionFind/UnionFind.py
     title: Union Find
   _extendedRequiredBy: []

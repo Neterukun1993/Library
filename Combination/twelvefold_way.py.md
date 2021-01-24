@@ -1,50 +1,50 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: Combination/modinv_combination.py
     title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_A.test.py
     title: TestCase/AOJ/DPL_5_A.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_B.test.py
     title: TestCase/AOJ/DPL_5_B.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_C.test.py
     title: TestCase/AOJ/DPL_5_C.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_D.test.py
     title: TestCase/AOJ/DPL_5_D.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_E.test.py
     title: TestCase/AOJ/DPL_5_E.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_F.test.py
     title: TestCase/AOJ/DPL_5_F.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_G.test.py
     title: TestCase/AOJ/DPL_5_G.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_H.test.py
     title: TestCase/AOJ/DPL_5_H.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_I.test.py
     title: TestCase/AOJ/DPL_5_I.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_J.test.py
     title: TestCase/AOJ/DPL_5_J.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_K.test.py
     title: TestCase/AOJ/DPL_5_K.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_5_L.test.py
     title: TestCase/AOJ/DPL_5_L.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -134,7 +134,7 @@ data:
   path: Combination/twelvefold_way.py
   requiredBy: []
   timestamp: '2021-01-06 00:51:01+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_5_B.test.py
   - TestCase/AOJ/DPL_5_E.test.py

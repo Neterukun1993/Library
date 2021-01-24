@@ -3,7 +3,7 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':x:'
-    path: Graph/TwoSAT.py
+    path: Graph/misc/TwoSAT.py
     title: 2-SAT
   _extendedVerifiedWith:
   - icon: ':x:'
@@ -54,7 +54,7 @@ data:
   isVerificationFile: false
   path: Graph/Decomposition/SCC_Tarjan.py
   requiredBy:
-  - Graph/TwoSAT.py
+  - Graph/misc/TwoSAT.py
   timestamp: '2021-01-08 06:36:19+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:

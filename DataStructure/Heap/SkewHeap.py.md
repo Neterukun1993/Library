@@ -6,12 +6,12 @@ data:
     path: Graph/SpanningTree/directed_mst.py
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
     title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -39,7 +39,7 @@ data:
   requiredBy:
   - Graph/SpanningTree/directed_mst.py
   timestamp: '2021-01-14 12:29:07+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
 documentation_of: DataStructure/Heap/SkewHeap.py

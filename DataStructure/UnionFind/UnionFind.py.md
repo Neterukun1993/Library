@@ -9,7 +9,7 @@ data:
     path: Graph/SpanningTree/directed_mst.py
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_1_A.test.py
     title: TestCase/AOJ/DSL_1_A.test.py
   - icon: ':x:'
@@ -20,7 +20,7 @@ data:
     title: TestCase/yukicoder/yuki0922.test.py
   _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -47,7 +47,7 @@ data:
   - Graph/SpanningTree/directed_mst.py
   - Graph/SpanningTree/boruvka.py
   timestamp: '2021-01-02 02:09:18+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/AOJ/DSL_1_A.test.py
   - TestCase/yukicoder/yuki0922.test.py

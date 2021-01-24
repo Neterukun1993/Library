@@ -3,7 +3,7 @@ import sys
 input = sys.stdin.buffer.readline
 
 from Graph.Tree.rerooting import rerooting
-from Graph.edge_to_vertex import edge_to_vertex
+from Graph.misc.edge_to_vertex import edge_to_vertex
 
 
 def main():

@@ -1,4 +1,4 @@
-def compress(string):
+def encoding(string):
     n = len(string)
     begin, cnt = 0, 0
     ans = []

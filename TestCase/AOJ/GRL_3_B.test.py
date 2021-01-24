@@ -1,8 +1,8 @@
 # verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_3_B
 import sys
-input = sys.stdin.readline
+input = sys.stdin.buffer.readline
 
-from Graph.LowLink import LowLink
+from Graph.misc.LowLink import LowLink
 
 
 def main():

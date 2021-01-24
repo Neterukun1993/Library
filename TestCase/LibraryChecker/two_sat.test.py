@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from Graph.TwoSAT import TwoSAT
+from Graph.misc.TwoSAT import TwoSAT
 
 
 def main():

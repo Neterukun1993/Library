@@ -9,12 +9,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_G.test.py
     title: TestCase/AOJ/DSL_2_G.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_E.test.py
     title: TestCase/AOJ/GRL_5_E.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -38,7 +38,7 @@ data:
   path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   requiredBy: []
   timestamp: '2021-01-02 01:52:07+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2667.test.py
   - TestCase/AOJ/DSL_2_G.test.py

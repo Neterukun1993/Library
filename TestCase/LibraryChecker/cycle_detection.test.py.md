@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/misc/cycle_detection.py
     title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/cycle_detection
     links:
@@ -32,7 +32,7 @@ data:
   path: TestCase/LibraryChecker/cycle_detection.test.py
   requiredBy: []
   timestamp: '2021-01-14 17:41:58+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/cycle_detection.test.py
 layout: document

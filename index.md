@@ -23,7 +23,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos.py
       title: "\u3044\u3082\u3059\u6CD5"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos2D.py
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
@@ -40,7 +40,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
       title: "\u77E9\u5F62\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
       title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
@@ -152,11 +152,11 @@ data:
       title: "\u4E8C\u6B21\u5143Sparse Table"
   - name: Graph/Decomposition
     pages:
-    - icon: ':x:'
+    - icon: ':question:'
       path: Graph/Decomposition/SCC_Kosaraju.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Kosaraju\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
-    - icon: ':x:'
+    - icon: ':question:'
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
@@ -165,7 +165,7 @@ data:
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   - name: Graph/ShortestPath
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/bellman_ford.py
       title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
     - icon: ':warning:'
@@ -177,16 +177,16 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/tsp.py
       title: "\u5DE1\u56DE\u30BB\u30FC\u30EB\u30B9\u30DE\u30F3\u554F\u984C"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/warshall_floyd.py
       title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
   - name: Graph/SpanningTree
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/boruvka.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5\
         )"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/directed_mst.py
       title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
     - icon: ':warning:'
@@ -198,7 +198,7 @@ data:
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
     pages:
-    - icon: ':x:'
+    - icon: ':question:'
       path: Graph/Tree/DoublingLCA.py
       title: Graph/Tree/DoublingLCA.py
     - icon: ':x:'
@@ -210,7 +210,7 @@ data:
     - icon: ':x:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
-    - icon: ':x:'
+    - icon: ':question:'
       path: Graph/Tree/rerooting.py
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - name: Graph/misc
@@ -218,13 +218,13 @@ data:
     - icon: ':x:'
       path: Graph/misc/TwoSAT.py
       title: 2-SAT
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/cycle_detection.py
       title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/edge_to_vertex.py
       title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/enumerate_triangles.py
       title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
     - icon: ':warning:'
@@ -232,7 +232,10 @@ data:
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
   - name: String
     pages:
-    - icon: ':x:'
+    - icon: ':warning:'
+      path: String/MP.py
+      title: String/MP.py
+    - icon: ':heavy_check_mark:'
       path: String/Manacher.py
       title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\
         \u30E0)"
@@ -403,28 +406,28 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.BIT.test.py
       title: TestCase/AOJ/DSL_5_B.BIT.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.test.py
       title: TestCase/AOJ/GRL_1_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_B.test.py
       title: TestCase/AOJ/GRL_1_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_C.test.py
       title: TestCase/AOJ/GRL_1_C.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.boruvka.test.py
       title: TestCase/AOJ/GRL_2_A.boruvka.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.kruskal.test.py
       title: TestCase/AOJ/GRL_2_A.kruskal.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_B.test.py
       title: TestCase/AOJ/GRL_2_B.test.py
     - icon: ':x:'
@@ -433,42 +436,42 @@ data:
     - icon: ':x:'
       path: TestCase/AOJ/GRL_3_B.test.py
       title: TestCase/AOJ/GRL_3_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
       title: TestCase/AOJ/GRL_3_C.Kosaraju.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
       title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_4_A.test.py
       title: TestCase/AOJ/GRL_4_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_A.test.py
       title: TestCase/AOJ/GRL_5_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_B.test.py
       title: TestCase/AOJ/GRL_5_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_D.test.py
       title: TestCase/AOJ/GRL_5_D.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_E.test.py
       title: TestCase/AOJ/GRL_5_E.test.py
   - name: TestCase/LibraryChecker
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/cycle_detection.test.py
       title: TestCase/LibraryChecker/cycle_detection.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/directedmst.test.py
       title: TestCase/LibraryChecker/directedmst.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_triangles.test.py
       title: TestCase/LibraryChecker/enumerate_triangles.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.Doubling.test.py
       title: TestCase/LibraryChecker/lca.Doubling.test.py
     - icon: ':x:'

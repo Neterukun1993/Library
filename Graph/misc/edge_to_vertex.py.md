@@ -3,15 +3,15 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_A.test.py
     title: TestCase/AOJ/GRL_5_A.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_B.test.py
     title: TestCase/AOJ/GRL_5_B.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -27,7 +27,7 @@ data:
   path: Graph/misc/edge_to_vertex.py
   requiredBy: []
   timestamp: '2021-01-24 18:01:48+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/AOJ/GRL_5_B.test.py

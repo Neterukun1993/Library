@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: Graph/Tree/rerooting.py
     title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/misc/edge_to_vertex.py
     title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_B
     links:
@@ -34,7 +34,7 @@ data:
   path: TestCase/AOJ/GRL_5_B.test.py
   requiredBy: []
   timestamp: '2021-01-24 18:01:48+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_5_B.test.py
 layout: document

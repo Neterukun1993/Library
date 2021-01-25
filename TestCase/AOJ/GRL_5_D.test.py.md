@@ -9,9 +9,9 @@ data:
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_D
     links:
@@ -40,7 +40,7 @@ data:
   path: TestCase/AOJ/GRL_5_D.test.py
   requiredBy: []
   timestamp: '2021-01-16 04:24:26+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_5_D.test.py
 layout: document

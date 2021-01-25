@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/misc/enumerate_triangles.py
     title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/enumerate_triangles
     links:
@@ -29,7 +29,7 @@ data:
   path: TestCase/LibraryChecker/enumerate_triangles.test.py
   requiredBy: []
   timestamp: '2021-01-21 18:47:47+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/enumerate_triangles.test.py
 layout: document

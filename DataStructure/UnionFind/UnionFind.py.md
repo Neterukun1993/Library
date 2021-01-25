@@ -2,10 +2,10 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/SpanningTree/boruvka.py
     title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/SpanningTree/directed_mst.py
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedVerifiedWith:

@@ -12,7 +12,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
     title: TestCase/AOJ/DSL_2_B.BIT.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_D.test.py
     title: TestCase/AOJ/GRL_5_D.test.py
   - icon: ':x:'

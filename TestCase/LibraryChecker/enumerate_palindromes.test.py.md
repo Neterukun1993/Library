@@ -1,15 +1,15 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: String/Manacher.py
     title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\
       \u30E0)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/enumerate_palindromes
     links:
@@ -28,7 +28,7 @@ data:
   path: TestCase/LibraryChecker/enumerate_palindromes.test.py
   requiredBy: []
   timestamp: '2021-01-06 00:03:29+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/enumerate_palindromes.test.py
 layout: document

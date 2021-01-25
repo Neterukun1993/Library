@@ -3,7 +3,7 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.Doubling.test.py
     title: TestCase/LibraryChecker/lca.Doubling.test.py
   - icon: ':x:'
@@ -11,7 +11,7 @@ data:
     title: TestCase/yukicoder/yuki0922.test.py
   _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -45,7 +45,7 @@ data:
   path: Graph/Tree/DoublingLCA.py
   requiredBy: []
   timestamp: '2021-01-14 15:15:35+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/yukicoder/yuki0922.test.py
   - TestCase/LibraryChecker/lca.Doubling.test.py

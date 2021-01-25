@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/SpanningTree/directed_mst.py
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/directedmst
     links:
@@ -30,7 +30,7 @@ data:
   path: TestCase/LibraryChecker/directedmst.test.py
   requiredBy: []
   timestamp: '2021-01-14 12:29:07+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/directedmst.test.py
 layout: document

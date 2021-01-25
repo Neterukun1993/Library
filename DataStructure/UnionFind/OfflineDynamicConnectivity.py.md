@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/UnionFindUndo.py
     title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
   _extendedRequiredBy: []

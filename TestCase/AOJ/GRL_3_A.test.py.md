@@ -1,11 +1,15 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph/misc/LowLink.py
+    title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\u69CB\
+      \u7BC9 (Low Link)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_3_A
     links:
@@ -21,12 +25,13 @@ data:
     \    for u, v in edges:\n        ll.add_edge(u, v)\n\n    ll.build()\n    for\
     \ v in sorted(ll.enumerate_articulations()):\n        print(v)\n\n\nif __name__\
     \ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/misc/LowLink.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_3_A.test.py
   requiredBy: []
-  timestamp: '2021-01-24 18:01:48+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-01-25 22:00:12+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_3_A.test.py
 layout: document

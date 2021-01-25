@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/UnionFind/PersistentUnionFind.py
     title: "\u6C38\u7D9AUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/persistent_unionfind
     links:
@@ -33,7 +33,7 @@ data:
   path: TestCase/LibraryChecker/persistent_unionfind.test.py
   requiredBy: []
   timestamp: '2021-01-03 06:00:12+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/persistent_unionfind.test.py
 layout: document

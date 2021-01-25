@@ -12,7 +12,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_E.test.py
     title: TestCase/AOJ/GRL_5_E.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.HLDecomposition.test.py
     title: TestCase/LibraryChecker/lca.HLDecomposition.test.py
   - icon: ':x:'

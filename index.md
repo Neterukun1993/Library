@@ -78,7 +78,7 @@ data:
       path: DataStructure/SegmentTree/LazySegmentTree.py
       title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
         \ Tree with Lazy Propagation)"
-    - icon: ':x:'
+    - icon: ':question:'
       path: DataStructure/SegmentTree/LiChaoTree.py
       title: Li-Chao Tree
     - icon: ':heavy_check_mark:'
@@ -107,13 +107,13 @@ data:
     - icon: ':x:'
       path: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
       title: "\u90E8\u5206\u6C38\u7D9AUnion Find"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
       title: "\u6C38\u7D9AUnion Find"
     - icon: ':question:'
       path: DataStructure/UnionFind/UnionFind.py
       title: Union Find
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindUndo.py
       title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
     - icon: ':heavy_check_mark:'
@@ -201,7 +201,7 @@ data:
     - icon: ':question:'
       path: Graph/Tree/DoublingLCA.py
       title: Graph/Tree/DoublingLCA.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
     - icon: ':question:'
@@ -215,6 +215,10 @@ data:
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - name: Graph/misc
     pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/misc/LowLink.py
+      title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
+        \u69CB\u7BC9 (Low Link)"
     - icon: ':x:'
       path: Graph/misc/TwoSAT.py
       title: 2-SAT
@@ -430,10 +434,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_B.test.py
       title: TestCase/AOJ/GRL_2_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_A.test.py
       title: TestCase/AOJ/GRL_3_A.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_3_B.test.py
       title: TestCase/AOJ/GRL_3_B.test.py
     - icon: ':heavy_check_mark:'
@@ -474,19 +478,19 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.Doubling.test.py
       title: TestCase/LibraryChecker/lca.Doubling.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.EulerTour.test.py
       title: TestCase/LibraryChecker/lca.EulerTour.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.HLDecomposition.test.py
       title: TestCase/LibraryChecker/lca.HLDecomposition.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.test.py
     - icon: ':x:'

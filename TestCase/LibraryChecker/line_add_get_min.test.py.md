@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':question:'
     path: DataStructure/SegmentTree/LiChaoTree.py
     title: Li-Chao Tree
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/line_add_get_min
     links:
@@ -35,7 +35,7 @@ data:
   path: TestCase/LibraryChecker/line_add_get_min.test.py
   requiredBy: []
   timestamp: '2021-01-03 06:18:12+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/line_add_get_min.test.py
 layout: document

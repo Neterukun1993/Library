@@ -124,7 +124,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/Wavelet/BitVector.py
       title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/PointAddRectangleSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
     - icon: ':x:'
@@ -141,7 +141,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SlidingWindowAggregation.py
       title: Sliding Window Aggregation
     - icon: ':x:'
@@ -215,6 +215,9 @@ data:
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - name: Graph/misc
     pages:
+    - icon: ':heavy_check_mark:'
+      path: Graph/misc/DigraphDFSTree.py
+      title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/LowLink.py
       title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
@@ -290,6 +293,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2667.test.py
       title: TestCase/AOJ/2667.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_11_B.test.py
+      title: TestCase/AOJ/ALDS1_11_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py
@@ -493,16 +499,16 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_range_sum.test.py
       title: TestCase/LibraryChecker/point_add_range_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
       title: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
     - icon: ':x:'

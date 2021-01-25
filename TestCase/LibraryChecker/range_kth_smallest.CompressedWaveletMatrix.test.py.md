@@ -6,9 +6,9 @@ data:
     title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/range_kth_smallest
     links:
@@ -30,7 +30,7 @@ data:
   path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
   requiredBy: []
   timestamp: '2021-01-10 20:36:04+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
 layout: document

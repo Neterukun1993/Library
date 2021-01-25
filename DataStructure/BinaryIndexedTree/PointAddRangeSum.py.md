@@ -5,7 +5,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
     title: "\u8EE2\u5012\u6570"
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/PointAddRectangleSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
   _extendedVerifiedWith:
@@ -15,7 +15,7 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_5_D.test.py
     title: TestCase/AOJ/GRL_5_D.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/point_add_range_sum.test.py
     title: TestCase/LibraryChecker/point_add_range_sum.test.py
   - icon: ':x:'

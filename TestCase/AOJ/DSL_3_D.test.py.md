@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/misc/SlidingWindowAggregation.py
     title: Sliding Window Aggregation
   _extendedRequiredBy: []

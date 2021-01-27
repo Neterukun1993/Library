@@ -6,8 +6,8 @@ documentation_of: //DataStructure/Heap/DAryHeap.py
 二分ヒープ (Binary Heap) を `D` 分木に拡張したヒープ。`D = 2` であれば Binary Heap、`D = 3` であれば Ternary Heap、`D = 4` であれば Quaternary Heap。子 `k` から親へのアクセスおよび親 `k` から子へのアクセスを添え字で表現できるため、配列上でヒープをシミュレートできる。
 
 画像は D-Ary Heap の添字の様子。
-![example]("https://Neterukun1993.github.io/Library/DAryHeap-example.png")
-![index]("https://Neterukun1993.github.io/Library/DAryHeap-index.png")
+![example](https://Neterukun1993.github.io/Library/DAryHeap-example.png)
+![index](https://Neterukun1993.github.io/Library/DAryHeap-index.png)
 
 ## 使い方
 `DAryHeap(D: int)`  

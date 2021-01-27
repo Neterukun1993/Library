@@ -9,12 +9,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
     title: TestCase/AOJ/GRL_3_C.Tarjan.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/scc.Tarjan.test.py
     title: TestCase/LibraryChecker/scc.Tarjan.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -56,7 +56,7 @@ data:
   requiredBy:
   - Graph/misc/TwoSAT.py
   timestamp: '2021-01-08 06:36:19+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/GRL_3_C.Tarjan.test.py
   - TestCase/LibraryChecker/scc.Tarjan.test.py

@@ -14,7 +14,7 @@ data:
       title: "\u5199\u50CF12\u76F8"
   - name: DataStructure/AccumulateSum
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum.py
       title: "\u7D2F\u7A4D\u548C"
     - icon: ':heavy_check_mark:'
@@ -81,7 +81,7 @@ data:
       path: DataStructure/SegmentTree/LazySegmentTree.py
       title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
         \ Tree with Lazy Propagation)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/LiChaoTree.py
       title: Li-Chao Tree
     - icon: ':heavy_check_mark:'
@@ -138,7 +138,7 @@ data:
       title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   - name: DataStructure/misc
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
     - icon: ':warning:'
@@ -147,7 +147,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SlidingWindowAggregation.py
       title: Sliding Window Aggregation
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: Sparse Table
     - icon: ':warning:'
@@ -155,11 +155,11 @@ data:
       title: "\u4E8C\u6B21\u5143Sparse Table"
   - name: Graph/Decomposition
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/SCC_Kosaraju.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Kosaraju\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
@@ -201,7 +201,7 @@ data:
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/DoublingLCA.py
       title: Graph/Tree/DoublingLCA.py
     - icon: ':heavy_check_mark:'
@@ -523,25 +523,25 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
       title: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/scc.Kosaraju.test.py
       title: TestCase/LibraryChecker/scc.Kosaraju.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/scc.Tarjan.test.py
       title: TestCase/LibraryChecker/scc.Tarjan.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/segment_add_get_min.test.py
       title: TestCase/LibraryChecker/segment_add_get_min.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
       title: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.test.py
       title: TestCase/LibraryChecker/static_range_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
       title: TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.test.py
       title: TestCase/LibraryChecker/staticrmq.test.py
     - icon: ':x:'

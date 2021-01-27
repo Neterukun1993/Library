@@ -201,7 +201,7 @@ data:
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':question:'
       path: Graph/Tree/DoublingLCA.py
       title: Graph/Tree/DoublingLCA.py
     - icon: ':heavy_check_mark:'
@@ -255,10 +255,10 @@ data:
     - icon: ':warning:'
       path: String/RollingHash2D.py
       title: "\u4E8C\u6B21\u5143\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: String/SA_nlogn.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log N))$)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: String/SA_nlogn2.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log^2 N))$)"
     - icon: ':x:'
@@ -544,10 +544,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/staticrmq.test.py
       title: TestCase/LibraryChecker/staticrmq.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
     - icon: ':x:'

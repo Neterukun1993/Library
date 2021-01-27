@@ -15,6 +15,9 @@ data:
   - icon: ':x:'
     path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - icon: ':x:'
+    path: TestCase/yukicoder/yuki0922.test.py
+    title: TestCase/yukicoder/yuki0922.test.py
   _isVerificationFailed: true
   _pathExtension: py
   _verificationStatusIcon: ':question:'
@@ -47,6 +50,7 @@ data:
   verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
   - TestCase/AOJ/DSL_1_A.test.py
+  - TestCase/yukicoder/yuki0922.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document

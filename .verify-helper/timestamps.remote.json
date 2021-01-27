@@ -79,5 +79,12 @@
 "TestCase/LibraryChecker/queue_operate_all_composite.test.py": "2021-01-03 19:45:45 +0900",
 "TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py": "2021-01-10 20:36:04 +0900",
 "TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py": "2021-01-10 20:36:04 +0900",
-"TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py": "2021-01-11 00:02:29 +0900"
+"TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py": "2021-01-11 00:02:29 +0900",
+"TestCase/LibraryChecker/scc.Kosaraju.test.py": "2021-01-09 01:19:33 +0900",
+"TestCase/LibraryChecker/scc.Tarjan.test.py": "2021-01-08 06:48:05 +0900",
+"TestCase/LibraryChecker/segment_add_get_min.test.py": "2021-01-03 06:25:50 +0900",
+"TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
+"TestCase/LibraryChecker/static_range_sum.test.py": "2021-01-01 21:11:21 +0900",
+"TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
+"TestCase/LibraryChecker/staticrmq.test.py": "2021-01-03 11:00:07 +0900"
 }

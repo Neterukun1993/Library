@@ -86,5 +86,7 @@
 "TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
 "TestCase/LibraryChecker/static_range_sum.test.py": "2021-01-01 21:11:21 +0900",
 "TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py": "2021-01-03 11:00:07 +0900",
-"TestCase/LibraryChecker/staticrmq.test.py": "2021-01-03 11:00:07 +0900"
+"TestCase/LibraryChecker/staticrmq.test.py": "2021-01-03 11:00:07 +0900",
+"TestCase/LibraryChecker/suffixarray.nlogn.test.py": "2021-01-06 00:03:29 +0900",
+"TestCase/LibraryChecker/suffixarray.nlogn2.test.py": "2021-01-16 10:09:20 +0900"
 }

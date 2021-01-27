@@ -12,12 +12,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
     title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
     title: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -82,7 +82,7 @@ data:
   path: DataStructure/Wavelet/WaveletMatrix.py
   requiredBy: []
   timestamp: '2021-01-10 20:36:04+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/1549.test.py
   - TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py

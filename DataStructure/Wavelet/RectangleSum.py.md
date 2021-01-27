@@ -6,12 +6,12 @@ data:
     title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
     title: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -51,7 +51,7 @@ data:
   path: DataStructure/Wavelet/RectangleSum.py
   requiredBy: []
   timestamp: '2021-01-11 00:02:29+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
 documentation_of: DataStructure/Wavelet/RectangleSum.py

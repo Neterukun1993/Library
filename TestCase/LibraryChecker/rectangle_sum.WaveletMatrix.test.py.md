@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/RectangleSum.py
     title: "\u77E9\u5F62\u548C\u53D6\u5F97"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/rectangle_sum
     links:
@@ -31,7 +31,7 @@ data:
   path: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
   requiredBy: []
   timestamp: '2021-01-11 00:02:29+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
 layout: document

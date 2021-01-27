@@ -7,6 +7,9 @@ data:
       path: Combination/modinv_combination.py
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
     - icon: ':heavy_check_mark:'
+      path: Combination/montmort_number.py
+      title: "\u30E2\u30F3\u30E2\u30FC\u30EB\u6570 (\u5B8C\u5168\u9806\u5217)"
+    - icon: ':heavy_check_mark:'
       path: Combination/twelvefold_way.py
       title: "\u5199\u50CF12\u76F8"
   - name: DataStructure/AccumulateSum
@@ -127,10 +130,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/PointAddRectangleSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/RectangleSum.py
       title: "\u77E9\u5F62\u548C\u53D6\u5F97"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/WaveletMatrix.py
       title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"
   - name: DataStructure/misc
@@ -494,6 +497,9 @@ data:
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/montmort_number_mod.test.py
+      title: TestCase/LibraryChecker/montmort_number_mod.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
     - icon: ':heavy_check_mark:'
@@ -511,10 +517,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
       title: TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
       title: TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py
     - icon: ':x:'

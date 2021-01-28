@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/DoublingLCA.py
     title: Graph/Tree/DoublingLCA.py
   _extendedRequiredBy: []

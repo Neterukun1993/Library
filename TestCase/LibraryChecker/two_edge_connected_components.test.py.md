@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Decomposition/TwoEdgeConnectedComponents.py
     title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/two_edge_connected_components
     links:
@@ -30,8 +30,8 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/two_edge_connected_components.test.py
   requiredBy: []
-  timestamp: '2021-01-10 06:54:35+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-01-28 21:03:43+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/two_edge_connected_components.test.py
 layout: document

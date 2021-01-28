@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/rerooting.py
     title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - icon: ':heavy_check_mark:'
@@ -31,8 +31,8 @@ data:
     \ addnode)\n    print(max([l1 + l2 for l1, l2 in ans[:n]]))\n\n\nif __name__ ==\
     \ '__main__':\n    main()\n"
   dependsOn:
-  - Graph/misc/edge_to_vertex.py
   - Graph/Tree/rerooting.py
+  - Graph/misc/edge_to_vertex.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_A.test.py
   requiredBy: []

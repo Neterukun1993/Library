@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Decomposition/TwoEdgeConnectedComponents.py
+    title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_3_A.test.py
@@ -53,7 +56,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/misc/LowLink.py
-  requiredBy: []
+  requiredBy:
+  - Graph/Decomposition/TwoEdgeConnectedComponents.py
   timestamp: '2021-01-25 22:00:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

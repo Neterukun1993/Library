@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/rerooting.py
     title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - icon: ':heavy_check_mark:'

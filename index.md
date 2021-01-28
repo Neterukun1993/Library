@@ -113,7 +113,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
       title: "\u6C38\u7D9AUnion Find"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
       title: Union Find
     - icon: ':heavy_check_mark:'
@@ -163,7 +163,7 @@ data:
       path: Graph/Decomposition/SCC_Tarjan.py
       title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\
         \u30B4\u30EA\u30BA\u30E0)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Decomposition/TwoEdgeConnectedComponents.py
       title: "\u4E8C\u91CD\u8FBA\u9023\u7D50\u6210\u5206\u5206\u89E3"
   - name: Graph/ShortestPath
@@ -201,19 +201,19 @@ data:
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/DoublingLCA.py
       title: Graph/Tree/DoublingLCA.py
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/rerooting.py
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
   - name: Graph/misc
@@ -261,7 +261,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/SA_nlogn2.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log^2 N))$)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: String/Trie.py
       title: "Trie\u6728"
     - icon: ':warning:'
@@ -553,7 +553,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_edge_connected_components.test.py
       title: TestCase/LibraryChecker/two_edge_connected_components.test.py
     - icon: ':heavy_check_mark:'
@@ -579,13 +579,13 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.RollingHash.test.py
       title: TestCase/yukicoder/yuki0430.RollingHash.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.test.py
       title: TestCase/yukicoder/yuki0430.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
       title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.test.py
       title: TestCase/yukicoder/yuki0922.test.py
 layout: toppage

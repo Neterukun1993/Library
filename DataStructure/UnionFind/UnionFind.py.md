@@ -12,15 +12,15 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_1_A.test.py
     title: TestCase/AOJ/DSL_1_A.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0922.test.py
     title: TestCase/yukicoder/yuki0922.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -47,7 +47,7 @@ data:
   - Graph/SpanningTree/directed_mst.py
   - Graph/SpanningTree/boruvka.py
   timestamp: '2021-01-02 02:09:18+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py

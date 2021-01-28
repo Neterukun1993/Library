@@ -21,16 +21,16 @@ data:
     \ and pattern[i] != pattern[j]:\n                j = self.next[j]\n          \
     \  j += 1\n            if i + 1 < len(pattern) and pattern[i + 1] == pattern[j]:\n\
     \                self.next[i + 1] = self.next[j]\n            else:\n        \
-    \        self.next[i + 1] = j\n\n    def search(self, text):\n        idxs = []\n\
-    \        i, j = 0, 0\n        while i + j < len(t):\n            if self.pattern[j]\
-    \ == text[i + j]:\n                j += 1\n                if j != len(self.s):\n\
+    \        self.next[i + 1] = j\n\n    def match(self, text):\n        idxs = []\n\
+    \        i, j = 0, 0\n        while i + j < len(text):\n            if self.pattern[j]\
+    \ == text[i + j]:\n                j += 1\n                if j != len(self.pattern):\n\
     \                    continue\n                idxs.append(i)\n            i +=\
-    \ j - self.next[j]\n            j = max(self.next[j], 0)\n"
+    \ j - self.next[j]\n            j = max(self.next[j], 0)\n        return idxs\n"
   dependsOn: []
   isVerificationFile: false
   path: String/KMP.py
   requiredBy: []
-  timestamp: '2021-01-28 22:42:38+09:00'
+  timestamp: '2021-01-28 22:51:39+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - TestCase/AOJ/ALDS1_14_B.KMP.test.py

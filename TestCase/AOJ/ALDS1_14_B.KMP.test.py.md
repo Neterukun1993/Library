@@ -27,7 +27,7 @@ data:
   isVerificationFile: true
   path: TestCase/AOJ/ALDS1_14_B.KMP.test.py
   requiredBy: []
-  timestamp: '2021-01-28 22:42:38+09:00'
+  timestamp: '2021-01-28 22:51:39+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: TestCase/AOJ/ALDS1_14_B.KMP.test.py

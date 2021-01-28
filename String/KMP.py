@@ -13,14 +13,15 @@ class KMP:
             else:
                 self.next[i + 1] = j
 
-    def search(self, text):
+    def match(self, text):
         idxs = []
         i, j = 0, 0
-        while i + j < len(t):
+        while i + j < len(text):
             if self.pattern[j] == text[i + j]:
                 j += 1
-                if j != len(self.s):
+                if j != len(self.pattern):
                     continue
                 idxs.append(i)
             i += j - self.next[j]
             j = max(self.next[j], 0)
+        return idxs

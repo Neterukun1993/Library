@@ -6,12 +6,12 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_14_B.test.py
     title: TestCase/AOJ/ALDS1_14_B.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0430.RollingHash.test.py
     title: TestCase/yukicoder/yuki0430.RollingHash.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -44,10 +44,10 @@ data:
   path: String/RollingHash.py
   requiredBy: []
   timestamp: '2021-01-23 23:52:48+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/ALDS1_14_B.test.py
   - TestCase/yukicoder/yuki0430.RollingHash.test.py
+  - TestCase/AOJ/ALDS1_14_B.test.py
 documentation_of: String/RollingHash.py
 layout: document
 title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"

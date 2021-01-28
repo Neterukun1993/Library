@@ -43,8 +43,8 @@ data:
   timestamp: '2021-01-03 11:00:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
   - TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
+  - TestCase/LibraryChecker/staticrmq.DisjointSparseTable.test.py
 documentation_of: DataStructure/misc/DisjointSparseTable.py
 layout: document
 title: Disjoint Sparse Table

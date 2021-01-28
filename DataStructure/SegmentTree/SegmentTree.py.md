@@ -49,8 +49,8 @@ data:
   timestamp: '2021-01-02 16:36:13+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/DSL_2_A.test.py
   - TestCase/AOJ/DSL_2_B.SegTree.test.py
+  - TestCase/AOJ/DSL_2_A.test.py
 documentation_of: DataStructure/SegmentTree/SegmentTree.py
 layout: document
 title: "\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tree)"

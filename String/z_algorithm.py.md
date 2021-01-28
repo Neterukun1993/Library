@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/zalgorithm.test.py
     title: TestCase/LibraryChecker/zalgorithm.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -26,10 +26,13 @@ data:
   path: String/z_algorithm.py
   requiredBy: []
   timestamp: '2021-01-05 22:30:17+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/zalgorithm.test.py
 documentation_of: String/z_algorithm.py
 layout: document
 title: Z algorithm
 ---
+## 使い方
+`z_algorithm(s: Sequence[Any]) -> List[int]`  
+`s` と `s[i:]` の共通接頭辞の長さを格納した長さ `n = len(s)` の配列を返す。計算量 $O(n)$

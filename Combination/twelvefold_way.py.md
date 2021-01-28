@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: Combination/modinv_combination.py
     title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
   _extendedRequiredBy: []
@@ -136,18 +136,18 @@ data:
   timestamp: '2021-01-06 00:51:01+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/DPL_5_B.test.py
-  - TestCase/AOJ/DPL_5_E.test.py
-  - TestCase/AOJ/DPL_5_J.test.py
-  - TestCase/AOJ/DPL_5_A.test.py
-  - TestCase/AOJ/DPL_5_C.test.py
-  - TestCase/AOJ/DPL_5_H.test.py
-  - TestCase/AOJ/DPL_5_L.test.py
   - TestCase/AOJ/DPL_5_I.test.py
-  - TestCase/AOJ/DPL_5_D.test.py
-  - TestCase/AOJ/DPL_5_K.test.py
-  - TestCase/AOJ/DPL_5_F.test.py
+  - TestCase/AOJ/DPL_5_H.test.py
   - TestCase/AOJ/DPL_5_G.test.py
+  - TestCase/AOJ/DPL_5_C.test.py
+  - TestCase/AOJ/DPL_5_D.test.py
+  - TestCase/AOJ/DPL_5_E.test.py
+  - TestCase/AOJ/DPL_5_A.test.py
+  - TestCase/AOJ/DPL_5_F.test.py
+  - TestCase/AOJ/DPL_5_L.test.py
+  - TestCase/AOJ/DPL_5_B.test.py
+  - TestCase/AOJ/DPL_5_K.test.py
+  - TestCase/AOJ/DPL_5_J.test.py
 documentation_of: Combination/twelvefold_way.py
 layout: document
 title: "\u5199\u50CF12\u76F8"

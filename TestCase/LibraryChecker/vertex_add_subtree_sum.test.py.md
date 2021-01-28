@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
   - icon: ':question:'
@@ -9,9 +9,9 @@ data:
     title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/vertex_add_subtree_sum
     links:
@@ -40,7 +40,7 @@ data:
   path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
   requiredBy: []
   timestamp: '2021-01-16 03:42:28+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
 layout: document

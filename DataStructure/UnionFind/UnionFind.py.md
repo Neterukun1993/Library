@@ -49,9 +49,9 @@ data:
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
-  - TestCase/AOJ/DSL_1_A.test.py
-  - TestCase/yukicoder/yuki0922.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - TestCase/yukicoder/yuki0922.test.py
+  - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document
 title: Union Find

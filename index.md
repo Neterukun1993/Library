@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: Combination
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: Combination/modinv_combination.py
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
     - icon: ':heavy_check_mark:'
@@ -31,7 +31,7 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
@@ -107,7 +107,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
       title: Offline Dynamic Connectivity
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
       title: "\u90E8\u5206\u6C38\u7D9AUnion Find"
     - icon: ':heavy_check_mark:'
@@ -210,7 +210,7 @@ data:
     - icon: ':question:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
     - icon: ':question:'
@@ -225,7 +225,7 @@ data:
       path: Graph/misc/LowLink.py
       title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
         \u69CB\u7BC9 (Low Link)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/TwoSAT.py
       title: 2-SAT
     - icon: ':heavy_check_mark:'
@@ -244,12 +244,12 @@ data:
     pages:
     - icon: ':warning:'
       path: String/MP.py
-      title: String/MP.py
+      title: "MP\u6CD5 (Morrison-Pratt\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
     - icon: ':heavy_check_mark:'
       path: String/Manacher.py
       title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\
         \u30E0)"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: String/RollingHash.py
       title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
     - icon: ':warning:'
@@ -266,8 +266,8 @@ data:
       title: "Trie\u6728"
     - icon: ':warning:'
       path: String/run_length_encoding.py
-      title: String/run_length_encoding.py
-    - icon: ':x:'
+      title: "\u30E9\u30F3\u30EC\u30F3\u30B0\u30B9\u5727\u7E2E"
+    - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
   - name: misc
@@ -550,33 +550,33 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py
     - icon: ':x:'
       path: TestCase/LibraryChecker/two_edge_connected_components.test.py
       title: TestCase/LibraryChecker/two_edge_connected_components.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_sat.test.py
       title: TestCase/LibraryChecker/two_sat.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/zalgorithm.test.py
       title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/yukicoder
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0117.test.py
       title: TestCase/yukicoder/yuki0117.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.RollingHash.test.py
       title: TestCase/yukicoder/yuki0430.RollingHash.test.py
     - icon: ':x:'

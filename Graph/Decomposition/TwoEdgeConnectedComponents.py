@@ -1,4 +1,4 @@
-from Graph.LowLink import LowLink
+from Graph.misc.LowLink import LowLink
 
 
 class TwoEdgeConnectedComponents(LowLink):

@@ -242,7 +242,7 @@ data:
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
   - name: String
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: String/KMP.py
       title: "KMP\u6CD5 (Knuth-Morrison-Pratt\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0\
         )"
@@ -306,7 +306,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_14_B.KMP.test.py
       title: TestCase/AOJ/ALDS1_14_B.KMP.test.py
     - icon: ':heavy_check_mark:'

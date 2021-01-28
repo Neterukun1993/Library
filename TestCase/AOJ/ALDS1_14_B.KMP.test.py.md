@@ -1,15 +1,15 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: String/KMP.py
     title: "KMP\u6CD5 (Knuth-Morrison-Pratt\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0\
       )"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_14_B
     links:
@@ -20,15 +20,15 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_14_B\n\
     from String.KMP import KMP\n\n\ndef main():\n    t = input()\n    p = input()\n\
-    \n    kmp = KMP(p)\n    ans = kmp.match(t)\n    print('\\n'.join(map(str, ans)))\n\
-    \n\nif __name__ == '__main__':\n    main()\n"
+    \n    kmp = KMP(p)\n    ans = kmp.match(t)\n    if ans:\n        print('\\n'.join(map(str,\
+    \ ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - String/KMP.py
   isVerificationFile: true
   path: TestCase/AOJ/ALDS1_14_B.KMP.test.py
   requiredBy: []
-  timestamp: '2021-01-28 22:51:39+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-01-28 22:57:55+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/ALDS1_14_B.KMP.test.py
 layout: document

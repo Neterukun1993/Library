@@ -8,7 +8,8 @@ def main():
 
     kmp = KMP(p)
     ans = kmp.match(t)
-    print('\n'.join(map(str, ans)))
+    if ans:
+        print('\n'.join(map(str, ans)))
 
 
 if __name__ == '__main__':

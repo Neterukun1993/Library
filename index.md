@@ -153,6 +153,14 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/SparseTable2D.py
       title: "\u4E8C\u6B21\u5143Sparse Table"
+  - name: Flow
+    pages:
+    - icon: ':warning:'
+      path: Flow/BipartiteGraph.py
+      title: Flow/BipartiteGraph.py
+    - icon: ':warning:'
+      path: Flow/Dinic.py
+      title: Flow/Dinic.py
   - name: Graph/Decomposition
     pages:
     - icon: ':heavy_check_mark:'
@@ -479,6 +487,9 @@ data:
       title: TestCase/AOJ/GRL_5_E.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/bipartitematching.test.py
+      title: TestCase/LibraryChecker/bipartitematching.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/cycle_detection.test.py
       title: TestCase/LibraryChecker/cycle_detection.test.py

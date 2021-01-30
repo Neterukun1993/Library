@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/SortedSet/SortedMultiSetBIT.py
+    title: DataStructure/SortedSet/SortedMultiSetBIT.py
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -37,7 +40,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedSetBIT.py
-  requiredBy: []
+  requiredBy:
+  - DataStructure/SortedSet/SortedMultiSetBIT.py
   timestamp: '2021-01-30 18:34:52+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

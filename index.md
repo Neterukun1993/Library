@@ -104,7 +104,7 @@ data:
       title: Segment Tree Beats
   - name: DataStructure/SortedSet
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedMultiSetBIT.py
       title: DataStructure/SortedSet/SortedMultiSetBIT.py
     - icon: ':warning:'
@@ -608,7 +608,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.test.py
       title: TestCase/yukicoder/yuki0430.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
       title: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
     - icon: ':heavy_check_mark:'
@@ -617,7 +617,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.test.py
       title: TestCase/yukicoder/yuki0922.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
       title: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
 layout: toppage

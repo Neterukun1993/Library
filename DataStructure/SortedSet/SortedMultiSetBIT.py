@@ -1,4 +1,4 @@
-from DataStructure.OrderedSet.SortedSetBIT import SortedSetBIT
+from DataStructure.SortedSet.SortedSetBIT import SortedSetBIT
 
 
 class SortedMultiSetBIT(SortedSetBIT):

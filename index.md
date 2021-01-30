@@ -102,6 +102,14 @@ data:
     - icon: ':warning:'
       path: DataStructure/SegmentTree/SegmentTreeBeats.py
       title: Segment Tree Beats
+  - name: DataStructure/SortedSet
+    pages:
+    - icon: ':x:'
+      path: DataStructure/SortedSet/SortedMultiSetBIT.py
+      title: DataStructure/SortedSet/SortedMultiSetBIT.py
+    - icon: ':warning:'
+      path: DataStructure/SortedSet/SortedSetBIT.py
+      title: DataStructure/SortedSet/SortedSetBIT.py
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
@@ -600,11 +608,17 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.test.py
       title: TestCase/yukicoder/yuki0430.test.py
+    - icon: ':x:'
+      path: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
+      title: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
       title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.test.py
       title: TestCase/yukicoder/yuki0922.test.py
+    - icon: ':x:'
+      path: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
+      title: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
 layout: toppage
 ---

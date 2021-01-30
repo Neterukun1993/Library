@@ -4,7 +4,7 @@ data:
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedMultiSetBIT.py
-    title: DataStructure/SortedSet/SortedMultiSetBIT.py
+    title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -72,7 +72,7 @@ Binary Indexed Tree による順序付き集合。集合に属する可能性の
 集合内の `vl` 以上かつ `vr` 未満である要素の数を返す。計算量 $O(\log n)$
 
 - `kth_smallest(k: int) -> int`  
-集合の中で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
 
-- `kth_smallest(k: int) -> int`  
-集合の中で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$
+- `kth_largest(k: int) -> int`  
+集合内で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$

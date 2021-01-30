@@ -106,7 +106,7 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedMultiSetBIT.py
-      title: DataStructure/SortedSet/SortedMultiSetBIT.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
     - icon: ':warning:'
       path: DataStructure/SortedSet/SortedSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"

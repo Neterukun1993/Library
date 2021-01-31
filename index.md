@@ -188,11 +188,20 @@ data:
       path: Graph/ShortestPath/bellman_ford.py
       title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
     - icon: ':warning:'
+      path: Graph/ShortestPath/bfs.py
+      title: BFS
+    - icon: ':warning:'
+      path: Graph/ShortestPath/bfs01.py
+      title: 01-BFS
+    - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
+    - icon: ':warning:'
+      path: Graph/ShortestPath/grid_bfs.py
+      title: Graph/ShortestPath/grid_bfs.py
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/tsp.py
       title: "\u5DE1\u56DE\u30BB\u30FC\u30EB\u30B9\u30DE\u30F3\u554F\u984C"

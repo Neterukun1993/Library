@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/ShortestPath/dijkstra_v2.py
-    title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
+    title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O(V^2)$)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

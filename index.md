@@ -195,13 +195,13 @@ data:
       title: 01-BFS
     - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra.py
-      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
-      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($\\mathrm{O}(V^2)$)"
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O(V^2)$)"
     - icon: ':warning:'
       path: Graph/ShortestPath/grid_bfs.py
-      title: Graph/ShortestPath/grid_bfs.py
+      title: "\u30B0\u30EA\u30C3\u30C9\u4E0A\u306EBFS"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/tsp.py
       title: "\u5DE1\u56DE\u30BB\u30FC\u30EB\u30B9\u30DE\u30F3\u554F\u984C"

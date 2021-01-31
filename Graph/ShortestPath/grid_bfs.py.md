@@ -30,8 +30,8 @@ data:
   verifiedWith: []
 documentation_of: Graph/ShortestPath/grid_bfs.py
 layout: document
-redirect_from:
-- /library/Graph/ShortestPath/grid_bfs.py
-- /library/Graph/ShortestPath/grid_bfs.py.html
-title: Graph/ShortestPath/grid_bfs.py
+title: "\u30B0\u30EA\u30C3\u30C9\u4E0A\u306EBFS"
 ---
+## 使い方
+`bfs(grid: Sequence[str], si: int, sj: int, wall: str) -> List[List[int]]`
+グリッドグラフ `grid` 上での、 `(si, sj)` を始点とした単一始点最短距離の配列を返す。グリッドグラフの大きさを `h * w` としたとき、計算量 $O(hw)$

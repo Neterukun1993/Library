@@ -31,3 +31,6 @@ documentation_of: Graph/ShortestPath/warshall_floyd.py
 layout: document
 title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
 ---
+## 使い方
+`warshall_floyd(matrix: Sequence[Sequence[int]]) -> List[List[int]]`  
+隣接行列 `matrix` で表現されるグラフ上での、全点対最短距離の配列を返す。計算量 $O(V^3)$

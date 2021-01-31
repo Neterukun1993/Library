@@ -28,5 +28,5 @@ data:
   verifiedWith: []
 documentation_of: Graph/ShortestPath/dijkstra.py
 layout: document
-title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5"
+title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
 ---

@@ -5,6 +5,6 @@ def MP(s):
     for i in range(len(s)):
         while j >= 0 and s[i] != s[j]:
             j = border[j]
-    j += 1
-    border[i + 1] = j
+        j += 1
+        border[i + 1] = j
     return border

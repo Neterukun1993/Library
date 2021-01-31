@@ -14,12 +14,13 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def MP(s):\n    border = [0] * (len(s) + 1)\n    border[0] = -1\n    j =\
     \ -1\n    for i in range(len(s)):\n        while j >= 0 and s[i] != s[j]:\n  \
-    \          j = border[j]\n    j += 1\n    border[i + 1] = j\n    return border\n"
+    \          j = border[j]\n        j += 1\n        border[i + 1] = j\n    return\
+    \ border\n"
   dependsOn: []
   isVerificationFile: false
   path: String/MP.py
   requiredBy: []
-  timestamp: '2021-01-28 22:42:38+09:00'
+  timestamp: '2021-02-01 00:58:37+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: String/MP.py

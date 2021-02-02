@@ -197,6 +197,9 @@ data:
       path: Graph/ShortestPath/dijkstra.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
     - icon: ':heavy_check_mark:'
+      path: Graph/ShortestPath/dijkstra_radix.py
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 (Radix Heap)"
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O(V^2)$)"
     - icon: ':warning:'
@@ -454,6 +457,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_5_B.test.py
       title: TestCase/AOJ/DSL_5_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
+      title: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.test.py
       title: TestCase/AOJ/GRL_1_A.test.py

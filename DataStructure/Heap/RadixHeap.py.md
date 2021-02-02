@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/ShortestPath/dijkstra_radix.py
+    title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 (Radix Heap)"
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -29,7 +32,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/RadixHeap.py
-  requiredBy: []
+  requiredBy:
+  - Graph/ShortestPath/dijkstra_radix.py
   timestamp: '2021-01-22 20:25:28+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

@@ -152,6 +152,9 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
+    - icon: ':warning:'
+      path: DataStructure/misc/PersistentStack.py
+      title: "\u6C38\u7D9AStack"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SlidingWindowAggregation.py
       title: Sliding Window Aggregation

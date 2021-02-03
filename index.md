@@ -242,6 +242,9 @@ data:
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':heavy_check_mark:'
+      path: Graph/Tree/cartesian_tree.py
+      title: Cartesian Tree
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
     - icon: ':heavy_check_mark:'
@@ -516,6 +519,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/bipartitematching.test.py
       title: TestCase/LibraryChecker/bipartitematching.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/cartesian_tree.test.py
+      title: TestCase/LibraryChecker/cartesian_tree.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/cycle_detection.test.py
       title: TestCase/LibraryChecker/cycle_detection.test.py

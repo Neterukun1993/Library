@@ -84,6 +84,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/LiChaoTree.py
       title: Li-Chao Tree
+    - icon: ':warning:'
+      path: DataStructure/SegmentTree/PersistentSegmentTree.py
+      title: "\u6C38\u7D9A\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RUQ.py
       title: RSQ_RUQ

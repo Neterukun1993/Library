@@ -150,6 +150,10 @@ data:
   - name: DataStructure/misc
     pages:
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/ArrayDeque.py
+      title: "\u4E21\u7AEF\u30AD\u30E5\u30FC (\u5FAA\u74B0\u30D0\u30C3\u30D5\u30A1\
+        /\u30E9\u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9$O(1)$)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
     - icon: ':warning:'
@@ -517,6 +521,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_E.test.py
       title: TestCase/AOJ/GRL_5_E.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py
+      title: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

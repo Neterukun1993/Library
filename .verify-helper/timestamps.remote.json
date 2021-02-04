@@ -65,6 +65,7 @@
 "TestCase/AOJ/GRL_5_B.test.py": "2021-01-24 18:01:48 +0900",
 "TestCase/AOJ/GRL_5_D.test.py": "2021-01-16 04:24:26 +0900",
 "TestCase/AOJ/GRL_5_E.test.py": "2021-01-16 04:24:26 +0900",
+"TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py": "2021-02-04 17:47:04 +0900",
 "TestCase/LibraryChecker/bipartitematching.test.py": "1970-01-01 00:00:00 +0000",
 "TestCase/LibraryChecker/cartesian_tree.test.py": "2021-02-03 22:14:24 +0900",
 "TestCase/LibraryChecker/cycle_detection.test.py": "2021-01-14 17:41:58 +0900",

@@ -154,6 +154,9 @@ data:
       title: "\u4E21\u7AEF\u30AD\u30E5\u30FC (\u5FAA\u74B0\u30D0\u30C3\u30D5\u30A1\
         /\u30E9\u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9$O(1)$)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/BinaryTrie.py
+      title: Binary Trie
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
     - icon: ':warning:'
@@ -592,6 +595,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/segment_add_get_min.test.py
       title: TestCase/LibraryChecker/segment_add_get_min.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/set_xor_min.test.py
+      title: TestCase/LibraryChecker/set_xor_min.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
       title: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py

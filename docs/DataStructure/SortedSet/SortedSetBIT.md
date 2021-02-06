@@ -25,7 +25,16 @@ Binary Indexed Tree による順序付き集合。集合に属する可能性の
 集合内の `vl` 以上かつ `vr` 未満である要素の数を返す。計算量 $O(\log n)$
 
 - `kth_smallest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に小さい要素を返す。計算量 $O(\log n)$
 
 - `kth_largest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に大きい要素を返す。計算量 $O(\log n)$
+
+- `prev_val(upper: int) -> int`  
+集合内で `upper` よりも小さい最大の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `next_val(lower: int) -> int`  
+集合内で `lower` 以上の最小の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `dump() -> List[int]`  
+集合内の全ての要素を小さい順に返す。計算量 $O(n)$

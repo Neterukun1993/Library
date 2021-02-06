@@ -62,3 +62,21 @@ class SortedSetBIT:
 
     def kth_largest(self, k):
         return self.kth_smallest(self.cnt - k - 1)
+
+    def prev_val(self, upper):
+        upper = bisect_left(self.array, upper)
+        k = self._count(upper) - 1
+        return None if k == -1 else self.kth_smallest(k)
+
+    def next_val(self, lower):
+        lower = bisect_left(self.array, lower)
+        k = self._count(lower)
+        return None if k == self.cnt else self.kth_smallest(k)
+
+    def all_dump(self):
+        res = self.bit[:]
+        for i in reversed(range(1, self.size)):
+            if i + (i & -i) > self.size:
+                continue
+            res[i + (i & -i)] -= res[i]
+        return [self.array[i] for i, flag in enumerate(res[1:]) if flag]

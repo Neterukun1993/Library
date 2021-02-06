@@ -21,11 +21,23 @@ Binary Indexed Tree による順序付き多重集合。集合に属する可能
 - `remove(val: int) -> bool`  
 集合から `val` を `1` つだけ削除する。削除に成功した場合は `True` を、失敗した場合 (`val` が集合に属していなかった場合) は `False` を返す。計算量 $O(\log n)$
 
+- `all_remove(val: int) -> bool`  
+集合から `val` を全て削除する。削除に成功した場合は `True` を、失敗した場合 (`val` が集合に属していなかった場合) は `False` を返す。計算量 $O(\log n)$
+
 - `count(vl: int, vr: int) -> int`  
 集合内の `vl` 以上かつ `vr` 未満である要素の数を返す。計算量 $O(\log n)$
 
 - `kth_smallest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に小さい要素を返す。計算量 $O(\log n)$
 
 - `kth_largest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に大きい要素を返す。計算量 $O(\log n)$
+
+- `prev_val(upper: int) -> int`  
+集合内で `upper` よりも小さい最大の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `next_val(lower: int) -> int`  
+集合内で `lower` 以上の最小の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `all_dump() -> List[Tuple[int, int]]`  
+集合内の全ての (要素, 個数) の組を、要素の小さい順に返す。計算量 $O(n)$

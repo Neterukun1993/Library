@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedSetBIT.py
     title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
   _extendedRequiredBy: []
@@ -25,13 +25,20 @@ data:
     \ SortedMultiSetBIT(SortedSetBIT):\n    def __init__(self, cands):\n        super().__init__(cands)\n\
     \n    def add(self, val):\n        i = self.comp[val] + 1\n        while i <=\
     \ self.size:\n            self.bit[i] += 1\n            i += i & -i\n        self.cnt\
-    \ += 1\n        return True\n"
+    \ += 1\n        return True\n\n    def all_remove(self, val):\n        if val\
+    \ not in self:\n            return False\n        i = self.comp[val] + 1\n   \
+    \     cnt = self._count(i) - self._count(i - 1)\n        while i <= self.size:\n\
+    \            self.bit[i] -= cnt\n            i += i & -i\n        self.cnt -=\
+    \ cnt\n        return True\n\n    def all_dump(self):\n        res = self.bit[:]\n\
+    \        for i in reversed(range(1, self.size)):\n            if i + (i & -i)\
+    \ > self.size:\n                continue\n            res[i + (i & -i)] -= res[i]\n\
+    \        return [(self.array[i], cnt) for i, cnt in enumerate(res[1:]) if cnt]\n"
   dependsOn:
   - DataStructure/SortedSet/SortedSetBIT.py
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedMultiSetBIT.py
   requiredBy: []
-  timestamp: '2021-01-30 18:42:14+09:00'
+  timestamp: '2021-02-06 18:04:37+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
@@ -59,11 +66,23 @@ Binary Indexed Tree による順序付き多重集合。集合に属する可能
 - `remove(val: int) -> bool`  
 集合から `val` を `1` つだけ削除する。削除に成功した場合は `True` を、失敗した場合 (`val` が集合に属していなかった場合) は `False` を返す。計算量 $O(\log n)$
 
+- `all_remove(val: int) -> bool`  
+集合から `val` を全て削除する。削除に成功した場合は `True` を、失敗した場合 (`val` が集合に属していなかった場合) は `False` を返す。計算量 $O(\log n)$
+
 - `count(vl: int, vr: int) -> int`  
 集合内の `vl` 以上かつ `vr` 未満である要素の数を返す。計算量 $O(\log n)$
 
 - `kth_smallest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に小さい要素を返す。計算量 $O(\log n)$
 
 - `kth_largest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に大きい要素を返す。計算量 $O(\log n)$
+
+- `prev_val(upper: int) -> int`  
+集合内で `upper` よりも小さい最大の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `next_val(lower: int) -> int`  
+集合内で `lower` 以上の最小の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `all_dump() -> List[Tuple[int, int]]`  
+集合内の全ての (要素, 個数) の組を、要素の小さい順に返す。計算量 $O(n)$

@@ -5,10 +5,13 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedMultiSetBIT.py
     title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/ITP2_7_B.BIT.test.py
+    title: TestCase/AOJ/ITP2_7_B.BIT.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -36,15 +39,23 @@ data:
     \ + d <= self.size and self.bit[idx + d] < k:\n                k -= self.bit[idx\
     \ + d]\n                idx += d\n            d >>= 1\n        return self.array[idx]\n\
     \n    def kth_largest(self, k):\n        return self.kth_smallest(self.cnt - k\
-    \ - 1)\n"
+    \ - 1)\n\n    def prev_val(self, upper):\n        upper = bisect_left(self.array,\
+    \ upper)\n        k = self._count(upper) - 1\n        return None if k == -1 else\
+    \ self.kth_smallest(k)\n\n    def next_val(self, lower):\n        lower = bisect_left(self.array,\
+    \ lower)\n        k = self._count(lower)\n        return None if k == self.cnt\
+    \ else self.kth_smallest(k)\n\n    def all_dump(self):\n        res = self.bit[:]\n\
+    \        for i in reversed(range(1, self.size)):\n            if i + (i & -i)\
+    \ > self.size:\n                continue\n            res[i + (i & -i)] -= res[i]\n\
+    \        return [self.array[i] for i, flag in enumerate(res[1:]) if flag]\n"
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedSetBIT.py
   requiredBy:
   - DataStructure/SortedSet/SortedMultiSetBIT.py
-  timestamp: '2021-01-30 18:34:52+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  timestamp: '2021-02-06 18:04:37+09:00'
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/ITP2_7_B.BIT.test.py
 documentation_of: DataStructure/SortedSet/SortedSetBIT.py
 layout: document
 title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
@@ -72,7 +83,16 @@ Binary Indexed Tree による順序付き集合。集合に属する可能性の
 集合内の `vl` 以上かつ `vr` 未満である要素の数を返す。計算量 $O(\log n)$
 
 - `kth_smallest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に小さい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に小さい要素を返す。計算量 $O(\log n)$
 
 - `kth_largest(k: int) -> int`  
-集合内で `k` 番目 (0-indexed) に大きい値を返す。計算量 $O(\log n)$
+集合内で `k` 番目 (0-indexed) に大きい要素を返す。計算量 $O(\log n)$
+
+- `prev_val(upper: int) -> int`  
+集合内で `upper` よりも小さい最大の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `next_val(lower: int) -> int`  
+集合内で `lower` 以上の最小の要素を返す。そのような要素が存在しない場合は `None` を返す。計算量 $O(\log n)$
+
+- `dump() -> List[int]`  
+集合内の全ての要素を小さい順に返す。計算量 $O(n)$

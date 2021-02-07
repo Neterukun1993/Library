@@ -168,6 +168,9 @@ data:
     - icon: ':warning:'
       path: DataStructure/misc/DynamicMedian.py
       title: DataStructure/misc/DynamicMedian.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/KDTree2D.py
+      title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22\u6728 (kD-Tree)"
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
@@ -460,6 +463,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_B.SegTree.test.py
       title: TestCase/AOJ/DSL_2_B.SegTree.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_C.test.py
+      title: TestCase/AOJ/DSL_2_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py
       title: TestCase/AOJ/DSL_2_D.CommutativeDualSegTree.test.py

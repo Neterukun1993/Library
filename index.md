@@ -166,6 +166,9 @@ data:
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
     - icon: ':warning:'
+      path: DataStructure/misc/DynamicMedian.py
+      title: DataStructure/misc/DynamicMedian.py
+    - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
     - icon: ':warning:'

@@ -17,6 +17,7 @@
 "TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py": "2021-01-04 23:38:13 +0900",
 "TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py": "2021-01-19 22:36:20 +0900",
 "TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py": "2021-01-14 12:29:07 +0900",
+"TestCase/AOJ/CGL_5_A.test.py": "2021-02-07 11:54:13 +0900",
 "TestCase/AOJ/DPL_2_A.test.py": "2021-01-24 02:57:32 +0900",
 "TestCase/AOJ/DPL_5_A.test.py": "2021-01-02 20:30:23 +0900",
 "TestCase/AOJ/DPL_5_B.test.py": "2021-01-02 20:30:23 +0900",

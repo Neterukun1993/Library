@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedSetBTree.py
     title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_D.BTree.test.py
     title: TestCase/AOJ/ITP2_7_D.BTree.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -30,8 +30,8 @@ data:
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedMultiSetBTree.py
   requiredBy: []
-  timestamp: '2021-02-07 17:33:17+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2021-02-07 17:46:13+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_7_D.BTree.test.py
 documentation_of: DataStructure/SortedSet/SortedMultiSetBTree.py

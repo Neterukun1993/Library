@@ -2,16 +2,16 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedMultiSetBTree.py
     title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (B-Tree)"
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_C.BTree.test.py
     title: TestCase/AOJ/ITP2_7_C.BTree.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -35,7 +35,7 @@ data:
     \ self.keys[idx]\n\n    def merge(self, idx):\n        self.children[idx].keys\
     \ += [self.keys[idx]] + self.children[idx + 1].keys\n        self.children[idx].children\
     \ += self.children[idx + 1].children\n        del self.keys[idx], self.children[idx\
-    \ + 1]\n        assert(len(self.keys) + 1 == len(self.children))\n\n\nclass SortedMultiSetBTree:\n\
+    \ + 1]\n        assert(len(self.keys) + 1 == len(self.children))\n\n\nclass SortedSetBTree:\n\
     \    def __init__(self, B_SIZE=512):\n        self.B_SIZE = B_SIZE\n        self.root\
     \ = BTreeNode(self.B_SIZE)\n        self.size = 0\n\n    def __contains__(self,\
     \ key):\n        return self._search(key)\n\n    def __len__(self):\n        return\
@@ -87,8 +87,8 @@ data:
   path: DataStructure/SortedSet/SortedSetBTree.py
   requiredBy:
   - DataStructure/SortedSet/SortedMultiSetBTree.py
-  timestamp: '2021-02-07 17:33:17+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2021-02-07 17:46:13+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_7_C.BTree.test.py
 documentation_of: DataStructure/SortedSet/SortedSetBTree.py

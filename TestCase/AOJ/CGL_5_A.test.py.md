@@ -1,0 +1,39 @@
+---
+data:
+  _extendedDependsOn:
+  - icon: ':x:'
+    path: Geometry/closest_pair.py
+    title: Geometry/closest_pair.py
+  _extendedRequiredBy: []
+  _extendedVerifiedWith: []
+  _isVerificationFailed: true
+  _pathExtension: py
+  _verificationStatusIcon: ':x:'
+  attributes:
+    PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_5_A
+    links:
+    - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_5_A
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+    , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
+  code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_5_A\n\
+    import sys\ninput = sys.stdin.buffer.readline\n\nfrom Geometry.closest_pair import\
+    \ closest_pair\n\n\ndef main():\n    n = int(input())\n    points = [list(map(float,\
+    \ input().split())) for i in range(n)]\n\n    dist, *other = closest_pair(points)\n\
+    \    print(dist)\n\n\nif __name__ == '__main__':\n    main()\n"
+  dependsOn:
+  - Geometry/closest_pair.py
+  isVerificationFile: true
+  path: TestCase/AOJ/CGL_5_A.test.py
+  requiredBy: []
+  timestamp: '2021-02-07 11:37:03+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
+  verifiedWith: []
+documentation_of: TestCase/AOJ/CGL_5_A.test.py
+layout: document
+redirect_from:
+- /verify/TestCase/AOJ/CGL_5_A.test.py
+- /verify/TestCase/AOJ/CGL_5_A.test.py.html
+title: TestCase/AOJ/CGL_5_A.test.py
+---

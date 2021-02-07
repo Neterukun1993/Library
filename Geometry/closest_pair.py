@@ -19,7 +19,7 @@ def merge(ps_l, ps_r):
     return ps
 
 
-def closest_pair(points):
+def closest_pair_rec(points):
     """calculate closest pair's distance by divide-and-conquer."""
     INF = 1.0 * 10 ** 9
     size = len(points)
@@ -27,11 +27,10 @@ def closest_pair(points):
         return INF, points
     mid = size // 2
     x_mid = points[mid][0]
-    dist_l, ps_l = closest_pair(points[0:mid])
-    dist_r, ps_r = closest_pair(points[mid:size])
+    dist_l, ps_l = closest_pair_rec(points[0:mid])
+    dist_r, ps_r = closest_pair_rec(points[mid:size])
     dist = min(dist_l, dist_r)
     ps = merge(ps_l, ps_r)
-
     qs = []
     for xp, yp in ps:
         if abs(xp - x_mid) >= dist:
@@ -44,3 +43,8 @@ def closest_pair(points):
             dist = min((dx ** 2 + dy ** 2) ** 0.5, dist)
         qs.append((xp, yp))
     return dist, ps
+
+
+def closest_pair(points):
+    dist, _ = closest_pair_rec(sorted(points))
+    return dist

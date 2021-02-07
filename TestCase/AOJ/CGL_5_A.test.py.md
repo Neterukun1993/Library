@@ -20,14 +20,14 @@ data:
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=CGL_5_A\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom Geometry.closest_pair import\
     \ closest_pair\n\n\ndef main():\n    n = int(input())\n    points = [list(map(float,\
-    \ input().split())) for i in range(n)]\n\n    dist, *other = closest_pair(points)\n\
-    \    print(dist)\n\n\nif __name__ == '__main__':\n    main()\n"
+    \ input().split())) for i in range(n)]\n\n    points.sort()\n    print('{:.012f}'.format(closest_pair(points)[0]))\n\
+    \n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - Geometry/closest_pair.py
   isVerificationFile: true
   path: TestCase/AOJ/CGL_5_A.test.py
   requiredBy: []
-  timestamp: '2021-02-07 11:37:03+09:00'
+  timestamp: '2021-02-07 11:45:54+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: TestCase/AOJ/CGL_5_A.test.py

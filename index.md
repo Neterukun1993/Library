@@ -184,7 +184,7 @@ data:
       title: Flow/Dinic.py
   - name: Geometry
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Geometry/closest_pair.py
       title: Geometry/closest_pair.py
   - name: Graph/Decomposition
@@ -388,7 +388,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/CGL_5_A.test.py
       title: TestCase/AOJ/CGL_5_A.test.py
     - icon: ':heavy_check_mark:'

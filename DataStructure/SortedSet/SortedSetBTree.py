@@ -40,7 +40,7 @@ class BTreeNode:
         assert(len(self.keys) + 1 == len(self.children))
 
 
-class SortedMultiSetBTree:
+class SortedSetBTree:
     def __init__(self, B_SIZE=512):
         self.B_SIZE = B_SIZE
         self.root = BTreeNode(self.B_SIZE)

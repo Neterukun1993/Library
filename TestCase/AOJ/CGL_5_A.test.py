@@ -9,8 +9,8 @@ def main():
     n = int(input())
     points = [list(map(float, input().split())) for i in range(n)]
 
-    dist, *other = closest_pair(points)
-    print(dist)
+    points.sort()
+    print('{:.012f}'.format(closest_pair(points)[0]))
 
 
 if __name__ == '__main__':

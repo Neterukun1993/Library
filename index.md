@@ -110,9 +110,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedMultiSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
+    - icon: ':x:'
+      path: DataStructure/SortedSet/SortedMultiSetBTree.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (B-Tree)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
+    - icon: ':x:'
+      path: DataStructure/SortedSet/SortedSetBTree.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
@@ -544,6 +550,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_B.BIT.test.py
       title: TestCase/AOJ/ITP2_7_B.BIT.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/ITP2_7_C.BTree.test.py
+      title: TestCase/AOJ/ITP2_7_C.BTree.test.py
+    - icon: ':x:'
+      path: TestCase/AOJ/ITP2_7_D.BTree.test.py
+      title: TestCase/AOJ/ITP2_7_D.BTree.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

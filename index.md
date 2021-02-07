@@ -184,6 +184,9 @@ data:
       title: Flow/Dinic.py
   - name: Geometry
     pages:
+    - icon: ':warning:'
+      path: Geometry/atan2_sorted.py
+      title: "\u504F\u89D2\u30BD\u30FC\u30C8"
     - icon: ':heavy_check_mark:'
       path: Geometry/closest_pair.py
       title: "\u6700\u8FD1\u70B9\u5BFE"

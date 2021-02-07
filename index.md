@@ -186,7 +186,7 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: Geometry/closest_pair.py
-      title: Geometry/closest_pair.py
+      title: "\u6700\u8FD1\u70B9\u5BFE"
   - name: Graph/Decomposition
     pages:
     - icon: ':heavy_check_mark:'

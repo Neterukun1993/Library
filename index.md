@@ -167,10 +167,10 @@ data:
       title: Disjoint Sparse Table
     - icon: ':warning:'
       path: DataStructure/misc/DynamicMedian.py
-      title: DataStructure/misc/DynamicMedian.py
+      title: "\u52D5\u7684\u4E2D\u592E\u5024\u30AF\u30A8\u30EA"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/KDTree2D.py
-      title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22\u6728 (kD-Tree)"
+      title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22 (kD-Tree)"
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"

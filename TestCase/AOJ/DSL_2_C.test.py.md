@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/misc/KDTree2D.py
-    title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22\u6728 (kD-Tree)"
+    title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22 (kD-Tree)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

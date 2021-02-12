@@ -7,4 +7,6 @@ def MP(s):
             j = border[j]
         j += 1
         border[i + 1] = j
-    return border
+    period = [i - val for i, val in enumerate(border)]
+    period[0] = -1
+    return border, period

@@ -63,8 +63,8 @@ data:
   path: DataStructure/SegmentTree/LazySegmentTree.py
   requiredBy:
   - DataStructure/SegmentTree/RmQ_RAQ.py
-  - DataStructure/SegmentTree/RmQ_RUQ.py
   - DataStructure/SegmentTree/RSQ_RUQ.py
+  - DataStructure/SegmentTree/RmQ_RUQ.py
   timestamp: '2021-01-02 17:11:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

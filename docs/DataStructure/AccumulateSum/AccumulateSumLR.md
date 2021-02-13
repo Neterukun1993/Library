@@ -4,10 +4,13 @@ documentation_of: //DataStructure/AccumulateSum/AccumulateSumLR.py
 ---
 ## 使い方
 `AccumulateSumLR(array: List[Any], op: Callable[[Any, Any], Any], e: Any)`  
-`array` の累積和を構築する。このときの累積は二項演算 `op`、単位元 `e` によって演算される。`array` のサイズを $n$ としたとき、計算量 $\mathrm{O}(n)$
+`array` に対して、左からの累積と右からの累積を構築する。累積は二項演算 `op`、単位元 `e` によって演算される。計算量 $O(n)$
+
 - `left_fold(upper: int) -> Any`  
-$\lbrack 0, upper)$ 番目の要素の累積を返す。計算量 $\mathrm{O}(1)$
-- `right_fold(upper: int) -> Any`  
-$\lbrack lower, n)$ 番目の要素の累積を返す。計算量 $\mathrm{O}(1)$
+`[0, upper)` 番目の要素の累積を返す。計算量 $O(1)$
+
+- `right_fold(lower: int) -> Any`  
+`[lower, n)` 番目の要素の累積を返す。計算量 $O(1)$
+
 - `fold(ex_idx: int) -> Any`  
-$ex \_ idx$ 番目を除いたすべての要素の累積を返す。計算量 $\mathrm{O}(1)$
+`ex_idx` 番目を除いたすべての要素の累積を返す。計算量 $O(1)$

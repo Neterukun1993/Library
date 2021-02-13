@@ -47,10 +47,13 @@ documentation_of: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
 layout: document
 title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
 ---
+
 ## 使い方
 `BinaryIndexedTree(n: int)`  
-長さ $n$ の Binary Indexed Tree を構築する。初期値はすべて $0$ である。計算量 $\mathrm{O}(n)$
-- `add(l: int, r: int, val: Any) -> None`  
-$\lbrack l, r)$ 番目の要素それぞれに `val` を加える。計算量 $\mathrm{O}(\log n)$
-- `sum(l: int, r: int) -> Any`  
-$\lbrack l, r)$ 番目の要素の総和を返す。計算量 $\mathrm{O}(\log n)$
+長さ `n` の Binary Indexed Tree を構築する。初期値はすべて `0` である。計算量 $O(n)$
+
+- `add(l: int, r: int, val: int) -> None`  
+$\lbrack l, r)$ 番目の要素に `val` を加える。計算量 $O(\log n)$
+
+- `sum(l: int, r: int) -> int`  
+$\lbrack l, r)$ 番目の要素の総和を返す。計算量 $O(\log n)$

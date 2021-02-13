@@ -35,7 +35,7 @@ data:
   - TestCase/AOJ/DSL_5_B.test.py
 documentation_of: DataStructure/AccumulateSum/Imos2D.py
 layout: document
-title: "\u3044\u3082\u3059\u6CD5"
+title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
 ---
 
 ## 使い方

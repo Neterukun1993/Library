@@ -17,9 +17,9 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class Imos2D:\n    def __init__(self, h, w):\n        self.h = h\n      \
     \  self.w = w\n        self.imos = [[0] * (self.w + 1) for _ in range(self.h +\
-    \ 1)]\n\n    def __getitem__(self, ij):\n        i, j = ij\n        return self.imos[i][j]\n\
-    \n    def add(self, hl, hr, wl, wr, val):\n        \"\"\"add value in range [hl,\
-    \ hr) * [wl, wr)\"\"\"\n        self.imos[hl][wl] += val\n        self.imos[hr][wl]\
+    \ 1)]\n\n    def __getitem__(self, i):\n        return self.imos[i]\n\n    def\
+    \ add(self, hl, hr, wl, wr, val):\n        \"\"\"add value in range [hl, hr) *\
+    \ [wl, wr)\"\"\"\n        self.imos[hl][wl] += val\n        self.imos[hr][wl]\
     \ -= val\n        self.imos[hl][wr] -= val\n        self.imos[hr][wr] += val\n\
     \n    def build(self):\n        for i in range(self.h):\n            for j in\
     \ range(self.w):\n                self.imos[i][j + 1] += self.imos[i][j]\n   \
@@ -29,14 +29,31 @@ data:
   isVerificationFile: false
   path: DataStructure/AccumulateSum/Imos2D.py
   requiredBy: []
-  timestamp: '2021-01-02 06:13:08+09:00'
+  timestamp: '2021-02-13 17:23:34+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_5_B.test.py
 documentation_of: DataStructure/AccumulateSum/Imos2D.py
 layout: document
-redirect_from:
-- /library/DataStructure/AccumulateSum/Imos2D.py
-- /library/DataStructure/AccumulateSum/Imos2D.py.html
-title: DataStructure/AccumulateSum/Imos2D.py
+title: "\u3044\u3082\u3059\u6CD5"
 ---
+
+## 使い方
+`Imos2D(h: int, w: int)`  
+大きさ $h × w$ のいもす法用の二次元配列を初期構築する。計算量 $O(hw)$  
+その後の一連の処理としては
+
+1. `add` 関数で矩形加算の準備をする。
+2. `build` 関数で矩形加算を実行する。
+3. `__getitem__` 関数で値を取得する。
+
+となる。
+
+- `add(hl: int, hr: int, wl: int, wr: int, val: int) -> None`  
+矩形範囲 $\lbrack hl, hr) × \lbrack wl, wr)$ の要素に `val` を加える準備をする。計算量 $O(1)$
+
+- `build() -> None`  
+`add` による矩形加算を実行する。計算量 $O(n)$
+
+- `__getitem__(i: int).__getitem__(j: int) -> int`  
+`i` 番目の行、`j` 番目の列の要素を返す。計算量 $O(1)$

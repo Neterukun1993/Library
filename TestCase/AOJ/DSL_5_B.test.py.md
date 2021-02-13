@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/AccumulateSum/Imos2D.py
-    title: DataStructure/AccumulateSum/Imos2D.py
+    title: "\u3044\u3082\u3059\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -23,14 +23,14 @@ data:
     \ input().split())) for i in range(n)]\n\n    imos = Imos2D(1000, 1000)\n    for\
     \ hl, wl, hr, wr in queries:\n        imos.add(hl, hr, wl, wr, 1)\n    imos.build()\n\
     \n    ans = 0\n    for i in range(1000):\n        for j in range(1000):\n    \
-    \        ans = max(ans, imos[i, j])\n    print(ans)\n\n\nif __name__ == '__main__':\n\
+    \        ans = max(ans, imos[i][j])\n    print(ans)\n\n\nif __name__ == '__main__':\n\
     \    main()\n"
   dependsOn:
   - DataStructure/AccumulateSum/Imos2D.py
   isVerificationFile: true
   path: TestCase/AOJ/DSL_5_B.test.py
   requiredBy: []
-  timestamp: '2021-01-02 06:13:08+09:00'
+  timestamp: '2021-02-13 17:23:34+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DSL_5_B.test.py

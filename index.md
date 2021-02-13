@@ -28,7 +28,7 @@ data:
       title: "\u3044\u3082\u3059\u6CD5"
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos2D.py
-      title: DataStructure/AccumulateSum/Imos2D.py
+      title: "\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
     - icon: ':heavy_check_mark:'

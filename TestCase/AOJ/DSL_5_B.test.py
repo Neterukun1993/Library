@@ -17,7 +17,7 @@ def main():
     ans = 0
     for i in range(1000):
         for j in range(1000):
-            ans = max(ans, imos[i, j])
+            ans = max(ans, imos[i][j])
     print(ans)
 
 

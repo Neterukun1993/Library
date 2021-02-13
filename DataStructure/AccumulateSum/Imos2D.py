@@ -4,9 +4,8 @@ class Imos2D:
         self.w = w
         self.imos = [[0] * (self.w + 1) for _ in range(self.h + 1)]
 
-    def __getitem__(self, ij):
-        i, j = ij
-        return self.imos[i][j]
+    def __getitem__(self, i):
+        return self.imos[i]
 
     def add(self, hl, hr, wl, wr, val):
         """add value in range [hl, hr) * [wl, wr)"""

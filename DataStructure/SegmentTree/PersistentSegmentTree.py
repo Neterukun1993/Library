@@ -1,23 +1,16 @@
-class PSTNode:
-    def __init__(self, val):
-        self.val = val
-        self.l = None
-        self.r = None
-
-
 class PersistentSegmentTree:
-    def __init__(self, op, e, root=None):
+    def __init__(self, n, op, e, root=None):
         self.op = op
         self.e = e
         self.root = root
-
-    def build(self, array):
-        n = len(array)
+        self.n = n
         self.log = (n - 1).bit_length()
         self.size = 2 ** self.log
-        array = [PSTNode(array[i] if i < n else self.e) for i in range(self.size)]
-        tmp = []
+
+    def build(self, array):
+        array = [(None, None, array[i] if i < self.n else self.e) for i in range(self.size)]
         for h in range(self.log):
+            tmp = []
             for i in range(1 << (self.log - h - 1)):
                 nd = self.make_parent(array[i << 1 | 0], array[i << 1 | 1])
                 tmp.append(nd)
@@ -28,45 +21,42 @@ class PersistentSegmentTree:
         nd = self.root
         for h in range(self.log):
             if (i >> (self.log - h - 1)) & 1:
-                nd = nd.r
+                nd = nd[1]
             else:
-                nd = nd.l
-        return nd.val
+                nd = nd[0]
+        return nd[2]
 
     def update(self, i, val):
         nd = self.root
-        stack = []
+        stack = [nd]
         for h in range(self.log):
-            stack.append(nd)
             if (i >> (self.log - h - 1)) & 1:
-                nd = nd.r
+                nd = nd[1]
             else:
-                nd = nd.l
-        nd = PSTNode(val)
-        for ndp in reversed(stack):
-            if ndp.l is nd:
-                nd = make_parent(nd, nd.r)
+                nd = nd[0]
+            stack.append(nd)
+        nd = (None, None, val)
+        for ndc, ndp in zip(stack[::-1], stack[::-1][1:]):
+            if ndp[0] is ndc:
+                nd = self.make_parent(nd, ndp[1])
             else:
-                nd = make_parent(nd.l, nd)
-        return PersistentSegmentTree(self.op, self.e, nd)
+                nd = self.make_parent(ndp[0], nd)
+        return PersistentSegmentTree(self.size, self.op, self.e, nd)
 
     def make_parent(self, ndl, ndr):
-        val = self.op(ndl.val, ndr.val)
-        nd = PSTNode(val)
-        nd.l, nd.r = ndl, ndr
-        return nd
+        return (ndl, ndr, self.op(ndl[2], ndr[2]))
 
     def all_fold(self):
-        return self.root.val
+        return self.root[2]
 
     def fold(self, l, r):
         return self._fold(l, r, 0, self.n, self.root)
 
-    def _fold(self, a, b, k, l, r, nd):
+    def _fold(self, a, b, l, r, nd):
         if r <= a or b <= l:
             return self.e
         if a <= l and r <= b:
-            return self.nd.val
-        vl = self._fold(a, b, l, (l + r) >> 1, nd.l)
-        vr = self._fold(a, b, (l + r) >> 1, r, nd.r)
+            return nd[2]
+        vl = self._fold(a, b, l, (l + r) >> 1, nd[0])
+        vr = self._fold(a, b, (l + r) >> 1, r, nd[1])
         return self.op(vl, vr)

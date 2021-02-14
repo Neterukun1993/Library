@@ -64,6 +64,7 @@
 "TestCase/AOJ/GRL_3_C.Kosaraju.test.py": "2021-01-09 01:19:33 +0900",
 "TestCase/AOJ/GRL_3_C.Tarjan.test.py": "2021-01-09 01:09:35 +0900",
 "TestCase/AOJ/GRL_4_A.test.py": "2021-01-14 17:41:58 +0900",
+"TestCase/AOJ/GRL_4_B.test.py": "2021-02-15 02:48:04 +0900",
 "TestCase/AOJ/GRL_5_A.test.py": "2021-01-24 18:01:48 +0900",
 "TestCase/AOJ/GRL_5_B.test.py": "2021-01-24 18:01:48 +0900",
 "TestCase/AOJ/GRL_5_D.test.py": "2021-01-16 04:24:26 +0900",

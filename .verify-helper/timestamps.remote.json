@@ -112,6 +112,7 @@
 "TestCase/yukicoder/yuki0430.RollingHash.test.py": "2021-01-23 23:52:48 +0900",
 "TestCase/yukicoder/yuki0430.test.py": "2021-01-16 14:01:02 +0900",
 "TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py": "2021-02-06 18:04:37 +0900",
+"TestCase/yukicoder/yuki0763.test.py": "2021-02-15 01:45:32 +0900",
 "TestCase/yukicoder/yuki0922.HLDecomposition.test.py": "2021-01-16 03:42:28 +0900",
 "TestCase/yukicoder/yuki0922.test.py": "2021-01-14 15:36:57 +0900",
 "TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py": "2021-02-06 18:04:37 +0900"

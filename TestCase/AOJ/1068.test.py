@@ -16,6 +16,7 @@ def main():
             sp = SparseTable2D(grid, min)
             for hl, wl, hr, wr in queries:
                 ans.append(sp.fold(hl, hr + 1, wl, wr + 1))
+
         except:
             break
     print('\n'.join(map(str, ans)))

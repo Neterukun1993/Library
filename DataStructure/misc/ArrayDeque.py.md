@@ -57,3 +57,37 @@ layout: document
 title: "\u4E21\u7AEF\u30AD\u30E5\u30FC (\u5FAA\u74B0\u30D0\u30C3\u30D5\u30A1/\u30E9\
   \u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9$O(1)$)"
 ---
+
+## 概要
+ランダムアクセスが $O(1)$ で可能な両端キュー。
+
+## 使い方
+`ArrayDeque()`  
+空の両端キューを構築する。計算量 $O(1)$
+
+- `__len__() -> int`  
+両端キューの大きさを返す。計算量 $O(1)$
+
+- `__iter__() -> Iterator[Any]`  
+先頭のイテレータオブジェクトを返す。計算量 $O(1)$
+
+- `__getitem__(i: int) -> Any`  
+`i` 番目の要素を返す。計算量 $O(1)$
+
+- `__setitem__(i: int, val: Any) -> None`  
+`i` 番目の要素を `val` に変更する。計算量 $O(1)$
+
+- `append(val: Any) -> None`  
+両端キューの末尾に要素 `val` を追加する。計算量 $\mathrm{amortized}\ O(1)$
+
+- `appendleft(val: Any) -> None`  
+両端キューの先頭に要素 `val` を追加する。計算量 $\mathrm{amortized}\ O(1)$
+
+- `pop() -> Any`  
+両端キューの末尾要素を削除し、その要素を返す。計算量 $\mathrm{amortized}\ O(1)$
+
+- `popleft() -> Any`  
+両端キューの先頭要素を削除し、その要素を返す。計算量 $\mathrm{amortized}\ O(1)$
+
+- `clear() -> None`  
+両端キューを空にする。計算量 $O(1)$

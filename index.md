@@ -312,7 +312,8 @@ data:
       title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
     - icon: ':warning:'
       path: Graph/misc/topological_sorted.py
-      title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
+      title: "\u6709\u5411\u30B0\u30E9\u30D5\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\
+        \u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'

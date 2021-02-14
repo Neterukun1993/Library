@@ -28,5 +28,13 @@ data:
   verifiedWith: []
 documentation_of: Graph/misc/topological_sorted.py
 layout: document
-title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
+title: "\u6709\u5411\u30B0\u30E9\u30D5\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\
+  \u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
 ---
+
+## 概要
+有向グラフに対してトポロジカルソートをする。グラフが巡回するときは未定義。
+
+## 使い方
+`topological_sorted(digraph: Sequence[Sequence[int]], root=None) -> Tuple[bool, List[int]]`  
+有向グラフに対してトポロジカルソートを行い、非巡回判定 ( `True` : 非巡回、`False` : 巡回あり) とトポロジカル順の配列を返す。判定が `False` の場合、トポロジカル順は未定義。計算量 $O(V + E)$

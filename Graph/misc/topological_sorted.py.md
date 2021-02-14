@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_4_B.test.py
+    title: TestCase/AOJ/GRL_4_B.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -24,17 +27,18 @@ data:
   path: Graph/misc/topological_sorted.py
   requiredBy: []
   timestamp: '2021-01-15 02:43:02+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/GRL_4_B.test.py
 documentation_of: Graph/misc/topological_sorted.py
 layout: document
-title: "\u6709\u5411\u30B0\u30E9\u30D5\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\
-  \u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
+title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\u30EB\
+  \u30B4\u30EA\u30BA\u30E0)"
 ---
 
 ## 概要
 有向グラフに対してトポロジカルソートをする。グラフが巡回するときは未定義。
 
 ## 使い方
-`topological_sorted(digraph: Sequence[Sequence[int]], root=None) -> Tuple[bool, List[int]]`  
+`topological_sorted(digraph: Sequence[Sequence[int]]) -> Tuple[bool, List[int]]`  
 有向グラフに対してトポロジカルソートを行い、非巡回判定 ( `True` : 非巡回、`False` : 巡回あり) とトポロジカル順の配列を返す。判定が `False` の場合、トポロジカル順は未定義。計算量 $O(V + E)$

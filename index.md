@@ -310,10 +310,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/enumerate_triangles.py
       title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/topological_sorted.py
-      title: "\u6709\u5411\u30B0\u30E9\u30D5\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\
-        \u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
+      title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\
+        \u30EB\u30B4\u30EA\u30BA\u30E0)"
+    - icon: ':heavy_check_mark:'
+      path: Graph/misc/topological_sorted_dfs.py
+      title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (\u6DF1\u3055\
+        \u512A\u5148\u63A2\u7D22)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -551,6 +555,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_4_A.test.py
       title: TestCase/AOJ/GRL_4_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_4_B.test.py
+      title: TestCase/AOJ/GRL_4_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_A.test.py
       title: TestCase/AOJ/GRL_5_A.test.py

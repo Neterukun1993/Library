@@ -286,6 +286,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/rerooting.py
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
+    - icon: ':heavy_check_mark:'
+      path: Graph/Tree/topological_sorted.py
+      title: "\u6728\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
   - name: Graph/misc
     pages:
     - icon: ':heavy_check_mark:'
@@ -695,6 +698,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
       title: TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0763.test.py
+      title: TestCase/yukicoder/yuki0763.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0922.HLDecomposition.test.py
       title: TestCase/yukicoder/yuki0922.HLDecomposition.test.py

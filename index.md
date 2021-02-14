@@ -31,6 +31,9 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
   - name: DataStructure/BinaryIndexedTree
     pages:
+    - icon: ':warning:'
+      path: DataStructure/BinaryIndexedTree/PersistentBinaryIndexedTree.py
+      title: "\u6C38\u7D9ABinary Indexed Tree"
     - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"

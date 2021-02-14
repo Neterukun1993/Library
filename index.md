@@ -183,7 +183,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: Sparse Table
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable2D.py
       title: "\u4E8C\u6B21\u5143Sparse Table"
   - name: Flow
@@ -358,7 +358,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/0560.test.py
       title: TestCase/AOJ/0560.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/1068.test.py
       title: TestCase/AOJ/1068.test.py
     - icon: ':heavy_check_mark:'

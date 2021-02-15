@@ -280,6 +280,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/cartesian_tree.py
       title: Cartesian Tree
+    - icon: ':warning:'
+      path: Graph/Tree/centroid.py
+      title: "\u6728\u306E\u91CD\u5FC3"
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"

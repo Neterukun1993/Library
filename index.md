@@ -270,10 +270,11 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/DoublingLCA.py
-      title: Graph/Tree/DoublingLCA.py
+      title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0\
+        )"
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/EulerTour.py
-      title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
+      title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"

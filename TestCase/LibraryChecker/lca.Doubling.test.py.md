@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/Tree/DoublingLCA.py
-    title: Graph/Tree/DoublingLCA.py
+    title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

@@ -51,8 +51,18 @@ data:
   - TestCase/LibraryChecker/lca.Doubling.test.py
 documentation_of: Graph/Tree/DoublingLCA.py
 layout: document
-redirect_from:
-- /library/Graph/Tree/DoublingLCA.py
-- /library/Graph/Tree/DoublingLCA.py.html
-title: Graph/Tree/DoublingLCA.py
+title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"
 ---
+
+## 概要
+木に対して $O(V \log V)$ で構築し、$O(\log V)$ で最小共通先祖クエリに答えるアルゴリズム。森にも対応している。
+
+## 使い方
+`DoublingLCA(tree: Sequence[Iterable[int]], root: Optional[int] = None)`  
+隣接リストで表現される木 `tree` に対してダブリングを行う。根頂点 `root` を指定しない場合は、頂点 `0` が根となる。計算量 $O(V\log V)$
+
+- `lca(u: int, v: int) -> int`  
+`u` と `v` の最小共通祖先を返す。`u` と `v` が非連結の場合は `-1` を返す。計算量 $O(\log V)$
+
+- `distance(u: int, v: int) -> int`  
+`u` - `v` パスの距離を返す。`u` と `v` が非連結の場合は `-1` を返す。計算量 $O(\log V)$

@@ -37,3 +37,10 @@ documentation_of: Graph/Tree/diameter.py
 layout: document
 title: "\u6728\u306E\u76F4\u5F84"
 ---
+
+## 概要
+木の直径を求めるアルゴリズム。
+
+## 使い方
+`diameter(tree: Sequence[Iterable[Tuple[int, int]]]) -> Tuple[int, List[int]]`  
+隣接リストで表現された重み付き木 `tree` の直径とそのパスを返す。計算量 $O(V)$

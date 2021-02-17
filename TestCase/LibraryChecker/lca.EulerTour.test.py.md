@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: Graph/Tree/EulerTour.py
-    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (LCA)"
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

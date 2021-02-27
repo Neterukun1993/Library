@@ -129,7 +129,7 @@ data:
       title: Offline Dynamic Connectivity
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PartiallyPersistentUnionFind.py
-      title: "\u90E8\u5206\u6C38\u7D9AUnion Find"
+      title: "\u90E8\u5206\u6C38\u7D9A Union Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
       title: "\u6C38\u7D9AUnion Find"
@@ -141,7 +141,7 @@ data:
       title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
-      title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304DUnion Find"
+      title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304D Union Find"
   - name: DataStructure/Wavelet
     pages:
     - icon: ':warning:'
@@ -300,7 +300,7 @@ data:
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/LowLink.py
-      title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS\u6728\u306E\
+      title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS \u6728\u306E\
         \u69CB\u7BC9 (Low Link)"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/TwoSAT.py

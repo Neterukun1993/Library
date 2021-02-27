@@ -41,3 +41,10 @@ documentation_of: Graph/SpanningTree/boruvka.py
 layout: document
 title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
 ---
+
+## 概要
+ブルーフカ法により最小全域木の総コストを求める。
+
+## 使い方
+`prim(graph: Sequence[Iterable[Tuple[int, int]]]) -> int`  
+隣接リストで表現される無向グラフ `graph` に対して、最小全域木の総コストを返す。計算量 $O(E\log V)$

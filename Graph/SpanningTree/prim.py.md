@@ -29,3 +29,10 @@ documentation_of: Graph/SpanningTree/prim.py
 layout: document
 title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
 ---
+
+## 概要
+プリム法により最小全域木の総コストを求める。
+
+## 使い方
+`prim(graph: Sequence[Iterable[Tuple[int, int]]]) -> int`  
+隣接リストで表現される無向グラフ `graph` に対して、最小全域木の総コストを返す。計算量 $O((V + E)\log V)$

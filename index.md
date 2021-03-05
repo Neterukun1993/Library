@@ -322,6 +322,28 @@ data:
       path: Graph/misc/topological_sorted_dfs.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (\u6DF1\u3055\
         \u512A\u5148\u63A2\u7D22)"
+  - name: NumberTheory/Prime
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/eratosthenes_sieve.py
+      title: NumberTheory/Prime/eratosthenes_sieve.py
+    - icon: ':warning:'
+      path: NumberTheory/Prime/fermat_test.py
+      title: NumberTheory/Prime/fermat_test.py
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/is_prime.py
+      title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30D5\u30A7\u30EB\u30DE\
+        \u30FC\u30C6\u30B9\u30C8)"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/linear_sieve.py
+      title: NumberTheory/Prime/linear_sieve.py
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/miller_rabin.py
+      title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\
+        \u30E9\u30D3\u30F3\u7D20\u6570\u5224\u5B9A\u6CD5)"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/prime_factors.py
+      title: "\u7D20\u56E0\u6570\u5206\u89E3 (\u8A66\u3057\u5272\u308A\u6CD5)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -397,6 +419,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_14_B.test.py
       title: TestCase/AOJ/ALDS1_14_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_1_C.eratosthenes_sieve.test.py
+      title: TestCase/AOJ/ALDS1_1_C.eratosthenes_sieve.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_1_C.linear_sieve.test.py
+      title: TestCase/AOJ/ALDS1_1_C.linear_sieve.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_1_C.test.py
+      title: TestCase/AOJ/ALDS1_1_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_5_D.test.py
       title: TestCase/AOJ/ALDS1_5_D.test.py
@@ -586,6 +617,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_D.BTree.test.py
       title: TestCase/AOJ/ITP2_7_D.BTree.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/NTL_1_A.test.py
+      title: TestCase/AOJ/NTL_1_A.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'
@@ -722,5 +756,8 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
       title: TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki3030.test.py
+      title: TestCase/yukicoder/yuki3030.test.py
 layout: toppage
 ---

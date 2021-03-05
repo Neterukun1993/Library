@@ -16,9 +16,9 @@ data:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_B
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_B
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_B\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom Graph.Tree.rerooting import\
@@ -28,8 +28,8 @@ data:
     \ n - 1, edges, 0, max, lambda val, v: val + vals[v])\n\n    print('\\n'.join(map(str,\
     \ ans[:n])))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/misc/edge_to_vertex.py
   - Graph/Tree/rerooting.py
+  - Graph/misc/edge_to_vertex.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_B.test.py
   requiredBy: []

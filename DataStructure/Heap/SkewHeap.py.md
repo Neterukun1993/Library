@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: Graph/SpanningTree/directed_mst.py
-    title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
@@ -14,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.1/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class SHNode:\n    def __init__(self, val):\n        self.l = None\n    \
     \    self.r = None\n        self.val = val\n        self.add = 0\n\n    def lazy_propagate(self):\n\
@@ -36,8 +33,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/SkewHeap.py
-  requiredBy:
-  - Graph/SpanningTree/directed_mst.py
+  requiredBy: []
   timestamp: '2021-01-14 12:29:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

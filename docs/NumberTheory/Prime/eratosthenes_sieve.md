@@ -1,6 +1,6 @@
 ---
 title: 素数列挙 (エラトステネスの篩)
-documentation_of: //NumberTheory/eratosthenes_sieve.py
+documentation_of: //NumberTheory/Prime/eratosthenes_sieve.py
 ---
 
 ## 概要

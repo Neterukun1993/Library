@@ -1,6 +1,6 @@
 ---
 title: 素数列挙 + 素因数分解 (線形篩)
-documentation_of: //NumberTheory/linear_sieve.py
+documentation_of: //NumberTheory/Prime/linear_sieve.py
 ---
 
 ## 概要

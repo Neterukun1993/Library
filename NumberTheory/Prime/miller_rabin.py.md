@@ -4,6 +4,9 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/segment_sieve.unittest.test.py
+    title: TestCase/unittest/segment_sieve.unittest.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki3030.test.py
     title: TestCase/yukicoder/yuki3030.test.py
   _isVerificationFailed: false
@@ -30,6 +33,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki3030.test.py
+  - TestCase/unittest/segment_sieve.unittest.test.py
 documentation_of: NumberTheory/Prime/miller_rabin.py
 layout: document
 title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\u30E9\
@@ -39,14 +43,14 @@ title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\u30
 ## 概要
 確率的素数判定を行うアルゴリズム。$n < 2^{64}$ の範囲では決定的に素数判定できるよう実装している。
 
-###### ミラー・ラビン素数判定法の定理
+#### ミラー・ラビン素数判定法の定理
 奇素数 $p = 2^s \cdot d + 1$ ($d$ は奇数) に対して、以下のいずれかが任意の整数 $a$ ($0 \lt a \lt p$) について成り立つ。
 
 * $a^d \equiv 1 \pmod{p}$
 * $a^{2^r \cdot d} \equiv -1 \pmod{p}$ となる $r$ ($0 \le r \lt s$) が存在
 
 
-###### ミラー・ラビン素数判定法の定理の対偶
+#### ミラー・ラビン素数判定法の定理の対偶
 奇数 $n = 2^s \cdot d + 1$ ($d$ は奇数) に対して、以下のすべて満たす整数 $a$ が存在するならば、$n$ は合成数である。
 
 * $a^d \not\equiv 1 \pmod{p}$

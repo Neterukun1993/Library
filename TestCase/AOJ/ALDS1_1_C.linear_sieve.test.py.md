@@ -3,7 +3,8 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: NumberTheory/Prime/linear_sieve.py
-    title: NumberTheory/Prime/linear_sieve.py
+    title: "\u7D20\u6570\u5217\u6319 + \u7D20\u56E0\u6570\u5206\u89E3 (\u7DDA\u5F62\
+      \u7BE9)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

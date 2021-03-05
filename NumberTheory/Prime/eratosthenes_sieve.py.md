@@ -31,8 +31,13 @@ data:
   - TestCase/AOJ/ALDS1_1_C.eratosthenes_sieve.test.py
 documentation_of: NumberTheory/Prime/eratosthenes_sieve.py
 layout: document
-redirect_from:
-- /library/NumberTheory/Prime/eratosthenes_sieve.py
-- /library/NumberTheory/Prime/eratosthenes_sieve.py.html
-title: NumberTheory/Prime/eratosthenes_sieve.py
+title: "\u7D20\u6570\u5217\u6319 (\u30A8\u30E9\u30C8\u30B9\u30C6\u30CD\u30B9\u306E\
+  \u7BE9)"
 ---
+
+## 概要
+$O(n\log \log n)$ で素数列挙を行うアルゴリズム。
+
+## 使い方
+`eratosthenes_sieve(n: int) -> Tuple[List[int], List[int]]`  
+`n` 以下の素数のリストと、素数かどうかの判定テーブルを返す。計算量 $O(n \log \log n)$

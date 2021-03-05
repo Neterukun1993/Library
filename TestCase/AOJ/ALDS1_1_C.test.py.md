@@ -3,8 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: NumberTheory/Prime/is_prime.py
-    title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30D5\u30A7\u30EB\u30DE\u30FC\
-      \u30C6\u30B9\u30C8)"
+    title: "\u7D20\u6570\u5224\u5B9A (\u8A66\u3057\u5272\u308A\u6CD5)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

@@ -326,17 +326,19 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/eratosthenes_sieve.py
-      title: NumberTheory/Prime/eratosthenes_sieve.py
+      title: "\u7D20\u6570\u5217\u6319 (\u30A8\u30E9\u30C8\u30B9\u30C6\u30CD\u30B9\
+        \u306E\u7BE9)"
     - icon: ':warning:'
       path: NumberTheory/Prime/fermat_test.py
-      title: NumberTheory/Prime/fermat_test.py
-    - icon: ':heavy_check_mark:'
-      path: NumberTheory/Prime/is_prime.py
       title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30D5\u30A7\u30EB\u30DE\
         \u30FC\u30C6\u30B9\u30C8)"
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/is_prime.py
+      title: "\u7D20\u6570\u5224\u5B9A (\u8A66\u3057\u5272\u308A\u6CD5)"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/linear_sieve.py
-      title: NumberTheory/Prime/linear_sieve.py
+      title: "\u7D20\u6570\u5217\u6319 + \u7D20\u56E0\u6570\u5206\u89E3 (\u7DDA\u5F62\
+        \u7BE9)"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/miller_rabin.py
       title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\
@@ -344,6 +346,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/prime_factors.py
       title: "\u7D20\u56E0\u6570\u5206\u89E3 (\u8A66\u3057\u5272\u308A\u6CD5)"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/segment_sieve.py
+      title: "\u7D20\u6570\u5217\u6319 (\u533A\u9593\u7BE9)"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -727,6 +732,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/zalgorithm.test.py
       title: TestCase/LibraryChecker/zalgorithm.test.py
+  - name: TestCase/unittest
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/segment_sieve.unittest.test.py
+      title: TestCase/unittest/segment_sieve.unittest.test.py
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

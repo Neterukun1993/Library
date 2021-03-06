@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':warning:'
+    path: NumberTheory/ModularArithmetic/linear_congruence.py
+    title: NumberTheory/ModularArithmetic/linear_congruence.py
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/NTL_1_E.test.py
@@ -21,7 +24,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Basic/extended_gcd.py
-  requiredBy: []
+  requiredBy:
+  - NumberTheory/ModularArithmetic/linear_congruence.py
   timestamp: '2021-03-07 00:19:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

@@ -334,10 +334,16 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/baby_step_giant_step.py
-      title: NumberTheory/ModularArithmetic/baby_step_giant_step.py
+      title: "\u96E2\u6563\u5BFE\u6570 (Baby-step giant-step)"
+    - icon: ':x:'
+      path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
+      title: "\u4E2D\u56FD\u5270\u4F59\u5B9A\u7406"
+    - icon: ':warning:'
+      path: NumberTheory/ModularArithmetic/linear_congruence.py
+      title: NumberTheory/ModularArithmetic/linear_congruence.py
     - icon: ':warning:'
       path: NumberTheory/ModularArithmetic/tonelli_shanks.py
-      title: NumberTheory/ModularArithmetic/tonelli_shanks.py
+      title: "\u5E73\u65B9\u5270\u4F59 (Tonelli-Shanks)"
   - name: NumberTheory/Prime
     pages:
     - icon: ':heavy_check_mark:'
@@ -770,6 +776,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0117.test.py
       title: TestCase/yukicoder/yuki0117.test.py
+    - icon: ':x:'
+      path: TestCase/yukicoder/yuki0186.test.py
+      title: TestCase/yukicoder/yuki0186.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py

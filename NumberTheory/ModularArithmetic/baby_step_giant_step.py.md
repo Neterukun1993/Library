@@ -35,8 +35,12 @@ data:
   - TestCase/LibraryChecker/discrete_logarithm_mod.test.py
 documentation_of: NumberTheory/ModularArithmetic/baby_step_giant_step.py
 layout: document
-redirect_from:
-- /library/NumberTheory/ModularArithmetic/baby_step_giant_step.py
-- /library/NumberTheory/ModularArithmetic/baby_step_giant_step.py.html
-title: NumberTheory/ModularArithmetic/baby_step_giant_step.py
+title: "\u96E2\u6563\u5BFE\u6570 (Baby-step giant-step)"
 ---
+
+## 概要
+整数 $x, y, m$ が与えられたとき $x^k \equiv y \pmod{m}$ を満たす $k$ を求めるアルゴリズム。
+
+## 使い方
+`baby_step_giant_step(x: int, y: int, MOD: int) -> int`  
+`MOD` 上で $x^k \equiv y$ を満たす $k$ を返す。そのような $k$ が存在しない場合は `-1` を返す。計算量 $O(\sqrt {\mathrm{MOD}})$

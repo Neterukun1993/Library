@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: NumberTheory/ModularArithmetic/baby_step_giant_step.py
-    title: NumberTheory/ModularArithmetic/baby_step_giant_step.py
+    title: "\u96E2\u6563\u5BFE\u6570 (Baby-step giant-step)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

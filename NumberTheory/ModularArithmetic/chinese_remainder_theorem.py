@@ -1,4 +1,4 @@
-from NumberTheory.Basic.extended_gcd
+from NumberTheory.Basic.extended_gcd import extended_gcd
 
 
 def chinese_remainder_theorem(a, m):

@@ -1,3 +1,4 @@
+---
 title: 一次合同方程式
 documentation_of: //NumberTheory/ModularArithmetic/linear_congruence.py
 ---

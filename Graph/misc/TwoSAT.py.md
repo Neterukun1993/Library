@@ -1,10 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: Graph/Decomposition/SCC_Tarjan.py
-    title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\u30B4\
-      \u30EA\u30BA\u30E0)"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -28,8 +24,7 @@ data:
     \            if self.scc.labels[2 * i] == self.scc.labels[2 * i + 1]:\n      \
     \          return False\n            self.ans[i] = self.scc.labels[2 * i] < self.scc.labels[2\
     \ * i + 1]\n        return True\n\n    def answer(self):\n        return self.ans\n"
-  dependsOn:
-  - Graph/Decomposition/SCC_Tarjan.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/misc/TwoSAT.py
   requiredBy: []

@@ -1,31 +1,35 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Basic/extended_gcd.py
+    title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0186.test.py
     title: TestCase/yukicoder/yuki0186.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from NumberTheory.Basic.extended_gcd\n\n\ndef chinese_remainder_theorem(a,\
+  code: "from NumberTheory.Basic.extended_gcd import extended_gcd\n\n\ndef chinese_remainder_theorem(a,\
     \ m):\n    r, M = 0, 1\n    for i in range(len(a)):\n        g, p, q = extended_gcd(M,\
     \ m[i])\n        if (a[i] - r) % g != 0:\n            return -1, -1\n        tmp\
     \ = (a[i] - r) // g * p % (m[i] // g)\n        r += M * tmp\n        M *= m[i]\
     \ // g\n    return r % M, M\n"
-  dependsOn: []
+  dependsOn:
+  - NumberTheory/Basic/extended_gcd.py
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   requiredBy: []
-  timestamp: '2021-03-07 01:51:55+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2021-03-07 02:02:41+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0186.test.py
 documentation_of: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py

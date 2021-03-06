@@ -2,9 +2,12 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
+    title: "\u4E2D\u56FD\u5270\u4F59\u5B9A\u7406"
   - icon: ':warning:'
     path: NumberTheory/ModularArithmetic/linear_congruence.py
-    title: NumberTheory/ModularArithmetic/linear_congruence.py
+    title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/NTL_1_E.test.py
@@ -25,6 +28,7 @@ data:
   isVerificationFile: false
   path: NumberTheory/Basic/extended_gcd.py
   requiredBy:
+  - NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   - NumberTheory/ModularArithmetic/linear_congruence.py
   timestamp: '2021-03-07 00:19:35+09:00'
   verificationStatus: LIBRARY_ALL_AC

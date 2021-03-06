@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: Graph/misc/TwoSAT.py
-    title: 2-SAT
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
@@ -53,8 +50,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Decomposition/SCC_Tarjan.py
-  requiredBy:
-  - Graph/misc/TwoSAT.py
+  requiredBy: []
   timestamp: '2021-01-08 06:36:19+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

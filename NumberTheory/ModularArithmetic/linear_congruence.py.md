@@ -30,8 +30,12 @@ data:
   verifiedWith: []
 documentation_of: NumberTheory/ModularArithmetic/linear_congruence.py
 layout: document
-redirect_from:
-- /library/NumberTheory/ModularArithmetic/linear_congruence.py
-- /library/NumberTheory/ModularArithmetic/linear_congruence.py.html
-title: NumberTheory/ModularArithmetic/linear_congruence.py
+title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
 ---
+
+## 概要
+一次合同方程式 $ax \equiv b \pmod{m}$ を解くアルゴリズム。
+
+## 使い方
+`linear_congruence(a: int, b: int, m: int) -> Tuple[bool, int, int]`  
+一次合同方程式 $ax \equiv b \pmod{m}$ に対して (解が存在するか, 最小の非負整数解, 解の周期) を返す。解が存在しない場合は `(False, -1, -1)` を返す。計算量 $O(\log \min(b, m))$

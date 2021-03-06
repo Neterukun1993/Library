@@ -1,6 +1,6 @@
 ---
 title: 離散対数 (Baby-step giant-step)
-documentation_of: //NumberTheory/misc/baby_step_giant_step.py
+documentation_of: //NumberTheory/ModularArithmetic/baby_step_giant_step.py
 ---
 
 ## 概要

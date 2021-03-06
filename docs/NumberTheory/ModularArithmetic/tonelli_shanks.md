@@ -1,6 +1,6 @@
 ---
 title: 平方剰余 (Tonelli-Shanks)
-documentation_of: //NumberTheory/misc/tonelli_shanks.py
+documentation_of: //NumberTheory/ModularArithmetic/tonelli_shanks.py
 ---
 
 ## 概要

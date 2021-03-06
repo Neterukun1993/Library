@@ -322,6 +322,22 @@ data:
       path: Graph/misc/topological_sorted_dfs.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (\u6DF1\u3055\
         \u512A\u5148\u63A2\u7D22)"
+  - name: NumberTheory/Basic
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Basic/extended_gcd.py
+      title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Basic/gcd_lcm.py
+      title: "\u6700\u5927\u516C\u7D04\u6570\u3068\u6700\u5C0F\u516C\u500D\u6570"
+  - name: NumberTheory/ModularArithmetic
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/ModularArithmetic/baby_step_giant_step.py
+      title: NumberTheory/ModularArithmetic/baby_step_giant_step.py
+    - icon: ':warning:'
+      path: NumberTheory/ModularArithmetic/tonelli_shanks.py
+      title: NumberTheory/ModularArithmetic/tonelli_shanks.py
   - name: NumberTheory/Prime
     pages:
     - icon: ':heavy_check_mark:'
@@ -424,6 +440,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_14_B.test.py
       title: TestCase/AOJ/ALDS1_14_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_1_B.test.py
+      title: TestCase/AOJ/ALDS1_1_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_1_C.eratosthenes_sieve.test.py
       title: TestCase/AOJ/ALDS1_1_C.eratosthenes_sieve.test.py
@@ -625,6 +644,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/NTL_1_A.test.py
       title: TestCase/AOJ/NTL_1_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/NTL_1_C.test.py
+      title: TestCase/AOJ/NTL_1_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/NTL_1_E.test.py
+      title: TestCase/AOJ/NTL_1_E.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'
@@ -639,6 +664,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/directedmst.test.py
       title: TestCase/LibraryChecker/directedmst.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/discrete_logarithm_mod.test.py
+      title: TestCase/LibraryChecker/discrete_logarithm_mod.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_palindromes.test.py
       title: TestCase/LibraryChecker/enumerate_palindromes.test.py

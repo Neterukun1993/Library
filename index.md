@@ -347,6 +347,9 @@ data:
   - name: NumberTheory/Prime
     pages:
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Prime/divisors.py
+      title: "\u7D04\u6570\u5217\u6319 (\u8A66\u3057\u5272\u308A\u6CD5)"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/eratosthenes_sieve.py
       title: "\u7D20\u6570\u5217\u6319 (\u30A8\u30E9\u30C8\u30B9\u30C6\u30CD\u30B9\
         \u306E\u7BE9)"
@@ -635,6 +638,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_5_E.test.py
       title: TestCase/AOJ/GRL_5_E.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP1_3_D.test.py
+      title: TestCase/AOJ/ITP1_3_D.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py
       title: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py

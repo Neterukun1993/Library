@@ -23,9 +23,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class UnionFind:\n    def __init__(self, n):\n        self.parent = [-1]\
     \ * n\n        self.n = n\n        self.cnt = n\n\n    def root(self, x):\n  \
@@ -49,9 +49,9 @@ data:
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/DSL_1_A.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py
+  - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document
 title: Union Find

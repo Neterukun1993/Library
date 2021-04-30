@@ -1,12 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
-    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
-  - icon: ':warning:'
-    path: DataStructure/Wavelet/BitVector.py
-    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -17,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.2/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.Wavelet.BitVector import BitVector\nfrom DataStructure.BinaryIndexedTree.PointAddRangeSum\
     \ import BinaryIndexedTree\nfrom bisect import bisect_left\n\n\nclass PointAddRectangleSum:\n\
@@ -55,13 +49,11 @@ data:
     \ r, lower)\n\n    def point_add(self, x, y, val):\n        if (x, y) not in self.idxs:\n\
     \            raise KeyError(f'point(x={x}, y={y}) must be pre-given as an argument')\n\
     \        idx = self.idxs[x, y]\n        self.mat.point_add(idx, val)\n"
-  dependsOn:
-  - DataStructure/Wavelet/BitVector.py
-  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  dependsOn: []
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []
-  timestamp: '2021-01-12 04:24:03+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/point_add_rectangle_sum.test.py

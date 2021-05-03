@@ -5,3 +5,8 @@ def extended_gcd(a, b):
         g, y, x = extended_gcd(b, a % b)
         y -= (a // b) * x
         return g, x, y
+
+
+def mod_inv(a, m):
+    _, x, _ = extended_gcd(a, m)
+    return x % m

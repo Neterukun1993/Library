@@ -28,7 +28,7 @@ data:
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   requiredBy: []
-  timestamp: '2021-03-07 02:02:41+09:00'
+  timestamp: '2021-05-03 14:23:41+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0186.test.py

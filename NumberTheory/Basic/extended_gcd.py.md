@@ -23,14 +23,15 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def extended_gcd(a, b):\n    if b == 0:\n        return a, 1, 0\n    else:\n\
     \        g, y, x = extended_gcd(b, a % b)\n        y -= (a // b) * x\n       \
-    \ return g, x, y\n"
+    \ return g, x, y\n\n\ndef mod_inv(a, m):\n    _, x, _ = extended_gcd(a, m)\n \
+    \   return x % m\n"
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Basic/extended_gcd.py
   requiredBy:
   - NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   - NumberTheory/ModularArithmetic/linear_congruence.py
-  timestamp: '2021-03-07 00:19:35+09:00'
+  timestamp: '2021-05-03 14:23:41+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/NTL_1_E.test.py
@@ -42,3 +43,6 @@ title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5
 ## 使い方
 `extended_gcd(a: int, b: int) -> Tuple[int, int, int]`  
 $\gcd(a, b)$ の結果および $ax + by = \gcd(a, b)$ の整数解 $(x, y)$ を返す。計算量 $O(\log \min(a, b))$
+
+`mod_inv(a: int, m: int) -> int`  
+整数 $m$ と互いに素な整数 $a$ について $ax \equiv 1 \pmod{m}$ を満たす $x$ を返す。計算量 $O(\log \min(a, m))$

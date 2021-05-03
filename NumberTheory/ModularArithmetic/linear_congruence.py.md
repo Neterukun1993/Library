@@ -25,7 +25,7 @@ data:
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/linear_congruence.py
   requiredBy: []
-  timestamp: '2021-03-07 01:51:55+09:00'
+  timestamp: '2021-05-03 14:23:41+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: NumberTheory/ModularArithmetic/linear_congruence.py

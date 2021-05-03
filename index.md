@@ -425,6 +425,9 @@ data:
   - name: misc
     pages:
     - icon: ':warning:'
+      path: misc/kitamasa.py
+      title: "\u304D\u305F\u307E\u3055\u6CD5"
+    - icon: ':warning:'
       path: misc/xorshift.py
       title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
   verificationCategories:

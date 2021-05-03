@@ -3,9 +3,6 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
-    path: DataStructure/Wavelet/PointAddRectangleSum.py
-    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
-  - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/RectangleSum.py
     title: "\u77E9\u5F62\u548C\u53D6\u5F97"
   - icon: ':heavy_check_mark:'
@@ -39,7 +36,6 @@ data:
   requiredBy:
   - DataStructure/Wavelet/WaveletMatrix.py
   - DataStructure/Wavelet/RectangleSum.py
-  - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

@@ -349,6 +349,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
       title: "\u4E2D\u56FD\u5270\u4F59\u5B9A\u7406"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/ModularArithmetic/garner.py
+      title: "Garner \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0"
     - icon: ':warning:'
       path: NumberTheory/ModularArithmetic/linear_congruence.py
       title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
@@ -799,6 +802,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0186.test.py
       title: TestCase/yukicoder/yuki0186.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0187.test.py
+      title: TestCase/yukicoder/yuki0187.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0206.test.py
       title: TestCase/yukicoder/yuki0206.test.py

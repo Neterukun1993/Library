@@ -6,6 +6,9 @@ data:
     path: DataStructure/SegmentTree/RSQ_RUQ.py
     title: RSQ_RUQ
   - icon: ':heavy_check_mark:'
+    path: DataStructure/SegmentTree/RmQ_RAQ.py
+    title: RmQ_RAQ
+  - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RUQ.py
     title: RmQ_RUQ
   _extendedVerifiedWith: []
@@ -61,6 +64,7 @@ data:
   requiredBy:
   - DataStructure/SegmentTree/RSQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RUQ.py
+  - DataStructure/SegmentTree/RmQ_RAQ.py
   timestamp: '2021-01-02 17:11:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

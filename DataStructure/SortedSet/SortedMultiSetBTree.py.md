@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/SortedSet/SortedSetBTree.py
+    title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -22,11 +25,12 @@ data:
     \ key)\n        if p is not None:\n            root = BTreeNode(self.B_SIZE)\n\
     \            root.keys = [p.keys.pop()]\n            root.children = [p, self.root]\n\
     \            self.root = root\n        self.size += 1\n        return True\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/SortedSet/SortedSetBTree.py
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedMultiSetBTree.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-02-07 17:46:13+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_7_D.BTree.test.py

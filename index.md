@@ -388,6 +388,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Prime/segment_sieve.py
       title: "\u7D20\u6570\u5217\u6319 (\u533A\u9593\u7BE9)"
+  - name: NumberTheory/misc
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/misc/floor_sum.py
+      title: floor sum
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -774,6 +779,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
       title: TestCase/LibraryChecker/suffixarray.nlogn2.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/sum_of_floor_of_linear.test.py
+      title: TestCase/LibraryChecker/sum_of_floor_of_linear.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py

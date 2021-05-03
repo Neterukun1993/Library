@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Basic/extended_gcd.py
+    title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -20,7 +23,8 @@ data:
     \ m[i])\n        if (a[i] - r) % g != 0:\n            return -1, -1\n        tmp\
     \ = (a[i] - r) // g * p % (m[i] // g)\n        r += M * tmp\n        M *= m[i]\
     \ // g\n    return r % M, M\n"
-  dependsOn: []
+  dependsOn:
+  - NumberTheory/Basic/extended_gcd.py
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   requiredBy: []

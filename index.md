@@ -12,6 +12,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: Combination/twelvefold_way.py
       title: "\u5199\u50CF12\u76F8"
+  - name: DP
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: DP/knapsack_01.py
+      title: "0-1 \u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\u554F\u984C"
+    - icon: ':heavy_check_mark:'
+      path: DP/knapsack_unbounded.py
+      title: "\u500B\u6570\u5236\u9650\u306A\u3057\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
+        \u554F\u984C"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -510,6 +519,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/CGL_5_A.test.py
       title: TestCase/AOJ/CGL_5_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_1_B.test.py
+      title: TestCase/AOJ/DPL_1_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_1_C.test.py
+      title: TestCase/AOJ/DPL_1_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_2_A.test.py
       title: TestCase/AOJ/DPL_2_A.test.py

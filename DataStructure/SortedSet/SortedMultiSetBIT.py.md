@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/SortedSet/SortedSetBIT.py
-    title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -33,12 +30,11 @@ data:
     \        for i in reversed(range(1, self.size)):\n            if i + (i & -i)\
     \ > self.size:\n                continue\n            res[i + (i & -i)] -= res[i]\n\
     \        return [(self.array[i], cnt) for i, cnt in enumerate(res[1:]) if cnt]\n"
-  dependsOn:
-  - DataStructure/SortedSet/SortedSetBIT.py
+  dependsOn: []
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedMultiSetBIT.py
   requiredBy: []
-  timestamp: '2021-02-06 18:04:37+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py

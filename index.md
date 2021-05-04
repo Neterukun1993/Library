@@ -18,6 +18,10 @@ data:
       path: DP/knapsack_01.py
       title: "0-1 \u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\u554F\u984C"
     - icon: ':heavy_check_mark:'
+      path: DP/knapsack_bounded.py
+      title: "\u500B\u6570\u5236\u9650\u4ED8\u304D\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
+        \u554F\u984C"
+    - icon: ':heavy_check_mark:'
       path: DP/knapsack_unbounded.py
       title: "\u500B\u6570\u5236\u9650\u306A\u3057\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
         \u554F\u984C"
@@ -525,6 +529,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_1_C.test.py
       title: TestCase/AOJ/DPL_1_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_1_G.test.py
+      title: TestCase/AOJ/DPL_1_G.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_2_A.test.py
       title: TestCase/AOJ/DPL_2_A.test.py

@@ -9,4 +9,4 @@ Python の競技プログラミング用ライブラリです。
 PyPy 環境での利用を想定しています。
 実行時間制限が厳しいため、CPython 環境での利用は非推奨です。
 
-ライブラリ管理には [verify-helper](https://github.com/online-judge-tools/verification-helper) を使用しています。
+ライブラリ管理には [verification-helper](https://github.com/online-judge-tools/verification-helper) を使用しています。

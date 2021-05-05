@@ -35,8 +35,8 @@ data:
     \            ans.append(res)\n\n    print(\"\\n\".join(map(str, ans)))\n\n\nif\
     \ __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/Tree/HLDecomposition.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/HLDecomposition.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
   requiredBy: []

@@ -10,6 +10,9 @@ data:
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/2821.test.py
+    title: TestCase/AOJ/2821.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_1_A.test.py
     title: TestCase/AOJ/DSL_1_A.test.py
   - icon: ':heavy_check_mark:'
@@ -51,6 +54,7 @@ data:
   verifiedWith:
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py
+  - TestCase/AOJ/2821.test.py
   - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document

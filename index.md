@@ -306,6 +306,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/topological_sorted.py
       title: "\u6728\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
+    - icon: ':heavy_check_mark:'
+      path: Graph/Tree/treehash.py
+      title: "\u6728\u306E\u30CF\u30C3\u30B7\u30E5 (\u6728\u306E\u540C\u578B\u5224\
+        \u5B9A)"
   - name: Graph/misc
     pages:
     - icon: ':heavy_check_mark:'
@@ -472,6 +476,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2667.test.py
       title: TestCase/AOJ/2667.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/2821.test.py
+      title: TestCase/AOJ/2821.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_11_B.test.py
       title: TestCase/AOJ/ALDS1_11_B.test.py

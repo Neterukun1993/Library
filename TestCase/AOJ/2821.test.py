@@ -2,6 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
+from Graph.Tree.centroid import centroid
 from Graph.Tree.treehash import treehash
 from DataStructure.UnionFind.UnionFind import UnionFind
 

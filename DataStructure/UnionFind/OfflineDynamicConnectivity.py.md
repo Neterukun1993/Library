@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/UnionFind/UnionFindUndo.py
+    title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -43,11 +46,12 @@ data:
     \         self.res.append(self.uf.same(*self.questions[k - self.size]))\n    \
     \    else:\n            self._dfs(2 * k)\n            self._dfs(2 * k + 1)\n\n\
     \        for _ in range(len(self.node[k])):  # post-process\n            self.uf.undo()\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/UnionFind/UnionFindUndo.py
   isVerificationFile: false
   path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-04 02:54:49+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2235.test.py

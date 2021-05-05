@@ -3,9 +3,6 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
-    path: DataStructure/SegmentTree/RSQ_RUQ.py
-    title: RSQ_RUQ
-  - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RmQ_RAQ.py
     title: RmQ_RAQ
   - icon: ':heavy_check_mark:'
@@ -62,7 +59,6 @@ data:
   isVerificationFile: false
   path: DataStructure/SegmentTree/LazySegmentTree.py
   requiredBy:
-  - DataStructure/SegmentTree/RSQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RAQ.py
   timestamp: '2021-01-02 17:11:03+09:00'

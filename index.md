@@ -25,6 +25,10 @@ data:
       path: DP/knapsack_unbounded.py
       title: "\u500B\u6570\u5236\u9650\u306A\u3057\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
         \u554F\u984C"
+    - icon: ':heavy_check_mark:'
+      path: DP/levenshtein_distance.py
+      title: "\u7DE8\u96C6\u8DDD\u96E2 (\u30EC\u30FC\u30D9\u30F3\u30B7\u30E5\u30BF\
+        \u30A4\u30F3\u8DDD\u96E2)"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -854,6 +858,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0206.test.py
       title: TestCase/yukicoder/yuki0206.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0225.test.py
+      title: TestCase/yukicoder/yuki0225.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py

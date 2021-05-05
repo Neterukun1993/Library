@@ -2,7 +2,7 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/centroid.py
     title: "\u6728\u306E\u91CD\u5FC3"
   - icon: ':heavy_check_mark:'

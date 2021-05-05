@@ -33,7 +33,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSum2D.py
       title: "\u4E8C\u6B21\u5143\u7D2F\u7A4D\u548C"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/AccumulateSumLR.py
       title: "\u5DE6\u53F3\u304B\u3089\u306E\u7D2F\u7A4D\u548C"
     - icon: ':heavy_check_mark:'
@@ -70,13 +70,13 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/DAryHeap.py
       title: D-Ary Heap
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/LeftistHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RadixHeap.py
       title: Radix Heap
     - icon: ':heavy_check_mark:'
@@ -294,7 +294,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/cartesian_tree.py
       title: Cartesian Tree
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/centroid.py
       title: "\u6728\u306E\u91CD\u5FC3"
     - icon: ':heavy_check_mark:'
@@ -518,6 +518,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
       title: TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.LeftistHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.LeftistHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
@@ -831,6 +834,9 @@ data:
       title: TestCase/LibraryChecker/zalgorithm.test.py
   - name: TestCase/unittest
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/AccumulateSumLR.unittest.test.py
+      title: TestCase/unittest/AccumulateSumLR.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/segment_sieve.unittest.test.py
       title: TestCase/unittest/segment_sieve.unittest.test.py

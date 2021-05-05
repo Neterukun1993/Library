@@ -9,10 +9,13 @@ data:
     path: Graph/Tree/treehash.py
     title: "\u6728\u306E\u30CF\u30C3\u30B7\u30E5 (\u6728\u306E\u540C\u578B\u5224\u5B9A\
       )"
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/2821.test.py
+    title: TestCase/AOJ/2821.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -34,8 +37,9 @@ data:
   requiredBy:
   - Graph/Tree/treehash.py
   timestamp: '2021-02-16 00:44:23+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/2821.test.py
 documentation_of: Graph/Tree/centroid.py
 layout: document
 title: "\u6728\u306E\u91CD\u5FC3"

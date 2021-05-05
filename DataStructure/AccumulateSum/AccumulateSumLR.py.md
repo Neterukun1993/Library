@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/AccumulateSumLR.unittest.test.py
+    title: TestCase/unittest/AccumulateSumLR.unittest.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -28,8 +31,9 @@ data:
   path: DataStructure/AccumulateSum/AccumulateSumLR.py
   requiredBy: []
   timestamp: '2021-01-04 02:54:49+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/unittest/AccumulateSumLR.unittest.test.py
 documentation_of: DataStructure/AccumulateSum/AccumulateSumLR.py
 layout: document
 title: "\u5DE6\u53F3\u304B\u3089\u306E\u7D2F\u7A4D\u548C"

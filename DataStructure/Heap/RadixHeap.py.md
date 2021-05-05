@@ -5,10 +5,13 @@ data:
   - icon: ':heavy_check_mark:'
     path: Graph/ShortestPath/dijkstra_radix.py
     title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 (Radix Heap)"
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
+    title: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -35,8 +38,9 @@ data:
   requiredBy:
   - Graph/ShortestPath/dijkstra_radix.py
   timestamp: '2021-01-22 20:25:28+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/GRL_1_A.RadixHeap.test.py
 documentation_of: DataStructure/Heap/RadixHeap.py
 layout: document
 title: Radix Heap

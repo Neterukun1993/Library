@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/centroid.py
     title: "\u6728\u306E\u91CD\u5FC3"
   - icon: ':heavy_check_mark:'
@@ -34,8 +34,8 @@ data:
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
   dependsOn:
-  - Graph/Tree/centroid.py
   - Graph/Tree/topological_sorted.py
+  - Graph/Tree/centroid.py
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []

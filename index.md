@@ -222,7 +222,7 @@ data:
       title: Flow/Dinic.py
   - name: Geometry
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Geometry/atan2_sorted.py
       title: "\u504F\u89D2\u30BD\u30FC\u30C8"
     - icon: ':heavy_check_mark:'
@@ -809,6 +809,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/set_xor_min.test.py
       title: TestCase/LibraryChecker/set_xor_min.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/sort_points_by_argument.test.py
+      title: TestCase/LibraryChecker/sort_points_by_argument.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py
       title: TestCase/LibraryChecker/static_range_sum.DisjointSparseTable.test.py

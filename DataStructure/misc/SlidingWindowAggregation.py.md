@@ -1,11 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: DP/knapsack_bounded.py
-    title: "\u500B\u6570\u5236\u9650\u4ED8\u304D\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
-      \u554F\u984C"
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_3_A.test.py
@@ -41,8 +37,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/misc/SlidingWindowAggregation.py
-  requiredBy:
-  - DP/knapsack_bounded.py
+  requiredBy: []
   timestamp: '2021-01-03 19:45:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

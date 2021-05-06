@@ -1,11 +1,11 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/misc/SlidingWindowAggregation.py
-    title: Sliding Window Aggregation
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/2370.test.py
+    title: TestCase/AOJ/2370.test.py
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_1_G.test.py
     title: TestCase/AOJ/DPL_1_G.test.py
@@ -18,22 +18,23 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from DataStructure.misc.SlidingWindowAggregation import SlidingWindowAggregation\n\
-    \n\ndef knapsack_bounded(w, items):\n    n = len(items)\n    dp = [0] * (w + 1)\n\
-    \n    for value, weight, qty in items:\n        for rem in range(weight):\n  \
-    \          swag = SlidingWindowAggregation(max)\n            j = 0\n         \
-    \   while j * weight + rem <= w:\n                swag.append(dp[j * weight +\
-    \ rem] - j * value)\n                dp[j * weight + rem] = swag.all_fold() +\
-    \ j * value\n                if len(swag) > qty:\n                    swag.popleft()\n\
-    \                j += 1\n    return max(dp)\n"
-  dependsOn:
-  - DataStructure/misc/SlidingWindowAggregation.py
+  code: "def knapsack_bounded(w, items):\n    n = len(items)\n    dp = [0] * (w +\
+    \ 1)\n    deq = [0] * (w + 1)\n    deqv = [0] * (w + 1)\n    for value, weight,\
+    \ qty in items:\n        for rem in range(weight):\n            s, t = 0, 0\n\
+    \            j = 0\n            while j * weight + rem <= w:\n               \
+    \ val = dp[j * weight + rem] - j * value\n                while s < t and deqv[t\
+    \ - 1] <= val:\n                    t -= 1\n                deq[t] = j\n     \
+    \           deqv[t] = val\n                t += 1\n                dp[j * weight\
+    \ + rem] = deqv[s] + j * value\n                if deq[s] == j - qty:\n      \
+    \              s += 1\n                j += 1\n    return dp\n"
+  dependsOn: []
   isVerificationFile: false
   path: DP/knapsack_bounded.py
   requiredBy: []
-  timestamp: '2021-05-05 04:01:27+09:00'
+  timestamp: '2021-05-07 07:33:57+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/2370.test.py
   - TestCase/AOJ/DPL_1_G.test.py
 documentation_of: DP/knapsack_bounded.py
 layout: document
@@ -53,5 +54,5 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ## 使い方
-`knapsack_bounded(w: int, items: Iterable[Tuple[int, int, int]]) -> int`  
-荷物の重さの合計が `w` 以下になるように、`items` から荷物を選んだときの価値の合計の最大値を返す。各荷物は (価値, 重さ、個数) のタプルとして与える。計算量 $O(NW)$
+`knapsack_bounded(w: int, items: Iterable[Tuple[int, int, int]]) -> List[int]`  
+荷物の重さの合計が $w_i (i = 0, \dots, w)$ となるように、`items` から荷物を選んだときの最大価値のリストを返す。各荷物は (価値, 重さ、個数) のタプルとして与える。計算量 $O(NW)$

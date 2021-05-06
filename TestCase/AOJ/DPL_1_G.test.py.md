@@ -21,14 +21,14 @@ data:
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_G\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DP.knapsack_bounded import\
     \ knapsack_bounded\n\n\ndef main():\n    n, w = map(int, input().split())\n  \
-    \  items = [list(map(int, input().split())) for i in range(n)]\n\n    ans = knapsack_bounded(w,\
-    \ items)\n    print(ans)\n\n\nif __name__ == '__main__':\n    main()\n"
+    \  items = [list(map(int, input().split())) for i in range(n)]\n\n    ans = max(knapsack_bounded(w,\
+    \ items))\n    print(ans)\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - DP/knapsack_bounded.py
   isVerificationFile: true
   path: TestCase/AOJ/DPL_1_G.test.py
   requiredBy: []
-  timestamp: '2021-05-05 04:01:27+09:00'
+  timestamp: '2021-05-07 07:33:57+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DPL_1_G.test.py

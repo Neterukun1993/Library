@@ -349,6 +349,9 @@ data:
       path: Graph/misc/enumerate_triangles.py
       title: "\u4E09\u89D2\u5F62\u306E\u6570\u3048\u4E0A\u3052"
     - icon: ':heavy_check_mark:'
+      path: Graph/misc/is_bipartite.py
+      title: "\u4E8C\u90E8\u30B0\u30E9\u30D5\u5224\u5B9A (DFS)"
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/topological_sorted.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\
         \u30EB\u30B4\u30EA\u30BA\u30E0)"
@@ -490,6 +493,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2235.test.py
       title: TestCase/AOJ/2235.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/2370.test.py
+      title: TestCase/AOJ/2370.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2667.test.py
       title: TestCase/AOJ/2667.test.py

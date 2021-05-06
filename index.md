@@ -26,6 +26,10 @@ data:
       title: "\u500B\u6570\u5236\u9650\u306A\u3057\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
         \u554F\u984C"
     - icon: ':heavy_check_mark:'
+      path: DP/largest_rectangle_in_histogram.py
+      title: "\u30D2\u30B9\u30C8\u30B0\u30E9\u30E0\u4E2D\u306E\u6700\u5927\u9577\u65B9\
+        \u5F62"
+    - icon: ':heavy_check_mark:'
       path: DP/lcs.py
       title: "\u6700\u9577\u5171\u901A\u90E8\u5206\u5217 (longest common subsequence)"
     - icon: ':heavy_check_mark:'
@@ -561,6 +565,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_2_A.test.py
       title: TestCase/AOJ/DPL_2_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_3_C.test.py
+      title: TestCase/AOJ/DPL_3_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_5_A.test.py
       title: TestCase/AOJ/DPL_5_A.test.py

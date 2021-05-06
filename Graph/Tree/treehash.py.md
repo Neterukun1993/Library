@@ -1,12 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: Graph/Tree/centroid.py
-    title: "\u6728\u306E\u91CD\u5FC3"
-  - icon: ':heavy_check_mark:'
-    path: Graph/Tree/topological_sorted.py
-    title: "\u6728\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -17,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from Graph.Tree.centroid import centroid\nfrom Graph.Tree.topological_sorted\
     \ import topological_sorted\n\n\nMAX = 0\nHASHMAP = {}\n\n\ndef treehash(tree,\
@@ -33,13 +27,11 @@ data:
     \              HASHMAP[tmp] = MAX\n                MAX += 1\n            visited[v]\
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
-  dependsOn:
-  - Graph/Tree/centroid.py
-  - Graph/Tree/topological_sorted.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []
-  timestamp: '2021-05-05 16:08:04+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2821.test.py

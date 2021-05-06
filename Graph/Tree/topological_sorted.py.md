@@ -5,10 +5,6 @@ data:
   - icon: ':heavy_check_mark:'
     path: Graph/Tree/centroid.py
     title: "\u6728\u306E\u91CD\u5FC3"
-  - icon: ':heavy_check_mark:'
-    path: Graph/Tree/treehash.py
-    title: "\u6728\u306E\u30CF\u30C3\u30B7\u30E5 (\u6728\u306E\u540C\u578B\u5224\u5B9A\
-      )"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0763.test.py
@@ -18,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def topological_sorted(tree, root=None):\n    n = len(tree)\n    par = [-1]\
     \ * n\n    tp_order = []\n    for v in range(n):\n        if par[v] != -1 or (root\
@@ -33,7 +29,6 @@ data:
   isVerificationFile: false
   path: Graph/Tree/topological_sorted.py
   requiredBy:
-  - Graph/Tree/treehash.py
   - Graph/Tree/centroid.py
   timestamp: '2021-02-15 01:45:32+09:00'
   verificationStatus: LIBRARY_ALL_AC

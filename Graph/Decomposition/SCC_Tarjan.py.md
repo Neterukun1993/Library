@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: Graph/misc/TwoSAT.py
-    title: 2-SAT
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/GRL_3_C.Tarjan.test.py
@@ -17,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class StronglyConnectedComponents:\n    def __init__(self, n):\n        self.n\
     \ = n\n        self.graph = [[] for _ in range(n)]\n        self.ord = [-1] *\
@@ -53,13 +50,12 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Decomposition/SCC_Tarjan.py
-  requiredBy:
-  - Graph/misc/TwoSAT.py
+  requiredBy: []
   timestamp: '2021-01-08 06:36:19+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/GRL_3_C.Tarjan.test.py
   - TestCase/LibraryChecker/scc.Tarjan.test.py
+  - TestCase/AOJ/GRL_3_C.Tarjan.test.py
 documentation_of: Graph/Decomposition/SCC_Tarjan.py
 layout: document
 title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\u30B4\

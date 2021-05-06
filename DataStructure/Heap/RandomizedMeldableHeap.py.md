@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: misc/xorshift.py
+    title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -11,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.4/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from misc.xorshift import xorshift32\n\n\nrand32 = xorshift32()\n\n\nclass\
     \ RMHNode:\n    def __init__(self, val):\n        self.l = None\n        self.r\
@@ -28,7 +31,8 @@ data:
     \ rt.r)\n        return rt.val\n\n    def meld(self, other):\n        self.root\
     \ = self._meld(self.root, other.root)\n\n    def empty(self):\n        return\
     \ self.root is None\n"
-  dependsOn: []
+  dependsOn:
+  - misc/xorshift.py
   isVerificationFile: false
   path: DataStructure/Heap/RandomizedMeldableHeap.py
   requiredBy: []

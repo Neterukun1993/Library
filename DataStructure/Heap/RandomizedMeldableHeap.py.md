@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':warning:'
-    path: misc/xorshift.py
-    title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -31,8 +28,7 @@ data:
     \ rt.r)\n        return rt.val\n\n    def meld(self, other):\n        self.root\
     \ = self._meld(self.root, other.root)\n\n    def empty(self):\n        return\
     \ self.root is None\n"
-  dependsOn:
-  - misc/xorshift.py
+  dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/RandomizedMeldableHeap.py
   requiredBy: []

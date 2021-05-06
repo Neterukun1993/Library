@@ -29,6 +29,9 @@ data:
       path: DP/levenshtein_distance.py
       title: "\u7DE8\u96C6\u8DDD\u96E2 (\u30EC\u30FC\u30D9\u30F3\u30B7\u30E5\u30BF\
         \u30A4\u30F3\u8DDD\u96E2)"
+    - icon: ':heavy_check_mark:'
+      path: DP/lis.py
+      title: "\u6700\u9577\u5897\u52A0\u90E8\u5206\u5217 (longest increasing subsequence)"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -543,6 +546,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_1_C.test.py
       title: TestCase/AOJ/DPL_1_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_1_D.test.py
+      title: TestCase/AOJ/DPL_1_D.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_1_G.test.py
       title: TestCase/AOJ/DPL_1_G.test.py

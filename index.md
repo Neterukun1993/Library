@@ -30,6 +30,9 @@ data:
       title: "\u30D2\u30B9\u30C8\u30B0\u30E9\u30E0\u4E2D\u306E\u6700\u5927\u9577\u65B9\
         \u5F62"
     - icon: ':heavy_check_mark:'
+      path: DP/largest_square_in_grid.py
+      title: "\u30B0\u30EA\u30C3\u30C9\u4E2D\u306E\u6700\u5927\u6B63\u65B9\u5F62"
+    - icon: ':heavy_check_mark:'
       path: DP/lcs.py
       title: "\u6700\u9577\u5171\u901A\u90E8\u5206\u5217 (longest common subsequence)"
     - icon: ':heavy_check_mark:'
@@ -565,6 +568,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_2_A.test.py
       title: TestCase/AOJ/DPL_2_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_3_A.test.py
+      title: TestCase/AOJ/DPL_3_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_3_C.test.py
       title: TestCase/AOJ/DPL_3_C.test.py

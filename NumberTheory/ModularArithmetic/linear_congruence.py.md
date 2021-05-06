@@ -5,10 +5,13 @@ data:
     path: NumberTheory/Basic/extended_gcd.py
     title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/linear_congruence.unittest.test.py
+    title: TestCase/unittest/linear_congruence.unittest.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -26,8 +29,9 @@ data:
   path: NumberTheory/ModularArithmetic/linear_congruence.py
   requiredBy: []
   timestamp: '2021-05-03 14:23:41+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/unittest/linear_congruence.unittest.test.py
 documentation_of: NumberTheory/ModularArithmetic/linear_congruence.py
 layout: document
 title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"

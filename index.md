@@ -379,7 +379,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/garner.py
       title: "Garner \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/linear_congruence.py
       title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
     - icon: ':warning:'
@@ -448,7 +448,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/Trie.py
       title: "Trie\u6728"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: String/run_length_encoding.py
       title: "\u30E9\u30F3\u30EC\u30F3\u30B0\u30B9\u5727\u7E2E"
     - icon: ':heavy_check_mark:'
@@ -856,6 +856,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/AccumulateSumLR.unittest.test.py
       title: TestCase/unittest/AccumulateSumLR.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/linear_congruence.unittest.test.py
+      title: TestCase/unittest/linear_congruence.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/run_length_encoding.unittest.test.py
+      title: TestCase/unittest/run_length_encoding.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/segment_sieve.unittest.test.py
       title: TestCase/unittest/segment_sieve.unittest.test.py

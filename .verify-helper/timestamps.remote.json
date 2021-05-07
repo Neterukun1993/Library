@@ -134,6 +134,7 @@
 "TestCase/unittest/linear_congruence.unittest.test.py": "2021-05-07 02:19:56 +0900",
 "TestCase/unittest/run_length_encoding.unittest.test.py": "2021-05-07 02:19:56 +0900",
 "TestCase/unittest/segment_sieve.unittest.test.py": "2021-03-05 16:39:32 +0900",
+"TestCase/unittest/xorshift.unittest.test.py": "2021-05-07 19:18:47 +0900",
 "TestCase/yukicoder/yuki0117.test.py": "2021-01-15 11:26:51 +0900",
 "TestCase/yukicoder/yuki0186.test.py": "2021-03-07 02:02:41 +0900",
 "TestCase/yukicoder/yuki0187.test.py": "2021-05-03 15:04:52 +0900",

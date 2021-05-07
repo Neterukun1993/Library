@@ -26,6 +26,9 @@ data:
       title: "\u500B\u6570\u5236\u9650\u306A\u3057\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\
         \u554F\u984C"
     - icon: ':heavy_check_mark:'
+      path: DP/largest_rectangle_in_grid.py
+      title: "\u30B0\u30EA\u30C3\u30C9\u4E2D\u306E\u6700\u5927\u9577\u65B9\u5F62"
+    - icon: ':heavy_check_mark:'
       path: DP/largest_rectangle_in_histogram.py
       title: "\u30D2\u30B9\u30C8\u30B0\u30E9\u30E0\u4E2D\u306E\u6700\u5927\u9577\u65B9\
         \u5F62"
@@ -577,6 +580,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_3_A.test.py
       title: TestCase/AOJ/DPL_3_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DPL_3_B.test.py
+      title: TestCase/AOJ/DPL_3_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DPL_3_C.test.py
       title: TestCase/AOJ/DPL_3_C.test.py

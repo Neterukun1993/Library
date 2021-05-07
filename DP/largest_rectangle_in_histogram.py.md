@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DP/largest_rectangle_in_grid.py
+    title: "\u30B0\u30EA\u30C3\u30C9\u4E2D\u306E\u6700\u5927\u9577\u65B9\u5F62"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_3_C.test.py
@@ -24,7 +27,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DP/largest_rectangle_in_histogram.py
-  requiredBy: []
+  requiredBy:
+  - DP/largest_rectangle_in_grid.py
   timestamp: '2021-05-07 04:49:50+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

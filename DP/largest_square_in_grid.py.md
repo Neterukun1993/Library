@@ -39,4 +39,4 @@ title: "\u30B0\u30EA\u30C3\u30C9\u4E2D\u306E\u6700\u5927\u6B63\u65B9\u5F62"
 
 ## 使い方
 `largest_square_in_grid(grid: Sequence[Sequence[Any]], wall: Any = '#') -> int`  
-サイズ $N \times M$ のグリッド `grid` 中の最大長方形の面積を返す。計算量 $O(NM)$
+サイズ $N \times M$ のグリッド `grid` 中の最大正方形の面積を返す。計算量 $O(NM)$

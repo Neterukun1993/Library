@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/UnionFind/UnionFind.py
-    title: Union Find
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -28,12 +25,11 @@ data:
     \            if cost != INF and not uf.same(u, v):\n                update = True\n\
     \                uf.merge(u, v)\n                res += cost\n        if not update:\n\
     \            return -1\n    return res\n"
-  dependsOn:
-  - DataStructure/UnionFind/UnionFind.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/SpanningTree/boruvka.py
   requiredBy: []
-  timestamp: '2021-01-04 22:11:12+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/GRL_2_A.boruvka.test.py

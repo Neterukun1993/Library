@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: misc/xorshift.py
     title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
   _extendedRequiredBy: []

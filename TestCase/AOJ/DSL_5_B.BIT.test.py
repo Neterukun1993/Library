@@ -16,7 +16,7 @@ def main():
     ans = 0
     for i in range(1000):
         for j in range(1000):
-            ans = max(ans, bit[i, j])
+            ans = max(ans, bit.get(i, j))
     print(ans)
 
 

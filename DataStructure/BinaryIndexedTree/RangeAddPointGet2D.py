@@ -4,8 +4,8 @@ class BinaryIndexedTree:
         self.w = w
         self.bit = [[0] * (self.w + 1) for _ in range(self.h + 1)]
 
-    def __getitem__(self, ij):
-        i, j0 = ij
+    def get(self, i, j):
+        j0 = j
         i = i + 1
         s = 0
         while i <= self.h:

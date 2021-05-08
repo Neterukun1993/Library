@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Heap/IntervalHeap.py
-    title: DataStructure/Heap/IntervalHeap.py
+    title: Interval Heap
   - icon: ':heavy_check_mark:'
     path: misc/xorshift.py
     title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
@@ -49,8 +49,8 @@ data:
     \            array.append(val)\n\n\nif __name__ == '__main__':\n    main()\n \
     \   print(\"Hello World\")\n"
   dependsOn:
-  - DataStructure/Heap/IntervalHeap.py
   - misc/xorshift.py
+  - DataStructure/Heap/IntervalHeap.py
   isVerificationFile: true
   path: TestCase/unittest/IntervalHeap.unittest.test.py
   requiredBy: []

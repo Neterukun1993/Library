@@ -70,11 +70,11 @@ title: D-Ary Heap
 - `__len__() -> int`  
 ヒープの大きさを返す。計算量 $O(1)$
 
-- `min -> Any`  
+- `min -> int`  
 ヒープ内の最小の値を返す。計算量 $O(1)$
 
-- `push(val: Any) -> None`  
+- `push(val: int) -> None`  
 ヒープに `val` を追加する。計算量 $O(\log n / \log D)$
 
-- `pop() -> Any`  
+- `pop() -> int`  
 ヒープ内の最小の値を削除してその値を返す。計算量 $O(D\log n / \log D$

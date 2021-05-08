@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/SpanningTree/directed_mst.py
+    title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
@@ -33,7 +36,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/SkewHeap.py
-  requiredBy: []
+  requiredBy:
+  - Graph/SpanningTree/directed_mst.py
   timestamp: '2021-01-14 12:29:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

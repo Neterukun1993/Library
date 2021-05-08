@@ -7,6 +7,9 @@ data:
     title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Randomized Meldable Heap)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/IntervalHeap.unittest.test.py
+    title: TestCase/unittest/IntervalHeap.unittest.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/unittest/xorshift.unittest.test.py
     title: TestCase/unittest/xorshift.unittest.test.py
   _isVerificationFailed: false
@@ -31,6 +34,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/unittest/xorshift.unittest.test.py
+  - TestCase/unittest/IntervalHeap.unittest.test.py
 documentation_of: misc/xorshift.py
 layout: document
 title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

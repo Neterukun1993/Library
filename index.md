@@ -91,6 +91,9 @@ data:
       path: DataStructure/Heap/DAryHeap.py
       title: D-Ary Heap
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/IntervalHeap.py
+      title: DataStructure/Heap/IntervalHeap.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/LeftistHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
@@ -884,6 +887,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/AccumulateSumLR.unittest.test.py
       title: TestCase/unittest/AccumulateSumLR.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/IntervalHeap.unittest.test.py
+      title: TestCase/unittest/IntervalHeap.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/linear_congruence.unittest.test.py
       title: TestCase/unittest/linear_congruence.unittest.test.py

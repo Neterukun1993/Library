@@ -285,6 +285,9 @@ data:
       title: "\u30EF\u30FC\u30B7\u30E3\u30EB\u30D5\u30ED\u30A4\u30C9\u6CD5"
   - name: Graph/SpanningTree
     pages:
+    - icon: ':warning:'
+      path: Graph/SpanningTree/MatrixTreeTheorem.py
+      title: "\u884C\u5217\u6728\u5B9A\u7406"
     - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/boruvka.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5\

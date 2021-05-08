@@ -17,21 +17,20 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class BinaryIndexedTree:\n    def __init__(self, h, w):\n        self.h =\
     \ h\n        self.w = w\n        self.bit = [[0] * (self.w + 1) for _ in range(self.h\
-    \ + 1)]\n\n    def __getitem__(self, ij):\n        i, j0 = ij\n        i = i +\
-    \ 1\n        s = 0\n        while i <= self.h:\n            j = j0 + 1\n     \
-    \       while j <= self.w:\n                s += self.bit[i][j]\n            \
-    \    j += j & -j\n            i += i & -i\n        return s\n\n    def _add(self,\
-    \ i, j, val):\n        j0 = j\n        while i > 0:\n            j = j0\n    \
-    \        while j > 0:\n                self.bit[i][j] += val\n               \
-    \ j -= j & -j\n            i -= i & -i\n\n    def add(self, hl, hr, wl, wr, val):\n\
-    \        \"\"\"add value in range [l, r)\"\"\"\n        self._add(hl, wl, val)\n\
-    \        self._add(hr, wl, -val)\n        self._add(hl, wr, -val)\n        self._add(hr,\
-    \ wr, val)\n"
+    \ + 1)]\n\n    def get(self, i, j):\n        j0 = j\n        i = i + 1\n     \
+    \   s = 0\n        while i <= self.h:\n            j = j0 + 1\n            while\
+    \ j <= self.w:\n                s += self.bit[i][j]\n                j += j &\
+    \ -j\n            i += i & -i\n        return s\n\n    def _add(self, i, j, val):\n\
+    \        j0 = j\n        while i > 0:\n            j = j0\n            while j\
+    \ > 0:\n                self.bit[i][j] += val\n                j -= j & -j\n \
+    \           i -= i & -i\n\n    def add(self, hl, hr, wl, wr, val):\n        \"\
+    \"\"add value in range [l, r)\"\"\"\n        self._add(hl, wl, val)\n        self._add(hr,\
+    \ wl, -val)\n        self._add(hl, wr, -val)\n        self._add(hr, wr, val)\n"
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
   requiredBy: []
-  timestamp: '2021-01-02 15:42:36+09:00'
+  timestamp: '2021-05-08 19:01:44+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_5_B.BIT.test.py
@@ -41,8 +40,8 @@ title: "\u77E9\u5F62\u52A0\u7B97\u30FB\u4E00\u70B9\u53D6\u5F97"
 ---
 
 ## 使い方
-`BinaryIndexedTree(h: int, w: int)`
-大きさ $h × w$ の二次元 Binary Indexed Tree を構築する。初期値はすべて `0` である。計算量 $O(hw)$
+`BinaryIndexedTree(h: int, w: int)`  
+大きさ $h × w$ の二次元 Binary Indexed Tree を構築する。初期値はすべて $0$ である。計算量 $O(hw)$
 
 - `get(i: int, j: int) -> int`  
 `i` 番目の行、`j` 番目の列の要素を返す。計算量$O(\log h\log w)$

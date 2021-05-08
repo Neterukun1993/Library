@@ -23,14 +23,14 @@ data:
     \ = [list(map(int, input().split())) for i in range(n)]\n\n    bit = BinaryIndexedTree(1000,\
     \ 1000)\n    for hl, wl, hr, wr in queries:\n        bit.add(hl, hr, wl, wr, 1)\n\
     \n    ans = 0\n    for i in range(1000):\n        for j in range(1000):\n    \
-    \        ans = max(ans, bit[i, j])\n    print(ans)\n\n\nif __name__ == '__main__':\n\
+    \        ans = max(ans, bit.get(i, j))\n    print(ans)\n\n\nif __name__ == '__main__':\n\
     \    main()\n"
   dependsOn:
   - DataStructure/BinaryIndexedTree/RangeAddPointGet2D.py
   isVerificationFile: true
   path: TestCase/AOJ/DSL_5_B.BIT.test.py
   requiredBy: []
-  timestamp: '2021-01-02 15:42:36+09:00'
+  timestamp: '2021-05-08 19:01:44+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DSL_5_B.BIT.test.py

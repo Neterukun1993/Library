@@ -45,6 +45,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DP/lis.py
       title: "\u6700\u9577\u5897\u52A0\u90E8\u5206\u5217 (longest increasing subsequence)"
+    - icon: ':heavy_check_mark:'
+      path: DP/substring_dp.py
+      title: "\u90E8\u5206\u5217 DP"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -899,6 +902,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/segment_sieve.unittest.test.py
       title: TestCase/unittest/segment_sieve.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/substring_dp.unittest.test.py
+      title: TestCase/unittest/substring_dp.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/xorshift.unittest.test.py
       title: TestCase/unittest/xorshift.unittest.test.py

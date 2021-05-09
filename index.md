@@ -161,6 +161,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBTree.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SortedSet/SortedSetSkipList.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (\u30B9\u30AD\u30C3\u30D7\u30EA\
+        \u30B9\u30C8)"
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
@@ -754,6 +758,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.BTree.test.py
       title: TestCase/AOJ/ITP2_7_C.BTree.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_7_C.SkipList.test.py
+      title: TestCase/AOJ/ITP2_7_C.SkipList.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_D.BTree.test.py
       title: TestCase/AOJ/ITP2_7_D.BTree.test.py

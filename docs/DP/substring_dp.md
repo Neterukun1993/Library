@@ -14,14 +14,14 @@ $\mathrm{nxt}[i][j] :=$ $S$ の $i$ 文字目以降で初めて $\mathrm{chr}(j 
 
 $\left\{\begin{array}{l}
 \mathrm{dp}[0] = 1\\
-\mathrm{dp}[\mathrm{nxt}[i][j]]\mathrel{+}=dp[i]\\
+\mathrm{dp}[\mathrm{nxt}[i][j]]\mathrel{+}=dp[i]
 \end{array}\right.$
 
 ## 使い方
-`calc_next(small_characters: Sequence) -> List[List[int]]`  
+- `calc_next(small_characters: Sequence) -> List[List[int]]`  
 長さ $N$、文字種類数 $\sigma = 26$ の小文字英字列 `small_characters` について、 $\mathrm{nxt}$ 配列を返す。計算量 $O(\sigma N)$
 
-`substring_dp(small_characters: Sequence, MOD: int) -> int`  
+- `substring_dp(small_characters: Sequence, MOD: int) -> int`  
 長さ $N$、文字種類数 $\sigma = 26$ の小文字英字列 `small_characters` について、部分列の通り数を $\mathrm{MOD}$ で割った余りを返す。計算量 $O(\sigma N)$
 
 ## 参考

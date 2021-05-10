@@ -1,5 +1,4 @@
 def knapsack_unbounded(w, items):
-    n = len(items)
     dp = [-1] * (w + 1)
     dp[0] = 0
 
@@ -9,4 +8,4 @@ def knapsack_unbounded(w, items):
                 continue
             else:
                 dp[j] = max(dp[j], dp[j - weight] + value)
-    return max(dp)
+    return dp

@@ -9,7 +9,7 @@ def main():
     n, w = map(int, input().split())
     items = [list(map(int, input().split())) for i in range(n)]
 
-    ans = knapsack_unbounded(w, items)
+    ans = max(knapsack_unbounded(w, items))
     print(ans)
 
 

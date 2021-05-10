@@ -7,5 +7,5 @@ documentation_of: //Graph/SpanningTree/kruskal.py
 クラスカル法により最小全域木の総コストを求める。
 
 ## 使い方
-`prim(graph: Sequence[Iterable[Tuple[int, int]]]) -> int`  
-隣接リストで表現される無向グラフ `graph` に対して、最小全域木の総コストを返す。計算量 $O(E\log V)$
+`kruskal(n: int, edges: Iterable[Tuple[int, int, int]]) -> int`  
+頂点数 `n` の無向グラフ $G=(V, E)$ に対して、重み付き辺集合 `edges` から構成される最小全域木の総コストを返す。計算量 $O(E\log V)$

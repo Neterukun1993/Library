@@ -10,5 +10,5 @@ documentation_of: //DP/levenshtein_distance.py
  - 挿入操作: $S$ の好きな箇所に文字を $1$ 個挿入する。
 
 ## 使い方
-`levenshtein_distance(s: Sequence, t: Sequence) -> int`  
+`levenshtein_distance(s: str, t: str) -> int`  
 長さ $N$ の文字列 `s` を 長さ $M$ の文字列 `t` に変換するときの最小操作回数を返す。計算量 $O(NM)$

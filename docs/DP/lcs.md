@@ -8,4 +8,4 @@ documentation_of: //DP/lcs.py
 
 ## 使い方
 `lcs(s: str, t: str) -> str`  
-長さ $N$ の文字列 `s` と長さ $M$ の文字列 `s` の最長共通部分列を返す。計算量 $O(NM)$
+長さ $N$ の文字列 `s` と長さ $M$ の文字列 `t` の最長共通部分列を返す。計算量 $O(NM)$

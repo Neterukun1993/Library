@@ -1,8 +1,8 @@
 def knapsack_bounded(w, items):
-    n = len(items)
     dp = [0] * (w + 1)
     deq = [0] * (w + 1)
     deqv = [0] * (w + 1)
+
     for value, weight, qty in items:
         for rem in range(weight):
             s, t = 0, 0

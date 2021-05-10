@@ -16,4 +16,4 @@ $$\begin{aligned}
 
 ## 使い方
 `knapsack_bounded(w: int, items: Iterable[Tuple[int, int, int]]) -> List[int]`  
-荷物の重さの合計が $w_i (i = 0, \dots, w)$ となるように、`items` から荷物を選んだときの最大価値のリストを返す。各荷物は (価値, 重さ、個数) のタプルとして与える。計算量 $O(NW)$
+荷物の重さの合計が $W_i (i = 0, \cdots, W)$ となるように、`items` から荷物を選んだときの最大価値のリストを返す。各荷物は (価値, 重さ, 個数) のタプルとして与える。計算量 $O(NW)$

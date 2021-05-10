@@ -1,7 +1,7 @@
 from DP.largest_rectangle_in_histogram import largest_rectangle_in_histogram
 
 
-def largest_rectangle_in_grid(grid, wall='#'):
+def largest_rectangle_in_grid(grid, wall):
     h = len(grid)
     w = len(grid[0])
 

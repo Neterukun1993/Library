@@ -1,4 +1,4 @@
-def largest_square_in_grid(grid, wall='#'):
+def largest_square_in_grid(grid, wall):
     h = len(grid)
     w = len(grid[0])
     dp = [[0] * (w + 1) for i in range(h + 1)]

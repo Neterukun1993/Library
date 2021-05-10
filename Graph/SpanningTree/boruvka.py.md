@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/UnionFind/UnionFind.py
-    title: Union Find
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -28,12 +25,11 @@ data:
     \            if cost != INF and not uf.same(u, v):\n                update = True\n\
     \                uf.merge(u, v)\n                res += cost\n        if not update:\n\
     \            return -1\n    return res\n"
-  dependsOn:
-  - DataStructure/UnionFind/UnionFind.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/SpanningTree/boruvka.py
   requiredBy: []
-  timestamp: '2021-01-04 22:11:12+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/GRL_2_A.boruvka.test.py
@@ -46,5 +42,5 @@ title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D6\u30EB\u30FC\u30D5\u30AB\u6CD5)"
 ブルーフカ法により最小全域木の総コストを求める。
 
 ## 使い方
-`prim(graph: Sequence[Iterable[Tuple[int, int]]]) -> int`  
-隣接リストで表現される無向グラフ `graph` に対して、最小全域木の総コストを返す。計算量 $O(E\log V)$
+`boruvka(n: int, edges: Iterable[Tuple[int, int, int]]) -> int`  
+頂点数 `n` の無向グラフ $G=(V, E)$ に対して、重み付き辺集合 `edges` から構成される最小全域木の総コストを返す。計算量 $O(E\log V)$

@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: Graph/Tree/topological_sorted.py
-    title: "\u6728\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -26,12 +23,11 @@ data:
     \ n // 2:\n                is_centroid = False\n            sub_size[v] += sub_size[nxt_v]\n\
     \        if is_centroid and n - sub_size[v] <= n // 2:\n            res.append(v)\n\
     \    return res\n"
-  dependsOn:
-  - Graph/Tree/topological_sorted.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/centroid.py
   requiredBy: []
-  timestamp: '2021-02-16 00:44:23+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2821.test.py

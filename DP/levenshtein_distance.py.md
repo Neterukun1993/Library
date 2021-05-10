@@ -47,5 +47,5 @@ title: "\u7DE8\u96C6\u8DDD\u96E2 (\u30EC\u30FC\u30D9\u30F3\u30B7\u30E5\u30BF\u30
  - 挿入操作: $S$ の好きな箇所に文字を $1$ 個挿入する。
 
 ## 使い方
-`levenshtein_distance(s: Sequence, t: Sequence) -> int`  
+`levenshtein_distance(s: str, t: str) -> int`  
 長さ $N$ の文字列 `s` を 長さ $M$ の文字列 `t` に変換するときの最小操作回数を返す。計算量 $O(NM)$

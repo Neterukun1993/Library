@@ -27,7 +27,7 @@ data:
   isVerificationFile: true
   path: TestCase/AOJ/DPL_3_A.test.py
   requiredBy: []
-  timestamp: '2021-05-07 05:41:01+09:00'
+  timestamp: '2021-05-10 23:34:32+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DPL_3_A.test.py

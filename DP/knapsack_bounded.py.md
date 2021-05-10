@@ -18,20 +18,20 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "def knapsack_bounded(w, items):\n    n = len(items)\n    dp = [0] * (w +\
-    \ 1)\n    deq = [0] * (w + 1)\n    deqv = [0] * (w + 1)\n    for value, weight,\
-    \ qty in items:\n        for rem in range(weight):\n            s, t = 0, 0\n\
-    \            j = 0\n            while j * weight + rem <= w:\n               \
-    \ val = dp[j * weight + rem] - j * value\n                while s < t and deqv[t\
-    \ - 1] <= val:\n                    t -= 1\n                deq[t] = j\n     \
-    \           deqv[t] = val\n                t += 1\n                dp[j * weight\
-    \ + rem] = deqv[s] + j * value\n                if deq[s] == j - qty:\n      \
-    \              s += 1\n                j += 1\n    return dp\n"
+  code: "def knapsack_bounded(w, items):\n    dp = [0] * (w + 1)\n    deq = [0] *\
+    \ (w + 1)\n    deqv = [0] * (w + 1)\n\n    for value, weight, qty in items:\n\
+    \        for rem in range(weight):\n            s, t = 0, 0\n            j = 0\n\
+    \            while j * weight + rem <= w:\n                val = dp[j * weight\
+    \ + rem] - j * value\n                while s < t and deqv[t - 1] <= val:\n  \
+    \                  t -= 1\n                deq[t] = j\n                deqv[t]\
+    \ = val\n                t += 1\n                dp[j * weight + rem] = deqv[s]\
+    \ + j * value\n                if deq[s] == j - qty:\n                    s +=\
+    \ 1\n                j += 1\n    return dp\n"
   dependsOn: []
   isVerificationFile: false
   path: DP/knapsack_bounded.py
   requiredBy: []
-  timestamp: '2021-05-07 07:33:57+09:00'
+  timestamp: '2021-05-10 23:34:32+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2370.test.py
@@ -55,4 +55,4 @@ $$\begin{aligned}
 
 ## 使い方
 `knapsack_bounded(w: int, items: Iterable[Tuple[int, int, int]]) -> List[int]`  
-荷物の重さの合計が $w_i (i = 0, \dots, w)$ となるように、`items` から荷物を選んだときの最大価値のリストを返す。各荷物は (価値, 重さ、個数) のタプルとして与える。計算量 $O(NW)$
+荷物の重さの合計が $W_i (i = 0, \cdots, W)$ となるように、`items` から荷物を選んだときの最大価値のリストを返す。各荷物は (価値, 重さ, 個数) のタプルとして与える。計算量 $O(NW)$

@@ -20,14 +20,14 @@ data:
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DPL_1_B\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DP.knapsack_01 import knapsack_01\n\
     \n\ndef main():\n    n, w = map(int, input().split())\n    items = [list(map(int,\
-    \ input().split())) for i in range(n)]\n\n    ans = knapsack_01(w, items)\n  \
-    \  print(ans)\n\n\nif __name__ == '__main__':\n    main()\n"
+    \ input().split())) for i in range(n)]\n\n    ans = max(knapsack_01(w, items))\n\
+    \    print(ans)\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - DP/knapsack_01.py
   isVerificationFile: true
   path: TestCase/AOJ/DPL_1_B.test.py
   requiredBy: []
-  timestamp: '2021-05-04 20:55:07+09:00'
+  timestamp: '2021-05-10 23:34:32+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DPL_1_B.test.py

@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/centroid.py
+    title: "\u6728\u306E\u91CD\u5FC3"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0763.test.py
@@ -25,7 +28,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/topological_sorted.py
-  requiredBy: []
+  requiredBy:
+  - Graph/Tree/centroid.py
   timestamp: '2021-02-15 01:45:32+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

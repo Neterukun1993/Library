@@ -1,10 +1,10 @@
 ---
-title: 順序付き集合 (AA Tree)
-documentation_of: //DataStructure/SortedSet/SortedSetAATree.py
+title: 順序付き集合 (AVL Tree)
+documentation_of: //DataStructure/SortedSet/SortedSetAVLTree.py
 ---
 
 ## 概要
-AA Tree による順序付き集合。[B-Tree](https://neterukun1993.github.io/Library/DataStructure/SortedSet/SortedSetBTree.py) による実装の方が高速なのでそちらを使いましょう。
+AVL Tree による順序付き集合。[B-Tree](https://neterukun1993.github.io/Library/DataStructure/SortedSet/SortedSetBTree.py) による実装の方が高速なのでそちらを使いましょう。
 
 ## 使い方
 `SortedSetAATree()`  

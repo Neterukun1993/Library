@@ -88,6 +88,7 @@
 "TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py": "2021-02-04 17:47:04 +0900",
 "TestCase/AOJ/ITP2_7_B.BIT.test.py": "2021-02-06 18:04:37 +0900",
 "TestCase/AOJ/ITP2_7_C.AATree.test.py": "2021-05-12 01:32:34 +0900",
+"TestCase/AOJ/ITP2_7_C.AVLTree.test.py": "2021-05-13 01:21:14 +0900",
 "TestCase/AOJ/ITP2_7_C.BTree.test.py": "2021-02-07 17:46:13 +0900",
 "TestCase/AOJ/ITP2_7_C.SkipList.test.py": "2021-05-09 21:08:49 +0900",
 "TestCase/AOJ/ITP2_7_D.BTree.test.py": "2021-02-07 17:33:17 +0900",

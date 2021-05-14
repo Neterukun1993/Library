@@ -7,7 +7,7 @@ documentation_of: //DataStructure/SortedSet/SortedSetAVLTree.py
 AVL Tree による順序付き集合。[B-Tree](https://neterukun1993.github.io/Library/DataStructure/SortedSet/SortedSetBTree.py) による実装の方が高速なのでそちらを使いましょう。
 
 ## 使い方
-`SortedSetAATree()`  
+`SortedSetAVLTree()`  
 空の順序付き集合を作成する。計算量 $O(1)$
 
 - `__contains__(key: int) -> bool`  

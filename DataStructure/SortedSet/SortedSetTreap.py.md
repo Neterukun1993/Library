@@ -6,26 +6,27 @@ data:
     title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_C.Treap.test.py
     title: TestCase/AOJ/ITP2_7_C.Treap.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from misc.xorshift import xorshift32\n\n\nclass SortedSetTreap:\n    def\
-    \ __init__(self):\n        self.root = -1\n        self.pow_sz = 1\n        self.rand32\
-    \ = xorshift32()\n        self.stack = array(\"i\", [0])\n        self.l = array(\"\
-    i\", [-1])\n        self.r = array(\"i\", [-1])\n        self.p = array(\"i\"\
-    , [-1])\n        self.pris = array(\"I\", [self.rand32()])\n        self.keys\
-    \ = [0]\n\n    def __contains__(self, key):\n        return self._search(key)\n\
-    \n    def __iter__(self):\n        def dfs(nd):\n            if self.l[nd] !=\
-    \ -1:\n                yield from dfs(self.l[nd])\n            yield self.keys[nd]\n\
+  code: "from misc.xorshift import xorshift32\nfrom array import array\n\n\nclass\
+    \ SortedSetTreap:\n    def __init__(self):\n        self.root = -1\n        self.pow_sz\
+    \ = 1\n        self.rand32 = xorshift32()\n        self.stack = array(\"i\", [0])\n\
+    \        self.l = array(\"i\", [-1])\n        self.r = array(\"i\", [-1])\n  \
+    \      self.p = array(\"i\", [-1])\n        self.pris = array(\"I\", [self.rand32()])\n\
+    \        self.keys = [0]\n\n    def __contains__(self, key):\n        return self._search(key)\n\
+    \n    def __len__(self):\n        return self.pow_sz - len(self.stack)\n\n   \
+    \ def __iter__(self):\n        def dfs(nd):\n            if self.l[nd] != -1:\n\
+    \                yield from dfs(self.l[nd])\n            yield self.keys[nd]\n\
     \            if self.r[nd] != -1:\n                yield from dfs(self.r[nd])\n\
     \        if self.root != -1:\n            yield from dfs(self.root)\n\n    def\
     \ _new_node(self, key):\n        if self.stack:\n            nd = self.stack.pop()\n\
@@ -88,8 +89,8 @@ data:
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedSetTreap.py
   requiredBy: []
-  timestamp: '2021-05-14 22:42:00+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2021-05-14 22:52:43+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_7_C.Treap.test.py
 documentation_of: DataStructure/SortedSet/SortedSetTreap.py

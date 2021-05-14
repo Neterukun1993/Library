@@ -171,7 +171,7 @@ data:
       path: DataStructure/SortedSet/SortedSetSkipList.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (\u30B9\u30AD\u30C3\u30D7\u30EA\
         \u30B9\u30C8)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetTreap.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Treap)"
   - name: DataStructure/UnionFind
@@ -776,7 +776,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.SkipList.test.py
       title: TestCase/AOJ/ITP2_7_C.SkipList.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.Treap.test.py
       title: TestCase/AOJ/ITP2_7_C.Treap.test.py
     - icon: ':heavy_check_mark:'

@@ -105,7 +105,7 @@ title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (AVL Tree)"
 AVL Tree による順序付き集合。[B-Tree](https://neterukun1993.github.io/Library/DataStructure/SortedSet/SortedSetBTree.py) による実装の方が高速なのでそちらを使いましょう。
 
 ## 使い方
-`SortedSetAATree()`  
+`SortedSetAVLTree()`  
 空の順序付き集合を作成する。計算量 $O(1)$
 
 - `__contains__(key: int) -> bool`  

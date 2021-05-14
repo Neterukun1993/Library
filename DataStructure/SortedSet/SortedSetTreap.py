@@ -1,4 +1,5 @@
 from misc.xorshift import xorshift32
+from array import array
 
 
 class SortedSetTreap:
@@ -15,6 +16,9 @@ class SortedSetTreap:
 
     def __contains__(self, key):
         return self._search(key)
+
+    def __len__(self):
+        return self.pow_sz - len(self.stack)
 
     def __iter__(self):
         def dfs(nd):

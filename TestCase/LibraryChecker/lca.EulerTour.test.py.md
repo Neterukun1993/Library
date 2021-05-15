@@ -31,7 +31,7 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/lca.EulerTour.test.py
   requiredBy: []
-  timestamp: '2021-01-07 06:39:32+09:00'
+  timestamp: '2021-05-15 17:04:25+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/lca.EulerTour.test.py

@@ -7,15 +7,14 @@ class EulerTour:
         self.end = [-1] * self.n
         self.walk_order = []
 
-        used = [False] * self.n
         if root is None:
-            for i in range(self.n):
-                if used[v]:
-                    self._traversal(v, used)
+            for v in range(self.n):
+                if self.par[v] == -1:
+                    self._traversal(v)
         else:
-            self._traversal(root, used)
+            self._traversal(root)
 
-    def _traversal(self, rt, used):
+    def _traversal(self, rt):
         stack = [rt, 0]
         self.begin[rt] = len(self.walk_order)
         self.walk_order.append(rt)

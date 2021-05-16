@@ -21,13 +21,3 @@ def convexhull(points):
             upper.pop()
         upper.append(p)
     return lower + upper[::-1][1:-1]
-
-
-def area(ch):
-    s_double = 0
-    for i in range(len(ch)):
-        x0, y0 = ch[i]
-        x1, y1 = ch[(i + 1) % len(ch)]
-        s_double += (x0 - x1) * (y0 + y1)
-    s_double = abs(s_double)
-    return s_double

@@ -257,6 +257,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Geometry/closest_pair.py
       title: "\u6700\u8FD1\u70B9\u5BFE"
+    - icon: ':heavy_check_mark:'
+      path: Geometry/convexhull.py
+      title: "\u51F8\u5305"
   - name: Graph/Decomposition
     pages:
     - icon: ':heavy_check_mark:'
@@ -581,6 +584,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/CGL_4_A.test.py
+      title: TestCase/AOJ/CGL_4_A.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/CGL_5_A.test.py
       title: TestCase/AOJ/CGL_5_A.test.py

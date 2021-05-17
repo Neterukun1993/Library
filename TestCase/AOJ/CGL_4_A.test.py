@@ -10,7 +10,6 @@ def main():
     points = [list(map(int, input().split())) for i in range(n)]
 
     ch = convexhull(points)
-
     x, y = 10 ** 8, 10 ** 8
     minidx = 0
     for i in range(len(ch)):

@@ -485,7 +485,7 @@ data:
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log^2 N))$)"
     - icon: ':heavy_check_mark:'
       path: String/Trie.py
-      title: "Trie\u6728"
+      title: "Trie \u6728"
     - icon: ':heavy_check_mark:'
       path: String/run_length_encoding.py
       title: "\u30E9\u30F3\u30EC\u30F3\u30B0\u30B9\u5727\u7E2E"

@@ -37,8 +37,8 @@ data:
   timestamp: '2021-03-07 00:19:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/ALDS1_1_B.test.py
   - TestCase/AOJ/NTL_1_C.test.py
+  - TestCase/AOJ/ALDS1_1_B.test.py
 documentation_of: NumberTheory/Basic/gcd_lcm.py
 layout: document
 title: "\u6700\u5927\u516C\u7D04\u6570\u3068\u6700\u5C0F\u516C\u500D\u6570"

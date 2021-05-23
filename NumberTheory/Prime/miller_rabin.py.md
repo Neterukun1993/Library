@@ -32,8 +32,8 @@ data:
   timestamp: '2021-03-05 15:07:14+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/segment_sieve.unittest.test.py
   - TestCase/yukicoder/yuki3030.test.py
+  - TestCase/unittest/segment_sieve.unittest.test.py
 documentation_of: NumberTheory/Prime/miller_rabin.py
 layout: document
 title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\u30E9\

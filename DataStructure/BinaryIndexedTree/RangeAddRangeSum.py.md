@@ -40,9 +40,9 @@ data:
   timestamp: '2021-01-02 01:52:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/2667.test.py
   - TestCase/AOJ/DSL_2_G.test.py
   - TestCase/AOJ/GRL_5_E.test.py
-  - TestCase/AOJ/2667.test.py
 documentation_of: DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
 layout: document
 title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"

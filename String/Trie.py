@@ -1,10 +1,10 @@
 class TrieNode:
-    def __init__(self, s):
+    def __init__(self):
         self.child = {}
         self.valid = False
 
     def set_child(self, s):
-        self.child[s] = TrieNode(s)
+        self.child[s] = TrieNode()
 
     def get_child(self, s):
         if s not in self.child:
@@ -14,7 +14,7 @@ class TrieNode:
 
 class Trie:
     def __init__(self):
-        self.root = TrieNode(None)
+        self.root = TrieNode()
 
     def search(self, string):
         ptr = self.root

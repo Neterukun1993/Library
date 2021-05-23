@@ -16,7 +16,7 @@ class Trie:
     def __init__(self):
         self.root = TrieNode(None)
 
-    def search(self, string: str) -> bool:
+    def search(self, string):
         ptr = self.root
         for s in string:
             if ptr.get_child(s) is None:
@@ -24,18 +24,22 @@ class Trie:
             ptr = ptr.get_child(s)
         return ptr.valid
 
-    def insert(self, string: str):
+    def insert(self, string):
         ptr = self.root
         for s in string:
             if ptr.get_child(s) is None:
                 ptr.set_child(s)
             ptr = ptr.get_child(s)
+        if ptr.valid:
+            return False
         ptr.valid = True
+        return True
 
-    def delete(self, string: str):
+    def delete(self, string):
         ptr = self.root
         for s in string:
             if ptr.get_child(s) is None:
-                return
+                return False
             ptr = ptr.get_child(s)
         ptr.valid = False
+        return True

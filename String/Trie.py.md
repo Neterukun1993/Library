@@ -15,13 +15,13 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "class TrieNode:\n    def __init__(self, s):\n        self.child = {}\n  \
-    \      self.valid = False\n\n    def set_child(self, s):\n        self.child[s]\
-    \ = TrieNode(s)\n\n    def get_child(self, s):\n        if s not in self.child:\n\
+  code: "class TrieNode:\n    def __init__(self):\n        self.child = {}\n     \
+    \   self.valid = False\n\n    def set_child(self, s):\n        self.child[s] =\
+    \ TrieNode()\n\n    def get_child(self, s):\n        if s not in self.child:\n\
     \            return None\n        return self.child[s]\n\n\nclass Trie:\n    def\
-    \ __init__(self):\n        self.root = TrieNode(None)\n\n    def search(self,\
-    \ string):\n        ptr = self.root\n        for s in string:\n            if\
-    \ ptr.get_child(s) is None:\n                return False\n            ptr = ptr.get_child(s)\n\
+    \ __init__(self):\n        self.root = TrieNode()\n\n    def search(self, string):\n\
+    \        ptr = self.root\n        for s in string:\n            if ptr.get_child(s)\
+    \ is None:\n                return False\n            ptr = ptr.get_child(s)\n\
     \        return ptr.valid\n\n    def insert(self, string):\n        ptr = self.root\n\
     \        for s in string:\n            if ptr.get_child(s) is None:\n        \
     \        ptr.set_child(s)\n            ptr = ptr.get_child(s)\n        if ptr.valid:\n\
@@ -33,7 +33,7 @@ data:
   isVerificationFile: false
   path: String/Trie.py
   requiredBy: []
-  timestamp: '2021-05-23 13:21:29+09:00'
+  timestamp: '2021-05-24 02:37:13+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0430.test.py

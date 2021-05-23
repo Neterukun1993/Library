@@ -472,6 +472,9 @@ data:
       title: "\u6700\u9577\u56DE\u6587 (Manacher\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\
         \u30E0)"
     - icon: ':heavy_check_mark:'
+      path: String/Patricia.py
+      title: "Patricia \u6728"
+    - icon: ':heavy_check_mark:'
       path: String/RollingHash.py
       title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"
     - icon: ':warning:'
@@ -959,6 +962,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0416.test.py
       title: TestCase/yukicoder/yuki0416.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0430.Patricia.test.py
+      title: TestCase/yukicoder/yuki0430.Patricia.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.RollingHash.test.py
       title: TestCase/yukicoder/yuki0430.RollingHash.test.py

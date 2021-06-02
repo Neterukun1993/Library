@@ -284,6 +284,9 @@ data:
     - icon: ':warning:'
       path: Graph/ShortestPath/bfs01.py
       title: 01-BFS
+    - icon: ':heavy_check_mark:'
+      path: Graph/ShortestPath/dial.py
+      title: "Dial\u2019s Algorithm"
     - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
@@ -539,6 +542,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_11_B.test.py
       title: TestCase/AOJ/ALDS1_11_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_12_B.dial.test.py
+      title: TestCase/AOJ/ALDS1_12_B.dial.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.test.py
       title: TestCase/AOJ/ALDS1_12_B.test.py

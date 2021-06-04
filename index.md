@@ -363,6 +363,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/DigraphDFSTree.py
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
+    - icon: ':warning:'
+      path: Graph/misc/Doubling.py
+      title: "functional graph \u4E0A\u306E (\u9806\u5217\u4E0A\u306E) \u30C0\u30D6\
+        \u30EA\u30F3\u30B0"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/LowLink.py
       title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS \u6728\u306E\

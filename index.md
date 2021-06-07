@@ -465,6 +465,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/floor_sum.py
       title: floor sum
+    - icon: ':warning:'
+      path: NumberTheory/misc/matrix_pow.py
+      title: "\u884C\u5217\u7D2F\u4E57"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -502,6 +505,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
+  - name: TestCase/unittest
+    pages:
+    - icon: ':warning:'
+      path: TestCase/unittest/matrix_pow.unittest.py
+      title: TestCase/unittest/matrix_pow.unittest.py
   - name: misc
     pages:
     - icon: ':warning:'

@@ -31,6 +31,7 @@ def _ifft(a, h):
 
 
 def fft_convolve(a, b):
+    len_ab = len(a) + len(b)
     n = 1 << (len(a) + len(b) - 1).bit_length()
     h = n.bit_length() - 1
     a = list(a) + [0] * (n - len(a))
@@ -39,4 +40,4 @@ def fft_convolve(a, b):
     _fft(a, h), _fft(b, h)
     a = [va * vb for va, vb in zip(a, b)]
     _ifft(a, h)
-    return [int(abs(val) + 0.5) for val in a]
+    return [int(abs(a[i]) + 0.5) for i in range(len_ab - 1)]

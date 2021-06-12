@@ -10,7 +10,7 @@ def main():
     a = list(map(int, input().split()))
     b = list(map(int, input().split()))
 
-    print(*ntt_convolve(a, b)[:n + m - 1])
+    print(*ntt_convolve(a, b))
 
 
 if __name__ == '__main__':

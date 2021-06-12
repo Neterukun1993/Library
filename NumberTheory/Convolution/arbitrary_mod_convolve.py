@@ -46,7 +46,7 @@ def _intt(a, h, MOD, ROOT):
         a[i] %= MOD()
 
 
-def ntt_convolve(a, b, MOD, ROOT):
+def _ntt_convolve(a, b, MOD, ROOT):
     n = 1 << (len(a) + len(b) - 1).bit_length()
     h = n.bit_length() - 1
     a = list(a) + [0] * (n - len(a))
@@ -58,17 +58,18 @@ def ntt_convolve(a, b, MOD, ROOT):
     return a
 
 
-def arbitrary_mod_convolve(a, b, mod):
-    x = ntt_convolve(a, b, MOD1, ROOT1)
-    y = ntt_convolve(a, b, MOD2, ROOT2)
-    z = ntt_convolve(a, b, MOD3, ROOT3)
+def arbitrary_mod_convolve(a, b, p):
+    x = _ntt_convolve(a, b, MOD1, ROOT1)
+    y = _ntt_convolve(a, b, MOD2, ROOT2)
+    z = _ntt_convolve(a, b, MOD3, ROOT3)
+    mod = p
 
     inv1_2 = pow(MOD1(), MOD2() - 2, MOD2())
     inv12_3 = pow(MOD1() * MOD2(), MOD3() - 2, MOD3())
     mod12 = MOD1() * MOD2() % mod
 
-    res = [0] * len(x)
-    for i in range(len(x)):
+    res = [0] * (len(a) + len(b) - 1)
+    for i in range(len(res)):
         v1 = (y[i] - x[i]) * inv1_2 % MOD2()
         v2 = (z[i] - (x[i] + MOD1() * v1) % MOD3()) * inv12_3 % MOD3()
         res[i] = (x[i] + MOD1() * v1 + mod12 * v2) % mod

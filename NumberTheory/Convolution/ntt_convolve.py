@@ -38,6 +38,7 @@ def _intt(a, h):
 
 
 def ntt_convolve(a, b):
+    len_ab = len(a) + len(b)
     n = 1 << (len(a) + len(b) - 1).bit_length()
     h = n.bit_length() - 1
     a = list(a) + [0] * (n - len(a))
@@ -46,4 +47,4 @@ def ntt_convolve(a, b):
     _ntt(a, h), _ntt(b, h)
     a = [va * vb % MOD for va, vb in zip(a, b)]
     _intt(a, h)
-    return a
+    return a[:len_ab - 1]

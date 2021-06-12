@@ -140,6 +140,7 @@
 "TestCase/unittest/AccumulateSumLR.unittest.test.py": "2021-05-05 21:41:55 +0900",
 "TestCase/unittest/IntervalHeap.unittest.test.py": "2021-05-08 17:40:31 +0900",
 "TestCase/unittest/linear_congruence.unittest.test.py": "2021-05-07 02:19:56 +0900",
+"TestCase/unittest/matrix_pow.unittest.test.py": "2021-06-12 19:23:31 +0900",
 "TestCase/unittest/run_length_encoding.unittest.test.py": "2021-05-07 02:19:56 +0900",
 "TestCase/unittest/segment_sieve.unittest.test.py": "2021-03-05 16:39:32 +0900",
 "TestCase/unittest/substring_dp.unittest.test.py": "2021-05-09 19:23:25 +0900",

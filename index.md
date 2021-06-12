@@ -465,11 +465,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/floor_sum.py
       title: floor sum
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/matrix_pow.py
       title: "\u884C\u5217\u7D2F\u4E57"
   - name: String
     pages:
+    - icon: ':warning:'
+      path: String/AhoCorasick.py
+      title: "Aho-Corasick \u6CD5"
     - icon: ':heavy_check_mark:'
       path: String/KMP.py
       title: "KMP\u6CD5 (Knuth-Morrison-Pratt\u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0\
@@ -505,11 +508,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
-  - name: TestCase/unittest
-    pages:
-    - icon: ':warning:'
-      path: TestCase/unittest/matrix_pow.unittest.py
-      title: TestCase/unittest/matrix_pow.unittest.py
   - name: misc
     pages:
     - icon: ':warning:'
@@ -948,6 +946,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/linear_congruence.unittest.test.py
       title: TestCase/unittest/linear_congruence.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/matrix_pow.unittest.test.py
+      title: TestCase/unittest/matrix_pow.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/run_length_encoding.unittest.test.py
       title: TestCase/unittest/run_length_encoding.unittest.test.py

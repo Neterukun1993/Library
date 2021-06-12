@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: NumberTheory/misc/matrix_pow.py
     title: "\u884C\u5217\u7D2F\u4E57"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
     links:
@@ -28,16 +28,16 @@ data:
     \    main()\n    print(\"Hello World\")\n"
   dependsOn:
   - NumberTheory/misc/matrix_pow.py
-  isVerificationFile: false
-  path: TestCase/unittest/matrix_pow.unittest.py
+  isVerificationFile: true
+  path: TestCase/unittest/matrix_pow.unittest.test.py
   requiredBy: []
-  timestamp: '2021-06-07 19:35:09+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
+  timestamp: '2021-06-12 19:23:31+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: TestCase/unittest/matrix_pow.unittest.py
+documentation_of: TestCase/unittest/matrix_pow.unittest.test.py
 layout: document
 redirect_from:
-- /library/TestCase/unittest/matrix_pow.unittest.py
-- /library/TestCase/unittest/matrix_pow.unittest.py.html
-title: TestCase/unittest/matrix_pow.unittest.py
+- /verify/TestCase/unittest/matrix_pow.unittest.test.py
+- /verify/TestCase/unittest/matrix_pow.unittest.test.py.html
+title: TestCase/unittest/matrix_pow.unittest.test.py
 ---

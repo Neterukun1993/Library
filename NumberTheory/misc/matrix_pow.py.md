@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':warning:'
-    path: TestCase/unittest/matrix_pow.unittest.py
-    title: TestCase/unittest/matrix_pow.unittest.py
-  _extendedVerifiedWith: []
+  _extendedRequiredBy: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/matrix_pow.unittest.test.py
+    title: TestCase/unittest/matrix_pow.unittest.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -31,11 +31,11 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/misc/matrix_pow.py
-  requiredBy:
-  - TestCase/unittest/matrix_pow.unittest.py
+  requiredBy: []
   timestamp: '2021-06-07 19:35:09+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/unittest/matrix_pow.unittest.test.py
 documentation_of: NumberTheory/misc/matrix_pow.py
 layout: document
 title: "\u884C\u5217\u7D2F\u4E57"

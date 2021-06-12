@@ -21,14 +21,13 @@ data:
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom NumberTheory.Convolution.ntt_convolve\
     \ import ntt_convolve\n\n\ndef main():\n    n, m = map(int, input().split())\n\
     \    a = list(map(int, input().split()))\n    b = list(map(int, input().split()))\n\
-    \n    print(*ntt_convolve(a, b)[:n + m - 1])\n\n\nif __name__ == '__main__':\n\
-    \    main()\n"
+    \n    print(*ntt_convolve(a, b))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - NumberTheory/Convolution/ntt_convolve.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/convolution_mod.test.py
   requiredBy: []
-  timestamp: '2021-05-03 11:23:11+09:00'
+  timestamp: '2021-06-13 01:12:48+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/convolution_mod.test.py

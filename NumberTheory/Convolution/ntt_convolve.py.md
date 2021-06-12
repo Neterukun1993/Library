@@ -30,15 +30,15 @@ data:
     \ + k] - a[j + k + m] * w) % MOD\n                w *= iroots[i + 1]\n       \
     \         w %= MOD\n    inv = pow(1 << h, MOD - 2, MOD)\n    for i in range(1\
     \ << h):\n        a[i] *= inv\n        a[i] %= MOD\n\n\ndef ntt_convolve(a, b):\n\
-    \    n = 1 << (len(a) + len(b) - 1).bit_length()\n    h = n.bit_length() - 1\n\
-    \    a = list(a) + [0] * (n - len(a))\n    b = list(b) + [0] * (n - len(b))\n\n\
-    \    _ntt(a, h), _ntt(b, h)\n    a = [va * vb % MOD for va, vb in zip(a, b)]\n\
-    \    _intt(a, h)\n    return a\n"
+    \    len_ab = len(a) + len(b)\n    n = 1 << (len(a) + len(b) - 1).bit_length()\n\
+    \    h = n.bit_length() - 1\n    a = list(a) + [0] * (n - len(a))\n    b = list(b)\
+    \ + [0] * (n - len(b))\n\n    _ntt(a, h), _ntt(b, h)\n    a = [va * vb % MOD for\
+    \ va, vb in zip(a, b)]\n    _intt(a, h)\n    return a[:len_ab - 1]\n"
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/ntt_convolve.py
   requiredBy: []
-  timestamp: '2021-05-03 11:23:11+09:00'
+  timestamp: '2021-06-13 01:12:48+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/convolution_mod.test.py
@@ -46,3 +46,7 @@ documentation_of: NumberTheory/Convolution/ntt_convolve.py
 layout: document
 title: "\u6570\u8AD6\u5909\u63DB (number-theoretic transform)"
 ---
+
+## 使い方
+`ntt_convolve(a: Sequence[int], b: Sequence[int]) -> List[int]`  
+長さ $N$ の数列 $a$ と長さ $M$ の数列 $b$ について、$c_k = \sum_{i + j \equiv k} a_ib_j \bmod 998244353$ となる長さ $N + M - 1$ の数列 $c$ を返す。計算量 $O((N + M) \log (N + M))$

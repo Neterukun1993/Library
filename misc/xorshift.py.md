@@ -17,6 +17,9 @@ data:
     path: TestCase/unittest/IntervalHeap.unittest.test.py
     title: TestCase/unittest/IntervalHeap.unittest.test.py
   - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+    title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/unittest/xorshift.unittest.test.py
     title: TestCase/unittest/xorshift.unittest.test.py
   _isVerificationFailed: false
@@ -44,6 +47,7 @@ data:
   verifiedWith:
   - TestCase/unittest/IntervalHeap.unittest.test.py
   - TestCase/unittest/xorshift.unittest.test.py
+  - TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
 documentation_of: misc/xorshift.py
 layout: document
 title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

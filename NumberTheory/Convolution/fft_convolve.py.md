@@ -27,15 +27,16 @@ data:
     \  a[j + k], a[j + k + m] = \\\n                    a[j + k] + a[j + k + m] *\
     \ w, a[j + k] - a[j + k + m] * w\n                w *= iroots[i + 1]\n    n =\
     \ 1 << h\n    for i in range(n):\n        a[i] /= n\n\n\ndef fft_convolve(a, b):\n\
-    \    n = 1 << (len(a) + len(b) - 1).bit_length()\n    h = n.bit_length() - 1\n\
-    \    a = list(a) + [0] * (n - len(a))\n    b = list(b) + [0] * (n - len(b))\n\n\
-    \    _fft(a, h), _fft(b, h)\n    a = [va * vb for va, vb in zip(a, b)]\n    _ifft(a,\
-    \ h)\n    return [int(abs(val) + 0.5) for val in a]\n"
+    \    len_ab = len(a) + len(b)\n    n = 1 << (len(a) + len(b) - 1).bit_length()\n\
+    \    h = n.bit_length() - 1\n    a = list(a) + [0] * (n - len(a))\n    b = list(b)\
+    \ + [0] * (n - len(b))\n\n    _fft(a, h), _fft(b, h)\n    a = [va * vb for va,\
+    \ vb in zip(a, b)]\n    _ifft(a, h)\n    return [int(abs(a[i]) + 0.5) for i in\
+    \ range(len_ab - 1)]\n"
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/fft_convolve.py
   requiredBy: []
-  timestamp: '2021-05-03 11:23:11+09:00'
+  timestamp: '2021-06-13 01:12:48+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0206.test.py
@@ -43,3 +44,7 @@ documentation_of: NumberTheory/Convolution/fft_convolve.py
 layout: document
 title: "\u9AD8\u901F\u30D5\u30FC\u30EA\u30A8\u5909\u63DB (fast Fourier transform)"
 ---
+
+## 使い方
+`fft_convolve(a: Sequence[int], b: Sequence[int]) -> List[int]`  
+長さ $N$ の数列 $a$ と長さ $M$ の数列 $b$ について、$c_k = \sum_{i + j \equiv k} a_ib_j$ となる長さ $N + M - 1$ の数列 $c$ を返す。計算量 $O((N + M) \log (N + M))$

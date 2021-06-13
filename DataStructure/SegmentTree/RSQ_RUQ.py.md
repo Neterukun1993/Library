@@ -1,6 +1,10 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: DataStructure/SegmentTree/LazySegmentTree.py
+    title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment\
+      \ Tree with Lazy Propagation)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -25,7 +29,8 @@ data:
     \ 1) for x in array])\n\n    def __getitem__(self, i):\n        return super().__getitem__(i)[0]\n\
     \n    def __setitem__(self, i, x):\n        super().__setitem__(i, (x, 1))\n\n\
     \    def fold(self, l, r):\n        return super().fold(l, r)[0]\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/SegmentTree/LazySegmentTree.py
   isVerificationFile: false
   path: DataStructure/SegmentTree/RSQ_RUQ.py
   requiredBy: []

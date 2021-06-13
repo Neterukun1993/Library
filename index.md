@@ -500,6 +500,9 @@ data:
       path: String/SA_nlogn2.py
       title: "\u63A5\u5C3E\u8F9E\u914D\u5217 ($\\mathrm{O}(N (\\log^2 N))$)"
     - icon: ':heavy_check_mark:'
+      path: String/SuffixAutomaton.py
+      title: Suffix automaton
+    - icon: ':heavy_check_mark:'
       path: String/Trie.py
       title: "Trie \u6728"
     - icon: ':heavy_check_mark:'
@@ -857,6 +860,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/montmort_number_mod.test.py
       title: TestCase/LibraryChecker/montmort_number_mod.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
+      title: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py

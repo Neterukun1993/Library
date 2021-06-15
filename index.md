@@ -337,6 +337,10 @@ data:
       path: Graph/Tree/EulerTour.py
       title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
     - icon: ':heavy_check_mark:'
+      path: Graph/Tree/EulerTourPathQuery.py
+      title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\
+        \u3059\u308B\u30AF\u30A8\u30EA)"
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/HLDecomposition.py
       title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
     - icon: ':heavy_check_mark:'
@@ -932,6 +936,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/two_sat.test.py
       title: TestCase/LibraryChecker/two_sat.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/vertex_add_path_sum.EulerTourPathQuery.test.py
+      title: TestCase/LibraryChecker/vertex_add_path_sum.EulerTourPathQuery.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_path_sum.test.py

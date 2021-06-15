@@ -23,15 +23,14 @@ data:
     \    queries = [list(map(int, input().split())) for i in range(q)]\n\n    tree\
     \ = [[] for i in range(n)]\n    for u, v in enumerate(p):\n        u += 1\n  \
     \      tree[u].append(v)\n        tree[v].append(u)\n\n    et = EulerTour(tree,\
-    \ 0)\n    et.build_lca()\n    ans = []\n    for u, v in queries:\n        ans.append(et.lca(u,\
-    \ v))\n\n    print('\\n'.join(map(str, ans)))\n\n\nif __name__ == '__main__':\n\
-    \    main()\n"
+    \ 0)\n    ans = []\n    for u, v in queries:\n        ans.append(et.lca(u, v))\n\
+    \n    print('\\n'.join(map(str, ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - Graph/Tree/EulerTour.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/lca.EulerTour.test.py
   requiredBy: []
-  timestamp: '2021-05-15 17:04:25+09:00'
+  timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/lca.EulerTour.test.py

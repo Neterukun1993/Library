@@ -8,6 +8,10 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/PointAddRectangleSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTourPathQuery.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
+      \u308B\u30AF\u30A8\u30EA)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
@@ -52,6 +56,7 @@ data:
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   requiredBy:
+  - Graph/Tree/EulerTourPathQuery.py
   - DataStructure/Wavelet/PointAddRectangleSum.py
   - DataStructure/BinaryIndexedTree/inversion_number.py
   timestamp: '2021-01-02 01:05:58+09:00'

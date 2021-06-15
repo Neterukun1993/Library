@@ -1,7 +1,11 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTourPathQuery.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
+      \u308B\u30AF\u30A8\u30EA)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.EulerTour.test.py
@@ -15,22 +19,20 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "class EulerTour:\n    def __init__(self, tree, root=None):\n        self.n\
-    \ = len(tree)\n        self.tree = tree\n        self.par = [-1] * self.n\n  \
-    \      self.begin = [-1] * self.n\n        self.end = [-1] * self.n\n        self.walk_order\
-    \ = []\n\n        if root is None:\n            for v in range(self.n):\n    \
-    \            if self.par[v] == -1:\n                    self._traversal(v)\n \
-    \       else:\n            self._traversal(root)\n\n    def _traversal(self, rt):\n\
-    \        stack = [rt, 0]\n        self.begin[rt] = len(self.walk_order)\n    \
-    \    self.walk_order.append(rt)\n        while stack:\n            v, idx = stack[-2:]\n\
-    \            if idx < len(self.tree[v]):\n                nxt_v = self.tree[v][idx]\n\
-    \                stack[-1] += 1\n                if nxt_v == self.par[v]:\n  \
-    \                  continue\n                self.begin[nxt_v] = len(self.walk_order)\n\
-    \                self.walk_order.append(nxt_v)\n                self.par[nxt_v]\
-    \ = v\n                stack.append(nxt_v)\n                stack.append(0)\n\
-    \            else:\n                self.end[v] = len(self.walk_order) \n    \
-    \            if self.par[v] != -1:\n                    self.walk_order.append(self.par[v])\n\
-    \                stack.pop()\n                stack.pop()\n\n    def build_lca(self):\n\
+  code: "class EulerTour:\n    def __init__(self, tree, root):\n        self.n = len(tree)\n\
+    \        self.tree = tree\n        self.par = [-1] * self.n\n        self.begin\
+    \ = [-1] * self.n\n        self.end = [-1] * self.n\n        self.walk_order =\
+    \ []\n\n        self._traversal(root)\n        self._build_lca()\n\n    def _traversal(self,\
+    \ rt):\n        stack = [rt, 0]\n        self.begin[rt] = len(self.walk_order)\n\
+    \        self.walk_order.append(rt)\n        while stack:\n            v, idx\
+    \ = stack[-2:]\n            if idx < len(self.tree[v]):\n                nxt_v\
+    \ = self.tree[v][idx]\n                stack[-1] += 1\n                if nxt_v\
+    \ == self.par[v]:\n                    continue\n                self.begin[nxt_v]\
+    \ = len(self.walk_order)\n                self.walk_order.append(nxt_v)\n    \
+    \            self.par[nxt_v] = v\n                stack.append(nxt_v)\n      \
+    \          stack.append(0)\n            else:\n                self.end[v] = len(self.walk_order)\n\
+    \                if self.par[v] != -1:\n                    self.walk_order.append(self.par[v])\n\
+    \                stack.pop()\n                stack.pop()\n\n    def _build_lca(self):\n\
     \        self.depth = self.walk_order[:]\n        d = 0\n        for i, (prv_v,\
     \ v) in enumerate(zip(self.walk_order, self.walk_order[1:])):\n            if\
     \ self.par[v] == -1: d = 0\n            elif self.par[v] == prv_v: d += 1\n  \
@@ -43,15 +45,18 @@ data:
     \ = val\n        for k in range(lg_size - 1):\n            for i in range(size\
     \ - (1 << k + 1) + 1):\n                tbl[k + 1][i] = min(tbl[k][i], tbl[k][i\
     \ + (1 << k)])\n\n    def _min_query(self, l, r):\n        k = self.lg[r - l]\n\
-    \        return min(self.tbl[k][l], self.tbl[k][r - (1 << k)])               \
-    \ \n\n    def lca(self, u, v):\n        if self.begin[u] > self.begin[v]:\n  \
-    \          u, v = v, u\n        l, r = self.begin[u], self.begin[v] + 1\n    \
-    \    lca_uv = self._min_query(l, r) & ((1 << 32) - 1)\n        return lca_uv\n"
+    \        return min(self.tbl[k][l], self.tbl[k][r - (1 << k)])\n\n    def lca(self,\
+    \ u, v):\n        if self.begin[u] > self.begin[v]:\n            u, v = v, u\n\
+    \        l, r = self.begin[u], self.begin[v] + 1\n        lca_uv = self._min_query(l,\
+    \ r) & ((1 << 32) - 1)\n        return lca_uv\n\n    def distance(self, u, v):\n\
+    \        lca_uv = self.lca(u, v)\n        return self.depth[u] + self.depth[v]\
+    \ - 2 * self.depth[lca_uv]\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/EulerTour.py
-  requiredBy: []
-  timestamp: '2021-05-15 17:04:25+09:00'
+  requiredBy:
+  - Graph/Tree/EulerTourPathQuery.py
+  timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/lca.EulerTour.test.py
@@ -61,14 +66,14 @@ title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
 ---
 
 ## 概要
-木に対してオイラーツアーを行うアルゴリズム。森にも対応している。
+木に対してオイラーツアーを行うアルゴリズム。
 
 ## 使い方
-`EulerTour(tree: Sequence[Iterable[int]], root: Optional[int] = None)`  
-隣接リストで表現される木 `tree` に対してオイラーツアーを行う。根頂点 `root` を指定しない場合は、頂点 `0` が根となる。計算量 $O(V)$
-
-- `build_lca() -> None`  
-最小共通祖先クエリを答えるための前計算 (ダブリング) を行う。計算量 $O(V\log V)$
+`EulerTour(tree: Sequence[Iterable[int]], root: int)`  
+根頂点が `root` である隣接リストで表現される木 `tree` に対してオイラーツアーを行う。計算量 $O(V\log V)$
 
 - `lca(u: int, v: int) -> int`  
-`u` と `v` の最小共通祖先を返す。`u` と `v` が非連結の場合は `-1` を返す。計算量 $O(1)$
+頂点 `u` と頂点 `v` の最小共通祖先を返す。計算量 $O(1)$
+
+- `distance(u: int, v: int) -> int`  
+パス `u - v` の距離を返す。計算量 $O(1)$

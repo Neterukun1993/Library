@@ -17,7 +17,6 @@ def main():
         tree[v].append(u)
 
     et = EulerTour(tree, 0)
-    et.build_lca()
     ans = []
     for u, v in queries:
         ans.append(et.lca(u, v))

@@ -1,5 +1,5 @@
 class EulerTour:
-    def __init__(self, tree, root=None):
+    def __init__(self, tree, root):
         self.n = len(tree)
         self.tree = tree
         self.par = [-1] * self.n
@@ -7,12 +7,8 @@ class EulerTour:
         self.end = [-1] * self.n
         self.walk_order = []
 
-        if root is None:
-            for v in range(self.n):
-                if self.par[v] == -1:
-                    self._traversal(v)
-        else:
-            self._traversal(root)
+        self._traversal(root)
+        self._build_lca()
 
     def _traversal(self, rt):
         stack = [rt, 0]
@@ -31,13 +27,13 @@ class EulerTour:
                 stack.append(nxt_v)
                 stack.append(0)
             else:
-                self.end[v] = len(self.walk_order) 
+                self.end[v] = len(self.walk_order)
                 if self.par[v] != -1:
                     self.walk_order.append(self.par[v])
                 stack.pop()
                 stack.pop()
 
-    def build_lca(self):
+    def _build_lca(self):
         self.depth = self.walk_order[:]
         d = 0
         for i, (prv_v, v) in enumerate(zip(self.walk_order, self.walk_order[1:])):
@@ -64,7 +60,7 @@ class EulerTour:
 
     def _min_query(self, l, r):
         k = self.lg[r - l]
-        return min(self.tbl[k][l], self.tbl[k][r - (1 << k)])                
+        return min(self.tbl[k][l], self.tbl[k][r - (1 << k)])
 
     def lca(self, u, v):
         if self.begin[u] > self.begin[v]:
@@ -72,3 +68,7 @@ class EulerTour:
         l, r = self.begin[u], self.begin[v] + 1
         lca_uv = self._min_query(l, r) & ((1 << 32) - 1)
         return lca_uv
+
+    def distance(self, u, v):
+        lca_uv = self.lca(u, v)
+        return self.depth[u] + self.depth[v] - 2 * self.depth[lca_uv]

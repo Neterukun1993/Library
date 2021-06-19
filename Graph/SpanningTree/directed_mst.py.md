@@ -62,8 +62,8 @@ data:
   timestamp: '2021-01-14 12:29:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/directedmst.test.py
   - TestCase/AOJ/GRL_2_B.test.py
+  - TestCase/LibraryChecker/directedmst.test.py
 documentation_of: Graph/SpanningTree/directed_mst.py
 layout: document
 title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"

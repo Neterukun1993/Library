@@ -226,6 +226,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/KDTree2D.py
       title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22 (kD-Tree)"
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/LazyBinaryTrie.py
+      title: "\u9045\u5EF6\u8A55\u4FA1 Binary Trie"
     - icon: ':warning:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
@@ -520,6 +523,9 @@ data:
     - icon: ':warning:'
       path: misc/kitamasa.py
       title: "\u304D\u305F\u307E\u3055\u6CD5"
+    - icon: ':warning:'
+      path: misc/ternary_search.py
+      title: misc/ternary_search.py
     - icon: ':heavy_check_mark:'
       path: misc/xorshift.py
       title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
@@ -806,6 +812,9 @@ data:
       path: TestCase/AOJ/ITP2_7_C.BTree.test.py
       title: TestCase/AOJ/ITP2_7_C.BTree.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
+      title: TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.SkipList.test.py
       title: TestCase/AOJ/ITP2_7_C.SkipList.test.py
     - icon: ':heavy_check_mark:'
@@ -956,6 +965,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/IntervalHeap.unittest.test.py
       title: TestCase/unittest/IntervalHeap.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/LazyBinaryTrie.unittest.test.py
+      title: TestCase/unittest/LazyBinaryTrie.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py

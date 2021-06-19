@@ -47,8 +47,8 @@ data:
   isVerificationFile: false
   path: DataStructure/UnionFind/UnionFind.py
   requiredBy:
-  - Graph/SpanningTree/boruvka.py
   - Graph/SpanningTree/directed_mst.py
+  - Graph/SpanningTree/boruvka.py
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

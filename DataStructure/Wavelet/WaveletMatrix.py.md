@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':warning:'
-    path: DataStructure/Wavelet/BitVector.py
-    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -76,17 +73,16 @@ data:
     \ next_val(self, l, r, lower):\n        lower = bisect_left(self.vals, lower)\n\
     \        res = self.wm.next_val(l, r, lower)\n        return None if res is None\
     \ else self.vals[res]\n"
-  dependsOn:
-  - DataStructure/Wavelet/BitVector.py
+  dependsOn: []
   isVerificationFile: false
   path: DataStructure/Wavelet/WaveletMatrix.py
   requiredBy: []
-  timestamp: '2021-01-10 20:36:04+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
-  - TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
   - TestCase/AOJ/1549.test.py
+  - TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
+  - TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
 documentation_of: DataStructure/Wavelet/WaveletMatrix.py
 layout: document
 title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"

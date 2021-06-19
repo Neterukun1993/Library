@@ -17,6 +17,9 @@ data:
     path: TestCase/unittest/IntervalHeap.unittest.test.py
     title: TestCase/unittest/IntervalHeap.unittest.test.py
   - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/LazyBinaryTrie.unittest.test.py
+    title: TestCase/unittest/LazyBinaryTrie.unittest.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
     title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
   - icon: ':heavy_check_mark:'
@@ -39,15 +42,16 @@ data:
   isVerificationFile: false
   path: misc/xorshift.py
   requiredBy:
+  - DataStructure/Heap/RandomizedMeldableHeap.py
   - DataStructure/SortedSet/SortedSetTreap.py
   - DataStructure/SortedSet/SortedSetSkipList.py
-  - DataStructure/Heap/RandomizedMeldableHeap.py
   timestamp: '2021-01-19 22:36:20+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/IntervalHeap.unittest.test.py
   - TestCase/unittest/xorshift.unittest.test.py
   - TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+  - TestCase/unittest/LazyBinaryTrie.unittest.test.py
+  - TestCase/unittest/IntervalHeap.unittest.test.py
 documentation_of: misc/xorshift.py
 layout: document
 title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

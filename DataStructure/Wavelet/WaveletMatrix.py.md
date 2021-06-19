@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: DataStructure/Wavelet/BitVector.py
+    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -73,11 +76,12 @@ data:
     \ next_val(self, l, r, lower):\n        lower = bisect_left(self.vals, lower)\n\
     \        res = self.wm.next_val(l, r, lower)\n        return None if res is None\
     \ else self.vals[res]\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/Wavelet/BitVector.py
   isVerificationFile: false
   path: DataStructure/Wavelet/WaveletMatrix.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/1549.test.py

@@ -447,6 +447,9 @@ data:
       title: "\u7D20\u6570\u5217\u6319 (\u30A8\u30E9\u30C8\u30B9\u30C6\u30CD\u30B9\
         \u306E\u7BE9)"
     - icon: ':warning:'
+      path: NumberTheory/Prime/euler_phi.py
+      title: NumberTheory/Prime/euler_phi.py
+    - icon: ':warning:'
       path: NumberTheory/Prime/fermat_test.py
       title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30D5\u30A7\u30EB\u30DE\
         \u30FC\u30C6\u30B9\u30C8)"
@@ -469,6 +472,9 @@ data:
       title: "\u7D20\u6570\u5217\u6319 (\u533A\u9593\u7BE9)"
   - name: NumberTheory/misc
     pages:
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/misc/euler_phi.py
+      title: "\u30AA\u30A4\u30E9\u30FC\u306E $\\varphi$ \u95A2\u6570"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/floor_sum.py
       title: floor sum
@@ -829,6 +835,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/NTL_1_C.test.py
       title: TestCase/AOJ/NTL_1_C.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/NTL_1_D.test.py
+      title: TestCase/AOJ/NTL_1_D.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/NTL_1_E.test.py
       title: TestCase/AOJ/NTL_1_E.test.py

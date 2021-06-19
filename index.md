@@ -356,6 +356,10 @@ data:
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
     - icon: ':heavy_check_mark:'
+      path: Graph/Tree/offline_lca.py
+      title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (Tarjan \u306E\u30AA\u30D5\u30E9\
+        \u30A4\u30F3\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/rerooting.py
       title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"
     - icon: ':heavy_check_mark:'
@@ -876,6 +880,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.HLDecomposition.test.py
       title: TestCase/LibraryChecker/lca.HLDecomposition.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/lca.offline.test.py
+      title: TestCase/LibraryChecker/lca.offline.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py

@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: DataStructure/misc/PersistentArray.py
+    title: "\u6C38\u7D9A\u914D\u5217"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -26,11 +29,12 @@ data:
     \ x, t)\n        return self.parent.set(x, px + py, tmp)\n\n    def same(self,\
     \ x, y, t):\n        return self.root(x, t) == self.root(y, t)\n\n    def size(self,\
     \ x, t):\n        return -self.parent.get(self.root(x, t), t)\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/misc/PersistentArray.py
   isVerificationFile: false
   path: DataStructure/UnionFind/PersistentUnionFind.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-03 06:00:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/persistent_unionfind.test.py

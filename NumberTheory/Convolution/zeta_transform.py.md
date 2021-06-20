@@ -1,7 +1,13 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Convolution/and_convolve.py
+    title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u8FBC\u307F"
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Convolution/or_convolve.py
+    title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u8FBC\u307F"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/unittest/zeta_mobius_transform.unittest.test.py
@@ -25,7 +31,9 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/zeta_transform.py
-  requiredBy: []
+  requiredBy:
+  - NumberTheory/Convolution/or_convolve.py
+  - NumberTheory/Convolution/and_convolve.py
   timestamp: '2021-06-20 22:49:02+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

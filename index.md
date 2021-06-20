@@ -416,6 +416,9 @@ data:
   - name: NumberTheory/Convolution
     pages:
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/and_convolve.py
+      title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u8FBC\u307F"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/arbitrary_mod_convolve.py
       title: "\u4EFB\u610F MOD \u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
@@ -427,6 +430,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/ntt_convolve.py
       title: "\u6570\u8AD6\u5909\u63DB (number-theoretic transform)"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/or_convolve.py
+      title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u8FBC\u307F"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/xor_convolve.py
+      title: "\u6DFB\u5B57 xor \u306B\u3088\u308B\u7573\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/zeta_transform.py
       title: "\u9AD8\u901F\u30BC\u30FC\u30BF\u5909\u63DB (fast zeta transform)"
@@ -856,6 +865,15 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/bipartitematching.test.py
       title: TestCase/LibraryChecker/bipartitematching.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py
+      title: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/bitwise_and_convolution.or.test.py
+      title: TestCase/LibraryChecker/bitwise_and_convolution.or.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/bitwise_xor_convolution.test.py
+      title: TestCase/LibraryChecker/bitwise_xor_convolution.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/cartesian_tree.test.py
       title: TestCase/LibraryChecker/cartesian_tree.test.py

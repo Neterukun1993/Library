@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -21,7 +24,8 @@ data:
     \ = max(array)\n    bit = BinaryIndexedTree(max_val + 1)\n    inv_num = 0\n  \
     \  for i in array:\n        bit.add(i, 1)\n        inv_num += bit.sum(i + 1, max_val\
     \ + 1)\n    return inv_num\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/inversion_number.py
   requiredBy: []

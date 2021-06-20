@@ -417,7 +417,7 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/and_convolve.py
-      title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u8FBC\u307F"
+      title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/arbitrary_mod_convolve.py
       title: "\u4EFB\u610F MOD \u7573\u307F\u8FBC\u307F"
@@ -428,14 +428,18 @@ data:
       path: NumberTheory/Convolution/mobius_transform.py
       title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/multiple_divisor_transform.py
+      title: "\u7D04\u6570/\u500D\u6570\u3092\u96C6\u5408\u3068\u3057\u305F\u7D2F\u7A4D\
+        \u548C/\u5DEE\u5206"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/ntt_convolve.py
       title: "\u6570\u8AD6\u5909\u63DB (number-theoretic transform)"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/or_convolve.py
-      title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u8FBC\u307F"
+      title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/xor_convolve.py
-      title: "\u6DFB\u5B57 xor \u306B\u3088\u308B\u7573\u8FBC\u307F"
+      title: "\u6DFB\u5B57 xor \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/zeta_transform.py
       title: "\u9AD8\u901F\u30BC\u30FC\u30BF\u5909\u63DB (fast zeta transform)"
@@ -1017,6 +1021,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/matrix_pow.unittest.test.py
       title: TestCase/unittest/matrix_pow.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/multiple_divisor_transform.unittest.test.py
+      title: TestCase/unittest/multiple_divisor_transform.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/run_length_encoding.unittest.test.py
       title: TestCase/unittest/run_length_encoding.unittest.test.py

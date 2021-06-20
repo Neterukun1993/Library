@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: NumberTheory/Convolution/and_convolve.py
-    title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u8FBC\u307F"
+    title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

@@ -40,5 +40,5 @@ data:
   - TestCase/LibraryChecker/bitwise_and_convolution.or.test.py
 documentation_of: NumberTheory/Convolution/or_convolve.py
 layout: document
-title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u8FBC\u307F"
+title: "\u6DFB\u5B57 or \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
 ---

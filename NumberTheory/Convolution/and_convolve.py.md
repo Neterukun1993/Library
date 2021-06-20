@@ -29,8 +29,8 @@ data:
     \   res = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = superset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
   dependsOn:
-  - NumberTheory/Convolution/mobius_transform.py
   - NumberTheory/Convolution/zeta_transform.py
+  - NumberTheory/Convolution/mobius_transform.py
   isVerificationFile: false
   path: NumberTheory/Convolution/and_convolve.py
   requiredBy: []
@@ -40,5 +40,5 @@ data:
   - TestCase/LibraryChecker/bitwise_and_convolution.and.test.py
 documentation_of: NumberTheory/Convolution/and_convolve.py
 layout: document
-title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u8FBC\u307F"
+title: "\u6DFB\u5B57 and \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
 ---

@@ -25,6 +25,9 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/unittest/xorshift.unittest.test.py
     title: TestCase/unittest/xorshift.unittest.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/zeta_mobius_transform.unittest.test.py
+    title: TestCase/unittest/zeta_mobius_transform.unittest.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -52,6 +55,7 @@ data:
   - TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
   - TestCase/unittest/LazyBinaryTrie.unittest.test.py
   - TestCase/unittest/IntervalHeap.unittest.test.py
+  - TestCase/unittest/zeta_mobius_transform.unittest.test.py
 documentation_of: misc/xorshift.py
 layout: document
 title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

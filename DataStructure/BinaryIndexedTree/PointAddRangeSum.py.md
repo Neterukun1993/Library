@@ -5,6 +5,10 @@ data:
   - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/inversion_number.py
     title: "\u8EE2\u5012\u6570"
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTourPathQuery.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
+      \u308B\u30AF\u30A8\u30EA)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DSL_2_B.BIT.test.py
@@ -49,6 +53,7 @@ data:
   isVerificationFile: false
   path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   requiredBy:
+  - Graph/Tree/EulerTourPathQuery.py
   - DataStructure/BinaryIndexedTree/inversion_number.py
   timestamp: '2021-01-02 01:05:58+09:00'
   verificationStatus: LIBRARY_ALL_AC

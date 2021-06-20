@@ -422,8 +422,14 @@ data:
       path: NumberTheory/Convolution/fft_convolve.py
       title: "\u9AD8\u901F\u30D5\u30FC\u30EA\u30A8\u5909\u63DB (fast Fourier transform)"
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/mobius_transform.py
+      title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/ntt_convolve.py
       title: "\u6570\u8AD6\u5909\u63DB (number-theoretic transform)"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/zeta_transform.py
+      title: "\u9AD8\u901F\u30BC\u30FC\u30BF\u5909\u63DB (fast zeta transform)"
   - name: NumberTheory/ModularArithmetic
     pages:
     - icon: ':heavy_check_mark:'
@@ -1005,6 +1011,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/xorshift.unittest.test.py
       title: TestCase/unittest/xorshift.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/zeta_mobius_transform.unittest.test.py
+      title: TestCase/unittest/zeta_mobius_transform.unittest.test.py
   - name: TestCase/yukicoder
     pages:
     - icon: ':heavy_check_mark:'

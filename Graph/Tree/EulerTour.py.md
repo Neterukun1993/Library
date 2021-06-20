@@ -1,7 +1,11 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTourPathQuery.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
+      \u308B\u30AF\u30A8\u30EA)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.EulerTour.test.py
@@ -50,7 +54,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/EulerTour.py
-  requiredBy: []
+  requiredBy:
+  - Graph/Tree/EulerTourPathQuery.py
   timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

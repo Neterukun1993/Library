@@ -35,7 +35,7 @@ data:
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/garner.py
   requiredBy: []
-  timestamp: '2021-05-03 15:04:52+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0187.test.py

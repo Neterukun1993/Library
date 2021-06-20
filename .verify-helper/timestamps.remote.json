@@ -151,6 +151,7 @@
 "TestCase/unittest/arbitrary_mod_convolve.unittest.test.py": "2021-06-13 01:12:48 +0900",
 "TestCase/unittest/linear_congruence.unittest.test.py": "2021-05-07 02:19:56 +0900",
 "TestCase/unittest/matrix_pow.unittest.test.py": "2021-06-12 19:23:31 +0900",
+"TestCase/unittest/multiple_divisor_transform.unittest.test.py": "2021-06-21 06:14:17 +0900",
 "TestCase/unittest/run_length_encoding.unittest.test.py": "2021-05-07 02:19:56 +0900",
 "TestCase/unittest/segment_sieve.unittest.test.py": "2021-03-05 16:39:32 +0900",
 "TestCase/unittest/substring_dp.unittest.test.py": "2021-05-09 19:23:25 +0900",

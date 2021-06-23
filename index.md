@@ -424,6 +424,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/fft_convolve.py
       title: "\u9AD8\u901F\u30D5\u30FC\u30EA\u30A8\u5909\u63DB (fast Fourier transform)"
+    - icon: ':x:'
+      path: NumberTheory/Convolution/gcd_convolve.py
+      title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/mobius_transform.py
       title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
@@ -1015,6 +1018,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+    - icon: ':x:'
+      path: TestCase/unittest/gcd_convolve.unittest.test.py
+      title: TestCase/unittest/gcd_convolve.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/linear_congruence.unittest.test.py
       title: TestCase/unittest/linear_congruence.unittest.test.py

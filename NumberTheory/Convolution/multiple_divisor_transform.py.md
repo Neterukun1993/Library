@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':x:'
+    path: NumberTheory/Convolution/gcd_convolve.py
+    title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/unittest/multiple_divisor_transform.unittest.test.py
@@ -36,7 +39,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/multiple_divisor_transform.py
-  requiredBy: []
+  requiredBy:
+  - NumberTheory/Convolution/gcd_convolve.py
   timestamp: '2021-06-21 06:14:17+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

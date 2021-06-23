@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: DataStructure/Wavelet/BitVector.py
+    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -42,7 +45,8 @@ data:
     \ r)\n        upper = bisect_left(self.ys, upper)\n        return self.mat.rect_sum(l,\
     \ r, upper)\n\n    def rect_sum(self, l, r, lower, upper):\n        return self._rect_sum(l,\
     \ r, upper) - self._rect_sum(l, r, lower)\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/Wavelet/BitVector.py
   isVerificationFile: false
   path: DataStructure/Wavelet/RectangleSum.py
   requiredBy: []

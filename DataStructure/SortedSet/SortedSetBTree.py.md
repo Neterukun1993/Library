@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/SortedSet/SortedMultiSetBTree.py
-    title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (B-Tree)"
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_C.BTree.test.py
@@ -85,8 +82,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedSetBTree.py
-  requiredBy:
-  - DataStructure/SortedSet/SortedMultiSetBTree.py
+  requiredBy: []
   timestamp: '2021-02-07 17:46:13+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

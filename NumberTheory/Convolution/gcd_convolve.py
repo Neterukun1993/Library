@@ -2,6 +2,7 @@ from NumberTheory.Convolution.multiple_divisor_transform import (
     multiple_zeta_transform,
     multiple_mobius_transform
 )
+MOD = 998244353
 
 
 def gcd_convolve(a, b):

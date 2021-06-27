@@ -215,6 +215,9 @@ data:
       title: "\u4E21\u7AEF\u30AD\u30E5\u30FC (\u5FAA\u74B0\u30D0\u30C3\u30D5\u30A1\
         /\u30E9\u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9$O(1)$)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/BankersQueue.py
+      title: "\u6C38\u7D9A Queue (Banker's Queue)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/BinaryTrie.py
       title: Binary Trie
     - icon: ':heavy_check_mark:'
@@ -424,7 +427,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/fft_convolve.py
       title: "\u9AD8\u901F\u30D5\u30FC\u30EA\u30A8\u5909\u63DB (fast Fourier transform)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/gcd_convolve.py
       title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
@@ -924,6 +927,9 @@ data:
       path: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
       title: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/persistent_queue.test.py
+      title: TestCase/LibraryChecker/persistent_queue.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
       title: TestCase/LibraryChecker/persistent_unionfind.Undo.test.py
     - icon: ':heavy_check_mark:'
@@ -1018,7 +1024,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/unittest/gcd_convolve.unittest.test.py
       title: TestCase/unittest/gcd_convolve.unittest.test.py
     - icon: ':heavy_check_mark:'

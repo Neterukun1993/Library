@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: NumberTheory/Convolution/gcd_convolve.py
     title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A
     links:
@@ -32,8 +32,8 @@ data:
   isVerificationFile: true
   path: TestCase/unittest/gcd_convolve.unittest.test.py
   requiredBy: []
-  timestamp: '2021-06-24 01:09:07+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-06-24 01:16:50+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/unittest/gcd_convolve.unittest.test.py
 layout: document

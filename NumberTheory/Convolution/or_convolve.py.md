@@ -1,12 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: NumberTheory/Convolution/mobius_transform.py
-    title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
-  - icon: ':heavy_check_mark:'
-    path: NumberTheory/Convolution/zeta_transform.py
-    title: "\u9AD8\u901F\u30BC\u30FC\u30BF\u5909\u63DB (fast zeta transform)"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -28,9 +22,7 @@ data:
     \ subset_zeta_transform(a, add)\n    b = subset_zeta_transform(b, add)\n    res\
     \ = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = subset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
-  dependsOn:
-  - NumberTheory/Convolution/zeta_transform.py
-  - NumberTheory/Convolution/mobius_transform.py
+  dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/or_convolve.py
   requiredBy: []

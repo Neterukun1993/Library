@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Convolution/gcd_convolve.py
+    title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/unittest/multiple_divisor_transform.unittest.test.py
@@ -11,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def multiple_zeta_transform(a, op):\n    n = len(a)\n    res = a[:]\n   \
     \ prime_table = [1] * n\n    for p in range(2, n):\n        if not prime_table[p]:\n\
@@ -36,7 +39,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: NumberTheory/Convolution/multiple_divisor_transform.py
-  requiredBy: []
+  requiredBy:
+  - NumberTheory/Convolution/gcd_convolve.py
   timestamp: '2021-06-21 06:14:17+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/SortedSet/SortedMultiSetBIT.py
-    title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_B.BIT.test.py
@@ -14,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from bisect import bisect_left\n\n\nclass SortedSetBIT:\n    def __init__(self,\
     \ cands):\n        self.array = sorted(set(cands))\n        self.comp = {val:\
@@ -50,8 +47,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/SortedSet/SortedSetBIT.py
-  requiredBy:
-  - DataStructure/SortedSet/SortedMultiSetBIT.py
+  requiredBy: []
   timestamp: '2021-02-06 18:04:37+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

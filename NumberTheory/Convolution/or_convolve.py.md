@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Convolution/mobius_transform.py
+    title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
+  - icon: ':heavy_check_mark:'
+    path: NumberTheory/Convolution/zeta_transform.py
+    title: "\u9AD8\u901F\u30BC\u30FC\u30BF\u5909\u63DB (fast zeta transform)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -11,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from NumberTheory.Convolution.zeta_transform import subset_zeta_transform\n\
     from NumberTheory.Convolution.mobius_transform import subset_mobius_transform\n\
@@ -22,7 +28,9 @@ data:
     \ subset_zeta_transform(a, add)\n    b = subset_zeta_transform(b, add)\n    res\
     \ = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = subset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
-  dependsOn: []
+  dependsOn:
+  - NumberTheory/Convolution/zeta_transform.py
+  - NumberTheory/Convolution/mobius_transform.py
   isVerificationFile: false
   path: NumberTheory/Convolution/or_convolve.py
   requiredBy: []

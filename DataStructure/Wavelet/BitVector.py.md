@@ -2,6 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
+  - icon: ':warning:'
+    path: DataStructure/Wavelet/RangeSetQuery.py
+    title: DataStructure/Wavelet/RangeSetQuery.py
   - icon: ':heavy_check_mark:'
     path: DataStructure/Wavelet/RectangleSum.py
     title: "\u77E9\u5F62\u548C\u53D6\u5F97"
@@ -11,9 +14,9 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class BitVector:\n    def __init__(self, size):\n        # self.BLOCK_WIDTH\
     \ = 32\n        self.BLOCK_NUM = (size + 31) >> 5\n        self.bit = [0] * self.BLOCK_NUM\n\
@@ -31,6 +34,7 @@ data:
   isVerificationFile: false
   path: DataStructure/Wavelet/BitVector.py
   requiredBy:
+  - DataStructure/Wavelet/RangeSetQuery.py
   - DataStructure/Wavelet/RectangleSum.py
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_NO_TESTS

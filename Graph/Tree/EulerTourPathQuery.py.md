@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTour.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -11,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.BinaryIndexedTree.PointAddRangeSum import BinaryIndexedTree\n\
     from Graph.Tree.EulerTour import EulerTour\n\n\nclass EulerTourPathQuery(EulerTour):\n\
@@ -30,11 +36,13 @@ data:
     \ = self.lca(u, v)\n        res = self.bit.sum(self.begin[lca_uv] + 1, self.begin[u]\
     \ + 1) \\\n            + self.bit.sum(self.begin[lca_uv] + 1, self.begin[v] +\
     \ 1)\n        return res\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/Tree/EulerTour.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: Graph/Tree/EulerTourPathQuery.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/vertex_add_path_sum.EulerTourPathQuery.test.py

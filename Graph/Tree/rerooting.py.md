@@ -20,9 +20,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def rerooting(n, edges, unit, merge, addnode):\n    tree = [[] for i in range(n)]\n\
     \    idxs = [[] for i in range(n)]\n    for u, v in edges:\n        idxs[u].append(len(tree[v]))\n\
@@ -53,8 +53,8 @@ data:
   verifiedWith:
   - TestCase/yukicoder/yuki0922.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
-  - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/AOJ/GRL_5_B.test.py
+  - TestCase/AOJ/GRL_5_A.test.py
 documentation_of: Graph/Tree/rerooting.py
 layout: document
 title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"

@@ -1,7 +1,11 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTourPathQuery.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
+      \u308B\u30AF\u30A8\u30EA)"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.EulerTour.test.py
@@ -11,9 +15,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class EulerTour:\n    def __init__(self, tree, root):\n        self.n = len(tree)\n\
     \        self.tree = tree\n        self.par = [-1] * self.n\n        self.begin\
@@ -50,7 +54,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/EulerTour.py
-  requiredBy: []
+  requiredBy:
+  - Graph/Tree/EulerTourPathQuery.py
   timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

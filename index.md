@@ -202,6 +202,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/PointAddRectangleSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
+    - icon: ':warning:'
+      path: DataStructure/Wavelet/RangeSetQuery.py
+      title: DataStructure/Wavelet/RangeSetQuery.py
     - icon: ':heavy_check_mark:'
       path: DataStructure/Wavelet/RectangleSum.py
       title: "\u77E9\u5F62\u548C\u53D6\u5F97"
@@ -553,6 +556,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: String/z_algorithm.py
       title: Z algorithm
+  - name: docs/DataStructure/Wavelet
+    pages:
+    - icon: ':warning:'
+      path: docs/DataStructure/Wavelet/RangeSetQuery.py
+      title: docs/DataStructure/Wavelet/RangeSetQuery.py
   - name: misc
     pages:
     - icon: ':warning:'

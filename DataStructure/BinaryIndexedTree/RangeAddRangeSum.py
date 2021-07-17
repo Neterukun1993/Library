@@ -4,6 +4,15 @@ class BinaryIndexedTree:
         self.bit0 = [0] * (self.size + 1)
         self.bit1 = [0] * (self.size + 1)
 
+    def build(self, array):
+        for i, val in enumerate(array):
+            self.bit0[i + 1] = val
+        for i in range(1, self.size):
+            if i + (i & -i) > self.size:
+                continue
+            self.bit0[i + (i & -i)] += self.bit0[i]
+        self.bit1 = [0] * (self.size + 1)
+
     def _add(self, bit, i, val):
         i = i + 1
         while i <= self.size:
@@ -26,5 +35,5 @@ class BinaryIndexedTree:
 
     def sum(self, l, r):
         """sum of values in range [l, r)"""
-        return self._sum(self.bit0, r) + r * self._sum(self.bit1, r)\
-               - self._sum(self.bit0, l) - l * self._sum(self.bit1, l)
+        return (self._sum(self.bit0, r) + r * self._sum(self.bit1, r)
+                - self._sum(self.bit0, l) - l * self._sum(self.bit1, l))

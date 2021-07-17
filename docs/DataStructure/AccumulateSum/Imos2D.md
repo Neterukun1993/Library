@@ -18,7 +18,10 @@ documentation_of: //DataStructure/AccumulateSum/Imos2D.py
 矩形範囲 $\lbrack hl, hr) × \lbrack wl, wr)$ の要素に `val` を加える準備をする。計算量 $O(1)$
 
 - `build() -> None`  
-`add` による矩形加算を実行する。計算量 $O(n)$
+`add` による矩形加算を実行する。計算量 $O(hw)$
 
 - `__getitem__(i: int).__getitem__(j: int) -> int`  
-`i` 番目の行、`j` 番目の列の要素を返す。計算量 $O(1)$
+$i$ 行 $j$ 列目の要素を返す。計算量 $O(1)$
+
+## 参考
+[いもす法 - いもす研 (imos laboratory)](https://imoz.jp/algorithms/imos_method.html)

@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
+  - icon: ':warning:'
+    path: DataStructure/Wavelet/BitVector.py
+    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -49,7 +55,9 @@ data:
     \ r, lower)\n\n    def point_add(self, x, y, val):\n        if (x, y) not in self.idxs:\n\
     \            raise KeyError(f'point(x={x}, y={y}) must be pre-given as an argument')\n\
     \        idx = self.idxs[x, y]\n        self.mat.point_add(idx, val)\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - DataStructure/Wavelet/BitVector.py
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []

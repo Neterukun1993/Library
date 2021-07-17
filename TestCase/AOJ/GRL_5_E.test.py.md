@@ -35,12 +35,12 @@ data:
     \    res += bit.sum(l, r)\n            ans.append(res)\n\n    print('\\n'.join(map(str,\
     \ ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   - Graph/Tree/HLDecomposition.py
+  - DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_E.test.py
   requiredBy: []
-  timestamp: '2021-01-16 04:24:26+09:00'
+  timestamp: '2021-07-18 03:57:07+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_5_E.test.py

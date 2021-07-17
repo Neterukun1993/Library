@@ -31,7 +31,7 @@ data:
   isVerificationFile: true
   path: TestCase/AOJ/DSL_2_G.test.py
   requiredBy: []
-  timestamp: '2021-01-02 01:52:07+09:00'
+  timestamp: '2021-07-18 03:57:07+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/DSL_2_G.test.py

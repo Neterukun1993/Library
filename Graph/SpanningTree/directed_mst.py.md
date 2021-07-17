@@ -54,8 +54,8 @@ data:
     \ x != idx:\n            used_e[x] = True\n            x = par_e[x]\n    return\
     \ res, par\n"
   dependsOn:
-  - DataStructure/UnionFind/UnionFind.py
   - DataStructure/Heap/SkewHeap.py
+  - DataStructure/UnionFind/UnionFind.py
   isVerificationFile: false
   path: Graph/SpanningTree/directed_mst.py
   requiredBy: []

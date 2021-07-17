@@ -52,8 +52,12 @@ data:
   verifiedWith: []
 documentation_of: DataStructure/Wavelet/RangeSetQuery.py
 layout: document
-redirect_from:
-- /library/DataStructure/Wavelet/RangeSetQuery.py
-- /library/DataStructure/Wavelet/RangeSetQuery.py.html
-title: DataStructure/Wavelet/RangeSetQuery.py
+title: "\u7A2E\u985E\u6570\u53D6\u5F97"
 ---
+
+## 使い方
+`RangeSetQuery(array: Sequence[int])`
+長さ $n$ の配列 `array` から Wavelet Matrix を構築する。計算量 $O(n \log n)$
+
+- `query(l, r) -> int`  
+範囲 $\lbrack l, r)$ に含まれる要素の種類数を返す。計算量 $O(\log n)$

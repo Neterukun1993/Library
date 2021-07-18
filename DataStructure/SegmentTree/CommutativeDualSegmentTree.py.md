@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/SegmentTree/RUQ.py
-    title: RUQ
+  _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -30,8 +27,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
-  requiredBy:
-  - DataStructure/SegmentTree/RUQ.py
+  requiredBy: []
   timestamp: '2021-01-04 04:15:00+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

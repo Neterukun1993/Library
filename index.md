@@ -563,7 +563,7 @@ data:
       title: "\u304D\u305F\u307E\u3055\u6CD5"
     - icon: ':warning:'
       path: misc/ternary_search.py
-      title: misc/ternary_search.py
+      title: "\u4E09\u5206\u63A2\u7D22"
     - icon: ':heavy_check_mark:'
       path: misc/xorshift.py
       title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

@@ -184,7 +184,7 @@ data:
       title: "\u90E8\u5206\u6C38\u7D9A Union Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/PersistentUnionFind.py
-      title: "\u6C38\u7D9AUnion Find"
+      title: "\u6C38\u7D9A Union Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFind.py
       title: Union Find

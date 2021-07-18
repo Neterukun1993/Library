@@ -59,7 +59,7 @@ title: "\u533A\u9593\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
 `BinaryIndexedTree(n: int)`  
 長さ $n$ の Binary Indexed Tree を構築する。初期値はすべて $0$ である。計算量 $O(n)$
 
-- `build(array: Sequence[int]) -> None`
+- `build(array: Sequence[int]) -> None`  
 Binary Indexed Tree を配列 `array` で初期化する。計算量 $O(n)$
 
 - `add(l: int, r: int, val: int) -> None`  

@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: DataStructure/UnionFind/PersistentUnionFind.py
-    title: "\u6C38\u7D9AUnion Find"
+  _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -15,30 +12,42 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "class PersistentArrayNode:\n    def __init__(self, LOG):\n        self.val\
-    \ = None\n        self.ch = [None] * (1 << LOG)\n\n\nclass PersistentArray:\n\
-    \    def __init__(self, LOG=4):\n        self.LOG = LOG\n        self.MASK = (1\
-    \ << LOG) - 1\n\n    def build(self, array):\n        rt = None\n        for i,\
-    \ val in enumerate(array):\n            rt = self.init_set(i, val, rt)\n     \
-    \   return rt\n \n    def init_set(self, i, val, t):\n        if t is None:\n\
-    \            t = PersistentArrayNode(self.LOG)\n        if i == 0:\n         \
-    \   t.val = val\n        else:\n            t.ch[i & self.MASK] = self.init_set(i\
-    \ >> self.LOG, val, t.ch[i & self.MASK])\n        return t\n\n    def set(self,\
-    \ i, val, t):\n        ret = PersistentArrayNode(self.LOG)\n        if t is not\
-    \ None:\n            ret.ch = t.ch[:]\n            ret.val = t.val\n        if\
-    \ i == 0:\n            ret.val = val\n        else:\n            ret.ch[i & self.MASK]\
-    \ = self.set(i >> self.LOG, val, ret.ch[i & self.MASK])\n        return ret\n\n\
-    \    def get(self, i, t):\n        if i == 0:\n            return t.val\n    \
-    \    else:\n            return self.get(i >> self.LOG, t.ch[i & self.MASK])\n"
+  code: "class PersistentArray:\n    LOG = 4\n    MASK = (1 << LOG) - 1\n\n    def\
+    \ __init__(self,):\n        self.val = None\n        self.ch = [None] * (1 <<\
+    \ self.LOG)\n\n    def set(self, i, val):\n        pa = PersistentArray()\n  \
+    \      pa.val = self.val\n        pa.ch = self.ch[:]\n        if i == 0:\n   \
+    \         pa.val = val\n        else:\n            pa.ch[i & self.MASK] = pa.ch[i\
+    \ & self.MASK].set(i >> self.LOG, val)\n        return pa\n\n    def get(self,\
+    \ i):\n        pa = self\n        while i != 0:\n            pa = pa.ch[i & self.MASK]\n\
+    \            i = i >> self.LOG\n        return pa.val\n\n\ndef init_persistent_array(array):\n\
+    \    LOG = 4\n    MASK = (1 << LOG) - 1\n\n    def init_set(i, val, pa):\n   \
+    \     if pa is None:\n            pa = PersistentArray()\n        if i == 0:\n\
+    \            pa.val = val\n        else:\n            pa.ch[i & MASK] = init_set(i\
+    \ >> LOG, val, pa.ch[i & MASK])\n        return pa\n\n    pa = None\n    for i,\
+    \ val in enumerate(array):\n        pa = init_set(i, val, pa)\n    return pa\n"
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/misc/PersistentArray.py
-  requiredBy:
-  - DataStructure/UnionFind/PersistentUnionFind.py
-  timestamp: '2021-01-03 06:00:12+09:00'
+  requiredBy: []
+  timestamp: '2021-07-18 20:19:20+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: DataStructure/misc/PersistentArray.py
 layout: document
 title: "\u6C38\u7D9A\u914D\u5217"
 ---
+
+## 概要
+永続化された配列。つまり、代入操作前と後のバージョンを常に保持し、全バージョンに対するアクセスと更新が可能な配列。
+
+## 使い方
+`init_persistent_array(array: Sequence[Any]) -> PersistentArray`  
+長さ $n$ の配列 `array` の永続配列を返す。計算量 $O(n \log n)$
+
+永続配列のメソッド `set` と `get` によって、全バージョンに対するアクセスと更新が可能。
+
+- `set(i: int, val: Any) -> PersistentArray`  
+$i$ 番目の要素に `val` を代入した永続配列を返す。計算量 $O(\log n)$
+
+- `get(i: int) -> Any`  
+$i$ 番目の要素を返す。計算量 $O(\log n)$

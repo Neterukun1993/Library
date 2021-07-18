@@ -1,30 +1,35 @@
-from DataStructure.misc.PersistentArray import PersistentArray
+from DataStructure.misc.PersistentArray import (
+    PersistentArray,
+    init_persistent_array
+)
 
 
 class PersistentUnionFind:
     def __init__(self, n):
-        self.parent = PersistentArray()
-        self.rt = self.parent.build([-1] * n)
+        if type(n) is int:
+            self.parent = init_persistent_array([-1 for _ in range(n)])
+        else:
+            self.parent = n
 
-    def root(self, x, t):
-        px = self.parent.get(x, t)
+    def root(self, x):
+        px = self.parent.get(x)
         if px < 0:
             return x
-        return self.root(px, t)
+        return self.root(px)
 
-    def merge(self, x, y, t):
-        x, y = self.root(x, t), self.root(y, t)
+    def merge(self, x, y):
+        x, y = self.root(x), self.root(y)
         if x == y:
-            return t
-        px = self.parent.get(x, t)
-        py = self.parent.get(y, t)
+            return self
+        px = self.parent.get(x)
+        py = self.parent.get(y)
         if px > py:
             x, y = y, x
-        tmp = self.parent.set(y, x, t)
-        return self.parent.set(x, px + py, tmp)
+        tmp = self.parent.set(y, x)
+        return PersistentUnionFind(tmp.set(x, px + py))
 
-    def same(self, x, y, t):
-        return self.root(x, t) == self.root(y, t)
+    def same(self, x, y):
+        return self.root(x) == self.root(y)
 
-    def size(self, x, t):
-        return -self.parent.get(self.root(x, t), t)
+    def size(self, x):
+        return -self.parent.get(self.root(x))

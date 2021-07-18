@@ -10,7 +10,7 @@ documentation_of: //DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
 `BinaryIndexedTree(n: int)`  
 長さ $n$ の Binary Indexed Tree を構築する。初期値はすべて $0$ である。計算量 $O(n)$
 
-- `build(array: Sequence[int]) -> None`
+- `build(array: Sequence[int]) -> None`  
 Binary Indexed Tree を配列 `array` で初期化する。計算量 $O(n)$
 
 - `add(l: int, r: int, val: int) -> None`  

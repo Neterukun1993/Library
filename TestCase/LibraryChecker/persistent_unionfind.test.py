@@ -11,14 +11,14 @@ def main():
 
     uf = PersistentUnionFind(n)
     states = [None] * (q + 1)
-    states[-1] = uf.rt
+    states[-1] = uf
 
     ans = []
     for i, (flag, k, u, v) in enumerate(queries):
         if flag == 0:
-            states[i] = uf.merge(u, v, states[k])
+            states[i] = states[k].merge(u, v)
         else:
-            if uf.same(u, v, states[k]):
+            if states[k].same(u, v):
                 ans.append(1)
             else:
                 ans.append(0)

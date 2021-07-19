@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
+  - icon: ':warning:'
+    path: DataStructure/Wavelet/BitVector.py
+    title: "\u30D3\u30C3\u30C8\u30D9\u30AF\u30C8\u30EB"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -49,11 +55,13 @@ data:
     \ r, lower)\n\n    def point_add(self, x, y, val):\n        if (x, y) not in self.idxs:\n\
     \            raise KeyError(f'point(x={x}, y={y}) must be pre-given as an argument')\n\
     \        idx = self.idxs[x, y]\n        self.mat.point_add(idx, val)\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/Wavelet/BitVector.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-12 04:24:03+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/point_add_rectangle_sum.test.py
@@ -61,3 +69,16 @@ documentation_of: DataStructure/Wavelet/PointAddRectangleSum.py
 layout: document
 title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
 ---
+
+## 概要
+二次元平面上の $n$ 個の重み付き点に対して、前計算を $O(n \log n)$ で行い、一点重み加算クエリに $O(\log^2n)$、矩形範囲内の重み総和クエリに $O(\log^2n)$ で答えるデータ構造。内部では Binary Index Tree を保持した Wavelet Matrix を構築する。
+
+## 使い方
+`CompressedRectangleSum(points: Iterable[Tuple[int, int, int]])`  
+二次元平面上の $n$ 個の重み付き点 `points` から Wavelet Matrix を構築する。各点は ($x$ 座標, $y$ 座標, 重み) で与えられる。計算量 $O(n \log n)$
+
+- `rect_sum(l: int, r: int, lower: int, upper: int) -> int`  
+矩形範囲 $\lbrack l, r) × \lbrack lower, upper)$ に含まれる点の重みの総和を返す。計算量 $O(\log^2n)$
+
+- `point_add(x: int, y: int, val: int) -> int`  
+座標 $(x, y)$ 上の点に対して、重みを `val` 追加する。このときの点は、予め構築の際に `points` の $1$ つとして与えておく必要がある。計算量 $O(\log^2n)$

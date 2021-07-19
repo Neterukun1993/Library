@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':warning:'
+    path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
+    title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -24,7 +27,8 @@ data:
     \n    def apply(self, i, val):\n        self.cnt += 1\n        super().apply(i,\
     \ (self.cnt, val))\n\n    def range_apply(self, l, r, val):\n        self.cnt\
     \ += 1\n        super().range_apply(l, r, (self.cnt, val))\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/SegmentTree/CommutativeDualSegmentTree.py
   isVerificationFile: false
   path: DataStructure/SegmentTree/RUQ.py
   requiredBy: []

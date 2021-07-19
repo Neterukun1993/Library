@@ -101,7 +101,7 @@ data:
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
-      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RadixHeap.py
       title: Radix Heap

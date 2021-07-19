@@ -1,10 +1,7 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy:
-  - icon: ':heavy_check_mark:'
-    path: Graph/SpanningTree/directed_mst.py
-    title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
+  _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py
@@ -36,8 +33,7 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/SkewHeap.py
-  requiredBy:
-  - Graph/SpanningTree/directed_mst.py
+  requiredBy: []
   timestamp: '2021-01-14 12:29:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
@@ -46,21 +42,28 @@ documentation_of: DataStructure/Heap/SkewHeap.py
 layout: document
 title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
 ---
+
 ## 概要
 ヒープ同士を計算量 $O(\log N)$ で併合可能なヒープ。
 
 ## 使い方
 `SkewHeap()`  
 空のヒープを作成する。計算量 $O(1)$
+
 - `min -> int`  
 ヒープ内の最小の値を返す。計算量 $O(1)$
+
 - `push(val: int) -> None`  
 ヒープに `val` を追加する。計算量 $\mathrm{amortized}\ O(\log N)$
+
 - `pop() -> int`  
 ヒープ内の最小の値を削除してその値を返す。計算量 $\mathrm{amortized}\ O(\log N)$
+
 - `meld(other: SkewHeap) -> None`  
 ヒープに `other` を併合する。計算量 $\mathrm{amortized}\ O(\log N)$
+
 - `add(val: int) -> None`  
 ヒープ内のすべての要素に `val` を加算する。計算量 $O(1)$
-- `empty() -> bool`  
+
+ - `empty() -> bool`  
 ヒープが空かどうかを返す。計算量 $O(1)$

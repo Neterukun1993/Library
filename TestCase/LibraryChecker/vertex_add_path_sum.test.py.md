@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':question:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
   - icon: ':heavy_check_mark:'
@@ -35,8 +35,8 @@ data:
     \            ans.append(res)\n\n    print(\"\\n\".join(map(str, ans)))\n\n\nif\
     \ __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/Tree/HLDecomposition.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/HLDecomposition.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
   requiredBy: []

@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':question:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
   - icon: ':heavy_check_mark:'
@@ -37,8 +37,8 @@ data:
     \ + 1) \\\n            + self.bit.sum(self.begin[lca_uv] + 1, self.begin[v] +\
     \ 1)\n        return res\n"
   dependsOn:
-  - Graph/Tree/EulerTour.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/EulerTour.py
   isVerificationFile: false
   path: Graph/Tree/EulerTourPathQuery.py
   requiredBy: []

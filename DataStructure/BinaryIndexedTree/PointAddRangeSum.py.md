@@ -6,9 +6,6 @@ data:
     path: DataStructure/BinaryIndexedTree/inversion_number.py
     title: "\u8EE2\u5012\u6570"
   - icon: ':heavy_check_mark:'
-    path: DataStructure/Wavelet/PointAddRectangleSum.py
-    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u77E9\u5F62\u548C\u53D6\u5F97"
-  - icon: ':heavy_check_mark:'
     path: Graph/Tree/EulerTourPathQuery.py
     title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC (\u30D1\u30B9\u306B\u5BFE\u3059\
       \u308B\u30AF\u30A8\u30EA)"
@@ -25,12 +22,15 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
+  - icon: ':x:'
+    path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
+    title: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':question:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -58,10 +58,10 @@ data:
   requiredBy:
   - Graph/Tree/EulerTourPathQuery.py
   - DataStructure/BinaryIndexedTree/inversion_number.py
-  - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-02 01:05:58+09:00'
-  verificationStatus: LIBRARY_ALL_AC
+  verificationStatus: LIBRARY_SOME_WA
   verifiedWith:
+  - TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
   - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/point_add_range_sum.test.py

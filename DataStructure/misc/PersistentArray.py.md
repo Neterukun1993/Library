@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/UnionFind/PersistentUnionFind.py
+    title: "\u6C38\u7D9A Union Find"
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: py
@@ -28,7 +31,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/misc/PersistentArray.py
-  requiredBy: []
+  requiredBy:
+  - DataStructure/UnionFind/PersistentUnionFind.py
   timestamp: '2021-07-18 20:19:20+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

@@ -70,7 +70,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/BinaryIndexedTree/PersistentBinaryIndexedTree.py
       title: "\u6C38\u7D9ABinary Indexed Tree"
-    - icon: ':heavy_check_mark:'
+    - icon: ':question:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
@@ -361,6 +361,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
+    - icon: ':x:'
+      path: Graph/Tree/dsu_on_tree.py
+      title: DSU on tree
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/offline_lca.py
       title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (Tarjan \u306E\u30AA\u30D5\u30E9\
@@ -1007,6 +1010,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
+    - icon: ':x:'
+      path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
+      title: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py

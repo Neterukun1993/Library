@@ -5,9 +5,13 @@ data:
   - icon: ':heavy_check_mark:'
     path: Graph/Tree/centroid.py
     title: "\u6728\u306E\u91CD\u5FC3"
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/dsu_on_tree.py
     title: DSU on tree
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/treehash.py
+    title: "\u6728\u306E\u30CF\u30C3\u30B7\u30E5 (\u6728\u306E\u540C\u578B\u5224\u5B9A\
+      )"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/yukicoder/yuki0763.test.py
@@ -32,6 +36,7 @@ data:
   isVerificationFile: false
   path: Graph/Tree/topological_sorted.py
   requiredBy:
+  - Graph/Tree/treehash.py
   - Graph/Tree/dsu_on_tree.py
   - Graph/Tree/centroid.py
   timestamp: '2021-02-15 01:45:32+09:00'

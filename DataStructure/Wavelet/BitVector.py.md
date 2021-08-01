@@ -37,9 +37,9 @@ data:
   isVerificationFile: false
   path: DataStructure/Wavelet/BitVector.py
   requiredBy:
-  - DataStructure/Wavelet/RangeSetQuery.py
   - DataStructure/Wavelet/RectangleSum.py
   - DataStructure/Wavelet/WaveletMatrix.py
+  - DataStructure/Wavelet/RangeSetQuery.py
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

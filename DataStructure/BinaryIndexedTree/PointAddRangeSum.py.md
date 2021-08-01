@@ -22,15 +22,15 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
     title: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
     title: TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':question:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -59,12 +59,12 @@ data:
   - Graph/Tree/EulerTourPathQuery.py
   - DataStructure/BinaryIndexedTree/inversion_number.py
   timestamp: '2021-01-02 01:05:58+09:00'
-  verificationStatus: LIBRARY_SOME_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
-  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/point_add_range_sum.test.py
+  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/AOJ/GRL_5_D.test.py
   - TestCase/AOJ/DSL_2_B.BIT.test.py
 documentation_of: DataStructure/BinaryIndexedTree/PointAddRangeSum.py

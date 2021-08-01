@@ -40,7 +40,7 @@ data:
   - TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
 documentation_of: DataStructure/Heap/ParingHeap.py
 layout: document
-title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
+title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
 ---
 ## 概要
 ヒープ同士を計算量 $O(\log N)$ で併合可能なヒープ。

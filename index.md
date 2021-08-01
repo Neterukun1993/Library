@@ -70,7 +70,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/BinaryIndexedTree/PersistentBinaryIndexedTree.py
       title: "\u6C38\u7D9ABinary Indexed Tree"
-    - icon: ':question:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
       title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
     - icon: ':heavy_check_mark:'
@@ -101,7 +101,7 @@ data:
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
-      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RadixHeap.py
       title: Radix Heap
@@ -164,6 +164,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SortedSet/SortedSetBPlusTree.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B+Tree)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBTree.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
@@ -361,7 +364,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/Tree/diameter.py
       title: "\u6728\u306E\u76F4\u5F84"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/Tree/dsu_on_tree.py
       title: DSU on tree
     - icon: ':heavy_check_mark:'
@@ -850,6 +853,9 @@ data:
       path: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
       title: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
+      title: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.BTree.test.py
       title: TestCase/AOJ/ITP2_7_C.BTree.test.py
     - icon: ':heavy_check_mark:'
@@ -1010,7 +1016,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_path_sum.test.py
       title: TestCase/LibraryChecker/vertex_add_path_sum.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
       title: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
     - icon: ':heavy_check_mark:'

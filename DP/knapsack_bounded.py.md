@@ -34,8 +34,8 @@ data:
   timestamp: '2021-05-10 23:34:32+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/2370.test.py
   - TestCase/AOJ/DPL_1_G.test.py
+  - TestCase/AOJ/2370.test.py
 documentation_of: DP/knapsack_bounded.py
 layout: document
 title: "\u500B\u6570\u5236\u9650\u4ED8\u304D\u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\u554F\

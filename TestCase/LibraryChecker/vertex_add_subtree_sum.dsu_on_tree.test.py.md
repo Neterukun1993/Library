@@ -1,17 +1,17 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':question:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
     title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/dsu_on_tree.py
     title: DSU on tree
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/vertex_add_subtree_sum
     links:
@@ -39,13 +39,13 @@ data:
     n\".join(map(str, [val for val in ans if val != -1])))\n\n\nif __name__ == '__main__':\n\
     \    main()\n"
   dependsOn:
-  - Graph/Tree/dsu_on_tree.py
   - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/dsu_on_tree.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   requiredBy: []
   timestamp: '2021-07-24 16:52:12+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
 layout: document

@@ -52,8 +52,8 @@ data:
   timestamp: '2021-01-03 06:18:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/segment_add_get_min.test.py
   - TestCase/LibraryChecker/line_add_get_min.test.py
+  - TestCase/LibraryChecker/segment_add_get_min.test.py
 documentation_of: DataStructure/SegmentTree/LiChaoTree.py
 layout: document
 title: Li-Chao Tree

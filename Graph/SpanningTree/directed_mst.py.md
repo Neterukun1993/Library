@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/Heap/SkewHeap.py
+    title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/UnionFind/UnionFind.py
+    title: Union Find
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -47,11 +53,13 @@ data:
     \ to, cost = edges[idx]\n        par[to] = fr\n        x = stem[to]\n        while\
     \ x != idx:\n            used_e[x] = True\n            x = par_e[x]\n    return\
     \ res, par\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/Heap/SkewHeap.py
+  - DataStructure/UnionFind/UnionFind.py
   isVerificationFile: false
   path: Graph/SpanningTree/directed_mst.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-01-14 12:29:07+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/directedmst.test.py

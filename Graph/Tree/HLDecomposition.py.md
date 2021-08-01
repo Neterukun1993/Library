@@ -85,12 +85,12 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
-  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/lca.HLDecomposition.test.py
-  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - TestCase/LibraryChecker/vertex_add_path_sum.test.py
+  - TestCase/AOJ/2667.test.py
   - TestCase/AOJ/GRL_5_D.test.py
   - TestCase/AOJ/GRL_5_E.test.py
-  - TestCase/AOJ/2667.test.py
+  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
 documentation_of: Graph/Tree/HLDecomposition.py
 layout: document
 title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"

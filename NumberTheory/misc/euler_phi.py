@@ -8,3 +8,12 @@ def euler_phi(n):
     if n > 1:
         ans -= ans // n
     return ans
+
+
+def euler_phi_table(n):
+    phi = [i for i in range(n + 1)]
+    for i in range(2, n + 1):
+        if phi[i] == i:
+            for j in range(i, n + 1, i):
+                phi[j] -= phi[j] // i
+    return phi

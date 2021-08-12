@@ -31,7 +31,7 @@ data:
   isVerificationFile: false
   path: DataStructure/UnionFind/PersistentUnionFind.py
   requiredBy: []
-  timestamp: '2021-07-18 20:19:20+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/persistent_unionfind.test.py

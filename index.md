@@ -485,9 +485,6 @@ data:
       title: "\u7D20\u6570\u5217\u6319 (\u30A8\u30E9\u30C8\u30B9\u30C6\u30CD\u30B9\
         \u306E\u7BE9)"
     - icon: ':warning:'
-      path: NumberTheory/Prime/euler_phi.py
-      title: NumberTheory/Prime/euler_phi.py
-    - icon: ':warning:'
       path: NumberTheory/Prime/fermat_test.py
       title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30D5\u30A7\u30EB\u30DE\
         \u30FC\u30C6\u30B9\u30C8)"
@@ -1039,6 +1036,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/euler_phi_table.unittest.test.py
+      title: TestCase/unittest/euler_phi_table.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/gcd_convolve.unittest.test.py
       title: TestCase/unittest/gcd_convolve.unittest.test.py

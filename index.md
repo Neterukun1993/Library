@@ -167,7 +167,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: DataStructure/SortedSet/SortedSetBPlusTree.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B+Tree)"
     - icon: ':heavy_check_mark:'
@@ -852,7 +852,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
       title: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
       title: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
     - icon: ':heavy_check_mark:'

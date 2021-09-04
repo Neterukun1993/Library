@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
+  - icon: ':x:'
     path: DataStructure/SortedSet/SortedSetBPlusTree.py
     title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B+Tree)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: false
+  _isVerificationFailed: true
   _pathExtension: py
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':x:'
   attributes:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP2_7_C
     links:
@@ -35,8 +35,8 @@ data:
   isVerificationFile: true
   path: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
   requiredBy: []
-  timestamp: '2021-08-01 23:04:16+09:00'
-  verificationStatus: TEST_ACCEPTED
+  timestamp: '2021-09-04 22:53:42+09:00'
+  verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
 layout: document

@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/Heap/RadixHeap.py
+    title: Radix Heap
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -22,11 +25,12 @@ data:
     \ continue\n        for nxt_v, cost in graph[v]:\n            if dist[v] + cost\
     \ < dist[nxt_v]:\n                dist[nxt_v] = dist[v] + cost\n             \
     \   rh.push(dist[nxt_v], nxt_v)\n    return dist\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/Heap/RadixHeap.py
   isVerificationFile: false
   path: Graph/ShortestPath/dijkstra_radix.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-02-02 20:30:49+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/GRL_1_A.RadixHeap.test.py

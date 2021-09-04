@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+    title: "\u4E00\u70B9\u52A0\u7B97\u30FB\u533A\u9593\u548C\u53D6\u5F97"
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/EulerTour.py
+    title: "\u30AA\u30A4\u30E9\u30FC\u30C4\u30A2\u30FC"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -30,11 +36,13 @@ data:
     \ = self.lca(u, v)\n        res = self.bit.sum(self.begin[lca_uv] + 1, self.begin[u]\
     \ + 1) \\\n            + self.bit.sum(self.begin[lca_uv] + 1, self.begin[v] +\
     \ 1)\n        return res\n"
-  dependsOn: []
+  dependsOn:
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
+  - Graph/Tree/EulerTour.py
   isVerificationFile: false
   path: Graph/Tree/EulerTourPathQuery.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-06-15 21:41:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/vertex_add_path_sum.EulerTourPathQuery.test.py

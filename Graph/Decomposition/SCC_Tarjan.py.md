@@ -58,8 +58,8 @@ data:
   timestamp: '2021-01-08 06:36:19+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/scc.Tarjan.test.py
   - TestCase/AOJ/GRL_3_C.Tarjan.test.py
+  - TestCase/LibraryChecker/scc.Tarjan.test.py
 documentation_of: Graph/Decomposition/SCC_Tarjan.py
 layout: document
 title: "\u5F37\u9023\u7D50\u6210\u5206\u5206\u89E3 (Tarjan\u306E\u30A2\u30EB\u30B4\

@@ -39,8 +39,8 @@ data:
   timestamp: '2021-01-14 17:41:58+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/cycle_detection.test.py
   - TestCase/AOJ/GRL_4_A.test.py
+  - TestCase/LibraryChecker/cycle_detection.test.py
 documentation_of: Graph/misc/cycle_detection.py
 layout: document
 title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"

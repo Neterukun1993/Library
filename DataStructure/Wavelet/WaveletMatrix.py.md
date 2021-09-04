@@ -84,9 +84,9 @@ data:
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/1549.test.py
   - TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
   - TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
-  - TestCase/AOJ/1549.test.py
 documentation_of: DataStructure/Wavelet/WaveletMatrix.py
 layout: document
 title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"

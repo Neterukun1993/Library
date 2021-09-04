@@ -48,10 +48,10 @@ data:
   timestamp: '2021-01-15 07:30:33+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
-  - TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
   - TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
+  - TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
   - TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
+  - TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
 documentation_of: DataStructure/Heap/DAryHeap.py
 layout: document
 title: D-Ary Heap

@@ -61,8 +61,8 @@ data:
   timestamp: '2021-01-25 22:00:12+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/GRL_3_B.test.py
   - TestCase/AOJ/GRL_3_A.test.py
+  - TestCase/AOJ/GRL_3_B.test.py
 documentation_of: Graph/misc/LowLink.py
 layout: document
 title: "\u95A2\u7BC0\u70B9\u30FB\u6A4B\u306E\u5217\u6319\u3001DFS \u6728\u306E\u69CB\

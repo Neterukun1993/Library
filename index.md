@@ -783,7 +783,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
       title: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: TestCase/AOJ/GRL_1_A.test.py
       title: TestCase/AOJ/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
@@ -795,10 +795,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.boruvka.test.py
       title: TestCase/AOJ/GRL_2_A.boruvka.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: TestCase/AOJ/GRL_2_A.kruskal.test.py
       title: TestCase/AOJ/GRL_2_A.kruskal.test.py
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
     - icon: ':heavy_check_mark:'

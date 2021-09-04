@@ -41,9 +41,9 @@ data:
   timestamp: '2021-01-03 19:45:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/queue_operate_all_composite.test.py
   - TestCase/AOJ/DSL_3_A.test.py
   - TestCase/AOJ/DSL_3_D.test.py
+  - TestCase/LibraryChecker/queue_operate_all_composite.test.py
 documentation_of: DataStructure/misc/SlidingWindowAggregation.py
 layout: document
 title: Sliding Window Aggregation

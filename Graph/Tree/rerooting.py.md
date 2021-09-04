@@ -51,8 +51,8 @@ data:
   timestamp: '2021-01-14 15:36:57+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/AOJ/GRL_5_B.test.py
+  - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py
 documentation_of: Graph/Tree/rerooting.py

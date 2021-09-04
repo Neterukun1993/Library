@@ -181,7 +181,7 @@ class SortedSetBPlusTree:
         while not ptr.is_leaf():
             idx = bisect_left(ptr.keys, upper)
             ptr = ptr.children[idx]
-        idx = bisect_left(ptr.keys, key)
+        idx = bisect_left(ptr.keys, upper)
         if idx > 0:
             return ptr.keys[idx - 1]
         elif ptr.prev_node is not None:
@@ -193,7 +193,7 @@ class SortedSetBPlusTree:
         while not ptr.is_leaf():
             idx = bisect_left(ptr.keys, lower)
             ptr = ptr.children[idx]
-        idx = bisect_left(ptr.keys, key)
+        idx = bisect_left(ptr.keys, lower)
         if idx < len(ptr.keys):
             return ptr.keys[idx]
         elif ptr.next_node is not None:

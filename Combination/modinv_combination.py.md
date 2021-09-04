@@ -2,6 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
+  - icon: ':x:'
+    path: Combination/catalan.py
+    title: "\u30AB\u30BF\u30E9\u30F3\u6570"
   - icon: ':heavy_check_mark:'
     path: Combination/twelvefold_way.py
     title: "\u5199\u50CF12\u76F8"
@@ -43,6 +46,7 @@ data:
   path: Combination/modinv_combination.py
   requiredBy:
   - Combination/twelvefold_way.py
+  - Combination/catalan.py
   timestamp: '2021-01-06 00:51:01+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

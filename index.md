@@ -3,6 +3,9 @@ data:
   libraryCategories:
   - name: Combination
     pages:
+    - icon: ':x:'
+      path: Combination/catalan.py
+      title: "\u30AB\u30BF\u30E9\u30F3\u6570"
     - icon: ':heavy_check_mark:'
       path: Combination/modinv_combination.py
       title: "MOD\u4E0A\u3067\u306E\u7D44\u5408\u305B\u8A08\u7B97"
@@ -1036,6 +1039,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+    - icon: ':x:'
+      path: TestCase/unittest/catalan.unittest.test.py
+      title: TestCase/unittest/catalan.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/euler_phi_table.unittest.test.py
       title: TestCase/unittest/euler_phi_table.unittest.test.py

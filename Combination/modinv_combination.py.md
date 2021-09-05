@@ -2,7 +2,7 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Combination/catalan.py
     title: "\u30AB\u30BF\u30E9\u30F3\u6570"
   - icon: ':heavy_check_mark:'

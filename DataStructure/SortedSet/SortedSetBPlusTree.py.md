@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
     title: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -102,7 +102,7 @@ data:
   path: DataStructure/SortedSet/SortedSetBPlusTree.py
   requiredBy: []
   timestamp: '2021-09-04 22:53:42+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
 documentation_of: DataStructure/SortedSet/SortedSetBPlusTree.py

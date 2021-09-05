@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: Combination
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Combination/catalan.py
       title: "\u30AB\u30BF\u30E9\u30F3\u6570"
     - icon: ':heavy_check_mark:'
@@ -167,7 +167,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBIT.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (Binary Indexed Tree)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetBPlusTree.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B+Tree)"
     - icon: ':heavy_check_mark:'
@@ -786,7 +786,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
       title: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_1_A.test.py
       title: TestCase/AOJ/GRL_1_A.test.py
     - icon: ':heavy_check_mark:'
@@ -798,10 +798,10 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.boruvka.test.py
       title: TestCase/AOJ/GRL_2_A.boruvka.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.kruskal.test.py
       title: TestCase/AOJ/GRL_2_A.kruskal.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_2_A.prim.test.py
       title: TestCase/AOJ/GRL_2_A.prim.test.py
     - icon: ':heavy_check_mark:'
@@ -852,7 +852,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
       title: TestCase/AOJ/ITP2_7_C.AVLTree.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
       title: TestCase/AOJ/ITP2_7_C.BPlusTree.test.py
     - icon: ':heavy_check_mark:'
@@ -1039,7 +1039,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/unittest/catalan.unittest.test.py
       title: TestCase/unittest/catalan.unittest.test.py
     - icon: ':heavy_check_mark:'

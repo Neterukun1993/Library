@@ -16,15 +16,15 @@ data:
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from bisect import bisect_left, bisect_right\n\n\ndef lis(array, strict=True):\n\
-    \    lis_array = [array[0]]\n    for val in array[1:]:\n        if val > lis_array[-1]\
-    \ or (not strict and val == lis_array):\n            lis_array.append(val)\n \
-    \       else:\n            lis_array[bisect_left(lis_array, val)] = val\n\n  \
-    \  return lis_array\n"
+    \    lis_array = [array[0]]\n    bisect_ = bisect_left if strict else bisect_right\n\
+    \n    for val in array[1:]:\n        idx = bisect_(lis_array, val)\n        if\
+    \ idx == len(lis_array):\n            lis_array.append(val)\n        else:\n \
+    \           lis_array[idx] = val\n\n    return lis_array\n"
   dependsOn: []
   isVerificationFile: false
   path: DP/lis.py
   requiredBy: []
-  timestamp: '2021-05-06 13:26:44+09:00'
+  timestamp: '2021-09-05 23:28:54+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_1_D.test.py

@@ -389,7 +389,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/DigraphDFSTree.py
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/Doubling.py
       title: "functional graph \u4E0A\u306E (\u9806\u5217\u4E0A\u306E) \u30C0\u30D6\
         \u30EA\u30F3\u30B0"
@@ -882,6 +882,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/NTL_1_E.test.py
       title: TestCase/AOJ/NTL_1_E.test.py
+  - name: TestCase/AtCoder
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AtCoder/abc175_d.test.py
+      title: TestCase/AtCoder/abc175_d.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

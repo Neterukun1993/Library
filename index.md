@@ -174,6 +174,10 @@ data:
       path: DataStructure/SortedSet/SortedSetBTree.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (B-Tree)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/SortedSet/SortedSetScapegoatTree.py
+      title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (\u30B9\u30B1\u30FC\u30D7\u30B4\
+        \u30FC\u30C8\u6728)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SortedSet/SortedSetSkipList.py
       title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (\u30B9\u30AD\u30C3\u30D7\u30EA\
         \u30B9\u30C8)"
@@ -861,6 +865,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
       title: TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_7_C.ScapegoataTree.test.py
+      title: TestCase/AOJ/ITP2_7_C.ScapegoataTree.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_C.SkipList.test.py
       title: TestCase/AOJ/ITP2_7_C.SkipList.test.py

@@ -36,8 +36,8 @@ data:
     \        mod_1000000007()\n\n\nif __name__ == '__main__':\n    main()\n    print(\"\
     Hello World\")\n"
   dependsOn:
-  - NumberTheory/Convolution/arbitrary_mod_convolve.py
   - misc/xorshift.py
+  - NumberTheory/Convolution/arbitrary_mod_convolve.py
   isVerificationFile: true
   path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
   requiredBy: []

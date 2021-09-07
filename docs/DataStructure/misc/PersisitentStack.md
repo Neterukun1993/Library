@@ -1,5 +1,5 @@
 ---
-title: 永続Stack
+title: 永続 Stack
 documentation_of: //DataStructure/misc/PersistentStack.py
 ---
 

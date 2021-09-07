@@ -245,12 +245,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/LazyBinaryTrie.py
       title: "\u9045\u5EF6\u8A55\u4FA1 Binary Trie"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/PersistentArray.py
       title: "\u6C38\u7D9A\u914D\u5217"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/PersistentStack.py
-      title: "\u6C38\u7D9AStack"
+      title: "\u6C38\u7D9A Stack"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SlidingWindowAggregation.py
       title: Sliding Window Aggregation
@@ -1048,6 +1048,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/LazyBinaryTrie.unittest.test.py
       title: TestCase/unittest/LazyBinaryTrie.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/PersistentArray.unittest.test.py
+      title: TestCase/unittest/PersistentArray.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/PersistentStack.unittest.test.py
+      title: TestCase/unittest/PersistentStack.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py

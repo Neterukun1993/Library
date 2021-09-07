@@ -29,8 +29,8 @@ data:
     \ = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = subset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
   dependsOn:
-  - NumberTheory/Convolution/zeta_transform.py
   - NumberTheory/Convolution/mobius_transform.py
+  - NumberTheory/Convolution/zeta_transform.py
   isVerificationFile: false
   path: NumberTheory/Convolution/or_convolve.py
   requiredBy: []

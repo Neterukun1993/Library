@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/unittest/PersistentStack.unittest.test.py
+    title: TestCase/unittest/PersistentStack.unittest.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -21,11 +24,12 @@ data:
   path: DataStructure/misc/PersistentStack.py
   requiredBy: []
   timestamp: '2021-02-02 21:07:06+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/unittest/PersistentStack.unittest.test.py
 documentation_of: DataStructure/misc/PersistentStack.py
 layout: document
-title: "\u6C38\u7D9AStack"
+title: "\u6C38\u7D9A Stack"
 ---
 
 ## 概要

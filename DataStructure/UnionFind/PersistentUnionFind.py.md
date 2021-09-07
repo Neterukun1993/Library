@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: DataStructure/misc/PersistentArray.py
     title: "\u6C38\u7D9A\u914D\u5217"
   _extendedRequiredBy: []

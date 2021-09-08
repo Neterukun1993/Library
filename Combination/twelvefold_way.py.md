@@ -60,10 +60,10 @@ data:
     \ ball)\n\n\ndef way3(ball, box):\n    \"\"\"ball: True / box: True / constraints:\
     \ 1 or more\n    -> ans = (\u5305\u9664\u539F\u7406)\n    \"\"\"\n    if ball\
     \ < box:\n        return 0\n    ans = 0\n    for i in range(box + 1):\n      \
-    \  ans += pow(-1, i, MOD) * comb.comb(box, i) * pow(box - i, ball, MOD)\n    \
-    \    ans %= MOD\n    return ans\n\n\ndef way4(ball, box):\n    \"\"\"ball: False\
-    \ / box: True / constraints: None\n    -> ans = comb(box + ball - 1, ball)\n \
-    \   \"\"\"\n    return comb.comb(ball + box - 1, ball)\n\n    # \u533A\u5225\u3059\
+    \  ans += (pow(-1, i, MOD) * comb.comb(box, i) % MOD) * pow(box - i, ball, MOD)\n\
+    \        ans %= MOD\n    return ans\n\n\ndef way4(ball, box):\n    \"\"\"ball:\
+    \ False / box: True / constraints: None\n    -> ans = comb(box + ball - 1, ball)\n\
+    \    \"\"\"\n    return comb.comb(ball + box - 1, ball)\n\n    # \u533A\u5225\u3059\
     \u308Bbox\u500B\u306E\u7BB1 -> \u533A\u5225\u3057\u306A\u3044(box - 1)\u500B\u306E\
     \u4ED5\u5207\u306B\u5909\u63DB\u3057\u3066\u89E3\u304F\n\n\ndef way5(ball, box):\n\
     \    \"\"\"ball: False / box: True / constraints: 1 or less\n    -> ans = comb(box,\
@@ -133,7 +133,7 @@ data:
   isVerificationFile: false
   path: Combination/twelvefold_way.py
   requiredBy: []
-  timestamp: '2021-01-06 00:51:01+09:00'
+  timestamp: '2021-09-08 22:15:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_5_E.test.py

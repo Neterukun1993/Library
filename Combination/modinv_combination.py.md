@@ -36,18 +36,18 @@ data:
     get kPr\"\"\"\n        if k < r:\n            return 0\n        return (self.f[k]\
     \ * self.inv_f[k - r]) % self.MOD\n\n    def comb(self, k, r):\n        \"\"\"\
     get kCr\"\"\"\n        if k < r:\n            return 0\n        return (self.f[k]\
-    \ * self.inv_f[k - r] * self.inv_f[r]) % self.MOD\n\n\ndef combination(k, r, MOD):\n\
-    \    \"\"\"kCr O(r)\"\"\"\n    if k < r:\n        return 0\n    r = min(r, k -\
-    \ r)\n    numer, denom = 1, 1\n    for l in range(r):\n        numer *= (k - l)\n\
-    \        numer %= MOD\n        denom *= l + 1\n        denom %= MOD\n    return\
-    \ numer * pow(denom, MOD - 2, MOD) % MOD\n"
+    \ * self.inv_f[k - r] % self.MOD\n                * self.inv_f[r]) % self.MOD\n\
+    \n\ndef combination(k, r, MOD):\n    \"\"\"kCr O(r)\"\"\"\n    if k < r:\n   \
+    \     return 0\n    r = min(r, k - r)\n    numer, denom = 1, 1\n    for l in range(r):\n\
+    \        numer *= (k - l)\n        numer %= MOD\n        denom *= l + 1\n    \
+    \    denom %= MOD\n    return numer * pow(denom, MOD - 2, MOD) % MOD\n"
   dependsOn: []
   isVerificationFile: false
   path: Combination/modinv_combination.py
   requiredBy:
   - Combination/twelvefold_way.py
   - Combination/catalan.py
-  timestamp: '2021-01-06 00:51:01+09:00'
+  timestamp: '2021-09-08 22:15:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DPL_5_E.naive.test.py

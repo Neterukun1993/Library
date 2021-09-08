@@ -29,7 +29,7 @@ data:
   isVerificationFile: false
   path: Combination/catalan.py
   requiredBy: []
-  timestamp: '2021-09-04 15:01:27+09:00'
+  timestamp: '2021-09-08 22:15:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/unittest/catalan.unittest.test.py

@@ -30,7 +30,7 @@ def way3(ball, box):
         return 0
     ans = 0
     for i in range(box + 1):
-        ans += pow(-1, i, MOD) * comb.comb(box, i) * pow(box - i, ball, MOD)
+        ans += (pow(-1, i, MOD) * comb.comb(box, i) % MOD) * pow(box - i, ball, MOD)
         ans %= MOD
     return ans
 

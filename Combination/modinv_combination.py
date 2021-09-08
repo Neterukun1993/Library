@@ -31,7 +31,8 @@ class Combination:
         """get kCr"""
         if k < r:
             return 0
-        return (self.f[k] * self.inv_f[k - r] * self.inv_f[r]) % self.MOD
+        return (self.f[k] * self.inv_f[k - r] % self.MOD
+                * self.inv_f[r]) % self.MOD
 
 
 def combination(k, r, MOD):

@@ -34,8 +34,8 @@ data:
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
   dependsOn:
-  - Graph/Tree/centroid.py
   - Graph/Tree/topological_sorted.py
+  - Graph/Tree/centroid.py
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []

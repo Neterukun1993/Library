@@ -3,6 +3,9 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy:
   - icon: ':heavy_check_mark:'
+    path: Combination/LucasTheorem.py
+    title: "Lucas \u306E\u5B9A\u7406"
+  - icon: ':heavy_check_mark:'
     path: Combination/catalan.py
     title: "\u30AB\u30BF\u30E9\u30F3\u6570"
   - icon: ':heavy_check_mark:'
@@ -47,6 +50,7 @@ data:
   requiredBy:
   - Combination/twelvefold_way.py
   - Combination/catalan.py
+  - Combination/LucasTheorem.py
   timestamp: '2021-09-08 22:15:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

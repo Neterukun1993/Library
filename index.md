@@ -4,6 +4,9 @@ data:
   - name: Combination
     pages:
     - icon: ':heavy_check_mark:'
+      path: Combination/LucasTheorem.py
+      title: "Lucas \u306E\u5B9A\u7406"
+    - icon: ':heavy_check_mark:'
       path: Combination/catalan.py
       title: "\u30AB\u30BF\u30E9\u30F3\u6570"
     - icon: ':heavy_check_mark:'
@@ -105,9 +108,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/PairingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
-    - icon: ':heavy_check_mark:'
-      path: DataStructure/Heap/ParingHeap.py
-      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RadixHeap.py
       title: Radix Heap
@@ -664,9 +664,6 @@ data:
       path: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
     - icon: ':heavy_check_mark:'
-      path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
-      title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
-    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
     - icon: ':heavy_check_mark:'
@@ -902,6 +899,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/abc175_d.test.py
       title: TestCase/AtCoder/abc175_d.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AtCoder/arc117_c.test.py
+      title: TestCase/AtCoder/arc117_c.test.py
   - name: TestCase/LibraryChecker
     pages:
     - icon: ':heavy_check_mark:'

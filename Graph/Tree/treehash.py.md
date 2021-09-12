@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/centroid.py
+    title: "\u6728\u306E\u91CD\u5FC3"
+  - icon: ':heavy_check_mark:'
+    path: Graph/Tree/topological_sorted.py
+    title: "\u6728\u4E0A\u306E\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -27,11 +33,13 @@ data:
     \              HASHMAP[tmp] = MAX\n                MAX += 1\n            visited[v]\
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/Tree/centroid.py
+  - Graph/Tree/topological_sorted.py
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2021-05-05 16:08:04+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/2821.test.py

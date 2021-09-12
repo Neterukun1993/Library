@@ -103,6 +103,9 @@ data:
       path: DataStructure/Heap/LeftistHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Leftist Heap)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/PairingHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/ParingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Paring Heap)"
     - icon: ':heavy_check_mark:'
@@ -118,7 +121,8 @@ data:
     pages:
     - icon: ':warning:'
       path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
-      title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+      title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Commutative\
+        \ Dual Segment Tree)"
     - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/DualSegmentTree.py
       title: "\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Dual Segment Tree)"
@@ -656,6 +660,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.LeftistHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.LeftistHeap.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.ParingHeap.test.py

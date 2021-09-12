@@ -3,7 +3,8 @@ data:
   _extendedDependsOn:
   - icon: ':warning:'
     path: DataStructure/SegmentTree/CommutativeDualSegmentTree.py
-    title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
+    title: "\u53EF\u63DB\u53CC\u5BFE\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Commutative\
+      \ Dual Segment Tree)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -40,3 +41,22 @@ documentation_of: DataStructure/SegmentTree/RUQ.py
 layout: document
 title: RUQ
 ---
+
+## 概要
+列に対する区間更新、一点取得を $O(\log n)$ で行えるデータ構造。
+
+## 使い方
+`RUQ(n: int)`  
+区間更新が可能な長さ $n$ の配列を構築する。配列の初期値は $0$ である。計算量 $O(n)$
+
+- `__getitem__(i: int) -> int`  
+$i$ 番目の要素を返す。計算量 $O(\log n)$
+
+- `__setitem__(i: int, val: int) -> None`  
+$i$ 番目の要素を `val` に更新する。計算量 $O(1)$
+
+- `apply(i: int, val: int) -> None`  
+$i$ 番目の要素を `val` に更新する。`__setitem__` と同じ。計算量 $O(\log n)$
+
+- `range_apply(l: int, r: int, val: int) -> None`  
+$[l, r)$ 番目の要素を `val` に更新する。計算量 $O(\log n)$

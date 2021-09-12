@@ -78,8 +78,8 @@ title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tr
 列に対する区間作用、区間畳み込みを $O(\log n)$ で行えるデータ構造。作用素付きモノイドを要請する。
 
 ## 使い方
-`LazySegmentTree(n: int, unitX: Any, unitA: Any, X_f: Callable[[Any, Any], Any], X_A: Callable[[Any, Any], Any], XA_map: Callable[[Any, Any], Any])`  
-長さ `n` の Lazy Segment Tree を構築する。計算量 $O(n)$
+`LazySegmentTree(n: int, unitX: T, unitA: U, X_f: Callable[[T, T], T], X_A: Callable[[U, U], U], XA_map: Callable[[T, U], T])`  
+長さ $n$ の Lazy Segment Tree を構築する。計算量 $O(n)$
 それぞれの演算について、
 
   - 畳み込みの演算を二項演算 `f_X`、単位元 `unitX` として定義する。
@@ -88,20 +88,20 @@ title: "\u9045\u5EF6\u4F1D\u64AD\u30BB\u30B0\u30E1\u30F3\u30C8\u6728 (Segment Tr
 
 となる。
 
-- `build(array: List[Any]) -> None`  
+- `build(array: List[T]) -> None`  
 Lazy Segment Tree を `array` で初期化する。計算量 $O(n)$
 
-- `__getitem__(i: int) -> Any`  
-`i` 番目の要素を返す。計算量 $O(\log n)$
+- `__getitem__(i: int) -> T`  
+$i$ 番目の要素を返す。計算量 $O(\log n)$
 
-- `__setitem__(i: int, x: Any) -> None`  
-`i` 番目の要素を `x` に更新する。計算量 $O(\log n)$
+- `__setitem__(i: int, x: T) -> None`  
+$i$ 番目の要素を `x` に更新する。計算量 $O(\log n)$
 
-- `fold(l: int, r: int) -> Any`  
+- `fold(l: int, r: int) -> T`  
 $[l, r)$ 番目の要素の畳み込み結果を返す。計算量 $O(\log n)$
 
-- `apply(i: int, a: Any) -> None`  
-`i` 番目の要素に `a` を作用させる。計算量 $O(\log n)$
+- `apply(i: int, a: U) -> None`  
+$i$ 番目の要素に `a` を作用させる。計算量 $O(\log n)$
 
-- `range_apply(l: int, r: int, a: Any) -> None`  
+- `range_apply(l: int, r: int, a: U) -> None`  
 $[l, r)$ 番目の要素に `a` を作用させる。計算量 $O(\log n)$

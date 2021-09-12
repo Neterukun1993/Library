@@ -314,7 +314,8 @@ data:
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 (Radix Heap)"
     - icon: ':warning:'
       path: Graph/ShortestPath/dijkstra_trace.py
-      title: Graph/ShortestPath/dijkstra_trace.py
+      title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$) + \u7D4C\
+        \u8DEF\u5FA9\u5143"
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_v2.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O(V^2)$)"

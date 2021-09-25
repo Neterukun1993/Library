@@ -27,3 +27,7 @@ documentation_of: //Graph/Tree/HLDecomposition.py
 
 - `range_subtree(u: int) -> Tuple[int, int]`  
 `u` を根とした部分木に対応する列の区間を返す。区間は半開区間である。計算量 $O(1)$
+
+## 参考
+- [【図解】木のパスに関するクエリは HL 分解！ その仕組みと実装を図で理解する｜Heavy-Light Decomposition - Qiita](https://qiita.com/Pro_ktmr/items/4e1e051ea0561772afa3)
+- [Easiest HLD with subtree queries - Codeforces](https://codeforces.com/blog/entry/53170)

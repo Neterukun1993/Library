@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: NumberTheory/Basic/extended_gcd.py
-    title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -14,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from NumberTheory.Basic.extended_gcd import extended_gcd, mod_inv\n\n\ndef\
     \ pregarner(a, m, MOD):\n    def gcd(a, b):\n        while b:\n            a,\
@@ -34,12 +31,11 @@ data:
     \ m[i]) % m[i]\n        for j in range(i + 1, n + 1):\n            res[j] = (res[j]\
     \ + t * coeff[j]) % m[j]\n            coeff[j] = coeff[j] * m[i] % m[j]\n    return\
     \ res[-1]\n"
-  dependsOn:
-  - NumberTheory/Basic/extended_gcd.py
+  dependsOn: []
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/garner.py
   requiredBy: []
-  timestamp: '2021-05-03 15:04:52+09:00'
+  timestamp: '1970-01-01 00:00:00+00:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0187.test.py

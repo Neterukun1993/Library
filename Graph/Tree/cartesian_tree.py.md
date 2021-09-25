@@ -11,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def cartesian_tree(arr):\n    n = len(arr)\n    par = [-1] * n\n    stack\
     \ = []\n    for i in range(n):\n        prv_i = -1\n        while stack and arr[i]\
@@ -39,3 +39,6 @@ Cartesian Tree を求めるアルゴリズム。
 ## 使い方
 `cartesian_tree(arr: Sequence[int]) -> List[int]`  
 dinstinct な数列 `arr` から誘導される Cartesian Tree を求め、各頂点の親の配列を返す。計算量 $O(V)$
+
+## 参考
+- [列を最小値で分割して再帰するパターンと Cartesian tree - うさぎ小屋](https://kimiyuki.net/blog/2020/07/27/recursion-on-cartesian-tree/)

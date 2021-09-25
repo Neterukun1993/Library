@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from Graph.Tree.centroid import centroid\nfrom Graph.Tree.topological_sorted\
     \ import topological_sorted\n\n\nMAX = 0\nHASHMAP = {}\n\n\ndef treehash(tree,\
@@ -34,8 +34,8 @@ data:
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
   dependsOn:
-  - Graph/Tree/topological_sorted.py
   - Graph/Tree/centroid.py
+  - Graph/Tree/topological_sorted.py
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []
@@ -55,3 +55,8 @@ title: "\u6728\u306E\u30CF\u30C3\u30B7\u30E5 (\u6728\u306E\u540C\u578B\u5224\u5B
 ## 使い方
 `treehash(tree: Sequence[Iterable[int]], root: Union[int, None] = None) -> Tuple[int]`  
 木 `tree` のハッシュ値を返す。ハッシュ値は、木の中心の数と同じサイズのタプルとなる。`root` を指定すると根付き木に対するハッシュとなる。計算量 $O(V \log V)$
+
+## 参考
+- https://logic.pdmi.ras.ru/~smal/files/smal_jass08_slides.pdf
+- https://logic.pdmi.ras.ru/~smal/files/smal_jass08.pdf
+- [木の同型性判定のお話 - kazu0x17’s diary](https://chocobaby-aporo.hatenablog.com/entry/2017/12/05/233027)

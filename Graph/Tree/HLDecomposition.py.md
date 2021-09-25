@@ -29,9 +29,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class HLDecomposition:\n    def __init__(self, tree):\n        self.tree\
     \ = tree\n        self.n = len(tree)\n        self.par = [-1] * self.n\n     \
@@ -84,13 +84,13 @@ data:
   timestamp: '2021-01-16 03:42:28+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/2667.test.py
-  - TestCase/AOJ/GRL_5_E.test.py
-  - TestCase/AOJ/GRL_5_D.test.py
-  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/LibraryChecker/vertex_add_subtree_sum.test.py
   - TestCase/LibraryChecker/vertex_add_path_sum.test.py
   - TestCase/LibraryChecker/lca.HLDecomposition.test.py
+  - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
+  - TestCase/AOJ/GRL_5_E.test.py
+  - TestCase/AOJ/GRL_5_D.test.py
+  - TestCase/AOJ/2667.test.py
 documentation_of: Graph/Tree/HLDecomposition.py
 layout: document
 title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
@@ -120,3 +120,7 @@ title: "HL\u5206\u89E3 (Heavy-Light Decomposition)"
 
 - `range_subtree(u: int) -> Tuple[int, int]`  
 `u` を根とした部分木に対応する列の区間を返す。区間は半開区間である。計算量 $O(1)$
+
+## 参考
+- [【図解】木のパスに関するクエリは HL 分解！ その仕組みと実装を図で理解する｜Heavy-Light Decomposition - Qiita](https://qiita.com/Pro_ktmr/items/4e1e051ea0561772afa3)
+- [Easiest HLD with subtree queries - Codeforces](https://codeforces.com/blog/entry/53170)

@@ -485,6 +485,9 @@ data:
       path: NumberTheory/ModularArithmetic/linear_congruence.py
       title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
     - icon: ':warning:'
+      path: NumberTheory/ModularArithmetic/primitive_root.py
+      title: "\u539F\u59CB\u6839"
+    - icon: ':warning:'
       path: NumberTheory/ModularArithmetic/tonelli_shanks.py
       title: "\u5E73\u65B9\u5270\u4F59 (Tonelli-Shanks)"
   - name: NumberTheory/Prime

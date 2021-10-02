@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: NumberTheory/Basic/extended_gcd.py
-    title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -23,8 +20,7 @@ data:
     \        return a\n\n    if b % gcd(a, m) != 0:\n        # \u89E3\u306A\u3057\n\
     \        return False, -1, -1\n    g, x, y = extended_gcd(a, m)\n    x *= b //\
     \ g\n    cycle = m // g\n    x -= cycle * (x // cycle)\n    return True, x, cycle\n"
-  dependsOn:
-  - NumberTheory/Basic/extended_gcd.py
+  dependsOn: []
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/linear_congruence.py
   requiredBy: []

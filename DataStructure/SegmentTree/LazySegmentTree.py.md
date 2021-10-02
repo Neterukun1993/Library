@@ -2,6 +2,9 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy:
+  - icon: ':warning:'
+    path: DataStructure/SegmentTree/RSQ_RMultipleQ.py
+    title: RSQ_RMultipleQ
   - icon: ':heavy_check_mark:'
     path: DataStructure/SegmentTree/RSQ_RUQ.py
     title: RSQ_RUQ
@@ -62,6 +65,7 @@ data:
   isVerificationFile: false
   path: DataStructure/SegmentTree/LazySegmentTree.py
   requiredBy:
+  - DataStructure/SegmentTree/RSQ_RMultipleQ.py
   - DataStructure/SegmentTree/RmQ_RAQ.py
   - DataStructure/SegmentTree/RSQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RUQ.py

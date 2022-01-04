@@ -14,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def miller_rabin(n):\n    if n == 2:\n        return True\n    if n == 1\
     \ or n % 2 == 0:\n        return False\n\n    s = 0\n    d = n - 1\n    while\
@@ -32,8 +32,8 @@ data:
   timestamp: '2021-03-05 15:07:14+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/segment_sieve.unittest.test.py
   - TestCase/yukicoder/yuki3030.test.py
+  - TestCase/unittest/segment_sieve.unittest.test.py
 documentation_of: NumberTheory/Prime/miller_rabin.py
 layout: document
 title: "\u78BA\u7387\u7684\u7D20\u6570\u5224\u5B9A (\u30DF\u30E9\u30FC\u30FB\u30E9\

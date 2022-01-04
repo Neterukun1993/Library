@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.9.7/x64/lib/python3.9/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class SlidingWindowAggregation:\n    def __init__(self, op):\n        self.op\
     \ = op\n        self.inque = []\n        self.outque = []\n\n    def __len__(self):\n\
@@ -42,8 +42,8 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/queue_operate_all_composite.test.py
-  - TestCase/AOJ/DSL_3_A.test.py
   - TestCase/AOJ/DSL_3_D.test.py
+  - TestCase/AOJ/DSL_3_A.test.py
 documentation_of: DataStructure/misc/SlidingWindowAggregation.py
 layout: document
 title: Sliding Window Aggregation

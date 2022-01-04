@@ -269,12 +269,9 @@ data:
       title: "\u4E8C\u6B21\u5143Sparse Table"
   - name: Flow
     pages:
-    - icon: ':warning:'
-      path: Flow/BipartiteGraph.py
-      title: Flow/BipartiteGraph.py
-    - icon: ':warning:'
-      path: Flow/Dinic.py
-      title: Flow/Dinic.py
+    - icon: ':heavy_check_mark:'
+      path: Flow/MaxFlow.py
+      title: "\u6700\u5927\u6D41 (Dinic \u6CD5)"
   - name: Geometry
     pages:
     - icon: ':heavy_check_mark:'
@@ -613,6 +610,9 @@ data:
       path: TestCase/AOJ/2235.test.py
       title: TestCase/AOJ/2235.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/2313.test.py
+      title: TestCase/AOJ/2313.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/2370.test.py
       title: TestCase/AOJ/2370.test.py
     - icon: ':heavy_check_mark:'
@@ -856,6 +856,9 @@ data:
       path: TestCase/AOJ/GRL_5_E.test.py
       title: TestCase/AOJ/GRL_5_E.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_6_A.dinic.test.py
+      title: TestCase/AOJ/GRL_6_A.dinic.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP1_3_D.test.py
       title: TestCase/AOJ/ITP1_3_D.test.py
     - icon: ':heavy_check_mark:'
@@ -913,7 +916,7 @@ data:
       title: TestCase/AtCoder/arc117_c.test.py
   - name: TestCase/LibraryChecker
     pages:
-    - icon: ':heavy_check_mark:'
+    - icon: ':x:'
       path: TestCase/LibraryChecker/bipartitematching.test.py
       title: TestCase/LibraryChecker/bipartitematching.test.py
     - icon: ':heavy_check_mark:'

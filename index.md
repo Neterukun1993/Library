@@ -272,6 +272,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Flow/MaxFlow.py
       title: "\u6700\u5927\u6D41 (Dinic \u6CD5)"
+    - icon: ':warning:'
+      path: Flow/MinCostFlow.py
+      title: "\u6700\u5C0F\u8CBB\u7528\u6D41 (Primal-Dual \u6CD5)"
   - name: Geometry
     pages:
     - icon: ':heavy_check_mark:'
@@ -916,9 +919,6 @@ data:
       title: TestCase/AtCoder/arc117_c.test.py
   - name: TestCase/LibraryChecker
     pages:
-    - icon: ':x:'
-      path: TestCase/LibraryChecker/bipartitematching.test.py
-      title: TestCase/LibraryChecker/bipartitematching.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py
       title: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py

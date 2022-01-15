@@ -45,17 +45,17 @@ data:
   isVerificationFile: false
   path: misc/xorshift.py
   requiredBy:
-  - DataStructure/SortedSet/SortedSetTreap.py
-  - DataStructure/SortedSet/SortedSetSkipList.py
   - DataStructure/Heap/RandomizedMeldableHeap.py
+  - DataStructure/SortedSet/SortedSetSkipList.py
+  - DataStructure/SortedSet/SortedSetTreap.py
   timestamp: '2021-01-19 22:36:20+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/LazyBinaryTrie.unittest.test.py
   - TestCase/unittest/xorshift.unittest.test.py
   - TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
-  - TestCase/unittest/zeta_mobius_transform.unittest.test.py
+  - TestCase/unittest/LazyBinaryTrie.unittest.test.py
   - TestCase/unittest/IntervalHeap.unittest.test.py
+  - TestCase/unittest/zeta_mobius_transform.unittest.test.py
 documentation_of: misc/xorshift.py
 layout: document
 title: "\u4E71\u6570\u751F\u6210 (Xorshift)"

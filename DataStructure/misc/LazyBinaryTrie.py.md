@@ -71,8 +71,8 @@ data:
   timestamp: '2021-06-19 15:29:27+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
   - TestCase/unittest/LazyBinaryTrie.unittest.test.py
+  - TestCase/AOJ/ITP2_7_C.LazyBinaryTrie.test.py
 documentation_of: DataStructure/misc/LazyBinaryTrie.py
 layout: document
 title: "\u9045\u5EF6\u8A55\u4FA1 Binary Trie"

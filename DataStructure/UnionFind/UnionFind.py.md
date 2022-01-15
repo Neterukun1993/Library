@@ -51,16 +51,16 @@ data:
   isVerificationFile: false
   path: DataStructure/UnionFind/UnionFind.py
   requiredBy:
-  - Graph/SpanningTree/directed_mst.py
   - Graph/SpanningTree/boruvka.py
+  - Graph/SpanningTree/directed_mst.py
   - Graph/Tree/offline_lca.py
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/DSL_1_A.test.py
+  - TestCase/AOJ/2821.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
   - TestCase/yukicoder/yuki0922.test.py
-  - TestCase/AOJ/2821.test.py
-  - TestCase/AOJ/DSL_1_A.test.py
 documentation_of: DataStructure/UnionFind/UnionFind.py
 layout: document
 title: Union Find

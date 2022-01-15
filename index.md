@@ -270,6 +270,9 @@ data:
   - name: Flow
     pages:
     - icon: ':heavy_check_mark:'
+      path: Flow/BipartiteMatching.py
+      title: "\u4E8C\u90E8\u30B0\u30E9\u30D5\u306E\u30DE\u30C3\u30C1\u30F3\u30B0"
+    - icon: ':heavy_check_mark:'
       path: Flow/MaxFlow.py
       title: "\u6700\u5927\u6D41 (Dinic \u6CD5)"
     - icon: ':warning:'
@@ -922,6 +925,9 @@ data:
       title: TestCase/AtCoder/arc117_c.test.py
   - name: TestCase/LibraryChecker
     pages:
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/bipartitematching.test.py
+      title: TestCase/LibraryChecker/bipartitematching.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py
       title: TestCase/LibraryChecker/bitwise_and_convolution.and.test.py

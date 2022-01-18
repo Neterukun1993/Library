@@ -404,6 +404,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/DigraphDFSTree.py
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
+    - icon: ':warning:'
+      path: Graph/misc/DigraphEulerian.py
+      title: Graph/misc/DigraphEulerian.py
+    - icon: ':warning:'
+      path: Graph/misc/DirectedEulerian.py
+      title: "\u6709\u5411\u30B0\u30E9\u30D5\u306E\u30AA\u30A4\u30E9\u30FC\u8DEF"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/Doubling.py
       title: "functional graph \u4E0A\u306E (\u9806\u5217\u4E0A\u306E) \u30C0\u30D6\
@@ -415,6 +421,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/TwoSAT.py
       title: 2-SAT
+    - icon: ':warning:'
+      path: Graph/misc/UndirectedEulerian.py
+      title: "\u7121\u5411\u30B0\u30E9\u30D5\u306E\u30AA\u30A4\u30E9\u30FC\u8DEF"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/cycle_detection.py
       title: "\u30B5\u30A4\u30AF\u30EB\u691C\u51FA"

@@ -405,9 +405,6 @@ data:
       path: Graph/misc/DigraphDFSTree.py
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306EDFS\u6728\u306E\u69CB\u7BC9"
     - icon: ':warning:'
-      path: Graph/misc/DigraphEulerian.py
-      title: Graph/misc/DigraphEulerian.py
-    - icon: ':warning:'
       path: Graph/misc/DirectedEulerian.py
       title: "\u6709\u5411\u30B0\u30E9\u30D5\u306E\u30AA\u30A4\u30E9\u30FC\u8DEF"
     - icon: ':heavy_check_mark:'
@@ -546,6 +543,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/floor_sum.py
       title: floor sum
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/misc/kth_root.py
+      title: kth_root
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/matrix_pow.py
       title: "\u884C\u5217\u7D2F\u4E57"
@@ -967,6 +967,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_triangles.test.py
       title: TestCase/LibraryChecker/enumerate_triangles.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/kth_root_integer.test.py
+      title: TestCase/LibraryChecker/kth_root_integer.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.Doubling.test.py
       title: TestCase/LibraryChecker/lca.Doubling.test.py

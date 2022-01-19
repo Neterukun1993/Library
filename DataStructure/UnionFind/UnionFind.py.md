@@ -13,9 +13,6 @@ data:
     title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (Tarjan \u306E\u30AA\u30D5\u30E9\u30A4\
       \u30F3\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
   - icon: ':warning:'
-    path: Graph/misc/DigraphEulerian.py
-    title: Graph/misc/DigraphEulerian.py
-  - icon: ':warning:'
     path: Graph/misc/DirectedEulerian.py
     title: "\u6709\u5411\u30B0\u30E9\u30D5\u306E\u30AA\u30A4\u30E9\u30FC\u8DEF"
   - icon: ':warning:'
@@ -64,7 +61,6 @@ data:
   - Graph/SpanningTree/directed_mst.py
   - Graph/Tree/offline_lca.py
   - Graph/misc/DirectedEulerian.py
-  - Graph/misc/DigraphEulerian.py
   - Graph/misc/UndirectedEulerian.py
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC

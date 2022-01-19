@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':heavy_check_mark:'
-    path: NumberTheory/Basic/extended_gcd.py
-    title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -34,8 +31,7 @@ data:
     \ m[i]) % m[i]\n        for j in range(i + 1, n + 1):\n            res[j] = (res[j]\
     \ + t * coeff[j]) % m[j]\n            coeff[j] = coeff[j] * m[i] % m[j]\n    return\
     \ res[-1]\n"
-  dependsOn:
-  - NumberTheory/Basic/extended_gcd.py
+  dependsOn: []
   isVerificationFile: false
   path: NumberTheory/ModularArithmetic/garner.py
   requiredBy: []

@@ -119,6 +119,7 @@
 "TestCase/LibraryChecker/discrete_logarithm_mod.test.py": "2021-03-07 00:19:35 +0900",
 "TestCase/LibraryChecker/enumerate_palindromes.test.py": "2021-01-06 00:03:29 +0900",
 "TestCase/LibraryChecker/enumerate_triangles.test.py": "2021-01-21 18:47:47 +0900",
+"TestCase/LibraryChecker/k_shortest_walk.test.py": "2022-01-20 20:13:32 +0900",
 "TestCase/LibraryChecker/kth_root_integer.test.py": "2022-01-19 23:55:57 +0900",
 "TestCase/LibraryChecker/lca.Doubling.test.py": "2021-01-14 15:15:35 +0900",
 "TestCase/LibraryChecker/lca.EulerTour.test.py": "2021-06-15 21:41:12 +0900",

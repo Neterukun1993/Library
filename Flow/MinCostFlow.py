@@ -1,3 +1,7 @@
+# from heapq import heappush, heappop
+from standard_library.heapq import heappush, heappop
+
+
 class MinCostFlow:
     def __init__(self, n):
         self.INF = 10 ** 9 + 7
@@ -23,7 +27,7 @@ class MinCostFlow:
             dist[s] = 0
             q = [(0, s)]  # q = [(sからのコスト, 現在地)]
             while q:
-                cost, fr = heapq.heappop(q)
+                cost, fr = heappop(q)
                 if dist[fr] < cost:
                     continue
                 for edge in self.graph[fr]:
@@ -33,7 +37,7 @@ class MinCostFlow:
                         dist[to] = dist[fr] + cost + p_diff
                         prv_v[to] = fr
                         prv_e[to] = edge
-                        heapq.heappush(q, (dist[to], to))
+                        heappush(q, (dist[to], to))
 
             if dist[t] == self.INF:
                 return -1

@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':warning:'
-    path: standard_library/heapq.py
-    title: standard_library/heapq.py
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -24,8 +21,7 @@ data:
     )]\n    while hq:\n        cost, v = heappop(hq)\n        if used[v]:\n      \
     \      continue\n        used[v] = True\n        res += cost\n        for nxt_v,\
     \ cost in graph[v]:\n            heappush(hq, (cost, nxt_v))\n    return res\n"
-  dependsOn:
-  - standard_library/heapq.py
+  dependsOn: []
   isVerificationFile: false
   path: Graph/SpanningTree/prim.py
   requiredBy: []

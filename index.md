@@ -437,6 +437,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/is_bipartite.py
       title: "\u4E8C\u90E8\u30B0\u30E9\u30D5\u5224\u5B9A (DFS)"
+    - icon: ':x:'
+      path: Graph/misc/k_shortest_walk.py
+      title: "\u4E0A\u4F4D $k$ \u500B\u306E\u30A6\u30A9\u30FC\u30AF"
     - icon: ':heavy_check_mark:'
       path: Graph/misc/topological_sorted.py
       title: "\u30C8\u30DD\u30ED\u30B8\u30AB\u30EB\u30BD\u30FC\u30C8 (Kahn \u306E\u30A2\
@@ -610,11 +613,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: misc/xorshift.py
       title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
-  - name: standard_library
-    pages:
-    - icon: ':warning:'
-      path: standard_library/heapq.py
-      title: standard_library/heapq.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -982,6 +980,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_triangles.test.py
       title: TestCase/LibraryChecker/enumerate_triangles.test.py
+    - icon: ':x:'
+      path: TestCase/LibraryChecker/k_shortest_walk.test.py
+      title: TestCase/LibraryChecker/k_shortest_walk.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/kth_root_integer.test.py
       title: TestCase/LibraryChecker/kth_root_integer.test.py

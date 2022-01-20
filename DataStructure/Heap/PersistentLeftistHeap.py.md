@@ -1,7 +1,10 @@
 ---
 data:
   _extendedDependsOn: []
-  _extendedRequiredBy: []
+  _extendedRequiredBy:
+  - icon: ':x:'
+    path: Graph/misc/k_shortest_walk.py
+    title: "\u4E0A\u4F4D $k$ \u500B\u306E\u30A6\u30A9\u30FC\u30AF"
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/ALDS1_9_C.PersistentLeftistHeap.test.py
@@ -39,7 +42,8 @@ data:
   dependsOn: []
   isVerificationFile: false
   path: DataStructure/Heap/PersistentLeftistHeap.py
-  requiredBy: []
+  requiredBy:
+  - Graph/misc/k_shortest_walk.py
   timestamp: '2022-01-20 19:40:17+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

@@ -1,9 +1,6 @@
 ---
 data:
-  _extendedDependsOn:
-  - icon: ':warning:'
-    path: standard_library/heapq.py
-    title: standard_library/heapq.py
+  _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
@@ -46,8 +43,7 @@ data:
     \ v != s:\n                edge = prv_e[v]\n                edge[2] -= d\n   \
     \             self.graph[edge[0]][edge[1]][2] += d\n                v = prv_v[v]\n\
     \        return res\n"
-  dependsOn:
-  - standard_library/heapq.py
+  dependsOn: []
   isVerificationFile: false
   path: Flow/MinCostFlow.py
   requiredBy: []

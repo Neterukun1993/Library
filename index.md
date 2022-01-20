@@ -275,7 +275,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Flow/MaxFlow.py
       title: "\u6700\u5927\u6D41 (Dinic \u6CD5)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Flow/MinCostFlow.py
       title: "\u6700\u5C0F\u8CBB\u7528\u6D41 (Primal-Dual \u6CD5)"
   - name: Geometry
@@ -354,7 +354,7 @@ data:
       path: Graph/SpanningTree/kruskal.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5\
         )"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/prim.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30D7\u30EA\u30E0\u6CD5)"
   - name: Graph/Tree
@@ -606,6 +606,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: misc/xorshift.py
       title: "\u4E71\u6570\u751F\u6210 (Xorshift)"
+  - name: standard_library
+    pages:
+    - icon: ':warning:'
+      path: standard_library/heapq.py
+      title: standard_library/heapq.py
   verificationCategories:
   - name: TestCase/AOJ
     pages:
@@ -876,6 +881,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/GRL_6_A.dinic.test.py
       title: TestCase/AOJ/GRL_6_A.dinic.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/GRL_6_B.test.py
+      title: TestCase/AOJ/GRL_6_B.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP1_3_D.test.py
       title: TestCase/AOJ/ITP1_3_D.test.py

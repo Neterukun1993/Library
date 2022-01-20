@@ -26,6 +26,7 @@
 "TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py": "2021-01-15 07:30:33 +0900",
 "TestCase/AOJ/ALDS1_9_C.LeftistHeap.test.py": "2021-05-05 21:41:55 +0900",
 "TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py": "2021-09-13 00:09:16 +0900",
+"TestCase/AOJ/ALDS1_9_C.PersistentLeftistHeap.test.py": "2022-01-20 19:40:17 +0900",
 "TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py": "2021-01-19 22:36:20 +0900",
 "TestCase/AOJ/ALDS1_9_C.SkewHeap.test.py": "2021-01-14 12:29:07 +0900",
 "TestCase/AOJ/CGL_4_A.test.py": "2021-05-17 22:33:07 +0900",

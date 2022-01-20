@@ -109,6 +109,10 @@ data:
       path: DataStructure/Heap/PairingHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Pairing Heap)"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/Heap/PersistentLeftistHeap.py
+      title: "\u4F75\u5408\u53EF\u80FD\u6C38\u7D9A\u30D2\u30FC\u30D7 (Persistent Leftist\
+        \ Heap)"
+    - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/RadixHeap.py
       title: Radix Heap
     - icon: ':heavy_check_mark:'
@@ -695,6 +699,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.PairingHeap.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_9_C.PersistentLeftistHeap.test.py
+      title: TestCase/AOJ/ALDS1_9_C.PersistentLeftistHeap.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py
       title: TestCase/AOJ/ALDS1_9_C.RandomizedMeldableHeap.test.py

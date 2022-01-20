@@ -65,7 +65,7 @@ def k_shortest_walk(n, edges, start, goal, k):
             heappush(que, (val + hp.b.find_min[0] - hp.find_min[0], hp.b))
         to = hp.find_min[1]
         if heap_g[to]:
-            heapq.heappush(que, (val + heap_g[to].find_min[0], heap_g[to]))
+            heappush(que, (val + heap_g[to].find_min[0], heap_g[to]))
 
     for _ in range(len(ans), k):
         ans.append(-1)

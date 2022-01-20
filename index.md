@@ -437,7 +437,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/misc/is_bipartite.py
       title: "\u4E8C\u90E8\u30B0\u30E9\u30D5\u5224\u5B9A (DFS)"
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Graph/misc/k_shortest_walk.py
       title: "\u4E0A\u4F4D $k$ \u500B\u306E\u30A6\u30A9\u30FC\u30AF"
     - icon: ':heavy_check_mark:'
@@ -980,7 +980,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/enumerate_triangles.test.py
       title: TestCase/LibraryChecker/enumerate_triangles.test.py
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/k_shortest_walk.test.py
       title: TestCase/LibraryChecker/k_shortest_walk.test.py
     - icon: ':heavy_check_mark:'

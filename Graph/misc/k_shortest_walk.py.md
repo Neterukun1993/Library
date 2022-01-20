@@ -7,12 +7,12 @@ data:
       \ Heap)"
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/k_shortest_walk.test.py
     title: TestCase/LibraryChecker/k_shortest_walk.test.py
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links:
     - https://qiita.com/hotman78/items/42534a01c4bd05ed5e1e
@@ -46,7 +46,7 @@ data:
     \ == k:\n            break\n        if hp.a:\n            heappush(que, (val +\
     \ hp.a.find_min[0] - hp.find_min[0], hp.a))\n        if hp.b:\n            heappush(que,\
     \ (val + hp.b.find_min[0] - hp.find_min[0], hp.b))\n        to = hp.find_min[1]\n\
-    \        if heap_g[to]:\n            heapq.heappush(que, (val + heap_g[to].find_min[0],\
+    \        if heap_g[to]:\n            heappush(que, (val + heap_g[to].find_min[0],\
     \ heap_g[to]))\n\n    for _ in range(len(ans), k):\n        ans.append(-1)\n \
     \   return ans\n"
   dependsOn:
@@ -54,8 +54,8 @@ data:
   isVerificationFile: false
   path: Graph/misc/k_shortest_walk.py
   requiredBy: []
-  timestamp: '2022-01-20 20:07:10+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2022-01-20 20:13:32+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/k_shortest_walk.test.py
 documentation_of: Graph/misc/k_shortest_walk.py

@@ -1,14 +1,14 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: Graph/misc/k_shortest_walk.py
     title: "\u4E0A\u4F4D $k$ \u500B\u306E\u30A6\u30A9\u30FC\u30AF"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     PROBLEM: https://judge.yosupo.jp/problem/k_shortest_walk
     links:
@@ -28,8 +28,8 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/k_shortest_walk.test.py
   requiredBy: []
-  timestamp: '2022-01-20 20:07:10+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2022-01-20 20:13:32+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/k_shortest_walk.test.py
 layout: document

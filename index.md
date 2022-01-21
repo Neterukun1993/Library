@@ -451,6 +451,9 @@ data:
   - name: NumberTheory/Basic
     pages:
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Basic/arithmetic_sequence.py
+      title: "\u7B49\u5DEE\u6570\u5217"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Basic/extended_gcd.py
       title: "\u62E1\u5F35\u30E6\u30FC\u30AF\u30EA\u30C3\u30C9\u306E\u4E92\u9664\u6CD5"
     - icon: ':heavy_check_mark:'
@@ -1114,6 +1117,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
       title: TestCase/unittest/arbitrary_mod_convolve.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/arithmetic_sequence.unittest.test.py
+      title: TestCase/unittest/arithmetic_sequence.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/catalan.unittest.test.py
       title: TestCase/unittest/catalan.unittest.test.py

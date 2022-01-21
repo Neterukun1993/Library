@@ -163,6 +163,7 @@
 "TestCase/unittest/PersistentArray.unittest.test.py": "2021-09-08 02:11:43 +0900",
 "TestCase/unittest/PersistentStack.unittest.test.py": "2021-09-08 02:11:43 +0900",
 "TestCase/unittest/arbitrary_mod_convolve.unittest.test.py": "2021-06-13 01:12:48 +0900",
+"TestCase/unittest/arithmetic_sequence.unittest.test.py": "2022-01-21 18:13:45 +0900",
 "TestCase/unittest/catalan.unittest.test.py": "2021-09-04 15:01:27 +0900",
 "TestCase/unittest/euler_phi_table.unittest.test.py": "2021-08-12 23:00:53 +0900",
 "TestCase/unittest/gcd_convolve.unittest.test.py": "2021-06-24 01:16:50 +0900",

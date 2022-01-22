@@ -1,4 +1,5 @@
-from operator import itemgetter
+#from operator import itemgetter
+from standard_library.operator import itemgetter
 from DataStructure.UnionFind.UnionFind import UnionFind
 
 

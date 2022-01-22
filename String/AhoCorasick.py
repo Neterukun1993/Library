@@ -1,4 +1,5 @@
-from collections import deque
+# from collections import deque
+from standard_library.collections import deque
 
 
 class Node:

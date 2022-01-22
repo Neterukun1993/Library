@@ -1,5 +1,5 @@
 # from heapq import heappop, heappush
-from heapq import heappop, heappush
+from standard_library.heapq import heappop, heappush
 
 
 def dijkstra(start, graph):

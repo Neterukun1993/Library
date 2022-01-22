@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph/SpanningTree/kruskal.py
+    title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -19,11 +22,12 @@ data:
     \ kruskal\n\n\ndef main():\n    n, m = map(int, input().split())\n    edges =\
     \ [list(map(int, input().split())) for i in range(m)]\n\n    print(kruskal(n,\
     \ edges))\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/SpanningTree/kruskal.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_2_A.kruskal.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-01-22 12:11:49+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_2_A.kruskal.test.py

@@ -12,13 +12,14 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from collections import deque\n\n\nclass Node:\n    def __init__(self):\n\
-    \        self.child = {}\n        self.failure = None\n        self.valid = 0\n\
-    \n    def set_child(self, s):\n        self.child[s] = Node()\n\n    def get_child(self,\
-    \ s):\n        if s not in self.child:\n            return None\n        return\
-    \ self.child[s]\n\n\nclass AhoCorasick:\n    def __init__(self):\n        self.root\
-    \ = Node()\n\n    def add(self, pattern):\n        ptr = self.root\n        for\
-    \ s in pattern:\n            if ptr.get_child(s) is None:\n                ptr.set_child(s)\n\
+  code: "# from collections import deque\nfrom standard_library.collections import\
+    \ deque\n\n\nclass Node:\n    def __init__(self):\n        self.child = {}\n \
+    \       self.failure = None\n        self.valid = 0\n\n    def set_child(self,\
+    \ s):\n        self.child[s] = Node()\n\n    def get_child(self, s):\n       \
+    \ if s not in self.child:\n            return None\n        return self.child[s]\n\
+    \n\nclass AhoCorasick:\n    def __init__(self):\n        self.root = Node()\n\n\
+    \    def add(self, pattern):\n        ptr = self.root\n        for s in pattern:\n\
+    \            if ptr.get_child(s) is None:\n                ptr.set_child(s)\n\
     \            ptr = ptr.get_child(s)\n        ptr.valid += 1\n\n    def build_pma(self):\n\
     \        queue = deque()\n        for s in self.root.child:\n            ptrch\
     \ = self.root.child[s]\n            ptrch.failure = self.root\n            queue.append(ptrch)\n\
@@ -36,7 +37,7 @@ data:
   isVerificationFile: false
   path: String/AhoCorasick.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-01-22 12:11:49+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: String/AhoCorasick.py

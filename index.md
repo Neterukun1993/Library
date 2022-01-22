@@ -320,7 +320,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dial.py
       title: "Dial\u2019s Algorithm"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
     - icon: ':heavy_check_mark:'
@@ -354,7 +354,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/directed_mst.py
       title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/SpanningTree/kruskal.py
       title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5\
         )"

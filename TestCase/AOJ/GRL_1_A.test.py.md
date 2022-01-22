@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: Graph/ShortestPath/dijkstra.py
+    title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$)"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -22,11 +25,12 @@ data:
     \ cost))\n\n    dist = dijkstra(s, graph)\n    for val in dist:\n        if val\
     \ == INF:\n            print(\"INF\")\n        else:\n            print(val)\n\
     \n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - Graph/ShortestPath/dijkstra.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_1_A.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-01-22 12:11:49+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/GRL_1_A.test.py

@@ -9,6 +9,9 @@ data:
     path: Graph/SpanningTree/directed_mst.py
     title: "\u6700\u5C0F\u6709\u5411\u5168\u57DF\u6728"
   - icon: ':heavy_check_mark:'
+    path: Graph/SpanningTree/kruskal.py
+    title: "\u6700\u5C0F\u5168\u57DF\u6728 (\u30AF\u30E9\u30B9\u30AB\u30EB\u6CD5)"
+  - icon: ':heavy_check_mark:'
     path: Graph/Tree/offline_lca.py
     title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (Tarjan \u306E\u30AA\u30D5\u30E9\u30A4\
       \u30F3\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0)"
@@ -58,6 +61,7 @@ data:
   path: DataStructure/UnionFind/UnionFind.py
   requiredBy:
   - Graph/SpanningTree/boruvka.py
+  - Graph/SpanningTree/kruskal.py
   - Graph/SpanningTree/directed_mst.py
   - Graph/Tree/offline_lca.py
   - Graph/misc/DirectedEulerian.py

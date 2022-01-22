@@ -12,16 +12,17 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from collections import deque\n\n\ndef bfs(graph, start):\n    INF = 10 **\
-    \ 18\n    n = len(graph)\n    dist = [INF] * n\n    dist[start] = 0\n    que =\
-    \ deque([start])\n    while que:\n        v = que.popleft()\n        for nxt_v\
-    \ in graph[v]:\n            if dist[nxt_v] == INF:\n                dist[nxt_v]\
-    \ = dist[v] + 1\n                que.append(nxt_v)\n    return dist\n"
+  code: "# from collections import deque\nfrom standard_library.collections import\
+    \ deque\n\n\ndef bfs(graph, start):\n    INF = 10 ** 18\n    n = len(graph)\n\
+    \    dist = [INF] * n\n    dist[start] = 0\n    que = deque([start])\n    while\
+    \ que:\n        v = que.popleft()\n        for nxt_v in graph[v]:\n          \
+    \  if dist[nxt_v] == INF:\n                dist[nxt_v] = dist[v] + 1\n       \
+    \         que.append(nxt_v)\n    return dist\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/ShortestPath/bfs.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-01-22 12:11:49+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: Graph/ShortestPath/bfs.py

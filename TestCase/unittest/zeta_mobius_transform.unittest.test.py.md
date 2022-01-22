@@ -50,8 +50,8 @@ data:
     \ '__main__':\n    main()\n    print(\"Hello World\")\n"
   dependsOn:
   - NumberTheory/Convolution/zeta_transform.py
-  - misc/xorshift.py
   - NumberTheory/Convolution/mobius_transform.py
+  - misc/xorshift.py
   isVerificationFile: true
   path: TestCase/unittest/zeta_mobius_transform.unittest.test.py
   requiredBy: []

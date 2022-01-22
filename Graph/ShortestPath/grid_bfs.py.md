@@ -12,20 +12,21 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from collections import deque\n\n\ndef grid_bfs(grid, si, sj, wall=\"#\"\
-    ):\n    INF = 10 ** 18\n    d = ((1, 0), (-1, 0), (0, 1), (0, -1))\n    h, w =\
-    \ len(grid), len(grid[0])\n    dist = [[INF] * w for i in range(h)]\n    dist[si][sj]\
-    \ = 0\n    que = deque([(si, sj)])\n    while que:\n        i, j = que.popleft()\n\
-    \        for di, dj in d:\n            nxt_i, nxt_j = i + di, j + dj\n       \
-    \     if not(0 <= nxt_i < h and 0 <= nxt_j < w):\n                continue\n \
-    \           if grid[nxt_i][nxt_j] == wall:\n                continue\n       \
-    \     if dist[nxt_i][nxt_j] != INF:\n                continue\n            dist[nxt_i][nxt_j]\
-    \ = dist[i][j] + 1\n            que.append((nxt_i, nxt_j))\n    return dist\n"
+  code: "# from collections import deque\nfrom standard_library.collections import\
+    \ deque\n\n\ndef grid_bfs(grid, si, sj, wall=\"#\"):\n    INF = 10 ** 18\n   \
+    \ d = ((1, 0), (-1, 0), (0, 1), (0, -1))\n    h, w = len(grid), len(grid[0])\n\
+    \    dist = [[INF] * w for i in range(h)]\n    dist[si][sj] = 0\n    que = deque([(si,\
+    \ sj)])\n    while que:\n        i, j = que.popleft()\n        for di, dj in d:\n\
+    \            nxt_i, nxt_j = i + di, j + dj\n            if not(0 <= nxt_i < h\
+    \ and 0 <= nxt_j < w):\n                continue\n            if grid[nxt_i][nxt_j]\
+    \ == wall:\n                continue\n            if dist[nxt_i][nxt_j] != INF:\n\
+    \                continue\n            dist[nxt_i][nxt_j] = dist[i][j] + 1\n \
+    \           que.append((nxt_i, nxt_j))\n    return dist\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/ShortestPath/grid_bfs.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-01-22 12:11:49+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: Graph/ShortestPath/grid_bfs.py

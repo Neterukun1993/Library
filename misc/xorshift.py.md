@@ -7,7 +7,9 @@ data:
     title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Randomized Meldable Heap)"
   - icon: ':heavy_check_mark:'
     path: DataStructure/List/SkipList.py
-    title: "\u30B9\u30AD\u30C3\u30D7\u30EA\u30B9\u30C8"
+    title: "\u5BFE\u6570\u6642\u9593\u30E9\u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9\
+      /\u633F\u5165/\u524A\u9664\u53EF\u80FD\u30EA\u30B9\u30C8 (\u30B9\u30AD\u30C3\
+      \u30D7\u30EA\u30B9\u30C8)"
   - icon: ':heavy_check_mark:'
     path: DataStructure/SortedSet/SortedSetSkipList.py
     title: "\u9806\u5E8F\u4ED8\u304D\u96C6\u5408 (\u30B9\u30AD\u30C3\u30D7\u30EA\u30B9\

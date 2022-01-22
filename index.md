@@ -121,6 +121,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/Heap/SkewHeap.py
       title: "\u4F75\u5408\u53EF\u80FD\u30D2\u30FC\u30D7 (Skew Heap)"
+  - name: DataStructure/List
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/List/SkipList.py
+      title: "\u30B9\u30AD\u30C3\u30D7\u30EA\u30B9\u30C8"
   - name: DataStructure/SegmentTree
     pages:
     - icon: ':warning:'
@@ -901,6 +906,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py
       title: TestCase/AOJ/ITP2_1_B.ArrayDeque.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ITP2_1_C.SkipList.test.py
+      title: TestCase/AOJ/ITP2_1_C.SkipList.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ITP2_7_B.BIT.test.py
       title: TestCase/AOJ/ITP2_7_B.BIT.test.py

@@ -2,29 +2,27 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DataStructure.List.SkipList import SkipList
+from DataStructure.List.SplayTreeList import SplayTreeList
 
 
 def main():
     q = int(input())
     queries = [list(map(int, input().split())) for i in range(q)]
 
-    sl = SkipList()
+    stl = SplayTreeList()
     idx = 0
-
     for i in range(q):
         if queries[i][0] == 0:
             _, x = queries[i]
-            sl.insert(idx, x)
+            stl.insert(idx, x)
         elif queries[i][0] == 1:
             _, d = queries[i]
             idx += d
         else:
-            sl.delete(idx)
+            stl.delete(idx)
 
-    for i, res in enumerate(sl.dump()):
-        assert(res == sl[i])
-        print(res)
+    for i in range(len(stl)):
+        print(stl[i])
 
 
 if __name__ == '__main__':

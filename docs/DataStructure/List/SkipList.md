@@ -1,5 +1,5 @@
 ---
-title: スキップリスト
+title: 対数時間ランダムアクセス/挿入/削除可能リスト (スキップリスト)
 documentation_of: //DataStructure/List/SkipList.py
 ---
 

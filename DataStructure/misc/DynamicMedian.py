@@ -1,4 +1,5 @@
-import heapq
+# from heapq import heappushpop, heappush
+from standard_library.heapq import heappushpop, heappush
 
 
 class DynamicMedian:
@@ -11,15 +12,15 @@ class DynamicMedian:
     def add(self, val):
         if len(self.l_q) == len(self.r_q):
             self.l_sum += val
-            val = -heapq.heappushpop(self.l_q, -val)
+            val = -heappushpop(self.l_q, -val)
             self.l_sum -= val
-            heapq.heappush(self.r_q, val)
+            heappush(self.r_q, val)
             self.r_sum += val
         else:
             self.r_sum += val
-            val = heapq.heappushpop(self.r_q, val)
+            val = heappushpop(self.r_q, val)
             self.r_sum -= val
-            heapq.heappush(self.l_q, -val)
+            heappush(self.l_q, -val)
             self.l_sum += val
 
     def median_low(self):

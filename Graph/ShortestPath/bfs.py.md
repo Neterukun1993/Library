@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/AOJ/ALDS1_11_C.test.py
+    title: TestCase/AOJ/ALDS1_11_C.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -23,8 +26,9 @@ data:
   path: Graph/ShortestPath/bfs.py
   requiredBy: []
   timestamp: '2022-01-22 12:11:49+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/AOJ/ALDS1_11_C.test.py
 documentation_of: Graph/ShortestPath/bfs.py
 layout: document
 title: BFS

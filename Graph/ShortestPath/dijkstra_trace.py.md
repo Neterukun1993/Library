@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/shortest_path.test.py
+    title: TestCase/LibraryChecker/shortest_path.test.py
   _isVerificationFailed: false
   _pathExtension: py
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
@@ -16,10 +19,10 @@ data:
     \ heappop, heappush\n\n\ndef dijkstra(start, graph):\n    INF = 10 ** 18\n   \
     \ n = len(graph)\n    dist = [INF] * n\n    dist[start] = 0\n    parent = [-1]\
     \ * n\n    q = [(0, start)]  # q = [(start\u304B\u3089\u306E\u8DDD\u96E2, \u73FE\
-    \u5728\u5730)]\n    while q:\n        d, v = heapq.heappop(q)\n        if dist[v]\
-    \ < d:\n            continue\n        for nxt_v, cost in graph[v]:\n         \
-    \   if dist[v] + cost < dist[nxt_v]:\n                dist[nxt_v] = dist[v] +\
-    \ cost\n                parent[nxt_v] = v\n                heapq.heappush(q, (dist[nxt_v],\
+    \u5728\u5730)]\n    while q:\n        d, v = heappop(q)\n        if dist[v] <\
+    \ d:\n            continue\n        for nxt_v, cost in graph[v]:\n           \
+    \ if dist[v] + cost < dist[nxt_v]:\n                dist[nxt_v] = dist[v] + cost\n\
+    \                parent[nxt_v] = v\n                heappush(q, (dist[nxt_v],\
     \ nxt_v))\n    return dist, parent\n\n\ndef trace_route(goal, parent):\n    if\
     \ parent[goal] == -1:\n        return []\n    path = []\n    v = goal\n    while\
     \ v != -1:\n        path.append(v)\n        v = parent[v]\n    return path[::-1]\n"
@@ -27,9 +30,10 @@ data:
   isVerificationFile: false
   path: Graph/ShortestPath/dijkstra_trace.py
   requiredBy: []
-  timestamp: '2022-01-22 12:11:49+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  timestamp: '2022-01-22 18:47:07+09:00'
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - TestCase/LibraryChecker/shortest_path.test.py
 documentation_of: Graph/ShortestPath/dijkstra_trace.py
 layout: document
 title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$) + \u7D4C\u8DEF\

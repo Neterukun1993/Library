@@ -47,8 +47,5 @@ data:
   - TestCase/yukicoder/yuki0263.test.py
 documentation_of: String/PalindromicTree.py
 layout: document
-redirect_from:
-- /library/String/PalindromicTree.py
-- /library/String/PalindromicTree.py.html
-title: String/PalindromicTree.py
+title: "\u56DE\u5206\u6728 (Palindrome tree)"
 ---

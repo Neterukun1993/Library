@@ -247,7 +247,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DynamicMedian.py
       title: "\u52D5\u7684\u4E2D\u592E\u5024\u30AF\u30A8\u30EA"
     - icon: ':heavy_check_mark:'
@@ -311,7 +311,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/bellman_ford.py
       title: "\u30D9\u30EB\u30DE\u30F3\u30D5\u30A9\u30FC\u30C9\u6CD5"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/bfs.py
       title: BFS
     - icon: ':warning:'
@@ -326,7 +326,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_radix.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 (Radix Heap)"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Graph/ShortestPath/dijkstra_trace.py
       title: "\u30C0\u30A4\u30AF\u30B9\u30C8\u30E9\u6CD5 ($O((E + V)\\log V)$) + \u7D4C\
         \u8DEF\u5FA9\u5143"
@@ -561,7 +561,7 @@ data:
       title: "\u884C\u5217\u7D2F\u4E57"
   - name: String
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: String/AhoCorasick.py
       title: "Aho-Corasick \u6CD5"
     - icon: ':heavy_check_mark:'
@@ -577,7 +577,7 @@ data:
         \u30E0)"
     - icon: ':heavy_check_mark:'
       path: String/PalindromicTree.py
-      title: String/PalindromicTree.py
+      title: "\u56DE\u5206\u6728 (Palindrome tree)"
     - icon: ':heavy_check_mark:'
       path: String/Patricia.py
       title: "Patricia \u6728"
@@ -655,6 +655,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_11_B.test.py
       title: TestCase/AOJ/ALDS1_11_B.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/ALDS1_11_C.test.py
+      title: TestCase/AOJ/ALDS1_11_C.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/ALDS1_12_B.dial.test.py
       title: TestCase/AOJ/ALDS1_12_B.dial.test.py
@@ -943,6 +946,9 @@ data:
   - name: TestCase/AtCoder
     pages:
     - icon: ':heavy_check_mark:'
+      path: TestCase/AtCoder/abc127_f.test.py
+      title: TestCase/AtCoder/abc127_f.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/abc175_d.test.py
       title: TestCase/AtCoder/abc175_d.test.py
     - icon: ':heavy_check_mark:'
@@ -1049,6 +1055,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/set_xor_min.test.py
       title: TestCase/LibraryChecker/set_xor_min.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/shortest_path.test.py
+      title: TestCase/LibraryChecker/shortest_path.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/sort_points_by_argument.test.py
       title: TestCase/LibraryChecker/sort_points_by_argument.test.py
@@ -1182,6 +1191,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.RollingHash.test.py
       title: TestCase/yukicoder/yuki0430.RollingHash.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/yukicoder/yuki0430.aho_corasick.test.py
+      title: TestCase/yukicoder/yuki0430.aho_corasick.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/yukicoder/yuki0430.test.py
       title: TestCase/yukicoder/yuki0430.test.py

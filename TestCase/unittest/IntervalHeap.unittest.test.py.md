@@ -49,8 +49,8 @@ data:
     \            array.append(val)\n\n\nif __name__ == '__main__':\n    main()\n \
     \   print(\"Hello World\")\n"
   dependsOn:
-  - DataStructure/Heap/IntervalHeap.py
   - misc/xorshift.py
+  - DataStructure/Heap/IntervalHeap.py
   isVerificationFile: true
   path: TestCase/unittest/IntervalHeap.unittest.test.py
   requiredBy: []

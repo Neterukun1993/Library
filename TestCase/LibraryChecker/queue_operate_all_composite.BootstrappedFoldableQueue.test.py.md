@@ -3,7 +3,7 @@ data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
     path: DataStructure/misc/BootstrappedFoldableQueue.py
-    title: DataStructure/misc/BootstrappedFoldableQueue.py
+    title: "\u6C38\u7D9A Sliding Window Aggregation"
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false

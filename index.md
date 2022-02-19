@@ -258,7 +258,7 @@ data:
       title: Binary Trie
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/BootstrappedFoldableQueue.py
-      title: DataStructure/misc/BootstrappedFoldableQueue.py
+      title: "\u6C38\u7D9A Sliding Window Aggregation"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table

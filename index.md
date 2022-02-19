@@ -257,6 +257,9 @@ data:
       path: DataStructure/misc/BinaryTrie.py
       title: Binary Trie
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/BootstrappedFoldableQueue.py
+      title: DataStructure/misc/BootstrappedFoldableQueue.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/DisjointSparseTable.py
       title: Disjoint Sparse Table
     - icon: ':heavy_check_mark:'
@@ -833,8 +836,14 @@ data:
       path: TestCase/AOJ/DSL_2_I.test.py
       title: TestCase/AOJ/DSL_2_I.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_3_A.BootstrappedFoldableQueue.test.py
+      title: TestCase/AOJ/DSL_3_A.BootstrappedFoldableQueue.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_3_A.test.py
       title: TestCase/AOJ/DSL_3_A.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_3_D.BootstrappedFoldableQueue.test.py
+      title: TestCase/AOJ/DSL_3_D.BootstrappedFoldableQueue.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_3_D.test.py
       title: TestCase/AOJ/DSL_3_D.test.py
@@ -1049,6 +1058,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
       title: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/queue_operate_all_composite.BootstrappedFoldableQueue.test.py
+      title: TestCase/LibraryChecker/queue_operate_all_composite.BootstrappedFoldableQueue.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
       title: TestCase/LibraryChecker/queue_operate_all_composite.test.py

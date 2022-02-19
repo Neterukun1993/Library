@@ -39,9 +39,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class UnionFind:\n    def __init__(self, n):\n        self.parent = [-1]\
     \ * n\n        self.n = n\n        self.cnt = n\n\n    def root(self, x):\n  \
@@ -60,12 +60,12 @@ data:
   isVerificationFile: false
   path: DataStructure/UnionFind/UnionFind.py
   requiredBy:
-  - Graph/SpanningTree/boruvka.py
-  - Graph/SpanningTree/kruskal.py
-  - Graph/SpanningTree/directed_mst.py
   - Graph/Tree/offline_lca.py
   - Graph/misc/DirectedEulerian.py
   - Graph/misc/UndirectedEulerian.py
+  - Graph/SpanningTree/directed_mst.py
+  - Graph/SpanningTree/boruvka.py
+  - Graph/SpanningTree/kruskal.py
   timestamp: '2021-01-02 02:09:18+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

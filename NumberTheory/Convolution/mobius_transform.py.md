@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "def subset_mobius_transform(a, op, inv):\n    n = len(a)\n    res = a[:]\n\
     \    for k in range((n - 1).bit_length()):\n        bit = 1 << k\n        for\
@@ -32,8 +32,8 @@ data:
   isVerificationFile: false
   path: NumberTheory/Convolution/mobius_transform.py
   requiredBy:
-  - NumberTheory/Convolution/or_convolve.py
   - NumberTheory/Convolution/and_convolve.py
+  - NumberTheory/Convolution/or_convolve.py
   timestamp: '2021-06-20 22:49:02+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

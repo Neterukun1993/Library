@@ -20,9 +20,9 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.1/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class BitVector:\n    def __init__(self, size):\n        # self.BLOCK_WIDTH\
     \ = 32\n        self.BLOCK_NUM = (size + 31) >> 5\n        self.bit = [0] * self.BLOCK_NUM\n\
@@ -40,10 +40,10 @@ data:
   isVerificationFile: false
   path: DataStructure/Wavelet/BitVector.py
   requiredBy:
-  - DataStructure/Wavelet/RectangleSum.py
   - DataStructure/Wavelet/RangeSetQuery.py
-  - DataStructure/Wavelet/PointAddRectangleSum.py
+  - DataStructure/Wavelet/RectangleSum.py
   - DataStructure/Wavelet/WaveletMatrix.py
+  - DataStructure/Wavelet/PointAddRectangleSum.py
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

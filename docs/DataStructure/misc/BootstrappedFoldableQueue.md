@@ -1,4 +1,4 @@
----　
+---
 title: 永続 Sliding Window Aggregation
 documentation_of: //DataStructure/misc/BootstrappedFoldableQueue.py
 ---

@@ -153,6 +153,12 @@ data:
       path: DataStructure/SegmentTree/PersistentSegmentTree.py
       title: "\u6C38\u7D9A\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/RMaxQ_RAQ.py
+      title: DataStructure/SegmentTree/RMaxQ_RAQ.py
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/SegmentTree/RMaxQ_RUQ.py
+      title: DataStructure/SegmentTree/RMaxQ_RUQ.py
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RMultipleQ.py
       title: RSQ_RMultipleQ
     - icon: ':heavy_check_mark:'
@@ -824,11 +830,17 @@ data:
       path: TestCase/AOJ/DSL_2_E.test.py
       title: TestCase/AOJ/DSL_2_E.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_F.RMaxQ_RUQ.test.py
+      title: TestCase/AOJ/DSL_2_F.RMaxQ_RUQ.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_F.test.py
       title: TestCase/AOJ/DSL_2_F.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_G.test.py
       title: TestCase/AOJ/DSL_2_G.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_2_H.RMaxQ_RAQ.test.py
+      title: TestCase/AOJ/DSL_2_H.RMaxQ_RAQ.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_2_H.test.py
       title: TestCase/AOJ/DSL_2_H.test.py

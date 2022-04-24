@@ -8,8 +8,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: TestCase/AOJ/DSL_2_F.test.py
-    title: TestCase/AOJ/DSL_2_F.test.py
+    path: TestCase/AOJ/DSL_2_F.RMaxQ_RUQ.test.py
+    title: TestCase/AOJ/DSL_2_F.RMaxQ_RUQ.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -20,10 +20,10 @@ data:
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.SegmentTree.LazySegmentTree import LazySegmentTree\n\n\
-    \nclass RmQ_RUQ:\n    def __init__(self, n):\n        unitX = (1 << 31) - 1\n\
-    \        unitA = None\n        X_f = min\n        A_f = lambda a1, a2: a1 if a2\
-    \ == unitA else a2\n        XA_map = lambda x, a: x if a == unitA else a\n   \
-    \     self.st = LazySegmentTree(n, unitX, unitA, X_f, A_f, XA_map)\n\n    def\
+    \nclass RMaxQ_RUQ:\n    def __init__(self, n):\n        unitX = -((1 << 31) -\
+    \ 1)\n        unitA = None\n        X_f = max\n        A_f = lambda a1, a2: a1\
+    \ if a2 == unitA else a2\n        XA_map = lambda x, a: x if a == unitA else a\n\
+    \        self.st = LazySegmentTree(n, unitX, unitA, X_f, A_f, XA_map)\n\n    def\
     \ build(self, array):\n        self.st.build(array)\n\n    def __getitem__(self,\
     \ i):\n        return self.st[i]\n\n    def __setitem__(self, i, x):\n       \
     \ self.st[i] = x\n\n    def fold(self, l, r):\n        return self.st.fold(l,\
@@ -32,38 +32,16 @@ data:
   dependsOn:
   - DataStructure/SegmentTree/LazySegmentTree.py
   isVerificationFile: false
-  path: DataStructure/SegmentTree/RmQ_RUQ.py
+  path: DataStructure/SegmentTree/RMaxQ_RUQ.py
   requiredBy: []
   timestamp: '2022-04-25 00:19:30+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/DSL_2_F.test.py
-documentation_of: DataStructure/SegmentTree/RmQ_RUQ.py
+  - TestCase/AOJ/DSL_2_F.RMaxQ_RUQ.test.py
+documentation_of: DataStructure/SegmentTree/RMaxQ_RUQ.py
 layout: document
-title: RmQ_RUQ
+redirect_from:
+- /library/DataStructure/SegmentTree/RMaxQ_RUQ.py
+- /library/DataStructure/SegmentTree/RMaxQ_RUQ.py.html
+title: DataStructure/SegmentTree/RMaxQ_RUQ.py
 ---
-
-## 概要
-列に対する区間更新、区間最小値取得を $O(\log n)$ で行えるデータ構造。
-
-## 使い方
-`RmQ_RUQ(n: int)`  
-区間更新、区間最小値取得が可能な長さ $n$ の配列を構築する。配列の初期値は `(1 << 31) - 1` である。計算量 $O(n)$
-
-- `build(array: List[int]) -> None`  
-配列を `array` で初期化する。計算量 $O(n)$
-
-- `__getitem__(i: int) -> int`  
-$i$ 番目の要素を返す。計算量 $O(\log n)$
-
-- `__setitem__(i: int, x: int) -> None`  
-$i$ 番目の要素を `x` に更新する。計算量 $O(\log n)$
-
-- `fold(l: int, r: int) -> int`  
-$[l, r)$ 番目の区間最小値を返す。計算量 $O(\log n)$
-
-- `apply(i: int, a: int) -> None`  
-$i$ 番目の要素を `a` に更新する。`__setitem__` と同じ。計算量 $O(\log n)$
-
-- `range_apply(l: int, r: int, a: int) -> None`  
-$[l, r)$ 番目の要素を `a` に更新する。計算量 $O(\log n)$

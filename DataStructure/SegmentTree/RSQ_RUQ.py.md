@@ -21,22 +21,22 @@ data:
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.SegmentTree.LazySegmentTree import LazySegmentTree\n\n\
     \nclass RSQ_RUQ:\n    def __init__(self, n):\n        unitX = (0, 0)  # (value,\
-    \ size)\n        unitA = 10 ** 9 + 7\n        X_f = lambda x1, x2: (x1[0] + x2[0],\
-    \ x1[1] + x2[1])\n        A_f = lambda a1, a2: a1 if a2 == unitA else a2\n   \
-    \     XA_map = lambda x, a: x if a == unitA else (x[1] * a, x[1])\n        self.st\
-    \ = LazySegmentTree(n, unitX, unitA, X_f, A_f, XA_map)\n        self.st.build([(0,\
-    \ 1) for i in range(n)])\n\n    def build(self, array):\n        self.st.build([(x,\
-    \ 1) for x in array])\n\n    def __getitem__(self, i):\n        return self.st[i][0]\n\
-    \n    def __setitem__(self, i, x):\n        self.st[i] = (x, 1)\n\n    def fold(self,\
-    \ l, r):\n        return self.st.fold(l, r)[0]\n\n    def apply(self, i, a):\n\
-    \        self.st.apply(i, a)\n\n    def range_apply(self, l, r, a):\n        self.st.range_apply(l,\
-    \ r, a)\n"
+    \ size)\n        unitA = None\n        X_f = lambda x1, x2: (x1[0] + x2[0], x1[1]\
+    \ + x2[1])\n        A_f = lambda a1, a2: a1 if a2 == unitA else a2\n        XA_map\
+    \ = lambda x, a: x if a == unitA else (x[1] * a, x[1])\n        self.st = LazySegmentTree(n,\
+    \ unitX, unitA, X_f, A_f, XA_map)\n        self.st.build([(0, 1) for i in range(n)])\n\
+    \n    def build(self, array):\n        self.st.build([(x, 1) for x in array])\n\
+    \n    def __getitem__(self, i):\n        return self.st[i][0]\n\n    def __setitem__(self,\
+    \ i, x):\n        self.st[i] = (x, 1)\n\n    def fold(self, l, r):\n        return\
+    \ self.st.fold(l, r)[0]\n\n    def apply(self, i, a):\n        self.st.apply(i,\
+    \ a)\n\n    def range_apply(self, l, r, a):\n        self.st.range_apply(l, r,\
+    \ a)\n"
   dependsOn:
   - DataStructure/SegmentTree/LazySegmentTree.py
   isVerificationFile: false
   path: DataStructure/SegmentTree/RSQ_RUQ.py
   requiredBy: []
-  timestamp: '2022-04-24 23:38:04+09:00'
+  timestamp: '2022-04-25 00:19:30+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_I.test.py

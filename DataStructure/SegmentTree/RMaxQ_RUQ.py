@@ -1,11 +1,11 @@
 from DataStructure.SegmentTree.LazySegmentTree import LazySegmentTree
 
 
-class RmQ_RUQ:
+class RMaxQ_RUQ:
     def __init__(self, n):
-        unitX = (1 << 31) - 1
+        unitX = -((1 << 31) - 1)
         unitA = None
-        X_f = min
+        X_f = max
         A_f = lambda a1, a2: a1 if a2 == unitA else a2
         XA_map = lambda x, a: x if a == unitA else a
         self.st = LazySegmentTree(n, unitX, unitA, X_f, A_f, XA_map)

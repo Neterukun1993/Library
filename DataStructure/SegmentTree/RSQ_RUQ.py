@@ -4,7 +4,7 @@ from DataStructure.SegmentTree.LazySegmentTree import LazySegmentTree
 class RSQ_RUQ:
     def __init__(self, n):
         unitX = (0, 0)  # (value, size)
-        unitA = 10 ** 9 + 7
+        unitA = None
         X_f = lambda x1, x2: (x1[0] + x2[0], x1[1] + x2[1])
         A_f = lambda a1, a2: a1 if a2 == unitA else a2
         XA_map = lambda x, a: x if a == unitA else (x[1] * a, x[1])

@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from Graph.Tree.centroid import centroid\nfrom Graph.Tree.topological_sorted\
     \ import topological_sorted\n\n\nMAX = 0\nHASHMAP = {}\n\n\ndef treehash(tree,\
@@ -34,8 +34,8 @@ data:
     \ = HASHMAP[tmp]\n        res.append(visited[rt])\n    res = tuple(sorted(res))\n\
     \    return res\n"
   dependsOn:
-  - Graph/Tree/centroid.py
   - Graph/Tree/topological_sorted.py
+  - Graph/Tree/centroid.py
   isVerificationFile: false
   path: Graph/Tree/treehash.py
   requiredBy: []

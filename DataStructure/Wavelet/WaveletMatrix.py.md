@@ -20,9 +20,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.Wavelet.BitVector import BitVector\nfrom bisect import\
     \ bisect_left\n\n\nclass WaveletMatrix:\n    def __init__(self, array, MAXLOG=32):\n\
@@ -84,9 +84,9 @@ data:
   timestamp: '2021-01-10 20:36:04+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/AOJ/1549.test.py
   - TestCase/LibraryChecker/range_kth_smallest.WaveletMatrix.test.py
   - TestCase/LibraryChecker/range_kth_smallest.CompressedWaveletMatrix.test.py
-  - TestCase/AOJ/1549.test.py
 documentation_of: DataStructure/Wavelet/WaveletMatrix.py
 layout: document
 title: "\u30A6\u30A7\u30FC\u30D6\u30EC\u30C3\u30C8\u884C\u5217"

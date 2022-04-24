@@ -15,21 +15,26 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.2/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.SegmentTree.LazySegmentTree import LazySegmentTree\n\n\
-    \nclass RmQ_RUQ(LazySegmentTree):\n    def __init__(self, n):\n        unitX =\
-    \ (1 << 31) - 1\n        unitA = -1\n        X_f = min\n        A_f = lambda a1,\
-    \ a2: a1 if a2 == self.unitA else a2\n        XA_map = lambda x, a: x if a ==\
-    \ self.unitA else a\n        super().__init__(n, unitX, unitA, X_f, A_f, XA_map)\n"
+    \nclass RmQ_RUQ:\n    def __init__(self, n):\n        unitX = (1 << 31) - 1\n\
+    \        unitA = -1\n        X_f = min\n        A_f = lambda a1, a2: a1 if a2\
+    \ == unitA else a2\n        XA_map = lambda x, a: x if a == unitA else a\n   \
+    \     self.st = LazySegmentTree(n, unitX, unitA, X_f, A_f, XA_map)\n\n    def\
+    \ build(self, array):\n        self.st.build(array)\n\n    def __getitem__(self,\
+    \ i):\n        return self.st[i]\n\n    def __setitem__(self, i, x):\n       \
+    \ self.st[i] = x\n\n    def fold(self, l, r):\n        return self.st.fold(l,\
+    \ r)\n\n    def apply(self, i, a):\n        self.st.apply(i, a)\n\n    def range_apply(self,\
+    \ l, r, a):\n        self.st.range_apply(l, r, a)\n"
   dependsOn:
   - DataStructure/SegmentTree/LazySegmentTree.py
   isVerificationFile: false
   path: DataStructure/SegmentTree/RmQ_RUQ.py
   requiredBy: []
-  timestamp: '2021-01-02 17:11:03+09:00'
+  timestamp: '2022-04-24 23:38:04+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_2_F.test.py

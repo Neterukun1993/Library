@@ -152,7 +152,7 @@ data:
     - icon: ':warning:'
       path: DataStructure/SegmentTree/PersistentSegmentTree.py
       title: "\u6C38\u7D9A\u30BB\u30B0\u30E1\u30F3\u30C8\u6728"
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: DataStructure/SegmentTree/RSQ_RMultipleQ.py
       title: RSQ_RMultipleQ
     - icon: ':heavy_check_mark:'
@@ -978,6 +978,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/abc175_d.test.py
       title: TestCase/AtCoder/abc175_d.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AtCoder/abc221_e.test.py
+      title: TestCase/AtCoder/abc221_e.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/arc117_c.test.py
       title: TestCase/AtCoder/arc117_c.test.py

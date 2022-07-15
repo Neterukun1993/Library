@@ -64,14 +64,12 @@ class CompressedPointAddRectangleSum:
         MAXLOG = len(self.ys).bit_length()
         self.mat = PointAddRectangleSum(ys, vals, MAXLOG)
 
-    def _rect_sum(self, l, r, upper):
+    def rect_sum(self, l, r, lower, upper):
         l = bisect_left(self.xs, l)
         r = bisect_left(self.xs, r)
+        lower = bisect_left(self.ys, lower)
         upper = bisect_left(self.ys, upper)
-        return self.mat.rect_sum(l, r, upper)
-
-    def rect_sum(self, l, r, lower, upper):
-        return self._rect_sum(l, r, upper) - self._rect_sum(l, r, lower)
+        return self.mat.rect_sum(l, r, upper) - self.mat.rect_sum(l, r, lower)
 
     def point_add(self, x, y, val):
         if (x, y) not in self.idxs:

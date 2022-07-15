@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.Wavelet.BitVector import BitVector\nfrom DataStructure.BinaryIndexedTree.PointAddRangeSum\
     \ import BinaryIndexedTree\nfrom bisect import bisect_left\n\n\nclass PointAddRectangleSum:\n\
@@ -48,20 +48,20 @@ data:
     \ {(x, y): idx for idx, (x, y, _) in enumerate(points)}\n        self.comp = {val:\
     \ idx for idx, val in enumerate(self.ys)}\n        ys = [self.comp[val] for val\
     \ in ys]\n        MAXLOG = len(self.ys).bit_length()\n        self.mat = PointAddRectangleSum(ys,\
-    \ vals, MAXLOG)\n\n    def _rect_sum(self, l, r, upper):\n        l = bisect_left(self.xs,\
-    \ l)\n        r = bisect_left(self.xs, r)\n        upper = bisect_left(self.ys,\
-    \ upper)\n        return self.mat.rect_sum(l, r, upper)\n\n    def rect_sum(self,\
-    \ l, r, lower, upper):\n        return self._rect_sum(l, r, upper) - self._rect_sum(l,\
-    \ r, lower)\n\n    def point_add(self, x, y, val):\n        if (x, y) not in self.idxs:\n\
-    \            raise KeyError(f'point(x={x}, y={y}) must be pre-given as an argument')\n\
-    \        idx = self.idxs[x, y]\n        self.mat.point_add(idx, val)\n"
+    \ vals, MAXLOG)\n\n    def rect_sum(self, l, r, lower, upper):\n        l = bisect_left(self.xs,\
+    \ l)\n        r = bisect_left(self.xs, r)\n        lower = bisect_left(self.ys,\
+    \ lower)\n        upper = bisect_left(self.ys, upper)\n        return self.mat.rect_sum(l,\
+    \ r, upper) - self.mat.rect_sum(l, r, lower)\n\n    def point_add(self, x, y,\
+    \ val):\n        if (x, y) not in self.idxs:\n            raise KeyError(f'point(x={x},\
+    \ y={y}) must be pre-given as an argument')\n        idx = self.idxs[x, y]\n \
+    \       self.mat.point_add(idx, val)\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   - DataStructure/Wavelet/BitVector.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []
-  timestamp: '2021-01-12 04:24:03+09:00'
+  timestamp: '2022-07-16 00:12:27+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/point_add_rectangle_sum.test.py

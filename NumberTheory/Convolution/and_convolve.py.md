@@ -17,9 +17,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from NumberTheory.Convolution.zeta_transform import superset_zeta_transform\n\
     from NumberTheory.Convolution.mobius_transform import superset_mobius_transform\n\
@@ -29,8 +29,8 @@ data:
     \   res = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = superset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
   dependsOn:
-  - NumberTheory/Convolution/mobius_transform.py
   - NumberTheory/Convolution/zeta_transform.py
+  - NumberTheory/Convolution/mobius_transform.py
   isVerificationFile: false
   path: NumberTheory/Convolution/and_convolve.py
   requiredBy: []

@@ -14,9 +14,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from DataStructure.Wavelet.BitVector import BitVector\nfrom bisect import\
     \ bisect_left\n\n\nclass RectangleSum:\n    def __init__(self, ys, vals, MAXLOG=32):\n\
@@ -40,17 +40,17 @@ data:
     \        xs, ys, vals = zip(*points)\n        self.xs = xs\n        self.ys =\
     \ sorted(set(ys))\n        self.comp = {val: idx for idx, val in enumerate(self.ys)}\n\
     \        ys = [self.comp[val] for val in ys]\n        MAXLOG = len(self.ys).bit_length()\n\
-    \        self.mat = RectangleSum(ys, vals, MAXLOG)\n\n    def _rect_sum(self,\
-    \ l, r, upper):\n        l = bisect_left(self.xs, l)\n        r = bisect_left(self.xs,\
-    \ r)\n        upper = bisect_left(self.ys, upper)\n        return self.mat.rect_sum(l,\
-    \ r, upper)\n\n    def rect_sum(self, l, r, lower, upper):\n        return self._rect_sum(l,\
-    \ r, upper) - self._rect_sum(l, r, lower)\n"
+    \        self.mat = RectangleSum(ys, vals, MAXLOG)\n\n    def rect_sum(self, l,\
+    \ r, lower, upper):\n        l = bisect_left(self.xs, l)\n        r = bisect_left(self.xs,\
+    \ r)\n        lower = bisect_left(self.ys, lower)\n        upper = bisect_left(self.ys,\
+    \ upper)\n        return self.mat.rect_sum(l, r, upper) - self.mat.rect_sum(l,\
+    \ r, lower)\n"
   dependsOn:
   - DataStructure/Wavelet/BitVector.py
   isVerificationFile: false
   path: DataStructure/Wavelet/RectangleSum.py
   requiredBy: []
-  timestamp: '2021-01-11 00:02:29+09:00'
+  timestamp: '2022-07-16 00:12:27+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py

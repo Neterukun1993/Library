@@ -13,9 +13,9 @@ data:
     PROBLEM: https://judge.yosupo.jp/problem/point_add_rectangle_sum
     links:
     - https://judge.yosupo.jp/problem/point_add_rectangle_sum
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.yosupo.jp/problem/point_add_rectangle_sum\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.Wavelet.PointAddRectangleSum\
@@ -34,7 +34,7 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/point_add_rectangle_sum.test.py
   requiredBy: []
-  timestamp: '2021-01-12 04:24:03+09:00'
+  timestamp: '2022-07-16 00:12:27+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/point_add_rectangle_sum.test.py

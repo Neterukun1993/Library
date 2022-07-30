@@ -22,18 +22,23 @@ data:
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP2_1_C\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.List.SkipList\
     \ import SkipList\n\n\ndef main():\n    q = int(input())\n    queries = [list(map(int,\
-    \ input().split())) for i in range(q)]\n\n    sl = SkipList()\n    idx = 0\n\n\
-    \    for i in range(q):\n        if queries[i][0] == 0:\n            _, x = queries[i]\n\
-    \            sl.insert(idx, x)\n        elif queries[i][0] == 1:\n           \
-    \ _, d = queries[i]\n            idx += d\n        else:\n            sl.delete(idx)\n\
-    \n    for i, res in enumerate(sl.dump()):\n        assert(res == sl[i])\n    \
-    \    print(res)\n\n\nif __name__ == '__main__':\n    main()\n"
+    \ input().split())) for i in range(q)]\n\n    sl = SkipList()\n    size = 0\n\
+    \    idx = 0\n\n    for i in range(q):\n        if queries[i][0] == 0:\n     \
+    \       _, x = queries[i]\n            sl.insert(idx, x)\n            size +=\
+    \ 1\n            assert(size == len(sl))\n        elif queries[i][0] == 1:\n \
+    \           _, d = queries[i]\n            idx += d\n        else:\n         \
+    \   sl.delete(idx)\n            size -= 1\n            assert(size == len(sl))\n\
+    \n    res = []\n    for i, val in enumerate(sl.dump()):\n        assert(val ==\
+    \ sl[i])\n        res.append(val)\n\n    new_sl = SkipList()\n    for _ in range(len(sl)):\n\
+    \        new_sl.insert(0, 0)\n    for i, val in enumerate(res):\n        new_sl[i]\
+    \ = val\n\n    for i, val in enumerate(res):\n        assert(val == new_sl[i])\n\
+    \        print(val)\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - DataStructure/List/SkipList.py
   isVerificationFile: true
   path: TestCase/AOJ/ITP2_1_C.SkipList.test.py
   requiredBy: []
-  timestamp: '2022-01-23 04:17:44+09:00'
+  timestamp: '2022-07-31 03:52:21+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/ITP2_1_C.SkipList.test.py

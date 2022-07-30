@@ -39,8 +39,8 @@ data:
     n\".join(map(str, [val for val in ans if val != -1])))\n\n\nif __name__ == '__main__':\n\
     \    main()\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   - Graph/Tree/dsu_on_tree.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/vertex_add_subtree_sum.dsu_on_tree.test.py
   requiredBy: []

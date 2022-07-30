@@ -73,3 +73,24 @@ title: "\u5BFE\u6570\u6642\u9593\u30E9\u30F3\u30C0\u30E0\u30A2\u30AF\u30BB\u30B9
   \u5165/\u524A\u9664\u53EF\u80FD\u30EA\u30B9\u30C8 (\u30B9\u30D7\u30EC\u30FC\u6728\
   )"
 ---
+## 概要
+要素のランダムアクセス、挿入、削除を $\mathrm{amortized}\ O(\log N)$ で行えるリスト。
+
+## 使い方
+`SplayTreeList()`  
+空のリストを作成する。計算量 $O(1)$
+
+- `__getitem__(i: int) -> int`  
+$i$ 番目の要素を返す。計算量 $\mathrm{amortized}\ O(\log N)$
+
+- `__setitem__(i: int, val: int) -> None`  
+$i$ 番目の要素に `val` を代入する。計算量 $\mathrm{amortized}\ O(\log N)$
+
+- `__len__() -> int`  
+リストの長さを返す。計算量 $O(1)$
+
+- `insert(i: int, val: int) -> None`  
+$i$ 番目の位置に `val` を挿入する。計算量 $\mathrm{amortized}\ O(H + \log N)$
+
+- `delete(i: int) -> None`  
+$i$ 番目の要素を削除する。計算量 $\mathrm{amortized}\ O(\log N)$

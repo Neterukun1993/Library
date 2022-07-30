@@ -22,18 +22,23 @@ data:
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP2_1_C\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.List.SplayTreeList\
     \ import SplayTreeList\n\n\ndef main():\n    q = int(input())\n    queries = [list(map(int,\
-    \ input().split())) for i in range(q)]\n\n    stl = SplayTreeList()\n    idx =\
-    \ 0\n    for i in range(q):\n        if queries[i][0] == 0:\n            _, x\
-    \ = queries[i]\n            stl.insert(idx, x)\n        elif queries[i][0] ==\
-    \ 1:\n            _, d = queries[i]\n            idx += d\n        else:\n   \
-    \         stl.delete(idx)\n\n    for i in range(len(stl)):\n        print(stl[i])\n\
+    \ input().split())) for i in range(q)]\n\n    stl = SplayTreeList()\n    size\
+    \ = 0\n    idx = 0\n\n    for i in range(q):\n        if queries[i][0] == 0:\n\
+    \            _, x = queries[i]\n            stl.insert(idx, x)\n            size\
+    \ += 1\n            assert(size == len(stl))\n        elif queries[i][0] == 1:\n\
+    \            _, d = queries[i]\n            idx += d\n        else:\n        \
+    \    stl.delete(idx)\n            size -= 1\n            assert(size == len(stl))\n\
+    \n    res = []\n    for i in range(len(stl)):\n        res.append(stl[i])\n\n\
+    \    new_stl = SplayTreeList()\n    for _ in range(len(stl)):\n        new_stl.insert(0,\
+    \ 0)\n    for i, val in enumerate(res):\n        new_stl[i] = val\n\n    for i,\
+    \ val in enumerate(res):\n        assert(val == new_stl[i])\n        print(val)\n\
     \n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
   - DataStructure/List/SplayTreeList.py
   isVerificationFile: true
   path: TestCase/AOJ/ITP2_1_C.SplayTree.test.py
   requiredBy: []
-  timestamp: '2022-01-23 04:17:44+09:00'
+  timestamp: '2022-07-31 03:52:21+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/AOJ/ITP2_1_C.SplayTree.test.py

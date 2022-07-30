@@ -25,11 +25,12 @@ data:
     \ 1 << MAX_HEIGHT\n        self.sentinel_nd = SLNode(-1, self.MAX_HEIGHT)\n  \
     \      self.size = 0\n        self.rand32 = xorshift32()\n\n    def __getitem__(self,\
     \ i):\n        return self._find_nd(i).next[0].val\n\n    def __setitem__(self,\
-    \ i, val):\n        _find_nd(i).next[0] = val\n\n    def _find_nd(self, i):\n\
-    \        nd = self.sentinel_nd\n        idx = -1\n        for r in reversed(range(self.MAX_HEIGHT)):\n\
-    \            while nd.next[r] is not None and idx + nd.length[r] < i:\n      \
-    \          idx += nd.length[r]\n                nd = nd.next[r]\n        return\
-    \ nd\n\n    def _pick_height(self):\n        return self.MAX_HEIGHT - (self.rand32()\
+    \ i, val):\n        self._find_nd(i).next[0].val = val\n\n    def __len__(self):\n\
+    \        return self.size\n\n    def _find_nd(self, i):\n        nd = self.sentinel_nd\n\
+    \        idx = -1\n        for r in reversed(range(self.MAX_HEIGHT)):\n      \
+    \      while nd.next[r] is not None and idx + nd.length[r] < i:\n            \
+    \    idx += nd.length[r]\n                nd = nd.next[r]\n        return nd\n\
+    \n    def _pick_height(self):\n        return self.MAX_HEIGHT - (self.rand32()\
     \ & (self.LENGTH - 1)).bit_length() + 1\n\n    def insert(self, i, val):\n   \
     \     if i > self.size:\n            raise IndexError\n        nd = self.sentinel_nd\n\
     \        h = self._pick_height()\n        new_nd = SLNode(val, h)\n        idx\
@@ -44,17 +45,17 @@ data:
     \            while nd.next[r] is not None and idx + nd.length[r] < i:\n      \
     \          idx += nd.length[r]\n                nd = nd.next[r]\n            nd.length[r]\
     \ -= 1\n            if idx + nd.length[r] + 1 == i and nd.next[r] is not None:\n\
-    \                val = nd.next[r].val\n                nd.length[r] += nd.next[r].length[r]\n\
-    \                deleted = nd.next[r]\n                nd.next[r] = nd.next[r].next[r]\n\
-    \        del deleted\n        self.size -= 1\n\n    def dump(self):\n        res\
-    \ = []\n        nd = self.sentinel_nd.next[0]\n        while nd is not None:\n\
-    \            res.append(nd.val)\n            nd = nd.next[0]\n        return res\n"
+    \                nd.length[r] += nd.next[r].length[r]\n                deleted\
+    \ = nd.next[r]\n                nd.next[r] = nd.next[r].next[r]\n        del deleted\n\
+    \        self.size -= 1\n\n    def dump(self):\n        res = []\n        nd =\
+    \ self.sentinel_nd.next[0]\n        while nd is not None:\n            res.append(nd.val)\n\
+    \            nd = nd.next[0]\n        return res\n"
   dependsOn:
   - misc/xorshift.py
   isVerificationFile: false
   path: DataStructure/List/SkipList.py
   requiredBy: []
-  timestamp: '2022-01-22 19:35:09+09:00'
+  timestamp: '2022-07-31 03:52:21+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ITP2_1_C.SkipList.test.py
@@ -78,8 +79,11 @@ $i$ 番目の要素を返す。計算量 $\mathrm{expected}\ O(H + \log N)$
 - `__setitem__(i: int, val: int) -> None`  
 $i$ 番目の要素に `val` を代入する。計算量 $\mathrm{expected}\ O(H + \log N)$
 
+- `__len__() -> int`  
+リストの長さを返す。計算量 $O(1)$
+
 - `insert(i: int, val: int) -> None`  
-$i$ 番目の位置に $val$ を挿入する。計算量 $\mathrm{expected}\ O(H + \log N)$
+$i$ 番目の位置に `val` を挿入する。計算量 $\mathrm{expected}\ O(H + \log N)$
 
 - `delete(i: int) -> None`  
 $i$ 番目の要素を削除する。計算量 $\mathrm{expected}\ O(H + \log N)$

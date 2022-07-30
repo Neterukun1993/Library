@@ -49,8 +49,8 @@ data:
     \    group_test(arr, op, inv)\n\n    monoid_test(arr, max)\n\n\nif __name__ ==\
     \ '__main__':\n    main()\n    print(\"Hello World\")\n"
   dependsOn:
-  - NumberTheory/Convolution/mobius_transform.py
   - misc/xorshift.py
+  - NumberTheory/Convolution/mobius_transform.py
   - NumberTheory/Convolution/zeta_transform.py
   isVerificationFile: true
   path: TestCase/unittest/zeta_mobius_transform.unittest.test.py

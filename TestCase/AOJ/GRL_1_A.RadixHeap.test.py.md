@@ -30,8 +30,8 @@ data:
     \ if val == INF:\n            print(\"INF\")\n        else:\n            print(val)\n\
     \n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/ShortestPath/dijkstra_radix.py
   - DataStructure/Heap/RadixHeap.py
+  - Graph/ShortestPath/dijkstra_radix.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_1_A.RadixHeap.test.py
   requiredBy: []

@@ -71,8 +71,8 @@ data:
   timestamp: '2022-01-04 20:45:42+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/GRL_6_A.dinic.test.py
   - TestCase/AOJ/2313.test.py
+  - TestCase/AOJ/GRL_6_A.dinic.test.py
 documentation_of: Flow/MaxFlow.py
 layout: document
 title: "\u6700\u5927\u6D41 (Dinic \u6CD5)"

@@ -36,9 +36,9 @@ data:
   isVerificationFile: false
   path: Graph/Tree/topological_sorted.py
   requiredBy:
-  - Graph/Tree/treehash.py
   - Graph/Tree/dsu_on_tree.py
   - Graph/Tree/centroid.py
+  - Graph/Tree/treehash.py
   timestamp: '2021-02-15 01:45:32+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

@@ -21,6 +21,9 @@ data:
   - name: DP
     pages:
     - icon: ':heavy_check_mark:'
+      path: DP/count_subsequence.py
+      title: "\u90E8\u5206\u5217 DP ($O(N)$)"
+    - icon: ':heavy_check_mark:'
       path: DP/knapsack_01.py
       title: "0-1 \u30CA\u30C3\u30D7\u30B5\u30C3\u30AF\u554F\u984C"
     - icon: ':heavy_check_mark:'
@@ -52,8 +55,8 @@ data:
       path: DP/lis.py
       title: "\u6700\u9577\u5897\u52A0\u90E8\u5206\u5217 (longest increasing subsequence)"
     - icon: ':heavy_check_mark:'
-      path: DP/substring_dp.py
-      title: "\u90E8\u5206\u5217 DP"
+      path: DP/subsequence_dp.py
+      title: "\u90E8\u5206\u5217 DP ($O(\\sigma N)$)"
   - name: DataStructure/AccumulateSum
     pages:
     - icon: ':heavy_check_mark:'
@@ -1056,6 +1059,9 @@ data:
       path: TestCase/LibraryChecker/montmort_number_mod.test.py
       title: TestCase/LibraryChecker/montmort_number_mod.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/number_of_subsequences.test.py
+      title: TestCase/LibraryChecker/number_of_subsequences.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
       title: TestCase/LibraryChecker/number_of_substrings.suffix_automaton.test.py
     - icon: ':heavy_check_mark:'
@@ -1199,8 +1205,8 @@ data:
       path: TestCase/unittest/segment_sieve.unittest.test.py
       title: TestCase/unittest/segment_sieve.unittest.test.py
     - icon: ':heavy_check_mark:'
-      path: TestCase/unittest/substring_dp.unittest.test.py
-      title: TestCase/unittest/substring_dp.unittest.test.py
+      path: TestCase/unittest/subsequence_dp.unittest.test.py
+      title: TestCase/unittest/subsequence_dp.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/xorshift.unittest.test.py
       title: TestCase/unittest/xorshift.unittest.test.py

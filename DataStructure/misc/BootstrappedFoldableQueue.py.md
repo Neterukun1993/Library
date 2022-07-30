@@ -101,8 +101,8 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/queue_operate_all_composite.BootstrappedFoldableQueue.test.py
-  - TestCase/AOJ/DSL_3_A.BootstrappedFoldableQueue.test.py
   - TestCase/AOJ/DSL_3_D.BootstrappedFoldableQueue.test.py
+  - TestCase/AOJ/DSL_3_A.BootstrappedFoldableQueue.test.py
 documentation_of: DataStructure/misc/BootstrappedFoldableQueue.py
 layout: document
 title: "\u6C38\u7D9A Sliding Window Aggregation"

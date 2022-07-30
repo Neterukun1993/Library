@@ -32,9 +32,9 @@ data:
   isVerificationFile: false
   path: NumberTheory/Basic/extended_gcd.py
   requiredBy:
+  - NumberTheory/ModularArithmetic/linear_congruence.py
   - NumberTheory/ModularArithmetic/chinese_remainder_theorem.py
   - NumberTheory/ModularArithmetic/garner.py
-  - NumberTheory/ModularArithmetic/linear_congruence.py
   timestamp: '2021-05-03 14:23:41+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

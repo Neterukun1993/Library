@@ -47,8 +47,8 @@ data:
   timestamp: '2021-01-14 15:15:35+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/yukicoder/yuki0922.test.py
   - TestCase/LibraryChecker/lca.Doubling.test.py
+  - TestCase/yukicoder/yuki0922.test.py
 documentation_of: Graph/Tree/DoublingLCA.py
 layout: document
 title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"

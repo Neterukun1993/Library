@@ -49,8 +49,8 @@ data:
   path: Combination/modinv_combination.py
   requiredBy:
   - Combination/twelvefold_way.py
-  - Combination/LucasTheorem.py
   - Combination/catalan.py
+  - Combination/LucasTheorem.py
   timestamp: '2021-09-08 22:15:45+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

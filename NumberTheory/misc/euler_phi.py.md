@@ -31,8 +31,8 @@ data:
   timestamp: '2021-08-12 23:00:53+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/euler_phi_table.unittest.test.py
   - TestCase/AOJ/NTL_1_D.test.py
+  - TestCase/unittest/euler_phi_table.unittest.test.py
 documentation_of: NumberTheory/misc/euler_phi.py
 layout: document
 title: "\u30AA\u30A4\u30E9\u30FC\u306E $\\varphi$ \u95A2\u6570"

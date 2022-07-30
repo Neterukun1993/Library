@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DP.substring_dp import substring_dp
+from DP.subsequence_dp import subsequence_dp
 from itertools import product
 
 
@@ -25,7 +25,7 @@ def main():
 
     for rep in range(8):
         for string in product(ALPH, repeat=rep):
-            dp_sol = substring_dp(string, MOD)
+            dp_sol = subsequence_dp(string, MOD)
             bf_sol = bruteforce(string, MOD)
             assert(dp_sol == bf_sol)
 

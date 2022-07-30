@@ -11,7 +11,7 @@ def calc_next(small_characters):
     return nxt
 
 
-def substring_dp(small_characters, MOD):
+def subsequence_dp(small_characters, MOD):
     n = len(small_characters)
     nxt = calc_next(small_characters)
     dp = [0] * (n + 1)

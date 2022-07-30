@@ -20,7 +20,10 @@ class SkipList:
         return self._find_nd(i).next[0].val
 
     def __setitem__(self, i, val):
-        _find_nd(i).next[0] = val
+        self._find_nd(i).next[0].val = val
+
+    def __len__(self):
+        return self.size
 
     def _find_nd(self, i):
         nd = self.sentinel_nd
@@ -64,7 +67,6 @@ class SkipList:
                 nd = nd.next[r]
             nd.length[r] -= 1
             if idx + nd.length[r] + 1 == i and nd.next[r] is not None:
-                val = nd.next[r].val
                 nd.length[r] += nd.next[r].length[r]
                 deleted = nd.next[r]
                 nd.next[r] = nd.next[r].next[r]

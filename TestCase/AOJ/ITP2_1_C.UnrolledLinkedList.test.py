@@ -2,44 +2,44 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DataStructure.List.SkipList import SkipList
+from DataStructure.List.UnrolledLinkedList import UnrolledLinkedList
 
 
 def main():
     q = int(input())
     queries = [list(map(int, input().split())) for i in range(q)]
 
-    sl = SkipList()
+    ull = UnrolledLinkedList()
     size = 0
     idx = 0
 
     for i in range(q):
         if queries[i][0] == 0:
             _, x = queries[i]
-            sl.insert(idx, x)
+            ull.insert(idx, x)
             size += 1
-            assert(size == len(sl))
+            assert(size == len(ull))
         elif queries[i][0] == 1:
             _, d = queries[i]
             idx += d
         else:
-            sl.delete(idx)
+            ull.delete(idx)
             size -= 1
-            assert(size == len(sl))
+            assert(size == len(ull))
 
     res = []
-    for i, val in enumerate(sl.dump()):
-        assert(val == sl[i])
+    for i, val in enumerate(ull.dump()):
+        assert(val == ull[i])
         res.append(val)
 
-    new_sl = SkipList()
-    for _ in range(len(sl)):
-        new_sl.insert(0, 0)
+    new_ull = UnrolledLinkedList()
+    for _ in range(len(ull)):
+        new_ull.insert(0, 0)
     for i, val in enumerate(res):
-        new_sl[i] = val
+        new_ull[i] = val
 
     for i, val in enumerate(res):
-        assert(val == new_sl[i])
+        assert(val == new_ull[i])
         print(val)
 
 

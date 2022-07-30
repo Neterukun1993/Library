@@ -16,8 +16,11 @@ $i$ 番目の要素を返す。計算量 $\mathrm{expected}\ O(H + \log N)$
 - `__setitem__(i: int, val: int) -> None`  
 $i$ 番目の要素に `val` を代入する。計算量 $\mathrm{expected}\ O(H + \log N)$
 
+- `__len__() -> int`  
+リストの長さを返す。計算量 $O(1)$
+
 - `insert(i: int, val: int) -> None`  
-$i$ 番目の位置に $val$ を挿入する。計算量 $\mathrm{expected}\ O(H + \log N)$
+$i$ 番目の位置に `val` を挿入する。計算量 $\mathrm{expected}\ O(H + \log N)$
 
 - `delete(i: int) -> None`  
 $i$ 番目の要素を削除する。計算量 $\mathrm{expected}\ O(H + \log N)$

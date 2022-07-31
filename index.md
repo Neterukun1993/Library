@@ -502,6 +502,9 @@ data:
       path: NumberTheory/Convolution/gcd_convolve.py
       title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
     - icon: ':heavy_check_mark:'
+      path: NumberTheory/Convolution/lcm_convolve.py
+      title: "\u6DFB\u5B57 lcm \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
+    - icon: ':heavy_check_mark:'
       path: NumberTheory/Convolution/mobius_transform.py
       title: "\u9AD8\u901F\u30E1\u30D3\u30A6\u30B9\u5909\u63DB (fast m\xF6bius transform)"
     - icon: ':heavy_check_mark:'
@@ -1042,6 +1045,9 @@ data:
       path: TestCase/LibraryChecker/enumerate_triangles.test.py
       title: TestCase/LibraryChecker/enumerate_triangles.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/gcd_convolution.test.py
+      title: TestCase/LibraryChecker/gcd_convolution.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/k_shortest_walk.test.py
       title: TestCase/LibraryChecker/k_shortest_walk.test.py
     - icon: ':heavy_check_mark:'
@@ -1059,6 +1065,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/lca.offline.test.py
       title: TestCase/LibraryChecker/lca.offline.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/lcm_convolution.test.py
+      title: TestCase/LibraryChecker/lcm_convolution.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py

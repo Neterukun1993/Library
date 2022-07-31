@@ -8,11 +8,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: TestCase/LibraryChecker/gcd_convolution.test.py
-    title: TestCase/LibraryChecker/gcd_convolution.test.py
-  - icon: ':heavy_check_mark:'
-    path: TestCase/unittest/gcd_convolve.unittest.test.py
-    title: TestCase/unittest/gcd_convolve.unittest.test.py
+    path: TestCase/LibraryChecker/lcm_convolution.test.py
+    title: TestCase/LibraryChecker/lcm_convolution.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -22,23 +19,22 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "from NumberTheory.Convolution.multiple_divisor_transform import (\n    multiple_zeta_transform,\n\
-    \    multiple_mobius_transform\n)\nMOD = 998244353\n\n\ndef gcd_convolve(a, b):\n\
+  code: "from NumberTheory.Convolution.multiple_divisor_transform import (\n    divisor_zeta_transform,\n\
+    \    divisor_mobius_transform\n)\nMOD = 998244353\n\n\ndef lcm_convolve(a, b):\n\
     \    add = lambda x, y: (x + y) % MOD\n    inv = lambda x: -x\n    mul = lambda\
-    \ x, y: (x * y) % MOD\n\n    a = multiple_zeta_transform(a, add)\n    b = multiple_zeta_transform(b,\
-    \ add)\n    res = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = multiple_mobius_transform(res,\
+    \ x, y: (x * y) % MOD\n\n    a = divisor_zeta_transform(a, add)\n    b = divisor_zeta_transform(b,\
+    \ add)\n    res = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = divisor_mobius_transform(res,\
     \ add, inv)\n    return res\n"
   dependsOn:
   - NumberTheory/Convolution/multiple_divisor_transform.py
   isVerificationFile: false
-  path: NumberTheory/Convolution/gcd_convolve.py
+  path: NumberTheory/Convolution/lcm_convolve.py
   requiredBy: []
-  timestamp: '2021-06-24 01:16:50+09:00'
+  timestamp: '2022-07-31 17:54:32+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/gcd_convolution.test.py
-  - TestCase/unittest/gcd_convolve.unittest.test.py
-documentation_of: NumberTheory/Convolution/gcd_convolve.py
+  - TestCase/LibraryChecker/lcm_convolution.test.py
+documentation_of: NumberTheory/Convolution/lcm_convolve.py
 layout: document
-title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
+title: "\u6DFB\u5B57 lcm \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"
 ---

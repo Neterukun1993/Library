@@ -590,6 +590,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/misc/matrix_pow.py
       title: "\u884C\u5217\u7D2F\u4E57"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/misc/totient_sum.py
+      title: "\u30AA\u30A4\u30E9\u30FC\u306E $\\varphi$ \u95A2\u6570\u306E\u548C"
   - name: String
     pages:
     - icon: ':heavy_check_mark:'
@@ -1149,6 +1152,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/sum_of_floor_of_linear.test.py
       title: TestCase/LibraryChecker/sum_of_floor_of_linear.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/sum_of_totient_function.test.py
+      title: TestCase/LibraryChecker/sum_of_totient_function.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py

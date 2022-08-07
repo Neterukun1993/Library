@@ -56,12 +56,12 @@ data:
     \ y={y}) must be pre-given as an argument')\n        idx = self.idxs[x, y]\n \
     \       self.mat.point_add(idx, val)\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   - DataStructure/Wavelet/BitVector.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: DataStructure/Wavelet/PointAddRectangleSum.py
   requiredBy: []
-  timestamp: '2022-07-16 00:12:27+09:00'
+  timestamp: '2022-08-07 15:04:38+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/point_add_rectangle_sum.test.py

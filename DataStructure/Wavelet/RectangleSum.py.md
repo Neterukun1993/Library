@@ -50,7 +50,7 @@ data:
   isVerificationFile: false
   path: DataStructure/Wavelet/RectangleSum.py
   requiredBy: []
-  timestamp: '2022-07-16 00:12:27+09:00'
+  timestamp: '2022-08-07 15:04:38+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/LibraryChecker/rectangle_sum.WaveletMatrix.test.py

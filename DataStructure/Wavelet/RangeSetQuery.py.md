@@ -47,7 +47,7 @@ data:
   isVerificationFile: false
   path: DataStructure/Wavelet/RangeSetQuery.py
   requiredBy: []
-  timestamp: '2021-07-18 02:14:29+09:00'
+  timestamp: '2022-08-07 15:04:38+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: DataStructure/Wavelet/RangeSetQuery.py

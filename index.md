@@ -223,6 +223,9 @@ data:
   - name: DataStructure/UnionFind
     pages:
     - icon: ':heavy_check_mark:'
+      path: DataStructure/UnionFind/EnumerableUnionFind.py
+      title: Enumerable Union Find
+    - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/OfflineDynamicConnectivity.py
       title: Offline Dynamic Connectivity
     - icon: ':heavy_check_mark:'
@@ -236,7 +239,7 @@ data:
       title: Union Find
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindUndo.py
-      title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FDUnion Find"
+      title: "\u5DFB\u304D\u623B\u3057\u53EF\u80FD Union Find"
     - icon: ':heavy_check_mark:'
       path: DataStructure/UnionFind/UnionFindWithPotential.py
       title: "\u30DD\u30C6\u30F3\u30B7\u30E3\u30EB\u4ED8\u304D Union Find"
@@ -816,6 +819,9 @@ data:
       path: TestCase/AOJ/DPL_5_L.test.py
       title: TestCase/AOJ/DPL_5_L.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/AOJ/DSL_1_A.EnumerableUnionFind.test.py
+      title: TestCase/AOJ/DSL_1_A.EnumerableUnionFind.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/AOJ/DSL_1_A.test.py
       title: TestCase/AOJ/DSL_1_A.test.py
     - icon: ':heavy_check_mark:'
@@ -1184,6 +1190,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/AccumulateSumLR.unittest.test.py
       title: TestCase/unittest/AccumulateSumLR.unittest.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/unittest/EnumerableUnionFind.unittest.test.py
+      title: TestCase/unittest/EnumerableUnionFind.unittest.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/unittest/IntervalHeap.unittest.test.py
       title: TestCase/unittest/IntervalHeap.unittest.test.py

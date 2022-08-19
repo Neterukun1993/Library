@@ -1,5 +1,5 @@
 ---
-title: 巻き戻し可能Union Find
+title: 巻き戻し可能 Union Find
 documentation_of: //DataStructure/UnionFind/UnionFindUndo.py
 ---
 

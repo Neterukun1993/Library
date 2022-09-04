@@ -15,3 +15,6 @@ documentation_of: //Graph/Tree/DoublingLCA.py
 
 - `distance(u: int, v: int) -> int`  
 `u` - `v` パスの距離を返す。`u` と `v` が非連結の場合は `-1` を返す。計算量 $O(\log V)$
+
+- `jump(u: int, v: int, k: int) -> int`  
+`u` - `v` パス上の頂点で `u` からの距離が `k` の頂点を返す。そのような頂点が存在しない場合は `-1`を返す。計算量 $O(\log V)$

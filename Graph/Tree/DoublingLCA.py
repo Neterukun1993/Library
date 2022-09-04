@@ -50,3 +50,24 @@ class DoublingLCA:
             return -1
         else:
             return self.depth[u] + self.depth[v] - 2 * self.depth[lca_uv]
+
+    def jump(self, u, v, k):
+        if k == 0:
+            return u
+        lca_uv = self.lca(u, v)
+        du = self.depth[u] - self.depth[lca_uv]
+        dv = self.depth[v] - self.depth[lca_uv]
+        if du + dv < k:
+            return -1
+        if k <= du:
+            d = k
+        else:
+            u = v
+            d = du + dv - k
+        i = 0
+        while d > 0:
+            if d & 1:
+                u = self.parent[i][u]
+            d >>= 1
+            i += 1
+        return u

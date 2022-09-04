@@ -4,6 +4,9 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
+    title: TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
+  - icon: ':heavy_check_mark:'
     path: TestCase/LibraryChecker/lca.Doubling.test.py
     title: TestCase/LibraryChecker/lca.Doubling.test.py
   - icon: ':heavy_check_mark:'
@@ -39,16 +42,24 @@ data:
     \                u = self.parent[k][u]\n                v = self.parent[k][v]\n\
     \        return self.parent[0][u]\n\n    def distance(self, u, v):\n        lca_uv\
     \ = self.lca(u, v)\n        if lca_uv == -1:\n            return -1\n        else:\n\
-    \            return self.depth[u] + self.depth[v] - 2 * self.depth[lca_uv]\n"
+    \            return self.depth[u] + self.depth[v] - 2 * self.depth[lca_uv]\n\n\
+    \    def jump(self, u, v, k):\n        if k == 0:\n            return u\n    \
+    \    lca_uv = self.lca(u, v)\n        du = self.depth[u] - self.depth[lca_uv]\n\
+    \        dv = self.depth[v] - self.depth[lca_uv]\n        if du + dv < k:\n  \
+    \          return -1\n        if k <= du:\n            d = k\n        else:\n\
+    \            u = v\n            d = du + dv - k\n        i = 0\n        while\
+    \ d > 0:\n            if d & 1:\n                u = self.parent[i][u]\n     \
+    \       d >>= 1\n            i += 1\n        return u\n"
   dependsOn: []
   isVerificationFile: false
   path: Graph/Tree/DoublingLCA.py
   requiredBy: []
-  timestamp: '2021-01-14 15:15:35+09:00'
+  timestamp: '2022-09-04 19:01:08+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/yukicoder/yuki0922.test.py
   - TestCase/LibraryChecker/lca.Doubling.test.py
+  - TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
 documentation_of: Graph/Tree/DoublingLCA.py
 layout: document
 title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"
@@ -66,3 +77,6 @@ title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"
 
 - `distance(u: int, v: int) -> int`  
 `u` - `v` パスの距離を返す。`u` と `v` が非連結の場合は `-1` を返す。計算量 $O(\log V)$
+
+- `jump(u: int, v: int, k: int) -> int`  
+`u` - `v` パス上の頂点で `u` からの距離が `k` の頂点を返す。そのような頂点が存在しない場合は `-1`を返す。計算量 $O(\log V)$

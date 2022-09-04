@@ -31,7 +31,7 @@ data:
   isVerificationFile: true
   path: TestCase/LibraryChecker/lca.Doubling.test.py
   requiredBy: []
-  timestamp: '2021-01-14 15:15:35+09:00'
+  timestamp: '2022-09-04 19:01:08+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/lca.Doubling.test.py

@@ -1057,6 +1057,9 @@ data:
       path: TestCase/LibraryChecker/gcd_convolution.test.py
       title: TestCase/LibraryChecker/gcd_convolution.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
+      title: TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/k_shortest_walk.test.py
       title: TestCase/LibraryChecker/k_shortest_walk.test.py
     - icon: ':heavy_check_mark:'

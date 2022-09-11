@@ -28,8 +28,8 @@ data:
     \ n - 1, edges, 0, max, lambda val, v: val + vals[v])\n\n    print('\\n'.join(map(str,\
     \ ans[:n])))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - Graph/misc/edge_to_vertex.py
   - Graph/Tree/rerooting.py
+  - Graph/misc/edge_to_vertex.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_B.test.py
   requiredBy: []

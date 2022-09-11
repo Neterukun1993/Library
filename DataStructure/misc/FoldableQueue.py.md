@@ -21,8 +21,8 @@ data:
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
-  code: "class SlidingWindowAggregation:\n    def __init__(self, op):\n        self.op\
-    \ = op\n        self.inque = []\n        self.outque = []\n\n    def __len__(self):\n\
+  code: "class FoldableQueue:\n    def __init__(self, op):\n        self.op = op\n\
+    \        self.inque = []\n        self.outque = []\n\n    def __len__(self):\n\
     \        return len(self.outque) + len(self.inque)\n\n    def _trans(self):\n\
     \        val, _ = self.inque.pop()\n        self.outque.append((val, val))\n \
     \       acc = val\n        while self.inque:\n            val, _ = self.inque.pop()\n\
@@ -36,17 +36,17 @@ data:
     \     val = self.outque.pop()\n        return val[0]\n"
   dependsOn: []
   isVerificationFile: false
-  path: DataStructure/misc/SlidingWindowAggregation.py
+  path: DataStructure/misc/FoldableQueue.py
   requiredBy: []
-  timestamp: '2021-01-03 19:45:45+09:00'
+  timestamp: '2022-09-12 02:00:29+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/DSL_3_A.test.py
   - TestCase/AOJ/DSL_3_D.test.py
   - TestCase/LibraryChecker/queue_operate_all_composite.test.py
-documentation_of: DataStructure/misc/SlidingWindowAggregation.py
+documentation_of: DataStructure/misc/FoldableQueue.py
 layout: document
-title: Sliding Window Aggregation
+title: Foldable Queue
 ---
 
 ## 概要

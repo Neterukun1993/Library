@@ -2,8 +2,8 @@
 data:
   _extendedDependsOn:
   - icon: ':heavy_check_mark:'
-    path: DataStructure/misc/SlidingWindowAggregation.py
-    title: Sliding Window Aggregation
+    path: DataStructure/misc/FoldableQueue.py
+    title: Foldable Queue
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -18,28 +18,28 @@ data:
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.yosupo.jp/problem/queue_operate_all_composite\n\
-    import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.misc.SlidingWindowAggregation\
-    \ import SlidingWindowAggregation\n\n\nMOD = 998244353\nMASK = (1 << 32) - 1\n\
-    \n\ndef X_f(x1, x2):\n    x = x1 + x2\n    return ((x >> 32) % MOD << 32) + (x\
-    \ & MASK) % MOD\n\n\ndef XA_map(x, a):\n    x0, x1 = x >> 32, x & MASK\n    a0,\
-    \ a1 = a >> 32, a & MASK\n    return (((x0 * a0 + x1 * a1) % MOD) << 32) + x1\n\
-    \n\ndef A_f(a1, a2):\n    a10, a11 = a1 >> 32, a1 & MASK\n    a20, a21 = a2 >>\
-    \ 32, a2 & MASK\n    return ((a20 * a10 % MOD) << 32) + (a20 * a11 + a21) % MOD\n\
-    \n\ndef main():\n    q = int(input())\n    queries = [list(map(int, input().split()))\
-    \ for i in range(q)]\n\n    swag = SlidingWindowAggregation(A_f)\n    ans = []\n\
-    \    for query in queries:\n        if query[0] == 0:\n            _, a, b = query\n\
-    \            swag.append((a << 32) + b)\n        elif query[0] == 1:\n       \
-    \     swag.popleft()\n        else:\n            _, x = query\n            if\
-    \ len(swag) == 0:\n                ans.append(x)\n            else:\n        \
-    \        a = swag.all_fold()\n                res = XA_map((x << 32) + 1, a)\n\
-    \                ans.append(res >> 32)\n\n    print('\\n'.join(map(str, ans)))\n\
-    \n\nif __name__ == '__main__':\n    main()\n"
+    import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.misc.FoldableQueue\
+    \ import FoldableQueue\n\n\nMOD = 998244353\nMASK = (1 << 32) - 1\n\n\ndef X_f(x1,\
+    \ x2):\n    x = x1 + x2\n    return ((x >> 32) % MOD << 32) + (x & MASK) % MOD\n\
+    \n\ndef XA_map(x, a):\n    x0, x1 = x >> 32, x & MASK\n    a0, a1 = a >> 32, a\
+    \ & MASK\n    return (((x0 * a0 + x1 * a1) % MOD) << 32) + x1\n\n\ndef A_f(a1,\
+    \ a2):\n    a10, a11 = a1 >> 32, a1 & MASK\n    a20, a21 = a2 >> 32, a2 & MASK\n\
+    \    return ((a20 * a10 % MOD) << 32) + (a20 * a11 + a21) % MOD\n\n\ndef main():\n\
+    \    q = int(input())\n    queries = [list(map(int, input().split())) for i in\
+    \ range(q)]\n\n    fq = FoldableQueue(A_f)\n    ans = []\n    for query in queries:\n\
+    \        if query[0] == 0:\n            _, a, b = query\n            fq.append((a\
+    \ << 32) + b)\n        elif query[0] == 1:\n            fq.popleft()\n       \
+    \ else:\n            _, x = query\n            if len(fq) == 0:\n            \
+    \    ans.append(x)\n            else:\n                a = fq.all_fold()\n   \
+    \             res = XA_map((x << 32) + 1, a)\n                ans.append(res >>\
+    \ 32)\n\n    print('\\n'.join(map(str, ans)))\n\n\nif __name__ == '__main__':\n\
+    \    main()\n"
   dependsOn:
-  - DataStructure/misc/SlidingWindowAggregation.py
+  - DataStructure/misc/FoldableQueue.py
   isVerificationFile: true
   path: TestCase/LibraryChecker/queue_operate_all_composite.test.py
   requiredBy: []
-  timestamp: '2021-01-03 19:45:45+09:00'
+  timestamp: '2022-09-12 02:00:29+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: TestCase/LibraryChecker/queue_operate_all_composite.test.py

@@ -37,8 +37,8 @@ data:
     \ + 1) \\\n            + self.bit.sum(self.begin[lca_uv] + 1, self.begin[v] +\
     \ 1)\n        return res\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   - Graph/Tree/EulerTour.py
+  - DataStructure/BinaryIndexedTree/PointAddRangeSum.py
   isVerificationFile: false
   path: Graph/Tree/EulerTourPathQuery.py
   requiredBy: []

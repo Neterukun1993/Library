@@ -47,7 +47,7 @@ data:
   - TestCase/LibraryChecker/deque_operate_all_composite.test.py
 documentation_of: DataStructure/misc/FoldableDeque.py
 layout: document
-title: FoldableDeque
+title: Foldable Deque
 ---
 
 ## 概要

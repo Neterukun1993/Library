@@ -76,7 +76,7 @@ data:
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
     - icon: ':warning:'
       path: DataStructure/AccumulateSum/ImosArithmeticSequence.py
-      title: DataStructure/AccumulateSum/ImosArithmeticSequence.py
+      title: "\u3044\u3082\u3059\u6CD5 (\u7B49\u5DEE\u6570\u5217\u52A0\u7B97)"
   - name: DataStructure/BinaryIndexedTree
     pages:
     - icon: ':warning:'
@@ -286,7 +286,10 @@ data:
       title: "\u52D5\u7684\u4E2D\u592E\u5024\u30AF\u30A8\u30EA"
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/FoldableDeque.py
-      title: FoldableDeque
+      title: Foldable Deque
+    - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/FoldableQueue.py
+      title: Foldable Queue
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/KDTree2D.py
       title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22 (kD-Tree)"
@@ -299,9 +302,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/PersistentStack.py
       title: "\u6C38\u7D9A Stack"
-    - icon: ':heavy_check_mark:'
-      path: DataStructure/misc/SlidingWindowAggregation.py
-      title: Sliding Window Aggregation
     - icon: ':heavy_check_mark:'
       path: DataStructure/misc/SparseTable.py
       title: Sparse Table

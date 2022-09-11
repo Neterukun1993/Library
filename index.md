@@ -285,6 +285,9 @@ data:
       path: DataStructure/misc/DynamicMedian.py
       title: "\u52D5\u7684\u4E2D\u592E\u5024\u30AF\u30A8\u30EA"
     - icon: ':heavy_check_mark:'
+      path: DataStructure/misc/FoldableDeque.py
+      title: FoldableDeque
+    - icon: ':heavy_check_mark:'
       path: DataStructure/misc/KDTree2D.py
       title: "\u4E8C\u6B21\u5143\u9818\u57DF\u63A2\u7D22 (kD-Tree)"
     - icon: ':heavy_check_mark:'
@@ -1044,6 +1047,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/cycle_detection.test.py
       title: TestCase/LibraryChecker/cycle_detection.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/deque_operate_all_composite.test.py
+      title: TestCase/LibraryChecker/deque_operate_all_composite.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/directedmst.test.py
       title: TestCase/LibraryChecker/directedmst.test.py

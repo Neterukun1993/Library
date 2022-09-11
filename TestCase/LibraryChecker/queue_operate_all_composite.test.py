@@ -2,7 +2,7 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DataStructure.misc.SlidingWindowAggregation import SlidingWindowAggregation
+from DataStructure.misc.FoldableQueue import FoldableQueue
 
 
 MOD = 998244353
@@ -30,20 +30,20 @@ def main():
     q = int(input())
     queries = [list(map(int, input().split())) for i in range(q)]
 
-    swag = SlidingWindowAggregation(A_f)
+    fq = FoldableQueue(A_f)
     ans = []
     for query in queries:
         if query[0] == 0:
             _, a, b = query
-            swag.append((a << 32) + b)
+            fq.append((a << 32) + b)
         elif query[0] == 1:
-            swag.popleft()
+            fq.popleft()
         else:
             _, x = query
-            if len(swag) == 0:
+            if len(fq) == 0:
                 ans.append(x)
             else:
-                a = swag.all_fold()
+                a = fq.all_fold()
                 res = XA_map((x << 32) + 1, a)
                 ans.append(res >> 32)
 

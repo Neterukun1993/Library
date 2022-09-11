@@ -1,5 +1,5 @@
 ---
-title: FoldableDeque
+title: Foldable Deque
 documentation_of: //DataStructure/misc/FoldableDeque.py
 ---
 

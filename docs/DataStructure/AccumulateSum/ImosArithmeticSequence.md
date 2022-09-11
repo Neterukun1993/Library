@@ -1,6 +1,6 @@
 ---
 title: いもす法 (等差数列加算)
-documentation_of: //DataStructure/AccumulateSum/ImosImosArithmeticSequence.py
+documentation_of: //DataStructure/AccumulateSum/ImosArithmeticSequence.py
 ---
 
 ## 使い方

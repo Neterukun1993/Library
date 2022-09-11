@@ -1,6 +1,6 @@
 ---
-title: Sliding Window Aggregation
-documentation_of: //DataStructure/misc/SlidingWindowAggregation.py
+title: Foldable Queue
+documentation_of: //DataStructure/misc/FoldableQueue.py
 ---
 
 ## 概要

@@ -2,26 +2,26 @@
 import sys
 input = sys.stdin.buffer.readline
 
-from DataStructure.misc.SlidingWindowAggregation import SlidingWindowAggregation
+from DataStructure.misc.FoldableQueue import FoldableQueue
 
 
 def main():
     n, s = map(int, input().split())
     a = list(map(int, input().split()))
 
-    swag = SlidingWindowAggregation(lambda x, y: x + y)
+    fq = FoldableQueue(lambda x, y: x + y)
     ans = 10 ** 18
     r = 0
     for l in range(n):
-        if not swag:
-            swag.append(a[r])
+        if not fq:
+            fq.append(a[r])
             r += 1
-        while r < n and swag.all_fold() < s:
-            swag.append(a[r])
+        while r < n and fq.all_fold() < s:
+            fq.append(a[r])
             r += 1
-        if swag.all_fold() >= s:
+        if fq.all_fold() >= s:
             ans = min(r - l, ans)
-        swag.popleft()
+        fq.popleft()
 
     if ans == 10 ** 18:
         print(0)

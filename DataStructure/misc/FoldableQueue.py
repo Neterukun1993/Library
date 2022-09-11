@@ -1,4 +1,4 @@
-class SlidingWindowAggregation:
+class FoldableQueue:
     def __init__(self, op):
         self.op = op
         self.inque = []

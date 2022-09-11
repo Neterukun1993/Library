@@ -74,6 +74,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: DataStructure/AccumulateSum/Imos2D.py
       title: "\u4E8C\u6B21\u5143\u3044\u3082\u3059\u6CD5"
+    - icon: ':warning:'
+      path: DataStructure/AccumulateSum/ImosArithmeticSequence.py
+      title: DataStructure/AccumulateSum/ImosArithmeticSequence.py
   - name: DataStructure/BinaryIndexedTree
     pages:
     - icon: ':warning:'

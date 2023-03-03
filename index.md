@@ -1093,6 +1093,9 @@ data:
       path: TestCase/LibraryChecker/line_add_get_min.test.py
       title: TestCase/LibraryChecker/line_add_get_min.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
+      title: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/montmort_number_mod.test.py
       title: TestCase/LibraryChecker/montmort_number_mod.test.py
     - icon: ':heavy_check_mark:'

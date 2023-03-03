@@ -6,27 +6,39 @@ data:
   - icon: ':heavy_check_mark:'
     path: TestCase/AOJ/DPL_1_D.test.py
     title: TestCase/AOJ/DPL_1_D.test.py
+  - icon: ':heavy_check_mark:'
+    path: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
+    title: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
+    \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
+    \  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "from bisect import bisect_left, bisect_right\n\n\ndef lis(array, strict=True):\n\
-    \    lis_array = [array[0]]\n    bisect_ = bisect_left if strict else bisect_right\n\
-    \n    for val in array[1:]:\n        idx = bisect_(lis_array, val)\n        if\
-    \ idx == len(lis_array):\n            lis_array.append(val)\n        else:\n \
-    \           lis_array[idx] = val\n\n    return lis_array\n"
+    \    bisect_ = bisect_left if strict else bisect_right\n    tmp = []\n    idxs\
+    \ = [0] * len(array)\n\n    for i, val in enumerate(array):\n        idx = bisect_(tmp,\
+    \ val)\n        if idx == len(tmp):\n            tmp.append(val)\n        else:\n\
+    \            tmp[idx] = val\n        idxs[i] = idx\n\n    lis_array = []\n   \
+    \ j = len(tmp) - 1\n    for i, val in reversed(list(enumerate(array))):\n    \
+    \    if idxs[i] == j:\n            lis_array.append(val)\n            j -= 1\n\
+    \    return lis_array[::-1]\n\n\ndef lis_index(array, strict=True):\n    lis_array\
+    \ = lis(array, strict)\n    idxs = []\n\n    i = 0\n    for idx, val in enumerate(array):\n\
+    \        if i < len(lis_array) and lis_array[i] == val:\n            idxs.append(idx)\n\
+    \            i += 1\n    return idxs\n"
   dependsOn: []
   isVerificationFile: false
   path: DP/lis.py
   requiredBy: []
-  timestamp: '2021-09-05 23:28:54+09:00'
+  timestamp: '2023-03-03 23:23:30+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - TestCase/LibraryChecker/longest_increasing_subsequence.test.py
   - TestCase/AOJ/DPL_1_D.test.py
 documentation_of: DP/lis.py
 layout: document

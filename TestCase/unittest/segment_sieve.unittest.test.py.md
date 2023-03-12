@@ -33,8 +33,8 @@ data:
     \                assert(prime_list[idx] == val)\n                idx += 1\n\n\n\
     if __name__ == '__main__':\n    main()\n    print(\"Hello World\")\n"
   dependsOn:
-  - NumberTheory/Prime/segment_sieve.py
   - NumberTheory/Prime/miller_rabin.py
+  - NumberTheory/Prime/segment_sieve.py
   isVerificationFile: true
   path: TestCase/unittest/segment_sieve.unittest.test.py
   requiredBy: []

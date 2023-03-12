@@ -48,8 +48,8 @@ data:
   timestamp: '2021-01-23 23:52:48+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/yukicoder/yuki0430.RollingHash.test.py
   - TestCase/AOJ/ALDS1_14_B.test.py
+  - TestCase/yukicoder/yuki0430.RollingHash.test.py
 documentation_of: String/RollingHash.py
 layout: document
 title: "\u30ED\u30FC\u30EA\u30F3\u30B0\u30CF\u30C3\u30B7\u30E5"

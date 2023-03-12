@@ -38,8 +38,8 @@ data:
   timestamp: '2021-06-24 01:16:50+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/unittest/gcd_convolve.unittest.test.py
   - TestCase/LibraryChecker/gcd_convolution.test.py
+  - TestCase/unittest/gcd_convolve.unittest.test.py
 documentation_of: NumberTheory/Convolution/gcd_convolve.py
 layout: document
 title: "\u6DFB\u5B57 gcd \u306B\u3088\u308B\u7573\u307F\u8FBC\u307F"

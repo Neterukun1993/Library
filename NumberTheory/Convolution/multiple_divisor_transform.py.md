@@ -45,8 +45,8 @@ data:
   isVerificationFile: false
   path: NumberTheory/Convolution/multiple_divisor_transform.py
   requiredBy:
-  - NumberTheory/Convolution/lcm_convolve.py
   - NumberTheory/Convolution/gcd_convolve.py
+  - NumberTheory/Convolution/lcm_convolve.py
   timestamp: '2021-06-21 06:14:17+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

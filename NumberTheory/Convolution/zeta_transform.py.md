@@ -34,8 +34,8 @@ data:
   isVerificationFile: false
   path: NumberTheory/Convolution/zeta_transform.py
   requiredBy:
-  - NumberTheory/Convolution/or_convolve.py
   - NumberTheory/Convolution/and_convolve.py
+  - NumberTheory/Convolution/or_convolve.py
   timestamp: '2021-06-20 22:49:02+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:

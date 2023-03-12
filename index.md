@@ -653,6 +653,9 @@ data:
     - icon: ':warning:'
       path: misc/kitamasa.py
       title: "\u304D\u305F\u307E\u3055\u6CD5"
+    - icon: ':heavy_check_mark:'
+      path: misc/mo_algorithm.py
+      title: misc/mo_algorithm.py
     - icon: ':warning:'
       path: misc/ternary_search.py
       title: "\u4E09\u5206\u63A2\u7D22"
@@ -1021,6 +1024,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/abc221_e.test.py
       title: TestCase/AtCoder/abc221_e.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/AtCoder/abc242_g.test.py
+      title: TestCase/AtCoder/abc242_g.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/AtCoder/arc117_c.test.py
       title: TestCase/AtCoder/arc117_c.test.py

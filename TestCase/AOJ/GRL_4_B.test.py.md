@@ -38,8 +38,8 @@ data:
     \ tp_order))\n\n    print('\\n'.join(map(str, tp_order)))\n\n\nif __name__ ==\
     \ '__main__':\n    main()\n"
   dependsOn:
-  - Graph/misc/topological_sorted_dfs.py
   - Graph/misc/topological_sorted.py
+  - Graph/misc/topological_sorted_dfs.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_4_B.test.py
   requiredBy: []

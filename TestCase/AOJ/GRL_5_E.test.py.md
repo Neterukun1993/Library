@@ -16,11 +16,11 @@ data:
     PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_E
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_E
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
-    \  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
+    \  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_5_E\n\
     import sys\ninput = sys.stdin.buffer.readline\n\nfrom DataStructure.BinaryIndexedTree.RangeAddRangeSum\
@@ -37,8 +37,8 @@ data:
     \    res += bit.sum(l, r)\n            ans.append(res)\n\n    print('\\n'.join(map(str,\
     \ ans)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   - Graph/Tree/HLDecomposition.py
+  - DataStructure/BinaryIndexedTree/RangeAddRangeSum.py
   isVerificationFile: true
   path: TestCase/AOJ/GRL_5_E.test.py
   requiredBy: []

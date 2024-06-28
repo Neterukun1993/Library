@@ -17,11 +17,11 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
-    \  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
+    \  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class DoublingLCA:\n    def __init__(self, tree, root=None):\n        self.n\
     \ = len(tree)\n        self.depth = [0] * self.n\n        self.log_size = (self.n).bit_length()\n\
@@ -59,9 +59,9 @@ data:
   timestamp: '2022-09-04 19:01:08+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/LibraryChecker/lca.Doubling.test.py
-  - TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
   - TestCase/yukicoder/yuki0922.test.py
+  - TestCase/LibraryChecker/jump_on_tree.Doubling.test.py
+  - TestCase/LibraryChecker/lca.Doubling.test.py
 documentation_of: Graph/Tree/DoublingLCA.py
 layout: document
 title: "\u6700\u5C0F\u5171\u901A\u7956\u5148 (\u30C0\u30D6\u30EA\u30F3\u30B0)"

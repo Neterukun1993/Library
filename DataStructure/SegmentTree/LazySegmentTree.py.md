@@ -26,11 +26,11 @@ data:
   _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n          \
     \         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\
-    \  File \"/opt/hostedtoolcache/Python/3.11.2/x64/lib/python3.11/site-packages/onlinejudge_verify/languages/python.py\"\
+    \  File \"/opt/hostedtoolcache/Python/3.12.4/x64/lib/python3.12/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class LazySegmentTree:\n    def __init__(self, n, unitX, unitA, X_f, A_f,\
     \ XA_map):\n        self.n = n\n        self.unitX = unitX\n        self.unitA\
@@ -73,12 +73,12 @@ data:
   isVerificationFile: false
   path: DataStructure/SegmentTree/LazySegmentTree.py
   requiredBy:
+  - DataStructure/SegmentTree/RMaxQ_RAQ.py
   - DataStructure/SegmentTree/RMaxQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RAQ.py
   - DataStructure/SegmentTree/RSQ_RMultipleQ.py
-  - DataStructure/SegmentTree/RMaxQ_RAQ.py
-  - DataStructure/SegmentTree/RSQ_RUQ.py
   - DataStructure/SegmentTree/RmQ_RUQ.py
+  - DataStructure/SegmentTree/RSQ_RUQ.py
   timestamp: '2021-01-02 17:11:03+09:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []

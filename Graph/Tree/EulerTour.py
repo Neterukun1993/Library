@@ -5,10 +5,19 @@ class EulerTour:
         self.par = [-1] * self.n
         self.begin = [-1] * self.n
         self.end = [-1] * self.n
+
+        # 長さ 2n - 1 の頂点の巡回順
         self.walk_order = []
+        # walk_order に沿って巡回したときの深さと頂点番号を ((深さ << 32) + 頂点番号) として保持
+        self._depth = []
+        # 頂点の深さ
+        self.depth = [-1] * self.n
 
         self._traversal(root)
         self._build_lca()
+
+        for v in range(self.n):
+            self.depth[v] = self._depth[self.begin[v]] >> 32
 
     def _traversal(self, rt):
         stack = [rt, 0]
@@ -34,17 +43,17 @@ class EulerTour:
                 stack.pop()
 
     def _build_lca(self):
-        self.depth = self.walk_order[:]
+        self._depth = self.walk_order[:]
         d = 0
         for i, (prv_v, v) in enumerate(zip(self.walk_order, self.walk_order[1:])):
             if self.par[v] == -1: d = 0
             elif self.par[v] == prv_v: d += 1
             else: d -= 1
-            self.depth[i + 1] = (d << 32) + v
+            self._depth[i + 1] = (d << 32) + v
         self._build_rmq()
 
     def _build_rmq(self):
-        size = len(self.depth)
+        size = len(self._depth)
         lg_size = size.bit_length()
         self.lg = [0] * (size + 1)
         for i in range(2, size + 1):
@@ -52,7 +61,7 @@ class EulerTour:
 
         self.tbl = [[0] * size for _ in range(lg_size)]
         tbl = self.tbl
-        for i, val in enumerate(self.depth):
+        for i, val in enumerate(self._depth):
             tbl[0][i] = val
         for k in range(lg_size - 1):
             for i in range(size - (1 << k + 1) + 1):

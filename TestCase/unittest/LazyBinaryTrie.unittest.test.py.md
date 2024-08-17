@@ -33,8 +33,8 @@ data:
     \        assert(ans1 == ans2)\n\n\nif __name__ == '__main__':\n    main()\n  \
     \  print(\"Hello World\")\n"
   dependsOn:
-  - DataStructure/misc/LazyBinaryTrie.py
   - misc/xorshift.py
+  - DataStructure/misc/LazyBinaryTrie.py
   isVerificationFile: true
   path: TestCase/unittest/LazyBinaryTrie.unittest.test.py
   requiredBy: []

@@ -543,12 +543,18 @@ data:
     - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/garner.py
       title: "Garner \u306E\u30A2\u30EB\u30B4\u30EA\u30BA\u30E0"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/ModularArithmetic/get_f2_basis.py
+      title: NumberTheory/ModularArithmetic/get_f2_basis.py
     - icon: ':warning:'
       path: NumberTheory/ModularArithmetic/lagrange_interpolation.py
       title: "\u30E9\u30B0\u30E9\u30F3\u30B8\u30E5\u88DC\u9593"
     - icon: ':heavy_check_mark:'
       path: NumberTheory/ModularArithmetic/linear_congruence.py
       title: "\u4E00\u6B21\u5408\u540C\u65B9\u7A0B\u5F0F"
+    - icon: ':heavy_check_mark:'
+      path: NumberTheory/ModularArithmetic/linear_equations.py
+      title: "\u9023\u7ACB\u4E00\u6B21\u65B9\u7A0B\u5F0F"
     - icon: ':warning:'
       path: NumberTheory/ModularArithmetic/primitive_root.py
       title: "\u539F\u59CB\u6839"
@@ -1102,6 +1108,9 @@ data:
       path: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
       title: TestCase/LibraryChecker/longest_increasing_subsequence.test.py
     - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/matrix_rank_mod_2.test.py
+      title: TestCase/LibraryChecker/matrix_rank_mod_2.test.py
+    - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/montmort_number_mod.test.py
       title: TestCase/LibraryChecker/montmort_number_mod.test.py
     - icon: ':heavy_check_mark:'
@@ -1182,6 +1191,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/sum_of_totient_function.test.py
       title: TestCase/LibraryChecker/sum_of_totient_function.test.py
+    - icon: ':heavy_check_mark:'
+      path: TestCase/LibraryChecker/system_of_linear_equations.test.py
+      title: TestCase/LibraryChecker/system_of_linear_equations.test.py
     - icon: ':heavy_check_mark:'
       path: TestCase/LibraryChecker/tree_diameter.test.py
       title: TestCase/LibraryChecker/tree_diameter.test.py

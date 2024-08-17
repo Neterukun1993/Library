@@ -51,9 +51,9 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - TestCase/AOJ/ALDS1_9_C.DAryHeap4.test.py
-  - TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
   - TestCase/AOJ/ALDS1_9_C.DAryHeap3.test.py
   - TestCase/AOJ/ALDS1_9_C.DAryHeap2.test.py
+  - TestCase/AOJ/ALDS1_9_C.DAryHeap8.test.py
 documentation_of: DataStructure/Heap/DAryHeap.py
 layout: document
 title: D-Ary Heap

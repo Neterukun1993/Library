@@ -31,8 +31,8 @@ data:
   timestamp: '2021-01-24 18:01:48+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/AOJ/GRL_5_B.test.py
+  - TestCase/AOJ/GRL_5_A.test.py
 documentation_of: Graph/misc/edge_to_vertex.py
 layout: document
 title: "\u8FBA\u60C5\u5831\u3092\u9802\u70B9\u60C5\u5831\u3078\u3068\u5909\u63DB"

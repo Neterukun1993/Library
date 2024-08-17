@@ -55,8 +55,8 @@ data:
   verifiedWith:
   - TestCase/yukicoder/yuki0922.test.py
   - TestCase/yukicoder/yuki0922.HLDecomposition.test.py
-  - TestCase/AOJ/GRL_5_A.test.py
   - TestCase/AOJ/GRL_5_B.test.py
+  - TestCase/AOJ/GRL_5_A.test.py
 documentation_of: Graph/Tree/rerooting.py
 layout: document
 title: "\u5168\u65B9\u4F4D\u6728DP (Re-Rooting)"

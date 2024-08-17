@@ -31,8 +31,8 @@ data:
     \   res = [mul(v1, v2) for v1, v2 in zip(a, b)]\n    res = superset_mobius_transform(res,\
     \ add, inv)\n    return res\n"
   dependsOn:
-  - NumberTheory/Convolution/mobius_transform.py
   - NumberTheory/Convolution/zeta_transform.py
+  - NumberTheory/Convolution/mobius_transform.py
   isVerificationFile: false
   path: NumberTheory/Convolution/and_convolve.py
   requiredBy: []

@@ -43,8 +43,8 @@ data:
   timestamp: '2021-02-06 18:04:37+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
   - TestCase/yukicoder/yuki0649.SortedMultiSetBIT.test.py
+  - TestCase/yukicoder/yuki1110.SortedMultiSetBIT.test.py
 documentation_of: DataStructure/SortedSet/SortedMultiSetBIT.py
 layout: document
 title: "\u9806\u5E8F\u4ED8\u304D\u591A\u91CD\u96C6\u5408 (Binary Indexed Tree)"
